@@ -1,0 +1,56 @@
+# 七日开发分阶段日志
+
+本文件用于答辩展示开发过程，不伪造 Git 历史。
+
+## Day1：赛题拆解与 ARM Schema
+
+- 完成 A 赛道硬性要求拆解。
+- 定义 ARM 九模块：metadata、claims、evidence、protocol、runbook、eval_plan、provenance、limitations、artifacts。
+- 建立 `arm_agent/schema.py` Pydantic 模型。
+- 初步约束：医学边界、ECS 标签、失败阻断、trace 记录。
+
+## Day2：论文解析与引用校验
+
+- 实现 `arm_agent/tools.py` 中 `literature_extract`。
+- 实现 `reference_validator`：DOI/PMID、年份、期刊、作者、领域匹配、重复风险。
+- 完成 `main.py run` 与 `main.py demo`。
+- 建立成功样例 `brain_ECS_review.txt` 和失败样例 `fixtures/incomplete_paper.txt`。
+
+## Day3：Pipeline、导出与失败分支
+
+- 实现 `PaperToARMOrchestrator` 总控流程。
+- 支持单篇和最多 5 篇批量输入。
+- 支持 JSON/YAML 导出。
+- 实现 blocked failure_report，信息不足时不生成残缺 ARM。
+- 增加基础 pytest。
+
+## Day4：Web 可视化工作台
+
+- 实现 FastAPI 后端 `web_app.py`。
+- 实现上传优先的前端 `web/index.html`、`web/app.js`、`web/styles.css`。
+- 支持总览、评审门禁、Claims & Evidence、引用校验、Trace、JSON 下载、提交材料。
+- 去除不需要的内置案例展示按钮。
+
+## Day5：P0 插件层
+
+- 保留原 `arm_agent/tools.py`，新增 `arm_agent/p0_tools`，避免导入冲突。
+- 新增 `figure_extract.py`：仅解析图表 caption 文本。
+- 新增 `conflict_detector.py`：跨论文冲突候选检测。
+- 新增 `arm_validator.py`：ARM 完整性和 quote-only 校验。
+- 新增 `arm_agent/eval/dry_run.py`、`evaluator.py`：ARM 流程 dry-run 与自动评分。
+- 新增 `arm_agent/trace/recorder.py`：claim/evidence 细粒度 trace。
+
+## Day6：测试、文档与答辩材料
+
+- 扩充 pytest 至 P0 模块覆盖：图表、冲突、ARM 校验、dry-run、引用失效、Web 接口。
+- 当前验证命令：`python -m pytest`。
+- 当前结果：16 passed。
+- 补齐 `docs/literature_review_A_track.md`、`docs/failure_case.md`、`docs/ppt_demo_script.md`。
+- 更新 `docs/scoring_matrix.md`、`docs/submission_checklist.md`。
+
+## Day7：现场演示计划
+
+- 成功案例：上传 `brain_ECS_review.txt` 或 5 篇 PDF，生成 ARM。
+- 失败案例：上传 `fixtures/incomplete_paper.txt`，展示 blocked failure_report。
+- P0 展示：图表证据、冲突告警、dry-run 评分、trace 回放。
+- 安全说明：科研整理用途，禁止诊断、处方、预后和治疗建议。

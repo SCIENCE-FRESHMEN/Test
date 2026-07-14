@@ -1,0 +1,2444 @@
+{
+  "full_arm": {
+    "metadata": {
+      "arm_id": "failed-run-e3e201c7d7bf",
+      "title": null,
+      "authors": [],
+      "doi": null,
+      "pmid": null,
+      "year": null,
+      "publication_date": null,
+      "journal": null,
+      "article_type": null,
+      "license": null,
+      "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\11be7dbb1bb146eea2e47f17ec7650c3\\Self-Evolving LLMs via Continual Instruction Tuning.pdf",
+      "ecs_related": false,
+      "ecs_keywords": [],
+      "processing_status": "failed"
+    },
+    "claims": [],
+    "evidence": [],
+    "protocol": [],
+    "runbook": [],
+    "eval_plan": [],
+    "provenance": {
+      "run_id": "run-e3e201c7d7bf",
+      "blocked_reason": "validation_failed",
+      "model_infer_policy": "No scientific ARM was generated because validation failed."
+    },
+    "limitations": [
+      {
+        "limitation_id": "FAIL-L-001",
+        "text": "Input failed completeness/provenance checks; generating a scientific ARM would risk unsupported claims.",
+        "category": "input_quality",
+        "ecs_related": false,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      }
+    ],
+    "artifacts": [
+      {
+        "artifact_id": "FAIL-JSON",
+        "type": "failure_report_json",
+        "path": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\web_runs\\11be7dbb1bb146eea2e47f17ec7650c3\\failed_run-e3e201c7d7bf.json",
+        "description": "Blocked failure report with replay trace."
+      }
+    ],
+    "failure_report": {
+      "status": "blocked",
+      "reason": "validation_failed",
+      "missing_or_risky_items": [
+        {
+          "code": "ecs_information_missing",
+          "message": "No ECS-related keywords or concepts were detected.",
+          "severity": "high",
+          "detail": {}
+        }
+      ],
+      "no_success_arm_generated": true
+    }
+  },
+  "trace_record": {
+    "run_id": "run-e3e201c7d7bf",
+    "input": {
+      "paper_files": [
+        "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\11be7dbb1bb146eea2e47f17ec7650c3\\Self-Evolving LLMs via Continual Instruction Tuning.pdf"
+      ],
+      "max_batch_size": 5,
+      "allowed_tools": [
+        "literature_extract",
+        "reference_validator"
+      ],
+      "p0_plugin_tools": [
+        "figure_extract",
+        "conflict_detector",
+        "arm_validator",
+        "dry_run",
+        "evaluator"
+      ],
+      "api_provider": "deepseek_openai_compatible",
+      "rate_limit": {
+        "request_interval_seconds": 1.2,
+        "max_concurrency": 1,
+        "retry_attempts": 3,
+        "retry_backoff_seconds": 2.0,
+        "timeout_seconds": 60
+      }
+    },
+    "tool_calls": [
+      {
+        "sequence": 2,
+        "tool_name": "literature_extract",
+        "input": {
+          "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\11be7dbb1bb146eea2e47f17ec7650c3\\Self-Evolving LLMs via Continual Instruction Tuning.pdf",
+          "max_claims": 12
+        },
+        "output": {
+          "metadata": {
+            "title": "Self-Evolving LLMs via Continual Instruction Tuning Jiazheng Kang Beijing University of Posts and Telecommunications Beijing, China Le Huang Beijing University of Posts and Telecommunications Beijing, China",
+            "authors": [],
+            "doi": "10.18653/v1/2024.naacl-short.39",
+            "year": 2025,
+            "article_type": "review",
+            "license": null,
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\11be7dbb1bb146eea2e47f17ec7650c3\\Self-Evolving LLMs via Continual Instruction Tuning.pdf",
+            "ecs_related": false,
+            "ecs_keywords": []
+          },
+          "extractor_prompt": "Paper细粒度结论&证据抽取子Agent:\n只摘抄原文，禁止自主推导、扩写、脑补数据。每条claim必须包含\nclaim_id/raw_text/claim_category/source_location/support_evidence_snippet/\nconflict_evidence_snippet/source_attribution/ecs_related/evidence_incomplete。\nraw_text和support_evidence_snippet必须来自论文原文，不概括、不润色。\n无原文直接支撑的猜想、推论丢弃；单篇少于5条有效claim时交由trace标记缺口。",
+          "candidate_claim_count": 12,
+          "references_count": 58,
+          "figures_tables_count": 3,
+          "quality_flags": {
+            "has_methods": false,
+            "has_results": false,
+            "has_figures_or_tables": true,
+            "has_references": true,
+            "paragraph_count": 13,
+            "ecs_hit_count": 0
+          }
+        }
+      },
+      {
+        "sequence": 5,
+        "tool_name": "reference_validator",
+        "input": {
+          "references": [
+            {
+              "reference_text": "(Eds.). Association for Computational Linguistics, Mexico City, Mexico, 469–480. doi:10.18653/v1/2024.naacl-short.39",
+              "doi": "10.18653/v1/2024.naacl-short.39",
+              "pmid": null,
+              "title": "Association for Computational Linguistics, Mexico City, Mexico, 469–480",
+              "locator": "char:50101"
+            },
+            {
+              "reference_text": "[1] Rahaf Aljundi, Francesca Babiloni, Mohamed Elhoseiny, Marcus Rohrbach, and Tinne Tuytelaars. 2018. Memory aware synapses: Learning what (not) to forget. InProceedings of the European conference on computer vision (ECCV). 139–154.",
+              "doi": null,
+              "pmid": null,
+              "title": "Memory aware synapses: Learning what (not) to forget",
+              "locator": "references entry 1"
+            },
+            {
+              "reference_text": "[2] Ting Bai, Le Huang, Yue Yu, Cheng Yang, Cheng Hou, Zhe Zhao, and Chuan Shi.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 2"
+            },
+            {
+              "reference_text": "2024. Efficient Multi-task Prompt Tuning for Recommendation.arXiv preprint arXiv:2408.17214(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "Efficient Multi-task Prompt Tuning for Recommendation.arXiv preprint arXiv:2408.17214(2024).",
+              "locator": "references entry 3"
+            },
+            {
+              "reference_text": "[3] Antonia Creswell, Tom White, Vincent Dumoulin, Kai Arulkumaran, Biswa Sengupta, and Anil A Bharath. 2018. Generative adversarial networks: An overview. IEEE signal processing magazine35, 1 (2018), 53–65.",
+              "doi": null,
+              "pmid": null,
+              "title": "Generative adversarial networks: An overview",
+              "locator": "references entry 4"
+            },
+            {
+              "reference_text": "[4] Cyprien de Masson D’Autume, Sebastian Ruder, Lingpeng Kong, and Dani Yogatama. 2019. Episodic memory in lifelong language learning.Advances in Neural Information Processing Systems32 (2019).",
+              "doi": null,
+              "pmid": null,
+              "title": "Episodic memory in lifelong language learning.Advances in Neural Information Processing Systems32 (2019).",
+              "locator": "references entry 5"
+            },
+            {
+              "reference_text": "[5] Shihan Dou, Enyu Zhou, Yan Liu, Songyang Gao, Jun Zhao, Wei Shen, Yuhao Zhou, Zhiheng Xi, Xiao Wang, Xiaoran Fan, et al. 2023. Loramoe: Revolutionizing mixture of experts for maintaining world knowledge in language model alignment.arXiv preprint arXiv:2312.099794, 7 (2023).",
+              "doi": null,
+              "pmid": null,
+              "title": "Loramoe: Revolutionizing mixture of experts for maintaining world knowledge in language model alignment.arXiv preprint arXiv:2312.099794, 7 (2023).",
+              "locator": "references entry 6"
+            },
+            {
+              "reference_text": "[6] Shangheng Du, Jiabao Zhao, Jinxin Shi, Zhentao Xie, Xin Jiang, Yanhong Bai, and Liang He. 2025. A survey on the optimization of large language model-based agents.arXiv preprint arXiv:2503.12434(2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "A survey on the optimization of large language model-based agents.arXiv preprint arXiv:2503.12434(2025).",
+              "locator": "references entry 7"
+            },
+            {
+              "reference_text": "[7] Huan-ang Gao, Jiayi Geng, Wenyue Hua, Mengkang Hu, Xinzhe Juan, Hongzhang Liu, Shilong Liu, Jiahao Qiu, Xuan Qi, Yiran Wu, et al . 2025. A survey of self-evolving agents: On path to artificial super intelligence.arXiv preprint arXiv:2507.21046(2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "A survey of self-evolving agents: On path to artificial super intelligence.arXiv preprint arXiv:2507.21046(2025).",
+              "locator": "references entry 8"
+            },
+            {
+              "reference_text": "[8] Binzong Geng, Fajie Yuan, Qiancheng Xu, Ying Shen, Ruifeng Xu, and Min Yang.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 9"
+            },
+            {
+              "reference_text": "2021. Continual Learning for Task-oriented Dialogue System with Iterative Network Pruning, Expanding and Masking. InProceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers). 517–",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual Learning for Task-oriented Dialogue System with Iterative Network Pruning, Expanding and Masking",
+              "locator": "references entry 10"
+            },
+            {
+              "reference_text": "[9] Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. 2020. Generative adversarial networks.Commun. ACM63, 11 (2020), 139–144.",
+              "doi": null,
+              "pmid": null,
+              "title": "Generative adversarial networks.Commun",
+              "locator": "references entry 11"
+            },
+            {
+              "reference_text": "[10] Ian J Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. 2014. Generative adversarial nets.Advances in neural information processing systems27 (2014).",
+              "doi": null,
+              "pmid": null,
+              "title": "Generative adversarial nets.Advances in neural information processing systems27 (2014).",
+              "locator": "references entry 12"
+            },
+            {
+              "reference_text": "[11] Jiafeng Guo, Changjiang Zhou, Ruqing Zhang, Jiangui Chen, Maarten de Rijke, Yixing Fan, and Xueqi Cheng. 2024. Corpusbrain++: A continual generative pre-training framework for knowledge-intensive language tasks.arXiv preprint arXiv:2402.16767(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "Corpusbrain++: A continual generative pre-training framework for knowledge-intensive language tasks.arXiv preprint arXiv:2402.16767(2024).",
+              "locator": "references entry 13"
+            },
+            {
+              "reference_text": "[12] Kshitij Gupta, Benjamin Thérien, Adam Ibrahim, Mats L Richter, Quentin Anthony, Eugene Belilovsky, Irina Rish, and Timothée Lesort. 2023. Continual pre-training of large language models: How to (re) warm your model?arXiv preprint arXiv:2308.04014(2023).",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual pre-training of large language models: How to (re) warm your model?arXiv preprint arXiv:2308.04014(2023).",
+              "locator": "references entry 14"
+            },
+            {
+              "reference_text": "[13] Jinghan He, Haiyun Guo, Ming Tang, and Jinqiao Wang. 2023. Continual instruction tuning for large multimodal models.arXiv preprint arXiv:2311.16206 (2023).",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual instruction tuning for large multimodal models.arXiv preprint arXiv:2311.16206 (2023).",
+              "locator": "references entry 15"
+            },
+            {
+              "reference_text": "[14] Chia-Tung Ho, Jing Gong, Xufeng Yao, Yunsheng Bai, Abhishek B Akkur, and Haoxing Ren. 2025. Polymath: A Self-Optimizing Agent with Dynamic Hierarchical Workflow.arXiv preprint arXiv:2508.02959(2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "Polymath: A Self-Optimizing Agent with Dynamic Hierarchical Workflow.arXiv preprint arXiv:2508.02959(2025).",
+              "locator": "references entry 16"
+            },
+            {
+              "reference_text": "[15] Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen, et al. 2022. Lora: Low-rank adaptation of large language models.ICLR1, 2 (2022), 3.",
+              "doi": null,
+              "pmid": null,
+              "title": "Lora: Low-rank adaptation of large language models.ICLR1, 2 (2022), 3.",
+              "locator": "references entry 17"
+            },
+            {
+              "reference_text": "[16] Yufan Huang, Yanzhe Zhang, Jiaao Chen, Xuezhi Wang, and Diyi Yang. 2021. Continual learning for text classification with information disentanglement based regularization.arXiv preprint arXiv:2104.05489(2021).",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual learning for text classification with information disentanglement based regularization.arXiv preprint arXiv:2104.05489(2021).",
+              "locator": "references entry 18"
+            },
+            {
+              "reference_text": "[17] Vladimir Karpukhin, Barlas Oguz, Sewon Min, Patrick SH Lewis, Ledell Wu, Sergey Edunov, Danqi Chen, and Wen-tau Yih. 2020. Dense Passage Retrieval for Open-Domain Question Answering.. InEMNLP (1). 6769–6781.",
+              "doi": null,
+              "pmid": null,
+              "title": "Dense Passage Retrieval for Open-Domain Question Answering.",
+              "locator": "references entry 19"
+            },
+            {
+              "reference_text": "[18] Zixuan Ke, Bing Liu, Hu Xu, and Lei Shu. 2021. CLASSIC: Continual and Contrastive Learning of Aspect Sentiment Classification Tasks. InProceedings of 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP-2021).",
+              "doi": null,
+              "pmid": null,
+              "title": "CLASSIC: Continual and Contrastive Learning of Aspect Sentiment Classification Tasks",
+              "locator": "references entry 20"
+            },
+            {
+              "reference_text": "[19] Zixuan Ke, Yijia Shao, Haowei Lin, Tatsuya Konishi, Gyuhak Kim, and Bing Liu.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 21"
+            },
+            {
+              "reference_text": "2023. Continual pre-training of language models.arXiv preprint arXiv:2302.03241 (2023). [page 9] Self-Evolving LLMs via Continual Instruction Tuning Conference’25, July 2025, Washington, DC, USA",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual pre-training of language models.arXiv preprint arXiv:2302.03241 (2023)",
+              "locator": "references entry 22"
+            },
+            {
+              "reference_text": "[20] Zixuan Ke, Hu Xu, and Bing Liu. 2021. Adapting BERT for continual learning of a sequence of aspect sentiment classification tasks.arXiv preprint arXiv:2112.03271 (2021).",
+              "doi": null,
+              "pmid": null,
+              "title": "Adapting BERT for continual learning of a sequence of aspect sentiment classification tasks.arXiv preprint arXiv:2112.03271 (2021).",
+              "locator": "references entry 23"
+            },
+            {
+              "reference_text": "[21] James Kirkpatrick, Razvan Pascanu, Neil Rabinowitz, Joel Veness, Guillaume Desjardins, Andrei A Rusu, Kieran Milan, John Quan, Tiago Ramalho, Agnieszka Grabska-Barwinska, et al. 2017. Overcoming catastrophic forgetting in neural networks.Proceedings of the national academy of sciences114, 13 (2017), 3521–",
+              "doi": null,
+              "pmid": null,
+              "title": "Overcoming catastrophic forgetting in neural networks.Proceedings of the national academy of sciences114, 13 (2017), 3521–",
+              "locator": "references entry 24"
+            },
+            {
+              "reference_text": "[22] Fei Kong, Xiaohan Shan, Yanwei Hu, and Jianmin Li. 2025. PhaseNAS: Language- Model Driven Architecture Search with Dynamic Phase Adaptation.arXiv preprint arXiv:2507.20592(2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "PhaseNAS: Language- Model Driven Architecture Search with Dynamic Phase Adaptation.arXiv preprint arXiv:2507.20592(2025).",
+              "locator": "references entry 25"
+            },
+            {
+              "reference_text": "[23] Dengchun Li, Yingzi Ma, Naizheng Wang, Zhengmao Ye, Zhiyuan Cheng, Yinghao Tang, Yan Zhang, Lei Duan, Jie Zuo, Cal Yang, et al. 2024. Mixlora: Enhancing large language models fine-tuning with lora-based mixture of experts.arXiv preprint arXiv:2404.15159(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "Mixlora: Enhancing large language models fine-tuning with lora-based mixture of experts.arXiv preprint arXiv:2404.15159(2024).",
+              "locator": "references entry 26"
+            },
+            {
+              "reference_text": "[24] Pan Lu, Baolin Peng, Hao Cheng, Michel Galley, Kai-Wei Chang, Ying Nian Wu, Song-Chun Zhu, and Jianfeng Gao. 2023. Chameleon: Plug-and-play compositional reasoning with large language models.Advances in Neural Information Processing Systems36 (2023), 43447–43478.",
+              "doi": null,
+              "pmid": null,
+              "title": "Chameleon: Plug-and-play compositional reasoning with large language models.Advances in Neural Information Processing Systems36 (2023), 43447–43478.",
+              "locator": "references entry 27"
+            },
+            {
+              "reference_text": "[25] Jianwen Luo, Yiming Huang, Jinxiang Meng, Fangyu Lei, Shizhu He, Xiao Liu, Shanshan Jiang, Bin Dong, Jun Zhao, and Kang Liu. 2025. GATE: Graph-based Adaptive Tool Evolution Across Diverse Tasks.arXiv preprint arXiv:2502.14848 (2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "GATE: Graph-based Adaptive Tool Evolution Across Diverse Tasks.arXiv preprint arXiv:2502.14848 (2025).",
+              "locator": "references entry 28"
+            },
+            {
+              "reference_text": "[26] Yun Luo, Xiaotian Lin, Zhen Yang, Fandong Meng, Jie Zhou, and Yue Zhang.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 29"
+            },
+            {
+              "reference_text": "2023. Mitigating catastrophic forgetting in task-incremental continual learning with adaptive classification criterion.arXiv preprint arXiv:2305.12270(2023).",
+              "doi": null,
+              "pmid": null,
+              "title": "Mitigating catastrophic forgetting in task-incremental continual learning with adaptive classification criterion.arXiv preprint arXiv:2305.12270(2023).",
+              "locator": "references entry 30"
+            },
+            {
+              "reference_text": "[27] Jiaqi Ma, Zhe Zhao, Xinyang Yi, Jilin Chen, Lichan Hong, and Ed H Chi. 2018. Modeling task relationships in multi-task learning with multi-gate mixture-ofexperts. InProceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining. 1930–1939.",
+              "doi": null,
+              "pmid": null,
+              "title": "Modeling task relationships in multi-task learning with multi-gate mixture-ofexperts",
+              "locator": "references entry 31"
+            },
+            {
+              "reference_text": "[28] Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, Sarah Wiegreffe, Uri Alon, Nouha Dziri, Shrimai Prabhumoye, Yiming Yang, et al .",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 32"
+            },
+            {
+              "reference_text": "2023. Self-refine: Iterative refinement with self-feedback.Advances in Neural Information Processing Systems36 (2023), 46534–46594.",
+              "doi": null,
+              "pmid": null,
+              "title": "Self-refine: Iterative refinement with self-feedback.Advances in Neural Information Processing Systems36 (2023), 46534–46594.",
+              "locator": "references entry 33"
+            },
+            {
+              "reference_text": "[29] Fei Mi, Liangwei Chen, Mengjie Zhao, Minlie Huang, and Boi Faltings. 2020. Continual learning for natural language generation in task-oriented dialog systems. arXiv preprint arXiv:2010.00910(2020).",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual learning for natural language generation in task-oriented dialog systems",
+              "locator": "references entry 34"
+            },
+            {
+              "reference_text": "[30] Natawut Monaikul, Giuseppe Castellucci, Simone Filice, and Oleg Rokhlenko.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 35"
+            },
+            {
+              "reference_text": "2021. Continual learning for named entity recognition. InProceedings of the AAAI Conference on Artificial Intelligence. 13570–13577.",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual learning for named entity recognition",
+              "locator": "references entry 36"
+            },
+            {
+              "reference_text": "[31] Yujia Qin, Jiajie Zhang, Yankai Lin, Zhiyuan Liu, Peng Li, Maosong Sun, and Jie Zhou. 2022. ELLE: Efficient Lifelong Pre-training for Emerging Data. InFindings of the Association for Computational Linguistics: ACL 2022. 2789–2810.",
+              "doi": null,
+              "pmid": null,
+              "title": "ELLE: Efficient Lifelong Pre-training for Emerging Data",
+              "locator": "references entry 37"
+            },
+            {
+              "reference_text": "[32] Anastasia Razdaibiedina, Yuning Mao, Rui Hou, Madian Khabsa, Mike Lewis, and Amjad Almahairi. [n. d.]. Progressive Prompts: Continual Learning for Language Models. InThe Eleventh International Conference on Learning Representations.",
+              "doi": null,
+              "pmid": null,
+              "title": "Progressive Prompts: Continual Learning for Language Models",
+              "locator": "references entry 38"
+            },
+            {
+              "reference_text": "[33] Sylvestre-Alvise Rebuffi, Alexander Kolesnikov, Georg Sperl, and Christoph H Lampert. 2017. icarl: Incremental classifier and representation learning. InProceedings of the IEEE conference on Computer Vision and Pattern Recognition. 2001–",
+              "doi": null,
+              "pmid": null,
+              "title": "icarl: Incremental classifier and representation learning",
+              "locator": "references entry 39"
+            },
+            {
+              "reference_text": "[34] Andrei A Rusu, Neil C Rabinowitz, Guillaume Desjardins, Hubert Soyer, James Kirkpatrick, Koray Kavukcuoglu, Razvan Pascanu, and Raia Hadsell. 2016. Progressive neural networks.arXiv preprint arXiv:1606.04671(2016).",
+              "doi": null,
+              "pmid": null,
+              "title": "Progressive neural networks.arXiv preprint arXiv:1606.04671(2016).",
+              "locator": "references entry 40"
+            },
+            {
+              "reference_text": "[35] Fan-Keng Sun, Cheng-Hao Ho, and Hung-Yi Lee. 2019. Lamol: Language modeling for lifelong language learning.arXiv preprint arXiv:1909.03329(2019).",
+              "doi": null,
+              "pmid": null,
+              "title": "Lamol: Language modeling for lifelong language learning.arXiv preprint arXiv:1909.03329(2019).",
+              "locator": "references entry 41"
+            },
+            {
+              "reference_text": "[36] Fan-Keng Sun, Cheng-Hao Ho, and Hung-Yi Lee. 2019. Lamol: Language modeling for lifelong language learning.arXiv preprint arXiv:1909.03329(2019).",
+              "doi": null,
+              "pmid": null,
+              "title": "Lamol: Language modeling for lifelong language learning.arXiv preprint arXiv:1909.03329(2019).",
+              "locator": "references entry 42"
+            },
+            {
+              "reference_text": "[37] Hongyan Tang, Junning Liu, Ming Zhao, and Xudong Gong. 2020. Progressive layered extraction (ple): A novel multi-task learning (mtl) model for personalized recommendations. InProceedings of the 14th ACM conference on recommender systems. 269–278.",
+              "doi": null,
+              "pmid": null,
+              "title": "Progressive layered extraction (ple): A novel multi-task learning (mtl) model for personalized recommendations",
+              "locator": "references entry 43"
+            },
+            {
+              "reference_text": "[38] Zhengwei Tao, Ting-En Lin, Xiancai Chen, Hangyu Li, Yuchuan Wu, Yongbin Li, Zhi Jin, Fei Huang, Dacheng Tao, and Jingren Zhou. 2024. A survey on self-evolution of large language models.arXiv preprint arXiv:2404.14387(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "A survey on self-evolution of large language models.arXiv preprint arXiv:2404.14387(2024).",
+              "locator": "references entry 44"
+            },
+            {
+              "reference_text": "[39] Liyuan Wang, Xingxing Zhang, Hang Su, and Jun Zhu. 2024. A comprehensive survey of continual learning: Theory, method and application.IEEE Transactions on Pattern Analysis and Machine Intelligence(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "A comprehensive survey of continual learning: Theory, method and application.IEEE Transactions on Pattern Analysis and Machine Intelligence(2024).",
+              "locator": "references entry 45"
+            },
+            {
+              "reference_text": "[40] Mingyang Wang, Heike Adel, Lukas Lange, Jannik Strötgen, and Hinrich Schuetze.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 46"
+            },
+            {
+              "reference_text": "[41] Xiao Wang, Tianze Chen, Qiming Ge, Han Xia, Rong Bao, Rui Zheng, Qi Zhang, Tao Gui, and Xuanjing Huang. [n. d.]. Orthogonal Subspace Learning for Language Model Continual Learning. InThe 2023 Conference on Empirical Methods in Natural Language Processing.",
+              "doi": null,
+              "pmid": null,
+              "title": "Orthogonal Subspace Learning for Language Model Continual Learning",
+              "locator": "references entry 48"
+            },
+            {
+              "reference_text": "[42] Yifan Wang, Yafei Liu, Chufan Shi, Haoling Li, Chen Chen, Haonan Lu, and Yujiu Yang. 2024. Inscl: A data-efficient continual learning paradigm for fine-tuning large language models with instructions.arXiv preprint arXiv:2403.11435(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "Inscl: A data-efficient continual learning paradigm for fine-tuning large language models with instructions.arXiv preprint arXiv:2403.11435(2024).",
+              "locator": "references entry 49"
+            },
+            {
+              "reference_text": "[43] Zimu Wang, Yue He, Jiashuo Liu, Wenchao Zou, Philip S Yu, and Peng Cui.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 50"
+            },
+            {
+              "reference_text": "2022. Invariant preference learning for general debiasing in recommendation. InProceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 1969–1978.",
+              "doi": null,
+              "pmid": null,
+              "title": "Invariant preference learning for general debiasing in recommendation",
+              "locator": "references entry 51"
+            },
+            {
+              "reference_text": "[44] Tongtong Wu, Linhao Luo, Yuan-Fang Li, Shirui Pan, Thuy-Trang Vu, and Gholamreza Haffari. 2024. Continual learning for large language models: A survey. arXiv preprint arXiv:2402.01364(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual learning for large language models: A survey",
+              "locator": "references entry 52"
+            },
+            {
+              "reference_text": "[45] Tianhao Wu, Weizhe Yuan, Olga Golovneva, Jing Xu, Yuandong Tian, Jiantao Jiao, Jason Weston, and Sainbayar Sukhbaatar. 2024. Meta-rewarding language models: Self-improving alignment with llm-as-a-meta-judge.arXiv preprint arXiv:2407.19594(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "Meta-rewarding language models: Self-improving alignment with llm-as-a-meta-judge.arXiv preprint arXiv:2407.19594(2024).",
+              "locator": "references entry 53"
+            },
+            {
+              "reference_text": "[46] Yaxiong Wu, Sheng Liang, Chen Zhang, Yichao Wang, Yongyue Zhang, Huifeng Guo, Ruiming Tang, and Yong Liu. 2025. From human memory to ai memory: A survey on memory mechanisms in the era of llms.arXiv preprint arXiv:2504.15965 (2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "From human memory to ai memory: A survey on memory mechanisms in the era of llms.arXiv preprint arXiv:2504.15965 (2025).",
+              "locator": "references entry 54"
+            },
+            {
+              "reference_text": "[47] Qiancheng Xu, Yongqi Li, Heming Xia, Fan Liu, Min Yang, and Wenjie Li. 2025. PEToolLLM: Towards Personalized Tool Learning in Large Language Models. arXiv preprint arXiv:2502.18980(2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "PEToolLLM: Towards Personalized Tool Learning in Large Language Models",
+              "locator": "references entry 55"
+            },
+            {
+              "reference_text": "[48] Han Zhang, Yu Lei, Lin Gui, Min Yang, Yulan He, Hui Wang, and Ruifeng Xu.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 56"
+            },
+            {
+              "reference_text": "2024. Cppo: Continual learning for reinforcement learning with human feedback. InThe Twelfth International Conference on Learning Representations.",
+              "doi": null,
+              "pmid": null,
+              "title": "Cppo: Continual learning for reinforcement learning with human feedback",
+              "locator": "references entry 57"
+            },
+            {
+              "reference_text": "[49] Junhao Zheng, Shengjie Qiu, Chengming Shi, and Qianli Ma. 2025. Towards lifelong learning of large language models: A survey.Comput. Surveys57, 8 (2025), 1–35.",
+              "doi": null,
+              "pmid": null,
+              "title": "Towards lifelong learning of large language models: A survey.Comput",
+              "locator": "references entry 58"
+            }
+          ]
+        },
+        "output": {
+          "validator_prompt": "参考文献合法性校验工具:\n输入论文内全部引用文本、DOI、PMID、文献标题。逐项校验标识符、信息完整性、\n领域匹配、重复/冲突。输出固定状态reference_valid或reference_invalid；\n所有记录写入trace，供答辩展示引用校验流程。",
+          "status": "reference_invalid",
+          "validated_references": [
+            {
+              "reference_text": "(Eds.). Association for Computational Linguistics, Mexico City, Mexico, 469–480. doi:10.18653/v1/2024.naacl-short.39",
+              "doi": "10.18653/v1/2024.naacl-short.39",
+              "pmid": null,
+              "title": "Association for Computational Linguistics, Mexico City, Mexico, 469–480",
+              "locator": "char:50101",
+              "identifier_check": {
+                "valid_doi": true,
+                "valid_pmid": false,
+                "reference_requires_review": false
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "10.18653/v1/2024.naacl-short.39",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[1] Rahaf Aljundi, Francesca Babiloni, Mohamed Elhoseiny, Marcus Rohrbach, and Tinne Tuytelaars. 2018. Memory aware synapses: Learning what (not) to forget. InProceedings of the European conference on computer vision (ECCV). 139–154.",
+              "doi": null,
+              "pmid": null,
+              "title": "Memory aware synapses: Learning what (not) to forget",
+              "locator": "references entry 1",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "memory aware synapses: learning what (not) to forget",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[2] Ting Bai, Le Huang, Yue Yu, Cheng Yang, Cheng Hou, Zhe Zhao, and Chuan Shi.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 2",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "[2] ting bai, le huang, yue yu, cheng yang, cheng hou, zhe zhao, and chuan shi.",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "2024. Efficient Multi-task Prompt Tuning for Recommendation.arXiv preprint arXiv:2408.17214(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "Efficient Multi-task Prompt Tuning for Recommendation.arXiv preprint arXiv:2408.17214(2024).",
+              "locator": "references entry 3",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "efficient multi-task prompt tuning for recommendation.arxiv preprint arxiv:2408.17214(2024).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[3] Antonia Creswell, Tom White, Vincent Dumoulin, Kai Arulkumaran, Biswa Sengupta, and Anil A Bharath. 2018. Generative adversarial networks: An overview. IEEE signal processing magazine35, 1 (2018), 53–65.",
+              "doi": null,
+              "pmid": null,
+              "title": "Generative adversarial networks: An overview",
+              "locator": "references entry 4",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "generative adversarial networks: an overview",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[4] Cyprien de Masson D’Autume, Sebastian Ruder, Lingpeng Kong, and Dani Yogatama. 2019. Episodic memory in lifelong language learning.Advances in Neural Information Processing Systems32 (2019).",
+              "doi": null,
+              "pmid": null,
+              "title": "Episodic memory in lifelong language learning.Advances in Neural Information Processing Systems32 (2019).",
+              "locator": "references entry 5",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "episodic memory in lifelong language learning.advances in neural information processing systems32 (2019).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[5] Shihan Dou, Enyu Zhou, Yan Liu, Songyang Gao, Jun Zhao, Wei Shen, Yuhao Zhou, Zhiheng Xi, Xiao Wang, Xiaoran Fan, et al. 2023. Loramoe: Revolutionizing mixture of experts for maintaining world knowledge in language model alignment.arXiv preprint arXiv:2312.099794, 7 (2023).",
+              "doi": null,
+              "pmid": null,
+              "title": "Loramoe: Revolutionizing mixture of experts for maintaining world knowledge in language model alignment.arXiv preprint arXiv:2312.099794, 7 (2023).",
+              "locator": "references entry 6",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "loramoe: revolutionizing mixture of experts for maintaining world knowledge in language model alignment.arxiv preprint arxiv:2312.099794, 7 (2023).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[6] Shangheng Du, Jiabao Zhao, Jinxin Shi, Zhentao Xie, Xin Jiang, Yanhong Bai, and Liang He. 2025. A survey on the optimization of large language model-based agents.arXiv preprint arXiv:2503.12434(2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "A survey on the optimization of large language model-based agents.arXiv preprint arXiv:2503.12434(2025).",
+              "locator": "references entry 7",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "a survey on the optimization of large language model-based agents.arxiv preprint arxiv:2503.12434(2025).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[7] Huan-ang Gao, Jiayi Geng, Wenyue Hua, Mengkang Hu, Xinzhe Juan, Hongzhang Liu, Shilong Liu, Jiahao Qiu, Xuan Qi, Yiran Wu, et al . 2025. A survey of self-evolving agents: On path to artificial super intelligence.arXiv preprint arXiv:2507.21046(2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "A survey of self-evolving agents: On path to artificial super intelligence.arXiv preprint arXiv:2507.21046(2025).",
+              "locator": "references entry 8",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "a survey of self-evolving agents: on path to artificial super intelligence.arxiv preprint arxiv:2507.21046(2025).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[8] Binzong Geng, Fajie Yuan, Qiancheng Xu, Ying Shen, Ruifeng Xu, and Min Yang.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 9",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "[8] binzong geng, fajie yuan, qiancheng xu, ying shen, ruifeng xu, and min yang.",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "2021. Continual Learning for Task-oriented Dialogue System with Iterative Network Pruning, Expanding and Masking. InProceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers). 517–",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual Learning for Task-oriented Dialogue System with Iterative Network Pruning, Expanding and Masking",
+              "locator": "references entry 10",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "continual learning for task-oriented dialogue system with iterative network pruning, expanding and masking",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[9] Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. 2020. Generative adversarial networks.Commun. ACM63, 11 (2020), 139–144.",
+              "doi": null,
+              "pmid": null,
+              "title": "Generative adversarial networks.Commun",
+              "locator": "references entry 11",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "generative adversarial networks.commun",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[10] Ian J Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. 2014. Generative adversarial nets.Advances in neural information processing systems27 (2014).",
+              "doi": null,
+              "pmid": null,
+              "title": "Generative adversarial nets.Advances in neural information processing systems27 (2014).",
+              "locator": "references entry 12",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "generative adversarial nets.advances in neural information processing systems27 (2014).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[11] Jiafeng Guo, Changjiang Zhou, Ruqing Zhang, Jiangui Chen, Maarten de Rijke, Yixing Fan, and Xueqi Cheng. 2024. Corpusbrain++: A continual generative pre-training framework for knowledge-intensive language tasks.arXiv preprint arXiv:2402.16767(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "Corpusbrain++: A continual generative pre-training framework for knowledge-intensive language tasks.arXiv preprint arXiv:2402.16767(2024).",
+              "locator": "references entry 13",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": true
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "corpusbrain++: a continual generative pre-training framework for knowledge-intensive language tasks.arxiv preprint arxiv:2402.16767(2024).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal"
+              ]
+            },
+            {
+              "reference_text": "[12] Kshitij Gupta, Benjamin Thérien, Adam Ibrahim, Mats L Richter, Quentin Anthony, Eugene Belilovsky, Irina Rish, and Timothée Lesort. 2023. Continual pre-training of large language models: How to (re) warm your model?arXiv preprint arXiv:2308.04014(2023).",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual pre-training of large language models: How to (re) warm your model?arXiv preprint arXiv:2308.04014(2023).",
+              "locator": "references entry 14",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "continual pre-training of large language models: how to (re) warm your model?arxiv preprint arxiv:2308.04014(2023).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[13] Jinghan He, Haiyun Guo, Ming Tang, and Jinqiao Wang. 2023. Continual instruction tuning for large multimodal models.arXiv preprint arXiv:2311.16206 (2023).",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual instruction tuning for large multimodal models.arXiv preprint arXiv:2311.16206 (2023).",
+              "locator": "references entry 15",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "continual instruction tuning for large multimodal models.arxiv preprint arxiv:2311.16206 (2023).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[14] Chia-Tung Ho, Jing Gong, Xufeng Yao, Yunsheng Bai, Abhishek B Akkur, and Haoxing Ren. 2025. Polymath: A Self-Optimizing Agent with Dynamic Hierarchical Workflow.arXiv preprint arXiv:2508.02959(2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "Polymath: A Self-Optimizing Agent with Dynamic Hierarchical Workflow.arXiv preprint arXiv:2508.02959(2025).",
+              "locator": "references entry 16",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "polymath: a self-optimizing agent with dynamic hierarchical workflow.arxiv preprint arxiv:2508.02959(2025).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[15] Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen, et al. 2022. Lora: Low-rank adaptation of large language models.ICLR1, 2 (2022), 3.",
+              "doi": null,
+              "pmid": null,
+              "title": "Lora: Low-rank adaptation of large language models.ICLR1, 2 (2022), 3.",
+              "locator": "references entry 17",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "lora: low-rank adaptation of large language models.iclr1, 2 (2022), 3.",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[16] Yufan Huang, Yanzhe Zhang, Jiaao Chen, Xuezhi Wang, and Diyi Yang. 2021. Continual learning for text classification with information disentanglement based regularization.arXiv preprint arXiv:2104.05489(2021).",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual learning for text classification with information disentanglement based regularization.arXiv preprint arXiv:2104.05489(2021).",
+              "locator": "references entry 18",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "continual learning for text classification with information disentanglement based regularization.arxiv preprint arxiv:2104.05489(2021).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[17] Vladimir Karpukhin, Barlas Oguz, Sewon Min, Patrick SH Lewis, Ledell Wu, Sergey Edunov, Danqi Chen, and Wen-tau Yih. 2020. Dense Passage Retrieval for Open-Domain Question Answering.. InEMNLP (1). 6769–6781.",
+              "doi": null,
+              "pmid": null,
+              "title": "Dense Passage Retrieval for Open-Domain Question Answering.",
+              "locator": "references entry 19",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "dense passage retrieval for open-domain question answering.",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[18] Zixuan Ke, Bing Liu, Hu Xu, and Lei Shu. 2021. CLASSIC: Continual and Contrastive Learning of Aspect Sentiment Classification Tasks. InProceedings of 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP-2021).",
+              "doi": null,
+              "pmid": null,
+              "title": "CLASSIC: Continual and Contrastive Learning of Aspect Sentiment Classification Tasks",
+              "locator": "references entry 20",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "classic: continual and contrastive learning of aspect sentiment classification tasks",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[19] Zixuan Ke, Yijia Shao, Haowei Lin, Tatsuya Konishi, Gyuhak Kim, and Bing Liu.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 21",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "[19] zixuan ke, yijia shao, haowei lin, tatsuya konishi, gyuhak kim, and bing li",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "2023. Continual pre-training of language models.arXiv preprint arXiv:2302.03241 (2023). [page 9] Self-Evolving LLMs via Continual Instruction Tuning Conference’25, July 2025, Washington, DC, USA",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual pre-training of language models.arXiv preprint arXiv:2302.03241 (2023)",
+              "locator": "references entry 22",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "continual pre-training of language models.arxiv preprint arxiv:2302.03241 (2023)",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[20] Zixuan Ke, Hu Xu, and Bing Liu. 2021. Adapting BERT for continual learning of a sequence of aspect sentiment classification tasks.arXiv preprint arXiv:2112.03271 (2021).",
+              "doi": null,
+              "pmid": null,
+              "title": "Adapting BERT for continual learning of a sequence of aspect sentiment classification tasks.arXiv preprint arXiv:2112.03271 (2021).",
+              "locator": "references entry 23",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "adapting bert for continual learning of a sequence of aspect sentiment classification tasks.arxiv preprint arxiv:2112.03271 (2021).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[21] James Kirkpatrick, Razvan Pascanu, Neil Rabinowitz, Joel Veness, Guillaume Desjardins, Andrei A Rusu, Kieran Milan, John Quan, Tiago Ramalho, Agnieszka Grabska-Barwinska, et al. 2017. Overcoming catastrophic forgetting in neural networks.Proceedings of the national academy of sciences114, 13 (2017), 3521–",
+              "doi": null,
+              "pmid": null,
+              "title": "Overcoming catastrophic forgetting in neural networks.Proceedings of the national academy of sciences114, 13 (2017), 3521–",
+              "locator": "references entry 24",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": true,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "overcoming catastrophic forgetting in neural networks.proceedings of the national academy of sciences114, 13 (2017), 3521–",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[22] Fei Kong, Xiaohan Shan, Yanwei Hu, and Jianmin Li. 2025. PhaseNAS: Language- Model Driven Architecture Search with Dynamic Phase Adaptation.arXiv preprint arXiv:2507.20592(2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "PhaseNAS: Language- Model Driven Architecture Search with Dynamic Phase Adaptation.arXiv preprint arXiv:2507.20592(2025).",
+              "locator": "references entry 25",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "phasenas: language- model driven architecture search with dynamic phase adaptation.arxiv preprint arxiv:2507.20592(2025).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[23] Dengchun Li, Yingzi Ma, Naizheng Wang, Zhengmao Ye, Zhiyuan Cheng, Yinghao Tang, Yan Zhang, Lei Duan, Jie Zuo, Cal Yang, et al. 2024. Mixlora: Enhancing large language models fine-tuning with lora-based mixture of experts.arXiv preprint arXiv:2404.15159(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "Mixlora: Enhancing large language models fine-tuning with lora-based mixture of experts.arXiv preprint arXiv:2404.15159(2024).",
+              "locator": "references entry 26",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "mixlora: enhancing large language models fine-tuning with lora-based mixture of experts.arxiv preprint arxiv:2404.15159(2024).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[24] Pan Lu, Baolin Peng, Hao Cheng, Michel Galley, Kai-Wei Chang, Ying Nian Wu, Song-Chun Zhu, and Jianfeng Gao. 2023. Chameleon: Plug-and-play compositional reasoning with large language models.Advances in Neural Information Processing Systems36 (2023), 43447–43478.",
+              "doi": null,
+              "pmid": null,
+              "title": "Chameleon: Plug-and-play compositional reasoning with large language models.Advances in Neural Information Processing Systems36 (2023), 43447–43478.",
+              "locator": "references entry 27",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "chameleon: plug-and-play compositional reasoning with large language models.advances in neural information processing systems36 (2023), 43447–43478.",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[25] Jianwen Luo, Yiming Huang, Jinxiang Meng, Fangyu Lei, Shizhu He, Xiao Liu, Shanshan Jiang, Bin Dong, Jun Zhao, and Kang Liu. 2025. GATE: Graph-based Adaptive Tool Evolution Across Diverse Tasks.arXiv preprint arXiv:2502.14848 (2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "GATE: Graph-based Adaptive Tool Evolution Across Diverse Tasks.arXiv preprint arXiv:2502.14848 (2025).",
+              "locator": "references entry 28",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "gate: graph-based adaptive tool evolution across diverse tasks.arxiv preprint arxiv:2502.14848 (2025).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[26] Yun Luo, Xiaotian Lin, Zhen Yang, Fandong Meng, Jie Zhou, and Yue Zhang.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 29",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "[26] yun luo, xiaotian lin, zhen yang, fandong meng, jie zhou, and yue zhang.",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "2023. Mitigating catastrophic forgetting in task-incremental continual learning with adaptive classification criterion.arXiv preprint arXiv:2305.12270(2023).",
+              "doi": null,
+              "pmid": null,
+              "title": "Mitigating catastrophic forgetting in task-incremental continual learning with adaptive classification criterion.arXiv preprint arXiv:2305.12270(2023).",
+              "locator": "references entry 30",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "mitigating catastrophic forgetting in task-incremental continual learning with adaptive classification criterion.arxiv preprint arxiv:2305.12270(2023).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[27] Jiaqi Ma, Zhe Zhao, Xinyang Yi, Jilin Chen, Lichan Hong, and Ed H Chi. 2018. Modeling task relationships in multi-task learning with multi-gate mixture-ofexperts. InProceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining. 1930–1939.",
+              "doi": null,
+              "pmid": null,
+              "title": "Modeling task relationships in multi-task learning with multi-gate mixture-ofexperts",
+              "locator": "references entry 31",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "modeling task relationships in multi-task learning with multi-gate mixture-ofexperts",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[28] Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, Sarah Wiegreffe, Uri Alon, Nouha Dziri, Shrimai Prabhumoye, Yiming Yang, et al .",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 32",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "[28] aman madaan, niket tandon, prakhar gupta, skyler hallinan, luyu gao, sarah ",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "2023. Self-refine: Iterative refinement with self-feedback.Advances in Neural Information Processing Systems36 (2023), 46534–46594.",
+              "doi": null,
+              "pmid": null,
+              "title": "Self-refine: Iterative refinement with self-feedback.Advances in Neural Information Processing Systems36 (2023), 46534–46594.",
+              "locator": "references entry 33",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "self-refine: iterative refinement with self-feedback.advances in neural information processing systems36 (2023), 46534–46594.",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[29] Fei Mi, Liangwei Chen, Mengjie Zhao, Minlie Huang, and Boi Faltings. 2020. Continual learning for natural language generation in task-oriented dialog systems. arXiv preprint arXiv:2010.00910(2020).",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual learning for natural language generation in task-oriented dialog systems",
+              "locator": "references entry 34",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "continual learning for natural language generation in task-oriented dialog systems",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[30] Natawut Monaikul, Giuseppe Castellucci, Simone Filice, and Oleg Rokhlenko.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 35",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "[30] natawut monaikul, giuseppe castellucci, simone filice, and oleg rokhlenko.",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "2021. Continual learning for named entity recognition. InProceedings of the AAAI Conference on Artificial Intelligence. 13570–13577.",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual learning for named entity recognition",
+              "locator": "references entry 36",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "continual learning for named entity recognition",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[31] Yujia Qin, Jiajie Zhang, Yankai Lin, Zhiyuan Liu, Peng Li, Maosong Sun, and Jie Zhou. 2022. ELLE: Efficient Lifelong Pre-training for Emerging Data. InFindings of the Association for Computational Linguistics: ACL 2022. 2789–2810.",
+              "doi": null,
+              "pmid": null,
+              "title": "ELLE: Efficient Lifelong Pre-training for Emerging Data",
+              "locator": "references entry 37",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "elle: efficient lifelong pre-training for emerging data",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[32] Anastasia Razdaibiedina, Yuning Mao, Rui Hou, Madian Khabsa, Mike Lewis, and Amjad Almahairi. [n. d.]. Progressive Prompts: Continual Learning for Language Models. InThe Eleventh International Conference on Learning Representations.",
+              "doi": null,
+              "pmid": null,
+              "title": "Progressive Prompts: Continual Learning for Language Models",
+              "locator": "references entry 38",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "progressive prompts: continual learning for language models",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[33] Sylvestre-Alvise Rebuffi, Alexander Kolesnikov, Georg Sperl, and Christoph H Lampert. 2017. icarl: Incremental classifier and representation learning. InProceedings of the IEEE conference on Computer Vision and Pattern Recognition. 2001–",
+              "doi": null,
+              "pmid": null,
+              "title": "icarl: Incremental classifier and representation learning",
+              "locator": "references entry 39",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "icarl: incremental classifier and representation learning",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[34] Andrei A Rusu, Neil C Rabinowitz, Guillaume Desjardins, Hubert Soyer, James Kirkpatrick, Koray Kavukcuoglu, Razvan Pascanu, and Raia Hadsell. 2016. Progressive neural networks.arXiv preprint arXiv:1606.04671(2016).",
+              "doi": null,
+              "pmid": null,
+              "title": "Progressive neural networks.arXiv preprint arXiv:1606.04671(2016).",
+              "locator": "references entry 40",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "progressive neural networks.arxiv preprint arxiv:1606.04671(2016).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[35] Fan-Keng Sun, Cheng-Hao Ho, and Hung-Yi Lee. 2019. Lamol: Language modeling for lifelong language learning.arXiv preprint arXiv:1909.03329(2019).",
+              "doi": null,
+              "pmid": null,
+              "title": "Lamol: Language modeling for lifelong language learning.arXiv preprint arXiv:1909.03329(2019).",
+              "locator": "references entry 41",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "lamol: language modeling for lifelong language learning.arxiv preprint arxiv:1909.03329(2019).",
+                "duplicate_count": 2,
+                "conflict_risk": true
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear",
+                "duplicate_reference"
+              ]
+            },
+            {
+              "reference_text": "[36] Fan-Keng Sun, Cheng-Hao Ho, and Hung-Yi Lee. 2019. Lamol: Language modeling for lifelong language learning.arXiv preprint arXiv:1909.03329(2019).",
+              "doi": null,
+              "pmid": null,
+              "title": "Lamol: Language modeling for lifelong language learning.arXiv preprint arXiv:1909.03329(2019).",
+              "locator": "references entry 42",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "lamol: language modeling for lifelong language learning.arxiv preprint arxiv:1909.03329(2019).",
+                "duplicate_count": 2,
+                "conflict_risk": true
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear",
+                "duplicate_reference"
+              ]
+            },
+            {
+              "reference_text": "[37] Hongyan Tang, Junning Liu, Ming Zhao, and Xudong Gong. 2020. Progressive layered extraction (ple): A novel multi-task learning (mtl) model for personalized recommendations. InProceedings of the 14th ACM conference on recommender systems. 269–278.",
+              "doi": null,
+              "pmid": null,
+              "title": "Progressive layered extraction (ple): A novel multi-task learning (mtl) model for personalized recommendations",
+              "locator": "references entry 43",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "progressive layered extraction (ple): a novel multi-task learning (mtl) model for personalized recommendations",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[38] Zhengwei Tao, Ting-En Lin, Xiancai Chen, Hangyu Li, Yuchuan Wu, Yongbin Li, Zhi Jin, Fei Huang, Dacheng Tao, and Jingren Zhou. 2024. A survey on self-evolution of large language models.arXiv preprint arXiv:2404.14387(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "A survey on self-evolution of large language models.arXiv preprint arXiv:2404.14387(2024).",
+              "locator": "references entry 44",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "a survey on self-evolution of large language models.arxiv preprint arxiv:2404.14387(2024).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[39] Liyuan Wang, Xingxing Zhang, Hang Su, and Jun Zhu. 2024. A comprehensive survey of continual learning: Theory, method and application.IEEE Transactions on Pattern Analysis and Machine Intelligence(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "A comprehensive survey of continual learning: Theory, method and application.IEEE Transactions on Pattern Analysis and Machine Intelligence(2024).",
+              "locator": "references entry 45",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "a comprehensive survey of continual learning: theory, method and application.ieee transactions on pattern analysis and machine intelligence(2024).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[40] Mingyang Wang, Heike Adel, Lukas Lange, Jannik Strötgen, and Hinrich Schuetze.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 46",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "[40] mingyang wang, heike adel, lukas lange, jannik strötgen, and hinrich schuet",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[41] Xiao Wang, Tianze Chen, Qiming Ge, Han Xia, Rong Bao, Rui Zheng, Qi Zhang, Tao Gui, and Xuanjing Huang. [n. d.]. Orthogonal Subspace Learning for Language Model Continual Learning. InThe 2023 Conference on Empirical Methods in Natural Language Processing.",
+              "doi": null,
+              "pmid": null,
+              "title": "Orthogonal Subspace Learning for Language Model Continual Learning",
+              "locator": "references entry 48",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "orthogonal subspace learning for language model continual learning",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[42] Yifan Wang, Yafei Liu, Chufan Shi, Haoling Li, Chen Chen, Haonan Lu, and Yujiu Yang. 2024. Inscl: A data-efficient continual learning paradigm for fine-tuning large language models with instructions.arXiv preprint arXiv:2403.11435(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "Inscl: A data-efficient continual learning paradigm for fine-tuning large language models with instructions.arXiv preprint arXiv:2403.11435(2024).",
+              "locator": "references entry 49",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "inscl: a data-efficient continual learning paradigm for fine-tuning large language models with instructions.arxiv preprint arxiv:2403.11435(2024).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[43] Zimu Wang, Yue He, Jiashuo Liu, Wenchao Zou, Philip S Yu, and Peng Cui.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 50",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "[43] zimu wang, yue he, jiashuo liu, wenchao zou, philip s yu, and peng cui.",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "2022. Invariant preference learning for general debiasing in recommendation. InProceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 1969–1978.",
+              "doi": null,
+              "pmid": null,
+              "title": "Invariant preference learning for general debiasing in recommendation",
+              "locator": "references entry 51",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "invariant preference learning for general debiasing in recommendation",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[44] Tongtong Wu, Linhao Luo, Yuan-Fang Li, Shirui Pan, Thuy-Trang Vu, and Gholamreza Haffari. 2024. Continual learning for large language models: A survey. arXiv preprint arXiv:2402.01364(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "Continual learning for large language models: A survey",
+              "locator": "references entry 52",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "continual learning for large language models: a survey",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[45] Tianhao Wu, Weizhe Yuan, Olga Golovneva, Jing Xu, Yuandong Tian, Jiantao Jiao, Jason Weston, and Sainbayar Sukhbaatar. 2024. Meta-rewarding language models: Self-improving alignment with llm-as-a-meta-judge.arXiv preprint arXiv:2407.19594(2024).",
+              "doi": null,
+              "pmid": null,
+              "title": "Meta-rewarding language models: Self-improving alignment with llm-as-a-meta-judge.arXiv preprint arXiv:2407.19594(2024).",
+              "locator": "references entry 53",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "meta-rewarding language models: self-improving alignment with llm-as-a-meta-judge.arxiv preprint arxiv:2407.19594(2024).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[46] Yaxiong Wu, Sheng Liang, Chen Zhang, Yichao Wang, Yongyue Zhang, Huifeng Guo, Ruiming Tang, and Yong Liu. 2025. From human memory to ai memory: A survey on memory mechanisms in the era of llms.arXiv preprint arXiv:2504.15965 (2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "From human memory to ai memory: A survey on memory mechanisms in the era of llms.arXiv preprint arXiv:2504.15965 (2025).",
+              "locator": "references entry 54",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "from human memory to ai memory: a survey on memory mechanisms in the era of llms.arxiv preprint arxiv:2504.15965 (2025).",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[47] Qiancheng Xu, Yongqi Li, Heming Xia, Fan Liu, Min Yang, and Wenjie Li. 2025. PEToolLLM: Towards Personalized Tool Learning in Large Language Models. arXiv preprint arXiv:2502.18980(2025).",
+              "doi": null,
+              "pmid": null,
+              "title": "PEToolLLM: Towards Personalized Tool Learning in Large Language Models",
+              "locator": "references entry 55",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "petoolllm: towards personalized tool learning in large language models",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[48] Han Zhang, Yu Lei, Lin Gui, Min Yang, Yulan He, Hui Wang, and Ruifeng Xu.",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 56",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "[48] han zhang, yu lei, lin gui, min yang, yulan he, hui wang, and ruifeng xu.",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "2024. Cppo: Continual learning for reinforcement learning with human feedback. InThe Twelfth International Conference on Learning Representations.",
+              "doi": null,
+              "pmid": null,
+              "title": "Cppo: Continual learning for reinforcement learning with human feedback",
+              "locator": "references entry 57",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "cppo: continual learning for reinforcement learning with human feedback",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[49] Junhao Zheng, Shengjie Qiu, Chengming Shi, and Qianli Ma. 2025. Towards lifelong learning of large language models: A survey.Comput. Surveys57, 8 (2025), 1–35.",
+              "doi": null,
+              "pmid": null,
+              "title": "Towards lifelong learning of large language models: A survey.Comput",
+              "locator": "references entry 58",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "towards lifelong learning of large language models: a survey.comput",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            }
+          ],
+          "reference_valid_count": 0,
+          "reference_invalid_count": 58,
+          "invalid_count": 58,
+          "checked_count": 58,
+          "summary": {
+            "identifier_invalid": 57,
+            "information_incomplete": 57,
+            "domain_mismatch_or_unclear": 57,
+            "duplicate_or_conflict": 2
+          }
+        }
+      }
+    ],
+    "events": [
+      {
+        "sequence": 1,
+        "stage": "input_receive_and_clean",
+        "status": "started",
+        "detail": {
+          "file_count": 1
+        }
+      },
+      {
+        "sequence": 3,
+        "stage": "figure_extract",
+        "status": "completed",
+        "detail": {
+          "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\11be7dbb1bb146eea2e47f17ec7650c3\\Self-Evolving LLMs via Continual Instruction Tuning.pdf",
+          "status": "figure_extract_success",
+          "figures": 4
+        }
+      },
+      {
+        "sequence": 4,
+        "stage": "document_parse",
+        "status": "completed",
+        "detail": {
+          "papers_parsed": 1
+        }
+      },
+      {
+        "sequence": 6,
+        "stage": "branch_decision",
+        "status": "blocked",
+        "detail": {
+          "reason": "validation_failed",
+          "risk_count": 1
+        }
+      },
+      {
+        "sequence": 7,
+        "stage": "failure_report_export",
+        "status": "completed",
+        "detail": {
+          "path": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\web_runs\\11be7dbb1bb146eea2e47f17ec7650c3\\failed_run-e3e201c7d7bf.json"
+        }
+      }
+    ],
+    "extraction_records": [
+      {
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\11be7dbb1bb146eea2e47f17ec7650c3\\Self-Evolving LLMs via Continual Instruction Tuning.pdf",
+        "candidate_claim_count": 12,
+        "quality_flags": {
+          "has_methods": false,
+          "has_results": false,
+          "has_figures_or_tables": true,
+          "has_references": true,
+          "paragraph_count": 13,
+          "ecs_hit_count": 0
+        },
+        "ecs_related": false
+      }
+    ],
+    "validation_results": {
+      "multi_layer_compliance": {
+        "evidence_integrity": true,
+        "reference_status": "reference_invalid",
+        "reference_summary": {
+          "identifier_invalid": 57,
+          "information_incomplete": 57,
+          "domain_mismatch_or_unclear": 57,
+          "duplicate_or_conflict": 2
+        },
+        "hallucination_control": true,
+        "medical_boundary": true,
+        "input_completeness": false
+      }
+    },
+    "failure_risks": [
+      {
+        "code": "ecs_information_missing",
+        "message": "No ECS-related keywords or concepts were detected.",
+        "severity": "high",
+        "detail": {}
+      }
+    ]
+  }
+}

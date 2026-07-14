@@ -1,0 +1,7 @@
+Title: Fragmentary Brain Disorder Note
+
+Abstract
+This short note mentions cognitive decline and a possible biomarker.
+
+Discussion
+The source text has no methods, no results, no figure captions, no references, and no required domain-specific content. It is intentionally incomplete for the blocked branch demo.

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NEURONCLAW Paper-to-ARM</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="mark">ARM</span>
+        <div>
+          <h1>NEURONCLAW Paper-to-ARM 工作台</h1>
+          <p>上传论文，生成 ARM 九模块资产，查看证据溯源、图表 caption、引用校验、dry-run 与 Trace 回放。</p>
+        </div>
+      </div>
+      <button id="downloadBtn" class="primary" disabled>下载 ARM JSON</button>
+    </header>
+
+    <main class="workspace">
+      <section class="controlPanel">
+        <div class="panelHeader">
+          <h2>输入论文</h2>
+          <span class="badge">1-5 files</span>
+        </div>
+        <label class="dropzone" for="fileInput">
+          <input id="fileInput" type="file" accept=".pdf,.txt" multiple />
+          <span class="dropTitle">选择 PDF/TXT 文件</span>
+          <span class="dropHint">支持单篇或批量，最多 5 篇。上传后进入 Paper-to-ARM 流程。</span>
+        </label>
+        <div id="fileList" class="fileList"></div>
+        <button id="uploadBtn" class="primary wide">生成 ARM 资产</button>
+
+        <div class="runBox">
+          <div class="runLabel">运行状态</div>
+          <div id="jobStatus" class="status idle">待上传</div>
+          <p id="jobMessage" class="message">请选择论文文件开始。</p>
+        </div>
+      </section>
+
+      <section class="mainPanel">
+        <nav class="tabs">
+          <button class="tab active" data-tab="overview">总览</button>
+          <button class="tab" data-tab="gate">评审门禁</button>
+          <button class="tab" data-tab="claims">Claims & Evidence</button>
+          <button class="tab" data-tab="figures">图表证据</button>
+          <button class="tab" data-tab="dryrun">Dry-run</button>
+          <button class="tab" data-tab="references">引用校验</button>
+          <button class="tab" data-tab="trace">Trace 回放</button>
+          <button class="tab" data-tab="materials">提交材料</button>
+          <button class="tab" data-tab="raw">JSON</button>
+        </nav>
+
+        <section id="overview" class="tabPanel active">
+          <div id="summaryGrid" class="summaryGrid"></div>
+          <div class="sectionTitle">输入来源</div>
+          <div id="sources" class="list compact"></div>
+          <div class="sectionTitle">失败风险</div>
+          <div id="risks" class="list compact"></div>
+        </section>
+
+        <section id="gate" class="tabPanel">
+          <div class="gateIntro">按 A 赛道要求检查 ARM 完整度、证据溯源、ECS 专项、引用校验、试运行和失败阻断。</div>
+          <div id="gateList" class="gateGrid"></div>
+        </section>
+
+        <section id="claims" class="tabPanel">
+          <div id="claimsList" class="list"></div>
+        </section>
+
+        <section id="figures" class="tabPanel">
+          <div id="figureSummary" class="summaryGrid"></div>
+          <div id="figureList" class="list"></div>
+          <div class="sectionTitle">冲突告警</div>
+          <div id="conflictList" class="list"></div>
+        </section>
+
+        <section id="dryrun" class="tabPanel">
+          <div id="dryRunSummary" class="summaryGrid"></div>
+          <div id="dryRunList" class="list"></div>
+          <div class="sectionTitle">评估指标</div>
+          <div id="evalList" class="list"></div>
+        </section>
+
+        <section id="references" class="tabPanel">
+          <div id="referenceSummary" class="summaryGrid"></div>
+          <div id="referenceList" class="list"></div>
+        </section>
+
+        <section id="trace" class="tabPanel">
+          <div id="traceList" class="list"></div>
+        </section>
+
+        <section id="materials" class="tabPanel">
+          <div class="gateIntro">按考核手册整理的提交材料，覆盖调研、流程、成功/失败案例、测试复现、限制、演示脚本、评分矩阵和七日开发日志。</div>
+          <div id="materialsList" class="list"></div>
+        </section>
+
+        <section id="raw" class="tabPanel">
+          <pre id="rawJson" class="raw"></pre>
+        </section>
+      </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

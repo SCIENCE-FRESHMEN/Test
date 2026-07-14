@@ -1,0 +1,286 @@
+{
+  "full_arm": {
+    "metadata": {
+      "arm_id": "failed-run-387f7dbfa9e0",
+      "title": null,
+      "authors": [],
+      "doi": null,
+      "pmid": null,
+      "year": null,
+      "publication_date": null,
+      "journal": null,
+      "article_type": null,
+      "license": null,
+      "source_file": "fixtures/incomplete_paper.txt",
+      "ecs_related": false,
+      "ecs_keywords": [],
+      "processing_status": "failed"
+    },
+    "claims": [],
+    "evidence": [],
+    "protocol": [],
+    "runbook": [],
+    "eval_plan": [],
+    "provenance": {
+      "run_id": "run-387f7dbfa9e0",
+      "blocked_reason": "validation_failed",
+      "model_infer_policy": "No scientific ARM was generated because validation failed."
+    },
+    "limitations": [
+      {
+        "limitation_id": "FAIL-L-001",
+        "text": "Input failed completeness/provenance checks; generating a scientific ARM would risk unsupported claims.",
+        "category": "input_quality",
+        "ecs_related": false,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      }
+    ],
+    "artifacts": [
+      {
+        "artifact_id": "FAIL-JSON",
+        "type": "failure_report_json",
+        "path": "outputs\\test\\failed_run-387f7dbfa9e0.json",
+        "description": "Blocked failure report with replay trace."
+      }
+    ],
+    "failure_report": {
+      "status": "blocked",
+      "reason": "validation_failed",
+      "missing_or_risky_items": [
+        {
+          "code": "insufficient_claims",
+          "message": "Fewer than 5 independently traceable candidate claims were found.",
+          "severity": "high",
+          "detail": {
+            "candidate_claim_count": 0
+          }
+        },
+        {
+          "code": "ecs_information_missing",
+          "message": "No ECS-related keywords or concepts were detected.",
+          "severity": "high",
+          "detail": {}
+        },
+        {
+          "code": "missing_figures_tables",
+          "message": "No figure or table captions were detected.",
+          "severity": "high",
+          "detail": {
+            "source_file": "fixtures\\incomplete_paper.txt"
+          }
+        },
+        {
+          "code": "missing_references",
+          "message": "No references or DOI/PMID identifiers were detected.",
+          "severity": "medium",
+          "detail": {
+            "source_file": "fixtures\\incomplete_paper.txt"
+          }
+        },
+        {
+          "code": "paper_text_too_short",
+          "message": "Input text is too short for reliable ARM generation.",
+          "severity": "high",
+          "detail": {
+            "source_file": "fixtures\\incomplete_paper.txt",
+            "paragraph_count": 2
+          }
+        },
+        {
+          "code": "missing_methods",
+          "message": "Research article appears to lack a methods section.",
+          "severity": "high",
+          "detail": {
+            "source_file": "fixtures\\incomplete_paper.txt"
+          }
+        },
+        {
+          "code": "missing_results",
+          "message": "Research article appears to lack a results section.",
+          "severity": "high",
+          "detail": {
+            "source_file": "fixtures\\incomplete_paper.txt"
+          }
+        }
+      ],
+      "no_success_arm_generated": true
+    }
+  },
+  "trace_record": {
+    "run_id": "run-387f7dbfa9e0",
+    "input": {
+      "paper_files": [
+        "fixtures/incomplete_paper.txt"
+      ],
+      "max_batch_size": 5,
+      "allowed_tools": [
+        "literature_extract",
+        "reference_validator"
+      ],
+      "api_provider": "deepseek_openai_compatible"
+    },
+    "tool_calls": [
+      {
+        "sequence": 2,
+        "tool_name": "literature_extract",
+        "input": {
+          "source_file": "fixtures/incomplete_paper.txt",
+          "max_claims": 12
+        },
+        "output": {
+          "metadata": {
+            "title": "Title: Fragmentary Brain Disorder Note",
+            "authors": [],
+            "doi": null,
+            "year": null,
+            "article_type": "research",
+            "license": null,
+            "source_file": "fixtures\\incomplete_paper.txt",
+            "ecs_related": false,
+            "ecs_keywords": []
+          },
+          "candidate_claim_count": 0,
+          "references_count": 0,
+          "figures_tables_count": 0,
+          "quality_flags": {
+            "has_methods": false,
+            "has_results": false,
+            "has_figures_or_tables": false,
+            "has_references": false,
+            "paragraph_count": 2,
+            "ecs_hit_count": 0
+          }
+        }
+      },
+      {
+        "sequence": 4,
+        "tool_name": "reference_validator",
+        "input": {
+          "references": []
+        },
+        "output": {
+          "validated_references": [],
+          "invalid_count": 0,
+          "checked_count": 0
+        }
+      }
+    ],
+    "events": [
+      {
+        "sequence": 1,
+        "stage": "input_receive_and_clean",
+        "status": "started",
+        "detail": {
+          "file_count": 1
+        }
+      },
+      {
+        "sequence": 3,
+        "stage": "document_parse",
+        "status": "completed",
+        "detail": {
+          "papers_parsed": 1
+        }
+      },
+      {
+        "sequence": 5,
+        "stage": "branch_decision",
+        "status": "blocked",
+        "detail": {
+          "reason": "validation_failed",
+          "risk_count": 7
+        }
+      },
+      {
+        "sequence": 6,
+        "stage": "failure_report_export",
+        "status": "completed",
+        "detail": {
+          "path": "outputs\\test\\failed_run-387f7dbfa9e0.json"
+        }
+      }
+    ],
+    "extraction_records": [
+      {
+        "source_file": "fixtures/incomplete_paper.txt",
+        "candidate_claim_count": 0,
+        "quality_flags": {
+          "has_methods": false,
+          "has_results": false,
+          "has_figures_or_tables": false,
+          "has_references": false,
+          "paragraph_count": 2,
+          "ecs_hit_count": 0
+        },
+        "ecs_related": false
+      }
+    ],
+    "validation_results": {
+      "multi_layer_compliance": {
+        "evidence_integrity": false,
+        "reference_syntax": true,
+        "hallucination_control": true,
+        "medical_boundary": true,
+        "input_completeness": false
+      }
+    },
+    "failure_risks": [
+      {
+        "code": "insufficient_claims",
+        "message": "Fewer than 5 independently traceable candidate claims were found.",
+        "severity": "high",
+        "detail": {
+          "candidate_claim_count": 0
+        }
+      },
+      {
+        "code": "ecs_information_missing",
+        "message": "No ECS-related keywords or concepts were detected.",
+        "severity": "high",
+        "detail": {}
+      },
+      {
+        "code": "missing_figures_tables",
+        "message": "No figure or table captions were detected.",
+        "severity": "high",
+        "detail": {
+          "source_file": "fixtures\\incomplete_paper.txt"
+        }
+      },
+      {
+        "code": "missing_references",
+        "message": "No references or DOI/PMID identifiers were detected.",
+        "severity": "medium",
+        "detail": {
+          "source_file": "fixtures\\incomplete_paper.txt"
+        }
+      },
+      {
+        "code": "paper_text_too_short",
+        "message": "Input text is too short for reliable ARM generation.",
+        "severity": "high",
+        "detail": {
+          "source_file": "fixtures\\incomplete_paper.txt",
+          "paragraph_count": 2
+        }
+      },
+      {
+        "code": "missing_methods",
+        "message": "Research article appears to lack a methods section.",
+        "severity": "high",
+        "detail": {
+          "source_file": "fixtures\\incomplete_paper.txt"
+        }
+      },
+      {
+        "code": "missing_results",
+        "message": "Research article appears to lack a results section.",
+        "severity": "high",
+        "detail": {
+          "source_file": "fixtures\\incomplete_paper.txt"
+        }
+      }
+    ]
+  }
+}

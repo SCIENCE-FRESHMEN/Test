@@ -1,0 +1,111 @@
+{
+  "full_arm": {
+    "metadata": {
+      "arm_id": "failed-run-5e206624fed3",
+      "title": null,
+      "authors": [],
+      "doi": null,
+      "pmid": null,
+      "year": null,
+      "publication_date": null,
+      "journal": null,
+      "article_type": null,
+      "license": null,
+      "source_file": "C:\\Users\\25416\\Desktop\\PKU\\fixtures\\full_papers\\25789430-2026-micropub.biology.001970.pdf",
+      "ecs_related": false,
+      "ecs_keywords": [],
+      "processing_status": "failed"
+    },
+    "claims": [],
+    "evidence": [],
+    "protocol": [],
+    "runbook": [],
+    "eval_plan": [],
+    "provenance": {
+      "run_id": "run-5e206624fed3",
+      "blocked_reason": "invalid_batch_size",
+      "model_infer_policy": "No scientific ARM was generated because validation failed."
+    },
+    "limitations": [
+      {
+        "limitation_id": "FAIL-L-001",
+        "text": "Input failed completeness/provenance checks; generating a scientific ARM would risk unsupported claims.",
+        "category": "input_quality",
+        "ecs_related": false,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      }
+    ],
+    "artifacts": [
+      {
+        "artifact_id": "FAIL-JSON",
+        "type": "failure_report_json",
+        "path": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\web_runs\\ea95d961edd7436fb4c5cef6af5436c8\\failed_run-5e206624fed3.json",
+        "description": "Blocked failure report with replay trace."
+      }
+    ],
+    "failure_report": {
+      "status": "blocked",
+      "reason": "invalid_batch_size",
+      "missing_or_risky_items": [
+        {
+          "code": "invalid_batch_size",
+          "message": "Input must contain 1 to 5 papers.",
+          "severity": "high",
+          "detail": {}
+        }
+      ],
+      "no_success_arm_generated": true
+    }
+  },
+  "trace_record": {
+    "run_id": "run-5e206624fed3",
+    "input": {
+      "paper_files": [
+        "C:\\Users\\25416\\Desktop\\PKU\\fixtures\\full_papers\\25789430-2026-micropub.biology.001970.pdf",
+        "C:\\Users\\25416\\Desktop\\PKU\\fixtures\\full_papers\\Advancement in modulation of brain extracellular space and unlocking its potential for intervention of neurological diseases.pdf",
+        "C:\\Users\\25416\\Desktop\\PKU\\fixtures\\full_papers\\Alz   Dem Diag Ass   Dis Mo - 2026 - Lopez - Glymphatic clearance as revealed by diffusion tensor imaging along the.pdf",
+        "C:\\Users\\25416\\Desktop\\PKU\\fixtures\\full_papers\\Brain Extracellular Space From an Overlooked Dimension to Catalyst of a Novel Neuroscience Paradigm.pdf",
+        "C:\\Users\\25416\\Desktop\\PKU\\fixtures\\full_papers\\Glia - 2024 - Cangalaya - Integrity of neural extracellular matrix is required for microglia‐mediated synaptic remodeling.pdf",
+        "C:\\Users\\25416\\Desktop\\PKU\\fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "C:\\Users\\25416\\Desktop\\PKU\\fixtures\\full_papers\\s12987-025-00694-1.pdf",
+        "C:\\Users\\25416\\Desktop\\PKU\\fixtures\\full_papers\\脑组织液引流途径与脑内新分区系统的发现.pdf"
+      ],
+      "max_batch_size": 5,
+      "allowed_tools": [
+        "literature_extract",
+        "reference_validator"
+      ],
+      "api_provider": "deepseek_openai_compatible"
+    },
+    "tool_calls": [],
+    "events": [
+      {
+        "sequence": 1,
+        "stage": "input_receive_and_clean",
+        "status": "started",
+        "detail": {
+          "file_count": 8
+        }
+      },
+      {
+        "sequence": 2,
+        "stage": "failure_report_export",
+        "status": "completed",
+        "detail": {
+          "path": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\web_runs\\ea95d961edd7436fb4c5cef6af5436c8\\failed_run-5e206624fed3.json"
+        }
+      }
+    ],
+    "extraction_records": [],
+    "validation_results": {},
+    "failure_risks": [
+      {
+        "code": "invalid_batch_size",
+        "message": "Input must contain 1 to 5 papers.",
+        "severity": "high",
+        "detail": {}
+      }
+    ]
+  }
+}

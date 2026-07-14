@@ -1,0 +1,618 @@
+full_arm:
+  metadata:
+    arm_id: "arm-brain_ecs_review"
+    title: "Brain Extracellular Space: From an Overlooked Dimension to Catalyst of a Novel Neuroscience Paradigm"
+    authors:
+      - "Hongbin Han"
+      - "Hui Dai"
+      - "Leonor Serrano Lopes"
+      - "Ruiqing Ni"
+      - "Benjamin F. Combes"
+      - "Yangjing Song"
+      - "Hanbo Tan"
+      - "Meng Xu"
+      - "Hongfeng Li"
+      - "Shuhong Lv"
+      - "Zhaohe Yang"
+      - "Tianzi Gao"
+      - "Mengyu Zhang"
+      - "Yang Shi"
+      - "Jingjing Shao"
+      - "Yanni Zhang"
+      - "Wanyi Fu"
+    doi: "10.34133/cbsystems.0529"
+    pmid: null
+    year: 2026
+    publication_date: null
+    journal: null
+    article_type: "review"
+    license: "CC BY 4.0"
+    source_file: "brain_ECS_review.txt"
+    ecs_related: true
+    ecs_keywords:
+      - "brain interstitial system"
+      - "ecm"
+      - "ecs"
+      - "extracellular matrix"
+      - "extracellular space"
+      - "glymphatic"
+      - "interstitial fluid"
+      - "isf"
+    processing_status: "success"
+  claims:
+    -
+      claim_id: "C-001"
+      text: "Accumulating evidence indicates that this low translational success is closely linked to the long-standing overlook of the brain extracellular space (ECS) in preclinical research, clinical practice, and regulatory frameworks."
+      section: "front_matter"
+      locator: "front_matter paragraph 4"
+      evidence_ids:
+        - "E-001"
+      ecs_related: true
+      claim_type: "limitation"
+      provenance: "source_text"
+      requires_human_review: false
+    -
+      claim_id: "C-002"
+      text: "This paper investigates underlying determinants of low translational success of central nervous system drugs and therapeutic devices, reviews the historical and technical bottlenecks that lead to the neglect of ECS research, and emphasizes its transformative potential in reshaping therapeutic strategies."
+      section: "front_matter"
+      locator: "front_matter paragraph 4"
+      evidence_ids:
+        - "E-002"
+      ecs_related: true
+      claim_type: "finding"
+      provenance: "source_text"
+      requires_human_review: false
+    -
+      claim_id: "C-003"
+      text: "We propose incorporating the ECS into neuroscience research, clinical regulatory assessment, and medical education, thereby establishing a comprehensive paradigm that omits no physical space for precision therapeutics targeting brain disorders."
+      section: "front_matter"
+      locator: "front_matter paragraph 4"
+      evidence_ids:
+        - "E-003"
+      ecs_related: true
+      claim_type: "method"
+      provenance: "source_text"
+      requires_human_review: false
+    -
+      claim_id: "C-004"
+      text: "The ECS accounts for 6% to 25% of the total brain volume."
+      section: "introduction"
+      locator: "introduction paragraph 2"
+      evidence_ids:
+        - "E-004"
+      ecs_related: true
+      claim_type: "finding"
+      provenance: "source_text"
+      requires_human_review: false
+    -
+      claim_id: "C-005"
+      text: "tive diffusion coefficient D∗ and the diffusion coefficient in a free Integrating the ECS into the research and evaluation frameworks is not only a scientific necessity but also an increasingly solution D is defined as D∗ = D2 ."
+      section: "introduction"
+      locator: "introduction paragraph 4"
+      evidence_ids:
+        - "E-005"
+      ecs_related: true
+      claim_type: "definition"
+      provenance: "source_text"
+      requires_human_review: false
+    -
+      claim_id: "C-006"
+      text: "To further enhance the research team revealed the partitioned drainage characteristics of mathematical stability and uniqueness of the solution, topological brain ISF for the first time, correcting the traditional view regard- constraints from high-precision EM and diffusion priors from ing the high connectivity of the ECS across the entire brain [33]."
+      section: "introduction"
+      locator: "introduction paragraph 44"
+      evidence_ids:
+        - "E-006"
+      ecs_related: true
+      claim_type: "finding"
+      provenance: "source_text"
+      requires_human_review: false
+    -
+      claim_id: "C-007"
+      text: "It Noninvasive imaging and measuring methods reveals ECS changes during cerebral ischemia and neuroinflam- of the human brain mation, as well as their impacts on drug delivery and metabolic Recent studies have demonstrated that modulating substance waste clearance [41]."
+      section: "introduction"
+      locator: "introduction paragraph 52"
+      evidence_ids:
+        - "E-007"
+      ecs_related: true
+      claim_type: "finding"
+      provenance: "source_text"
+      requires_human_review: false
+    -
+      claim_id: "C-008"
+      text: "(A) Substances within the ECS of the Cn are unable to translocate to the ECS of the Tha and vice However, neither of these classical paradigms accounts for the versa, despite the anatomical adjacency of these 2 brain regions."
+      section: "introduction"
+      locator: "introduction paragraph 60"
+      evidence_ids:
+        - "E-008"
+      ecs_related: true
+      claim_type: "finding"
+      provenance: "source_text"
+      requires_human_review: false
+    -
+      claim_id: "C-009"
+      text: "Similarly, deep meditation anesthesia, neuronal excitation was shown to induce a significant induces slow-wave cerebral electrical activity, reduces norepireduction in diffusion rate and ISF drainage."
+      section: "introduction"
+      locator: "introduction paragraph 62"
+      evidence_ids:
+        - "E-009"
+      ecs_related: true
+      claim_type: "finding"
+      provenance: "source_text"
+      requires_human_review: false
+    -
+      claim_id: "C-010"
+      text: "Specifically, ISF drainage of Cn in the deep brain regions sodium-pentobarbital-induced anesthesia results in a significant is significantly impaired in AQP4 knockout mice, suggesting that reduction in ECS tracer half-life; this difference is associated with AQP4 regulates the flow dynamics of ISF by modulating water cerebral neurotransmitter levels (e.g., norepinephrine) [63]."
+      section: "introduction"
+      locator: "introduction paragraph 62"
+      evidence_ids:
+        - "E-010"
+      ecs_related: true
+      claim_type: "finding"
+      provenance: "source_text"
+      requires_human_review: false
+    -
+      claim_id: "C-011"
+      text: "This Traditional therapeutic strategies for brain diseases have histori- represents a primary concern for novel drug development and cally overlooked the brain ECS, which fails to fully elucidate the clinical drug utilization."
+      section: "introduction"
+      locator: "introduction paragraph 106"
+      evidence_ids:
+        - "E-011"
+      ecs_related: true
+      claim_type: "limitation"
+      provenance: "source_text"
+      requires_human_review: false
+    -
+      claim_id: "C-012"
+      text: "Dysregulation of the tective coverage, using only 1/800 of the dosage required for biophysical microenvironment of the ECS constitutes a key intraperitoneal administration [11]."
+      section: "introduction"
+      locator: "introduction paragraph 114"
+      evidence_ids:
+        - "E-012"
+      ecs_related: true
+      claim_type: "definition"
+      provenance: "source_text"
+      requires_human_review: false
+  evidence:
+    -
+      evidence_id: "E-001"
+      claim_id: "C-001"
+      source_file: "brain_ECS_review.txt"
+      locator: "front_matter paragraph 4"
+      section: "front_matter"
+      paragraph_index: 4
+      figure_or_table: null
+      quote: "Accumulating evidence indicates that this low translational success is closely linked to the long-standing overlook of the brain extracellular space (ECS) in preclinical research, clinical practice, and regulatory frameworks."
+      evidence_type: "text"
+      provenance: "source_text"
+    -
+      evidence_id: "E-002"
+      claim_id: "C-002"
+      source_file: "brain_ECS_review.txt"
+      locator: "front_matter paragraph 4"
+      section: "front_matter"
+      paragraph_index: 4
+      figure_or_table: null
+      quote: "This paper investigates underlying determinants of low translational success of central nervous system drugs and therapeutic devices, reviews the historical and technical bottlenecks that lead to the neglect of ECS research, and emphasizes its transformative potential in reshaping therapeutic strategies."
+      evidence_type: "text"
+      provenance: "source_text"
+    -
+      evidence_id: "E-003"
+      claim_id: "C-003"
+      source_file: "brain_ECS_review.txt"
+      locator: "front_matter paragraph 4"
+      section: "front_matter"
+      paragraph_index: 4
+      figure_or_table: null
+      quote: "We propose incorporating the ECS into neuroscience research, clinical regulatory assessment, and medical education, thereby establishing a comprehensive paradigm that omits no physical space for precision therapeutics targeting brain disorders."
+      evidence_type: "text"
+      provenance: "source_text"
+    -
+      evidence_id: "E-004"
+      claim_id: "C-004"
+      source_file: "brain_ECS_review.txt"
+      locator: "introduction paragraph 2"
+      section: "introduction"
+      paragraph_index: 2
+      figure_or_table: null
+      quote: "The ECS accounts for 6% to 25% of the total brain volume."
+      evidence_type: "text"
+      provenance: "source_text"
+    -
+      evidence_id: "E-005"
+      claim_id: "C-005"
+      source_file: "brain_ECS_review.txt"
+      locator: "introduction paragraph 4"
+      section: "introduction"
+      paragraph_index: 4
+      figure_or_table: null
+      quote: "tive diffusion coefficient D∗ and the diffusion coefficient in a free Integrating the ECS into the research and evaluation frameworks is not only a scientific necessity but also an increasingly solution D is defined as D∗ = D2 ."
+      evidence_type: "text"
+      provenance: "source_text"
+    -
+      evidence_id: "E-006"
+      claim_id: "C-006"
+      source_file: "brain_ECS_review.txt"
+      locator: "introduction paragraph 44"
+      section: "introduction"
+      paragraph_index: 44
+      figure_or_table: null
+      quote: "To further enhance the research team revealed the partitioned drainage characteristics of mathematical stability and uniqueness of the solution, topological brain ISF for the first time, correcting the traditional view regard- constraints from high-precision EM and diffusion priors from ing the high connectivity of the ECS across the entire brain [33]."
+      evidence_type: "text"
+      provenance: "source_text"
+    -
+      evidence_id: "E-007"
+      claim_id: "C-007"
+      source_file: "brain_ECS_review.txt"
+      locator: "introduction paragraph 52"
+      section: "introduction"
+      paragraph_index: 52
+      figure_or_table: null
+      quote: "It Noninvasive imaging and measuring methods reveals ECS changes during cerebral ischemia and neuroinflam- of the human brain mation, as well as their impacts on drug delivery and metabolic Recent studies have demonstrated that modulating substance waste clearance [41]."
+      evidence_type: "text"
+      provenance: "source_text"
+    -
+      evidence_id: "E-008"
+      claim_id: "C-008"
+      source_file: "brain_ECS_review.txt"
+      locator: "introduction paragraph 60"
+      section: "introduction"
+      paragraph_index: 60
+      figure_or_table: null
+      quote: "(A) Substances within the ECS of the Cn are unable to translocate to the ECS of the Tha and vice However, neither of these classical paradigms accounts for the versa, despite the anatomical adjacency of these 2 brain regions."
+      evidence_type: "text"
+      provenance: "source_text"
+    -
+      evidence_id: "E-009"
+      claim_id: "C-009"
+      source_file: "brain_ECS_review.txt"
+      locator: "introduction paragraph 62"
+      section: "introduction"
+      paragraph_index: 62
+      figure_or_table: null
+      quote: "Similarly, deep meditation anesthesia, neuronal excitation was shown to induce a significant induces slow-wave cerebral electrical activity, reduces norepireduction in diffusion rate and ISF drainage."
+      evidence_type: "text"
+      provenance: "source_text"
+    -
+      evidence_id: "E-010"
+      claim_id: "C-010"
+      source_file: "brain_ECS_review.txt"
+      locator: "introduction paragraph 62"
+      section: "introduction"
+      paragraph_index: 62
+      figure_or_table: null
+      quote: "Specifically, ISF drainage of Cn in the deep brain regions sodium-pentobarbital-induced anesthesia results in a significant is significantly impaired in AQP4 knockout mice, suggesting that reduction in ECS tracer half-life; this difference is associated with AQP4 regulates the flow dynamics of ISF by modulating water cerebral neurotransmitter levels (e.g., norepinephrine) [63]."
+      evidence_type: "text"
+      provenance: "source_text"
+    -
+      evidence_id: "E-011"
+      claim_id: "C-011"
+      source_file: "brain_ECS_review.txt"
+      locator: "introduction paragraph 106"
+      section: "introduction"
+      paragraph_index: 106
+      figure_or_table: null
+      quote: "This Traditional therapeutic strategies for brain diseases have histori- represents a primary concern for novel drug development and cally overlooked the brain ECS, which fails to fully elucidate the clinical drug utilization."
+      evidence_type: "text"
+      provenance: "source_text"
+    -
+      evidence_id: "E-012"
+      claim_id: "C-012"
+      source_file: "brain_ECS_review.txt"
+      locator: "introduction paragraph 114"
+      section: "introduction"
+      paragraph_index: 114
+      figure_or_table: null
+      quote: "Dysregulation of the tective coverage, using only 1/800 of the dosage required for biophysical microenvironment of the ECS constitutes a key intraperitoneal administration [11]."
+      evidence_type: "text"
+      provenance: "source_text"
+    -
+      evidence_id: "E-FIG-001"
+      claim_id: null
+      source_file: "brain_ECS_review.txt"
+      locator: "Table 2 caption"
+      section: "figure_caption"
+      paragraph_index: null
+      figure_or_table: "Table 2"
+      quote: "Alterations of the brain ECS across different age stages D* × 10−4/ Region Method/probe Species Age α λ (mm2·s−1) Refs. Cortex RTI-TMA+/ Wistar rats Juvenile 0.260 ± 0.020 1.610 ± 0.025 [210] TMA+ Wistar rats Adult 0.210 ± 0.010 1.650 ± 0.030 [211] Wistar rats Aged 0.180 ± 0.010 1.590 ± 0.020 [212] Striatum TB-MRI/ SD rats Juvenile (P20) 0.180 ± 0.030 1.610 ± 0.050 3.90 ± 0.460 [59] Gd–DTPA SD rats Juvenile (P40) 0.174 ± 0.040 1.710 ± 0.060 3.62 ± 0.260 [213] SD rats Adult 0.173 ± 0.001 1.760 ± 0.020 3.43 ± 0.950 [213] Hippocampus RTI-TMA+/TMA+ Wistar rats Juvenile (P5) 0.410 ± 0.010 1.390 ± 0.010 [214] Wistar rats Adult 0.214 ± 0.004 1.622 ± 0.006 [215] Wistar rats Aged 0.186 ± 0.004 1.599 ± 0.010 [216] SD, Sprague–Dawley."
+      evidence_type: "figure_caption"
+      provenance: "source_text"
+  protocol:
+    -
+      step_id: "P-001"
+      name: "Parse paper into source-located sections"
+      description: "Segment abstract, methods/results/discussion where present, figure/table captions, references, and ECS keyword hits."
+      input_materials:
+        - "brain_ECS_review.txt"
+      method_source_locator: "system_pipeline:literature_extract"
+      expected_output: "Section map with paragraph indices and source quotes."
+      automation_level: "auto"
+      provenance: "model_infer"
+    -
+      step_id: "P-002"
+      name: "Align claims to evidence"
+      description: "Keep only claims backed by exact source-text quotes and locators."
+      input_materials:
+        - "brain_ECS_review.txt"
+      method_source_locator: "system_pipeline:claim_evidence_alignment"
+      expected_output: "Claim list with evidence_ids and locators."
+      automation_level: "manual_review"
+      provenance: "model_infer"
+  runbook:
+    -
+      step_id: "R-001"
+      action: "Dry-run the Paper-to-ARM pipeline on the same input and validate ARM modules."
+      input_files:
+        - "brain_ECS_review.txt"
+      dependent_tools:
+        - "literature_extract"
+        - "reference_validator"
+      expected_output: "JSON export containing full_arm and trace_record; all nine ARM modules present."
+      manual_review_required: false
+      can_dry_run: true
+      dry_run_command: "python main.py run --input \"brain_ECS_review.txt\" --output-dir outputs --format json"
+      failure_conditions:
+        - "Missing source file"
+        - "Fewer than 5 traceable claims"
+        - "No ECS content detected"
+    -
+      step_id: "R-002"
+      action: "Manually review quote-to-claim alignment and medical-boundary warnings."
+      input_files:
+        - "brain_ECS_review.txt"
+      dependent_tools:
+        []
+      expected_output: "Human approval or correction list for claim/evidence pairs."
+      manual_review_required: true
+      can_dry_run: false
+      dry_run_command: null
+      failure_conditions:
+        - "Claim text overstates source quote"
+        - "Clinical advice detected"
+  eval_plan:
+    -
+      metric_id: "M-001"
+      name: "ARM module completeness"
+      pass_condition: "metadata/claims/evidence/protocol/runbook/eval_plan/provenance/limitations/artifacts all exist"
+      evaluation_method: "Schema validation with pydantic."
+    -
+      metric_id: "M-002"
+      name: "Traceable claims"
+      pass_condition: "At least 5 claims have non-empty evidence_ids and exact quotes."
+      evaluation_method: "Automated count plus manual spot-check."
+    -
+      metric_id: "M-003"
+      name: "Failure branch blocking"
+      pass_condition: "Incomplete input returns failure report and does not create success ARM."
+      evaluation_method: "Run tests/test_pipeline.py and inspect trace_record.failure_risks."
+    -
+      metric_id: "M-004"
+      name: "ECS tagging"
+      pass_condition: "metadata.ecs_related is true for ECS papers and ECS-related claims are tagged."
+      evaluation_method: "Keyword detection plus manual review."
+  provenance:
+    run_id: "run-f048f22df24e"
+    allowed_tools:
+      - "literature_extract"
+      - "reference_validator"
+    model:
+      provider: "DeepSeek"
+      model_name: "deepseek-v4-pro"
+      usage: "optional; deterministic local extractors are used for this reproducible demo"
+    source_files:
+      - "brain_ECS_review.txt"
+    reference_validation:
+      validated_references:
+        -
+          type: "doi"
+          value: "10.34133/cbsystems.0529"
+          locator: "char:47033"
+          valid_syntax: true
+          validation_scope: "syntax_only"
+          risk: null
+        -
+          type: "doi"
+          value: "10.1007/s11427-025-3174-0"
+          locator: "char:103556"
+          valid_syntax: true
+          validation_scope: "syntax_only"
+          risk: null
+      invalid_count: 0
+      checked_count: 2
+    model_infer_policy: "Any pipeline-generated protocol, runbook, eval, and limitation text is marked model_infer and is not treated as source evidence."
+  limitations:
+    -
+      limitation_id: "L-001"
+      text: "This ARM is for research literature structuring only and must not be used for clinical diagnosis, prognosis, prescription, or treatment decisions."
+      category: "medical_boundary"
+      ecs_related: false
+      provenance: "model_infer"
+      evidence_ids:
+        []
+    -
+      limitation_id: "L-002"
+      text: "Animal or preclinical findings in source papers cannot be directly transferred to humans without clinical validation."
+      category: "animal_to_human"
+      ecs_related: false
+      provenance: "model_infer"
+      evidence_ids:
+        []
+    -
+      limitation_id: "L-003"
+      text: "ECS-related conclusions require manual review because ECS structure, measurement modality, and disease context vary across studies."
+      category: "ecs_gap"
+      ecs_related: true
+      provenance: "model_infer"
+      evidence_ids:
+        []
+    -
+      limitation_id: "L-004"
+      text: "Data and code availability are not assumed unless explicitly detected in the source text."
+      category: "data_availability"
+      ecs_related: false
+      provenance: "model_infer"
+      evidence_ids:
+        []
+  artifacts:
+    -
+      artifact_id: "A-JSON"
+      type: "json_export"
+      path: "outputs\\arm-brain_ecs_review.json"
+      description: "Complete ARM package and replay trace in JSON."
+    -
+      artifact_id: "A-YAML"
+      type: "yaml_export"
+      path: "outputs\\arm-brain_ecs_review.yaml"
+      description: "Complete ARM package and replay trace in YAML."
+trace_record:
+  run_id: "run-f048f22df24e"
+  input:
+    paper_files:
+      - "brain_ECS_review.txt"
+    max_batch_size: 5
+    allowed_tools:
+      - "literature_extract"
+      - "reference_validator"
+    api_provider: "deepseek_openai_compatible"
+  tool_calls:
+    -
+      sequence: 2
+      tool_name: "literature_extract"
+      input:
+        source_file: "brain_ECS_review.txt"
+        max_claims: 12
+      output:
+        metadata:
+          title: "Brain Extracellular Space: From an Overlooked Dimension to Catalyst of a Novel Neuroscience Paradigm"
+          authors:
+            - "Hongbin Han"
+            - "Hui Dai"
+            - "Leonor Serrano Lopes"
+            - "Ruiqing Ni"
+            - "Benjamin F. Combes"
+            - "Yangjing Song"
+            - "Hanbo Tan"
+            - "Meng Xu"
+            - "Hongfeng Li"
+            - "Shuhong Lv"
+            - "Zhaohe Yang"
+            - "Tianzi Gao"
+            - "Mengyu Zhang"
+            - "Yang Shi"
+            - "Jingjing Shao"
+            - "Yanni Zhang"
+            - "Wanyi Fu"
+          doi: "10.34133/cbsystems.0529"
+          year: 2026
+          article_type: "review"
+          license: "CC BY 4.0"
+          source_file: "brain_ECS_review.txt"
+          ecs_related: true
+          ecs_keywords:
+            - "brain interstitial system"
+            - "ecm"
+            - "ecs"
+            - "extracellular matrix"
+            - "extracellular space"
+            - "glymphatic"
+            - "interstitial fluid"
+            - "isf"
+        candidate_claim_count: 12
+        references_count: 2
+        figures_tables_count: 1
+        quality_flags:
+          has_methods: false
+          has_results: false
+          has_figures_or_tables: true
+          has_references: true
+          paragraph_count: 148
+          ecs_hit_count: 8
+    -
+      sequence: 4
+      tool_name: "reference_validator"
+      input:
+        references:
+          -
+            type: "doi"
+            value: "10.34133/cbsystems.0529"
+            locator: "char:47033"
+          -
+            type: "doi"
+            value: "10.1007/s11427-025-3174-0"
+            locator: "char:103556"
+      output:
+        validated_references:
+          -
+            type: "doi"
+            value: "10.34133/cbsystems.0529"
+            locator: "char:47033"
+            valid_syntax: true
+            validation_scope: "syntax_only"
+            risk: null
+          -
+            type: "doi"
+            value: "10.1007/s11427-025-3174-0"
+            locator: "char:103556"
+            valid_syntax: true
+            validation_scope: "syntax_only"
+            risk: null
+        invalid_count: 0
+        checked_count: 2
+  events:
+    -
+      sequence: 1
+      stage: "input_receive_and_clean"
+      status: "started"
+      detail:
+        file_count: 1
+    -
+      sequence: 3
+      stage: "document_parse"
+      status: "completed"
+      detail:
+        papers_parsed: 1
+    -
+      sequence: 5
+      stage: "arm_packaging"
+      status: "completed"
+      detail:
+        modules:
+          - "metadata"
+          - "claims"
+          - "evidence"
+          - "protocol"
+          - "runbook"
+          - "eval_plan"
+          - "provenance"
+          - "limitations"
+          - "artifacts"
+  extraction_records:
+    -
+      source_file: "brain_ECS_review.txt"
+      candidate_claim_count: 12
+      quality_flags:
+        has_methods: false
+        has_results: false
+        has_figures_or_tables: true
+        has_references: true
+        paragraph_count: 148
+        ecs_hit_count: 8
+      ecs_related: true
+  validation_results:
+    multi_layer_compliance:
+      evidence_integrity: true
+      reference_syntax: true
+      hallucination_control: true
+      medical_boundary: true
+      input_completeness: true
+    arm_modules_present:
+      metadata: true
+      claims: true
+      evidence: true
+      protocol: true
+      runbook: true
+      eval_plan: true
+      provenance: true
+      limitations: true
+      artifacts: true
+  failure_risks:
+    []
