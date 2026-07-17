@@ -12,12 +12,28 @@ SECTION_HEADINGS = [
     "methods",
     "method",
     "materials and methods",
+    "materials",
+    "methodology",
+    "experimental procedures",
     "results",
+    "result",
+    "results and discussion",
     "discussion",
     "conclusion",
     "conclusions",
     "references",
+    "bibliography",
     "supplementary materials",
+    "supporting information",
+    "摘要",
+    "引言",
+    "前言",
+    "方法",
+    "材料与方法",
+    "结果",
+    "讨论",
+    "结论",
+    "参考文献",
 ]
 
 ECS_TERMS = [
@@ -29,6 +45,19 @@ ECS_TERMS = [
     "extracellular matrix",
     "ecm",
     "glymphatic",
+    "brain ecs",
+    "extracellular volume",
+    "tortuosity",
+    "interstitial space",
+    "脑细胞外间隙",
+    "细胞外间隙",
+    "脑组织液",
+    "组织液",
+    "脑间质",
+    "脑内新分区",
+    "引流途径",
+    "类淋巴",
+    "磁示踪",
     "脑细胞外间隙",
     "细胞外间隙",
     "脑组织液",
@@ -66,6 +95,8 @@ class LocatedParagraph:
 def normalize_text(text: str) -> str:
     text = text.replace("\ufeff", "")
     text = text.replace("\ufb00", "ff").replace("\ufb01", "fi").replace("\ufb02", "fl").replace("\ufb03", "ffi").replace("\ufb04", "ffl")
+    text = re.sub(r"/G[0-9A-Fa-f]{2}", " ", text)
+    text = re.sub(r"(?<=[\u4e00-\u9fff])\s+(?=[\u4e00-\u9fff])", "", text)
     text = re.sub(r"-\n(?=[a-z])", "", text)
     normalized_lines: list[str] = []
     for raw_line in text.splitlines():
@@ -83,28 +114,131 @@ def normalize_text(text: str) -> str:
 
 def read_paper_text(path: Path) -> str:
     if path.suffix.lower() == ".pdf":
-        try:
-            from pypdf import PdfReader
-        except ImportError as exc:
-            raise RuntimeError("PDF input requires pypdf. Install dependencies with: pip install -r requirements.txt") from exc
-        reader = PdfReader(str(path))
-        page_text: list[str] = []
-        for page_index, page in enumerate(reader.pages, start=1):
-            extracted = page.extract_text() or ""
-            if extracted.strip():
-                page_text.append(f"\n\n[page {page_index}]\n{extracted}")
-        if not page_text:
+        candidates: list[tuple[str, str]] = []
+        pypdf_text = _read_pdf_with_pypdf(path)
+        if pypdf_text:
+            candidates.append(("pypdf", pypdf_text))
+        pymupdf_text = _read_pdf_with_pymupdf(path)
+        if pymupdf_text:
+            candidates.append(("pymupdf", pymupdf_text))
+        pdfplumber_text = _read_pdf_with_pdfplumber(path)
+        if pdfplumber_text:
+            candidates.append(("pdfplumber", pdfplumber_text))
+        if not candidates:
             raise RuntimeError(f"No extractable text found in PDF: {path}")
-        return "\n".join(page_text)
+        return max(candidates, key=lambda item: _pdf_text_quality_score(item[1]))[1]
     return path.read_text(encoding="utf-8", errors="replace")
 
 
+def _read_pdf_with_pypdf(path: Path) -> str:
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        return ""
+    try:
+        reader = PdfReader(str(path))
+        page_text: list[str] = []
+        for page_index, page in enumerate(reader.pages, start=1):
+            try:
+                extracted = page.extract_text() or ""
+            except Exception:
+                extracted = ""
+            if extracted.strip():
+                page_text.append(f"\n\n[page {page_index}]\n{extracted}")
+        return "\n".join(page_text)
+    except Exception:
+        return ""
+
+
+def _read_pdf_with_pymupdf(path: Path) -> str:
+    try:
+        import fitz
+    except ImportError:
+        return ""
+    try:
+        doc = fitz.open(str(path))
+        page_text: list[str] = []
+        for page_index, page in enumerate(doc, start=1):
+            extracted = page.get_text("text") or ""
+            if extracted.strip():
+                page_text.append(f"\n\n[page {page_index}]\n{extracted}")
+        doc.close()
+        return "\n".join(page_text)
+    except Exception:
+        return ""
+
+
+def _read_pdf_with_pdfplumber(path: Path) -> str:
+    try:
+        import pdfplumber
+    except ImportError:
+        return ""
+    try:
+        page_text: list[str] = []
+        with pdfplumber.open(str(path)) as pdf:
+            for page_index, page in enumerate(pdf.pages, start=1):
+                try:
+                    extracted = page.extract_text(x_tolerance=1, y_tolerance=3) or ""
+                except Exception:
+                    extracted = ""
+                if extracted.strip():
+                    page_text.append(f"\n\n[page {page_index}]\n{extracted}")
+        return "\n".join(page_text)
+    except Exception:
+        return ""
+
+
+def _pdf_text_quality_score(text: str) -> float:
+    if not text:
+        return 0.0
+    normalized = normalize_text(text)
+    ascii_words = len(re.findall(r"\b[A-Za-z]{3,}\b", normalized))
+    cjk_chars = len(re.findall(r"[\u4e00-\u9fff]", normalized))
+    compact_penalty = len(re.findall(r"[a-z]{12,}[A-Z][a-z]", normalized)) * 200
+    glyph_penalty = len(re.findall(r"/G[0-9A-Fa-f]{2}", text)) * 50
+    replacement_penalty = text.count("\ufffd") * 100
+    return len(normalized) + ascii_words * 6 + cjk_chars * 4 - compact_penalty - glyph_penalty - replacement_penalty
+
+
 def _looks_like_heading(line: str) -> str | None:
-    cleaned = re.sub(r"^\d+(\.\d+)*\s+", "", line.strip()).strip(":").lower()
+    cleaned_original = re.sub(r"^\s*(?:\d+(\.\d+)*|[一二三四五六七八九十]+)\s*(?:[\.、|]\s*)?", "", line.strip()).strip(" :：")
+    cleaned = cleaned_original.lower()
+    if re.match(r"^(abstract|introduction|methods?|materials|results?|discussion|conclusions?|references|supporting information)$", cleaned):
+        if cleaned in {"method", "methods", "materials"}:
+            return "methods"
+        if cleaned in {"result", "results"}:
+            return "results"
+        if cleaned in {"conclusion", "conclusions"}:
+            return "conclusion"
+        return cleaned
+    if re.match(r"^(results|result)(\s+and\s+discussion)?$", cleaned):
+        return "results"
+    if re.match(r"^(experimental section|experimental procedures|materials|materials and methods|methods?|methodology)$", cleaned):
+        return "methods"
+    if re.match(r"^(discussion|conclusions?)$", cleaned):
+        return "conclusion" if cleaned.startswith("conclusion") else "discussion"
+    if cleaned_original in {"摘要", "引言", "前言", "方法", "材料与方法", "结果", "讨论", "结论", "参考文献"}:
+        return {
+            "摘要": "abstract",
+            "引言": "introduction",
+            "前言": "introduction",
+            "方法": "methods",
+            "材料与方法": "methods",
+            "结果": "results",
+            "讨论": "discussion",
+            "结论": "conclusion",
+            "参考文献": "references",
+        }[cleaned_original]
     if cleaned.startswith("conclusion"):
         return "conclusion"
     if cleaned in SECTION_HEADINGS:
-        return "methods" if cleaned in {"method", "materials and methods"} else cleaned
+        if cleaned in {"method", "materials", "materials and methods", "methodology", "experimental procedures"}:
+            return "methods"
+        if cleaned in {"result", "results and discussion"}:
+            return "results"
+        if cleaned == "bibliography":
+            return "references"
+        return cleaned
     return None
 
 
@@ -135,7 +269,33 @@ def _paragraphs(lines: list[str]) -> list[str]:
     joined = "\n".join(lines)
     joined = _repair_compact_pdf_text(joined)
     parts = [re.sub(r"\s+", " ", p).strip() for p in re.split(r"\n\s*\n", joined)]
+    expanded: list[str] = []
+    for part in parts:
+        if _contains_cjk(part) and len(part) > 900:
+            expanded.extend(_chunk_cjk_paragraph(part))
+        else:
+            expanded.append(part)
+    parts = expanded
     return [p for p in parts if len(p) >= 40]
+
+
+def _contains_cjk(text: str) -> bool:
+    return bool(re.search(r"[\u4e00-\u9fff]", text))
+
+
+def _chunk_cjk_paragraph(text: str, max_chars: int = 650) -> list[str]:
+    sentences = [item.strip() for item in re.split(r"(?<=[。！？.!?])\s*", text) if item.strip()]
+    chunks: list[str] = []
+    current = ""
+    for sentence in sentences:
+        if current and len(current) + len(sentence) > max_chars:
+            chunks.append(current.strip())
+            current = sentence
+        else:
+            current = f"{current} {sentence}".strip()
+    if current:
+        chunks.append(current.strip())
+    return chunks or [text]
 
 
 def _extract_title_and_authors(front_matter: list[str]) -> tuple[str | None, list[str]]:
@@ -225,7 +385,7 @@ def _reference_context(text: str, position: int) -> str:
 
 
 def _references_tail(text: str) -> str:
-    matches = list(re.finditer(r"(?im)^\s*(references|参考文献)\s*$", text))
+    matches = list(re.finditer(r"(?im)^\s*(references|bibliography|参考文献)\s*$", text))
     if not matches:
         return ""
     return text[matches[-1].end() :]
@@ -251,7 +411,7 @@ def _guess_reference_title(reference_text: str) -> str | None:
 def _extract_figures_and_tables(text: str) -> list[dict[str, Any]]:
     items: list[dict[str, Any]] = []
     marker = r"(?:Fig\.?\s*[\u00a0 ]*\d+[A-Za-z]?|Figure\s*\d+[A-Za-z]?|Table\s*\d+[A-Za-z]?|图\s*\d+|表\s*\d+)"
-    pattern = re.compile(rf"\b({marker})[.)．、:\s]*\s*(.{{40,900}}?)(?=\n\s*(?:{marker})| references|\Z)", re.I | re.S)
+    pattern = re.compile(rf"\b({marker})[.)。．、:\s]*\s*(.{{40,900}}?)(?=\n\s*(?:{marker})| references| 参考文献|\Z)", re.I | re.S)
     for idx, match in enumerate(pattern.finditer(text), start=1):
         caption = re.sub(r"\s+", " ", match.group(2)).strip()
         items.append(
@@ -283,17 +443,41 @@ def _extract_figures_and_tables(text: str) -> list[dict[str, Any]]:
 def _extract_candidate_claims(paragraphs: list[LocatedParagraph]) -> list[dict[str, Any]]:
     claim_markers = [
         "demonstrated",
+        "demonstrate",
         "indicates",
+        "indicate",
         "reveal",
         "reveals",
         "show",
         "shows",
+        "showed",
         "suggest",
         "suggests",
+        "suggested",
         "constitutes",
         "is defined as",
         "is primarily",
         "accounts for",
+        "associated with",
+        "important",
+        "critical",
+        "plays",
+        "involved",
+        "regulates",
+        "clearance",
+        "diffusion",
+        "diffusivity",
+        "heterogeneous",
+        "elevated",
+        "extracellular",
+        "glymphatic",
+        "interstitial",
+        "amyloid",
+        "matrix",
+        "required for",
+        "confirms",
+        "unveils",
+        "provides",
         "we propose",
         "we recommend",
         "emphasizes",
@@ -311,12 +495,30 @@ def _extract_candidate_claims(paragraphs: list[LocatedParagraph]) -> list[dict[s
         "定义",
         "影响",
         "相关",
+        "首次实现",
+        "解决了",
+        "建立",
+        "证实",
+        "发挥",
+        "综述",
+        "表明",
+        "显示",
+        "发现",
+        "提示",
+        "证明",
+        "揭示",
+        "提出",
+        "认为",
+        "构成",
+        "定义",
+        "影响",
+        "相关",
     ]
     claims: list[dict[str, Any]] = []
     for para in paragraphs:
-        if para.section == "front_matter" and "despite huge investment" not in para.text.lower():
+        if para.section == "front_matter" and not _front_matter_contains_claim_signal(para.text):
             continue
-        sentences = re.split(r"(?<=[.!?])\s+", para.text)
+        sentences = re.split(r"(?<=[.!?。！？])\s+", para.text)
         for sentence in sentences:
             clean = sentence.strip()
             if len(clean) < 30 or len(clean) > 420:
@@ -349,6 +551,30 @@ def _extract_candidate_claims(paragraphs: list[LocatedParagraph]) -> list[dict[s
     return claims
 
 
+def _front_matter_contains_claim_signal(text: str) -> bool:
+    low = text.lower()
+    if any(skip in low for skip in ["citation:", "copyright", "received:", "accepted:", "published", "address correspondence"]):
+        return False
+    return any(term.lower() in low for term in ECS_TERMS) or any(
+        marker in low
+        for marker in [
+            "demonstrated",
+            "reveals",
+            "shows",
+            "suggests",
+            "confirms",
+            "unveils",
+            "provides",
+            "propose",
+            "发现",
+            "证明",
+            "提出",
+            "显示",
+            "综述",
+        ]
+    )
+
+
 def _claim_category(section: str, sentence: str) -> str:
     low = sentence.lower()
     if section in {"results", "methods"} or any(token in low for token in ["demonstrated", "showed", "shows", "observed", "measured", "associated with", "significant"]):
@@ -363,6 +589,15 @@ def _source_location(section: str, paragraph_index: int, sentence: str) -> str:
     figure_match = re.search(marker, sentence, re.I)
     figure_part = f" {figure_match.group(1)}" if figure_match else ""
     return f"{section} paragraph {paragraph_index}{figure_part}"
+
+
+def _classify_article_type(text: str) -> str:
+    head = text[:6000]
+    if re.search(r"\b(review article|review)\b|综述|回顾|工作综述", head, re.I):
+        return "review"
+    if re.search(r"\b(research article|original article)\b", head, re.I):
+        return "research"
+    return "research"
 
 
 def _looks_like_column_noise(sentence: str) -> bool:
@@ -392,7 +627,7 @@ def literature_extract(source_file: str, max_claims: int = 12) -> dict[str, Any]
     title, authors = _extract_title_and_authors(sections.get("front_matter", []))
     doi_match = re.search(r"(?:doi:|https://doi\.org/)(10\.\d{4,9}/[-._;()/:A-Za-z0-9]+)", text, re.I)
     year_match = re.search(r"\b(20[0-3]\d|19[7-9]\d)\b", text)
-    article_type = "review" if re.search(r"\b(review article|review|综述)\b", text, re.I) else "research"
+    article_type = _classify_article_type(text)
     license_match = re.search(r"(Creative Commons[^.\n]+|CC BY ?[0-9.]+)", text, re.I)
 
     located: list[LocatedParagraph] = []

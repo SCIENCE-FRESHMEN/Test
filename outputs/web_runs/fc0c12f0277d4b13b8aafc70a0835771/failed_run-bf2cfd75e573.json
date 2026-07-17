@@ -1,0 +1,322 @@
+{
+  "full_arm": {
+    "metadata": {
+      "arm_id": "failed-run-bf2cfd75e573",
+      "title": null,
+      "authors": [],
+      "doi": null,
+      "pmid": null,
+      "year": null,
+      "publication_date": null,
+      "journal": null,
+      "article_type": null,
+      "license": null,
+      "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\fc0c12f0277d4b13b8aafc70a0835771\\25789430-2026-micropub.biology.001970.pdf",
+      "ecs_related": false,
+      "ecs_keywords": [],
+      "processing_status": "failed"
+    },
+    "claims": [],
+    "evidence": [],
+    "protocol": [],
+    "runbook": [],
+    "eval_plan": [],
+    "provenance": {
+      "run_id": "run-bf2cfd75e573",
+      "blocked_reason": "validation_failed",
+      "model_infer_policy": "No scientific ARM was generated because validation failed."
+    },
+    "limitations": [
+      {
+        "limitation_id": "FAIL-L-001",
+        "text": "Input failed completeness/provenance checks; generating a scientific ARM would risk unsupported claims.",
+        "category": "input_quality",
+        "ecs_related": false,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      }
+    ],
+    "artifacts": [
+      {
+        "artifact_id": "FAIL-JSON",
+        "type": "failure_report_json",
+        "path": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\web_runs\\fc0c12f0277d4b13b8aafc70a0835771\\failed_run-bf2cfd75e573.json",
+        "description": "Blocked failure report with replay trace."
+      }
+    ],
+    "failure_report": {
+      "status": "blocked",
+      "reason": "validation_failed",
+      "missing_or_risky_items": [
+        {
+          "code": "ecs_information_missing",
+          "message": "No ECS-related keywords or concepts were detected.",
+          "severity": "high",
+          "detail": {}
+        },
+        {
+          "code": "missing_results",
+          "message": "Research article appears to lack a results section.",
+          "severity": "high",
+          "detail": {
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\fc0c12f0277d4b13b8aafc70a0835771\\25789430-2026-micropub.biology.001970.pdf"
+          }
+        }
+      ],
+      "no_success_arm_generated": true
+    }
+  },
+  "trace_record": {
+    "run_id": "run-bf2cfd75e573",
+    "input": {
+      "paper_files": [
+        "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\fc0c12f0277d4b13b8aafc70a0835771\\25789430-2026-micropub.biology.001970.pdf"
+      ],
+      "max_batch_size": 5,
+      "allowed_tools": [
+        "literature_extract",
+        "reference_validator"
+      ],
+      "p0_plugin_tools": [
+        "figure_extract",
+        "conflict_detector",
+        "arm_validator",
+        "dry_run",
+        "evaluator"
+      ],
+      "api_provider": "deepseek_openai_compatible",
+      "rate_limit": {
+        "request_interval_seconds": 1.2,
+        "max_concurrency": 1,
+        "retry_attempts": 3,
+        "retry_backoff_seconds": 2.0,
+        "timeout_seconds": 60
+      }
+    },
+    "tool_calls": [
+      {
+        "sequence": 2,
+        "tool_name": "literature_extract",
+        "input": {
+          "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\fc0c12f0277d4b13b8aafc70a0835771\\25789430-2026-micropub.biology.001970.pdf",
+          "max_claims": 12
+        },
+        "output": {
+          "metadata": {
+            "title": "MEP glia share molecular features with oligodendrocytes while maintaining a distinct hybrid signature",
+            "authors": [
+              "Tessa C Dallo",
+              "Laura Fontenas§"
+            ],
+            "doi": null,
+            "year": 2026,
+            "article_type": "research",
+            "license": "CC BY 4.0",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\fc0c12f0277d4b13b8aafc70a0835771\\25789430-2026-micropub.biology.001970.pdf",
+            "ecs_related": false,
+            "ecs_keywords": []
+          },
+          "extractor_prompt": "Paper细粒度结论&证据抽取子Agent:\n只摘抄原文，禁止自主推导、扩写、脑补数据。每条claim必须包含\nclaim_id/raw_text/claim_category/source_location/support_evidence_snippet/\nconflict_evidence_snippet/source_attribution/ecs_related/evidence_incomplete。\nraw_text和support_evidence_snippet必须来自论文原文，不概括、不润色。\n无原文直接支撑的猜想、推论丢弃；单篇少于5条有效claim时交由trace标记缺口。",
+          "candidate_claim_count": 11,
+          "references_count": 2,
+          "figures_tables_count": 5,
+          "quality_flags": {
+            "has_methods": true,
+            "has_results": false,
+            "has_figures_or_tables": true,
+            "has_references": true,
+            "paragraph_count": 11,
+            "ecs_hit_count": 0
+          }
+        }
+      },
+      {
+        "sequence": 5,
+        "tool_name": "reference_validator",
+        "input": {
+          "references": [
+            {
+              "reference_text": "Almeida RG, Czopka T, ffrench-Constant C, Lyons DA. 2011. Individual axons regulate the myelinating potential of single oligodendrocytes in vivo. Development 138: 4443-4450. DOI: 10.1242/dev.071001 Asakawa K, Suster ML, Mizusawa K, Nagayoshi S, Kotani T, Urasaki A, et al., Kawakami. 2008. Genetic dissection of neural circuits by Tol2 transposon-mediated Gal4 gene and enhancer trapping in zebrafish. Proceedings of the National Academy of Sciences 105: 1255-1260. DOI: 10.1073/pnas.0704963105 Britsch S, Goerich DE, Riethmacher D, Peirano RI, Rossner M, Nave KA, Birchmeier C, Wegner M. 2001. The transcription factor Sox10 is a key regulator of peripheral glial development. Genes & Development 15: 66-78. DOI: 10.1101/gad.186601 Brösamle C, Halpern ME. 2002. Characterization of myelination in the developing zebrafish. Glia 39: 47-57. DOI: 10.1002/glia.10088 Dai J, Bercury KK, Ahrendsen JT, Macklin WB. 2015. Olig1 Function Is Required for Oligodendrocyte Differentiation in the Mouse Brain. The Journal of Neuroscience 35: 4386-4402. DOI: 10.1523/JNEUROSCI.4962-14.2015 Dutton KA, Pauliny A, Lopes SS, Elworthy S, Carney TJ, Rauch Jr, et al., Kelsh.",
+              "doi": null,
+              "pmid": null,
+              "title": "Individual axons regulate the myelinating potential of single oligodendrocytes in vivo",
+              "locator": "references entry 1"
+            },
+            {
+              "reference_text": "2001. Zebrafishcolourlessencodessox10and specifies non-ectomesenchymal neural crest fates. Development 128: 4113-4125. DOI: 10.1242/dev.128.21.4113 Emery B, Lu QR. 2015. Transcriptional and Epigenetic Regulation of Oligodendrocyte Development and Myelination in the Central Nervous System. Cold Spring Harbor Perspectives in Biology 7: a020461. DOI: 10.1101/cshperspect.a020461 Fontenas L. 2023. Glial plasticity at nervous system transition zones. Biology Open 12: 10.1242/bio.060037. DOI: 10.1242/bio.060037 Fontenas L, Kucenas S. 2018. Motor Exit Point (MEP) Glia: Novel Myelinating Glia That Bridge CNS and PNS Myelin. Frontiers in Cellular Neuroscience 12: 10.3389/fncel.2018.00333. DOI: 10.3389/fncel.2018.00333 Fontenas L, Kucenas S. 2021. Spinal cord precursors utilize neural crest cell mechanisms to generate hybrid peripheral myelinating glia. eLife 10: 10.7554/elife.64267. DOI: 10.7554/eLife.64267 Gilmour DT, Maischein HM, Nüsslein-Volhard C. 2002. Migration and Function of a Glial Subtype in the Vertebrate Peripheral Nervous System. Neuron 34: 577-588. DOI: 10.1016/S0896-6273(02)00683-9 Hochgreb-Hägele T, Bronner ME. 2013. A novel FoxD3 gene trap line reveals neural crest precursor movement and a role for FoxD3 in their specification. Developmental Biology 374: 1-11. DOI: 10.1016/j.ydbio.2012.11.035 Jessen KR, Mirsky R. 1999. Schwann cells and their precursors emerge as major regulators of nerve development. Trends in Neurosciences 22: 402-410. DOI: 10.1016/S0166-2236(98)01391-5 1/21/2026 - Open Access [page 6] Li H, Lu Y, Smith HK, Richardson WD. 2007. Olig1 and Sox10 Interact Synergistically to DriveMyelin Basic ProteinTranscription in Oligodendrocytes. The Journal of Neuroscience 27: 14375-14382. DOI: 10.1523/JNEUROSCI.4456-07.2007 Lyons DA, Pogoda HM, Voas MG, Woods IG, Diamond B, Nix R, et al., Talbot. 2005. erbb3 and erbb2 Are Essential for Schwann Cell Migration and Myelination in Zebrafish. Current Biology 15: 513-524. DOI: 10.1016/j.cub.2005.02.030 Scott K, O'Rourke R, Winkler CC, Kearns CA, Appel B. 2021. Temporal single-cell transcriptomes of zebrafish spinal cord pMN progenitors reveal distinct neuronal and glial progenitor populations. Developmental Biology 479: 37-50. DOI: 10.1016/j.ydbio.2021.07.010 Shin J, Park HC, Topczewska JM, Mawdsley DJ, Appel B. 2003. Neural cell fate analysis in zebrafish using olig2 BAC transgenics. Methods in Cell Science 25: 7-14. DOI: 10.1023/B:MICS.0000006847.09037.3a Smith CJ, Morris AD, Welsh TG, Kucenas S. 2014. Contact-Mediated Inhibition Between Oligodendrocyte Progenitor Cells and Motor Exit Point Glia Establishes the Spinal Cord Transition Zone. PLoS Biology 12: e1001961. DOI: 10.1371/journal.pbio.1001961 Stolt CC, Rehberg S, Ader M, Lommes P, Riethmacher D, Schachner M, Bartsch U, Wegner M. 2002. Terminal differentiation of myelin-forming oligodendrocytes depends on the transcription factor Sox10. Genes & Development 16: 165-170. DOI: 10.1101/gad.215802 Funding: We would like to thank the Jupiter Life Science Initiative for their continuous support. Conflicts of Interest: The authors declare that there are no conflicts of interest present. Author Contributions: Tessa C Dallo: data curation, formal analysis, investigation, methodology, software, writing original draft. Laura Fontenas: conceptualization, methodology, project administration, resources, supervision, writing review editing. Reviewed By: Anonymous Nomenclature Validated By: Anonymous History: Received December 2, 2025 Revision Received January 3, 2026 Accepted January 12, 2026 Published Online January 21, 2026 Indexed February 4, 2026 Copyright: © 2026 by the authors. This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International (CC BY 4.0) License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. Citation: Dallo TC, Fontenas L. 2026. MEP glia share molecular features with oligodendrocytes while maintaining a distinct hybrid signature. microPublication Biology. 10.17912/micropub.biology.001970 1/21/2026 - Open Access",
+              "doi": null,
+              "pmid": null,
+              "title": "Zebrafishcolourlessencodessox10and specifies non-ectomesenchymal neural crest fates",
+              "locator": "references entry 2"
+            }
+          ]
+        },
+        "output": {
+          "validator_prompt": "参考文献合法性校验工具:\n输入论文内全部引用文本、DOI、PMID、文献标题。逐项校验标识符、信息完整性、\n领域匹配、重复/冲突。输出固定状态reference_valid或reference_invalid；\n所有记录写入trace，供答辩展示引用校验流程。",
+          "status": "reference_invalid",
+          "validated_references": [
+            {
+              "reference_text": "Almeida RG, Czopka T, ffrench-Constant C, Lyons DA. 2011. Individual axons regulate the myelinating potential of single oligodendrocytes in vivo. Development 138: 4443-4450. DOI: 10.1242/dev.071001 Asakawa K, Suster ML, Mizusawa K, Nagayoshi S, Kotani T, Urasaki A, et al., Kawakami. 2008. Genetic dissection of neural circuits by Tol2 transposon-mediated Gal4 gene and enhancer trapping in zebrafish. Proceedings of the National Academy of Sciences 105: 1255-1260. DOI: 10.1073/pnas.0704963105 Britsch S, Goerich DE, Riethmacher D, Peirano RI, Rossner M, Nave KA, Birchmeier C, Wegner M. 2001. The transcription factor Sox10 is a key regulator of peripheral glial development. Genes & Development 15: 66-78. DOI: 10.1101/gad.186601 Brösamle C, Halpern ME. 2002. Characterization of myelination in the developing zebrafish. Glia 39: 47-57. DOI: 10.1002/glia.10088 Dai J, Bercury KK, Ahrendsen JT, Macklin WB. 2015. Olig1 Function Is Required for Oligodendrocyte Differentiation in the Mouse Brain. The Journal of Neuroscience 35: 4386-4402. DOI: 10.1523/JNEUROSCI.4962-14.2015 Dutton KA, Pauliny A, Lopes SS, Elworthy S, Carney TJ, Rauch Jr, et al., Kelsh.",
+              "doi": null,
+              "pmid": null,
+              "title": "Individual axons regulate the myelinating potential of single oligodendrocytes in vivo",
+              "locator": "references entry 1",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": true,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": true
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "individual axons regulate the myelinating potential of single oligodendrocytes in vivo",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid"
+              ]
+            },
+            {
+              "reference_text": "2001. Zebrafishcolourlessencodessox10and specifies non-ectomesenchymal neural crest fates. Development 128: 4113-4125. DOI: 10.1242/dev.128.21.4113 Emery B, Lu QR. 2015. Transcriptional and Epigenetic Regulation of Oligodendrocyte Development and Myelination in the Central Nervous System. Cold Spring Harbor Perspectives in Biology 7: a020461. DOI: 10.1101/cshperspect.a020461 Fontenas L. 2023. Glial plasticity at nervous system transition zones. Biology Open 12: 10.1242/bio.060037. DOI: 10.1242/bio.060037 Fontenas L, Kucenas S. 2018. Motor Exit Point (MEP) Glia: Novel Myelinating Glia That Bridge CNS and PNS Myelin. Frontiers in Cellular Neuroscience 12: 10.3389/fncel.2018.00333. DOI: 10.3389/fncel.2018.00333 Fontenas L, Kucenas S. 2021. Spinal cord precursors utilize neural crest cell mechanisms to generate hybrid peripheral myelinating glia. eLife 10: 10.7554/elife.64267. DOI: 10.7554/eLife.64267 Gilmour DT, Maischein HM, Nüsslein-Volhard C. 2002. Migration and Function of a Glial Subtype in the Vertebrate Peripheral Nervous System. Neuron 34: 577-588. DOI: 10.1016/S0896-6273(02)00683-9 Hochgreb-Hägele T, Bronner ME. 2013. A novel FoxD3 gene trap line reveals neural crest precursor movement and a role for FoxD3 in their specification. Developmental Biology 374: 1-11. DOI: 10.1016/j.ydbio.2012.11.035 Jessen KR, Mirsky R. 1999. Schwann cells and their precursors emerge as major regulators of nerve development. Trends in Neurosciences 22: 402-410. DOI: 10.1016/S0166-2236(98)01391-5 1/21/2026 - Open Access [page 6] Li H, Lu Y, Smith HK, Richardson WD. 2007. Olig1 and Sox10 Interact Synergistically to DriveMyelin Basic ProteinTranscription in Oligodendrocytes. The Journal of Neuroscience 27: 14375-14382. DOI: 10.1523/JNEUROSCI.4456-07.2007 Lyons DA, Pogoda HM, Voas MG, Woods IG, Diamond B, Nix R, et al., Talbot. 2005. erbb3 and erbb2 Are Essential for Schwann Cell Migration and Myelination in Zebrafish. Current Biology 15: 513-524. DOI: 10.1016/j.cub.2005.02.030 Scott K, O'Rourke R, Winkler CC, Kearns CA, Appel B. 2021. Temporal single-cell transcriptomes of zebrafish spinal cord pMN progenitors reveal distinct neuronal and glial progenitor populations. Developmental Biology 479: 37-50. DOI: 10.1016/j.ydbio.2021.07.010 Shin J, Park HC, Topczewska JM, Mawdsley DJ, Appel B. 2003. Neural cell fate analysis in zebrafish using olig2 BAC transgenics. Methods in Cell Science 25: 7-14. DOI: 10.1023/B:MICS.0000006847.09037.3a Smith CJ, Morris AD, Welsh TG, Kucenas S. 2014. Contact-Mediated Inhibition Between Oligodendrocyte Progenitor Cells and Motor Exit Point Glia Establishes the Spinal Cord Transition Zone. PLoS Biology 12: e1001961. DOI: 10.1371/journal.pbio.1001961 Stolt CC, Rehberg S, Ader M, Lommes P, Riethmacher D, Schachner M, Bartsch U, Wegner M. 2002. Terminal differentiation of myelin-forming oligodendrocytes depends on the transcription factor Sox10. Genes & Development 16: 165-170. DOI: 10.1101/gad.215802 Funding: We would like to thank the Jupiter Life Science Initiative for their continuous support. Conflicts of Interest: The authors declare that there are no conflicts of interest present. Author Contributions: Tessa C Dallo: data curation, formal analysis, investigation, methodology, software, writing original draft. Laura Fontenas: conceptualization, methodology, project administration, resources, supervision, writing review editing. Reviewed By: Anonymous Nomenclature Validated By: Anonymous History: Received December 2, 2025 Revision Received January 3, 2026 Accepted January 12, 2026 Published Online January 21, 2026 Indexed February 4, 2026 Copyright: © 2026 by the authors. This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International (CC BY 4.0) License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. Citation: Dallo TC, Fontenas L. 2026. MEP glia share molecular features with oligodendrocytes while maintaining a distinct hybrid signature. microPublication Biology. 10.17912/micropub.biology.001970 1/21/2026 - Open Access",
+              "doi": null,
+              "pmid": null,
+              "title": "Zebrafishcolourlessencodessox10and specifies non-ectomesenchymal neural crest fates",
+              "locator": "references entry 2",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": true,
+                "has_journal": true,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": true
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "zebrafishcolourlessencodessox10and specifies non-ectomesenchymal neural crest fates",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid"
+              ]
+            }
+          ],
+          "reference_valid_count": 0,
+          "reference_invalid_count": 2,
+          "invalid_count": 2,
+          "checked_count": 2,
+          "summary": {
+            "identifier_invalid": 2,
+            "information_incomplete": 0,
+            "domain_mismatch_or_unclear": 0,
+            "duplicate_or_conflict": 0
+          }
+        }
+      }
+    ],
+    "events": [
+      {
+        "sequence": 1,
+        "stage": "input_receive_and_clean",
+        "status": "started",
+        "detail": {
+          "file_count": 1
+        }
+      },
+      {
+        "sequence": 3,
+        "stage": "figure_extract",
+        "status": "completed",
+        "detail": {
+          "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\fc0c12f0277d4b13b8aafc70a0835771\\25789430-2026-micropub.biology.001970.pdf",
+          "status": "figure_extract_success",
+          "figures": 1
+        }
+      },
+      {
+        "sequence": 4,
+        "stage": "document_parse",
+        "status": "completed",
+        "detail": {
+          "papers_parsed": 1
+        }
+      },
+      {
+        "sequence": 6,
+        "stage": "branch_decision",
+        "status": "blocked",
+        "detail": {
+          "reason": "validation_failed",
+          "risk_count": 2
+        }
+      },
+      {
+        "sequence": 7,
+        "stage": "failure_report_export",
+        "status": "completed",
+        "detail": {
+          "path": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\web_runs\\fc0c12f0277d4b13b8aafc70a0835771\\failed_run-bf2cfd75e573.json"
+        }
+      }
+    ],
+    "extraction_records": [
+      {
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\fc0c12f0277d4b13b8aafc70a0835771\\25789430-2026-micropub.biology.001970.pdf",
+        "candidate_claim_count": 11,
+        "quality_flags": {
+          "has_methods": true,
+          "has_results": false,
+          "has_figures_or_tables": true,
+          "has_references": true,
+          "paragraph_count": 11,
+          "ecs_hit_count": 0
+        },
+        "ecs_related": false
+      }
+    ],
+    "validation_results": {
+      "multi_layer_compliance": {
+        "evidence_integrity": true,
+        "reference_status": "reference_invalid",
+        "reference_summary": {
+          "identifier_invalid": 2,
+          "information_incomplete": 0,
+          "domain_mismatch_or_unclear": 0,
+          "duplicate_or_conflict": 0
+        },
+        "hallucination_control": true,
+        "medical_boundary": true,
+        "input_completeness": false
+      }
+    },
+    "failure_risks": [
+      {
+        "code": "ecs_information_missing",
+        "message": "No ECS-related keywords or concepts were detected.",
+        "severity": "high",
+        "detail": {}
+      },
+      {
+        "code": "missing_results",
+        "message": "Research article appears to lack a results section.",
+        "severity": "high",
+        "detail": {
+          "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\fc0c12f0277d4b13b8aafc70a0835771\\25789430-2026-micropub.biology.001970.pdf"
+        }
+      }
+    ]
+  }
+}

@@ -103,3 +103,58 @@ The built-in claim extractor follows a strict quote-only policy. Each extracted 
 The reference validator records identifier, completeness, domain-fit, and duplicate/conflict checks for each extracted reference. References without DOI/PMID are marked `reference_requires_review`, and the aggregate status becomes `reference_invalid`; this is preserved in `provenance.reference_validation` and trace rather than silently discarded.
 
 Medical boundary: outputs are research-structuring artifacts only. They do not provide diagnosis, prognosis, prescriptions, or treatment recommendations. Limitations always include animal-to-human and clinical-use warnings.
+
+## Incremental Advanced Extensions
+
+The stable Paper-to-ARM pipeline remains unchanged. Additional optional modules are available for architecture-depth demos:
+
+- Local brain-science RAG: `arm_agent/rag/local_vector_store.py`
+- Local fallback LLM: `arm_agent/local_llm/fallback.py`
+- C-track knowledge graph export: `arm_agent/kg_export/c_track_export.py`
+- Optional LangGraph-style checkpoint orchestration: `arm_agent/langgraph_orchestrator/`
+- PDF parser plugins: `tools/pdf_parser_tools/`
+- Quantitative evaluation engine: `arm_agent/evaluation_engine/`
+- Security audit layer: `arm_agent/security_audit/`
+- Multi-literature fusion: `tools/multi_literature_fusion/`
+
+Example usage:
+
+```powershell
+python -m pytest tests --basetemp=C:\tmp\pytest_tmp -q
+python scripts\full_score_demo.py
+```
+
+Optional Web panels:
+
+```text
+http://127.0.0.1:8000/static/demo_mode.html
+http://127.0.0.1:8000/static/audit_panel.html
+```
+
+These modules are intentionally plugin-style. They do not replace `main.py`, `web_app.py`, `arm_agent/tools.py`, or the ARM nine-module schema.
+
+## Figure Evidence Image Preview Update
+
+The main Web workbench keeps the original upload, ARM generation, review gate, claims, dry-run, reference validation, trace replay and JSON views. The old "提交材料" tab has been removed from the top navigation only; backend document endpoints remain available.
+
+New optional figure evidence features:
+
+- PDF embedded figure image extraction endpoint: `/api/jobs/{job_id}/figure-images`
+- Figure Evidence tab renders extracted images above existing captions when PyMuPDF can read embedded PDF images.
+- TXT or image extraction failure falls back to friendly messages and keeps caption text visible.
+- Left paper list supports search and single-paper filtering for multi-paper jobs.
+- Export buttons next to JSON download:
+  - `/api/jobs/{job_id}/export/evidence-summary.csv`
+  - `/api/jobs/{job_id}/export/figure-summary.pdf`
+
+Install/update dependency:
+
+```powershell
+pip install -r requirements.txt
+```
+
+Validation:
+
+```powershell
+python -m pytest tests --basetemp=C:\tmp\pytest_tmp -q
+```

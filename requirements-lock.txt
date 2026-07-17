@@ -4,6 +4,7 @@ openai==2.9.0
 pypdf==6.4.0
 PyPDF2==3.0.1
 pdfplumber==0.11.7
+PyMuPDF==1.26.7
 fastapi==0.125.0
 uvicorn==0.38.0
 python-multipart==0.0.20

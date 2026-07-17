@@ -1,0 +1,130 @@
+{
+  "full_arm": {
+    "metadata": {
+      "arm_id": "failed-run-c7e4022d5660",
+      "title": null,
+      "authors": [],
+      "doi": null,
+      "pmid": null,
+      "year": null,
+      "publication_date": null,
+      "journal": null,
+      "article_type": null,
+      "license": null,
+      "source_file": "brain_ECS_review.txt",
+      "ecs_related": false,
+      "ecs_keywords": [],
+      "processing_status": "failed"
+    },
+    "claims": [],
+    "evidence": [],
+    "protocol": [],
+    "runbook": [],
+    "eval_plan": [],
+    "provenance": {
+      "run_id": "run-c7e4022d5660",
+      "blocked_reason": "literature_extract_failed",
+      "model_infer_policy": "No scientific ARM was generated because validation failed."
+    },
+    "limitations": [
+      {
+        "limitation_id": "FAIL-L-001",
+        "text": "Input failed completeness/provenance checks; generating a scientific ARM would risk unsupported claims.",
+        "category": "input_quality",
+        "ecs_related": false,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      }
+    ],
+    "artifacts": [
+      {
+        "artifact_id": "FAIL-JSON",
+        "type": "failure_report_json",
+        "path": "outputs\\test\\failed_run-c7e4022d5660.json",
+        "description": "Blocked failure report with replay trace."
+      }
+    ],
+    "failure_report": {
+      "status": "blocked",
+      "reason": "literature_extract_failed",
+      "missing_or_risky_items": [
+        {
+          "code": "literature_extract_failed",
+          "message": "Could not parse brain_ECS_review.txt: [Errno 2] No such file or directory: 'brain_ECS_review.txt'",
+          "severity": "high",
+          "detail": {}
+        }
+      ],
+      "no_success_arm_generated": true
+    }
+  },
+  "trace_record": {
+    "run_id": "run-c7e4022d5660",
+    "input": {
+      "paper_files": [
+        "brain_ECS_review.txt"
+      ],
+      "max_batch_size": 5,
+      "allowed_tools": [
+        "literature_extract",
+        "reference_validator"
+      ],
+      "p0_plugin_tools": [
+        "figure_extract",
+        "conflict_detector",
+        "arm_validator",
+        "dry_run",
+        "evaluator"
+      ],
+      "api_provider": "deepseek_openai_compatible",
+      "rate_limit": {
+        "request_interval_seconds": 1.2,
+        "max_concurrency": 1,
+        "retry_attempts": 3,
+        "retry_backoff_seconds": 2.0,
+        "timeout_seconds": 60
+      }
+    },
+    "tool_calls": [
+      {
+        "sequence": 2,
+        "tool_name": "literature_extract",
+        "input": {
+          "source_file": "brain_ECS_review.txt",
+          "max_claims": 12
+        },
+        "output": {
+          "error": "[Errno 2] No such file or directory: 'brain_ECS_review.txt'"
+        }
+      }
+    ],
+    "events": [
+      {
+        "sequence": 1,
+        "stage": "input_receive_and_clean",
+        "status": "started",
+        "detail": {
+          "file_count": 1
+        }
+      },
+      {
+        "sequence": 3,
+        "stage": "failure_report_export",
+        "status": "completed",
+        "detail": {
+          "path": "outputs\\test\\failed_run-c7e4022d5660.json"
+        }
+      }
+    ],
+    "extraction_records": [],
+    "validation_results": {},
+    "failure_risks": [
+      {
+        "code": "literature_extract_failed",
+        "message": "Could not parse brain_ECS_review.txt: [Errno 2] No such file or directory: 'brain_ECS_review.txt'",
+        "severity": "high",
+        "detail": {}
+      }
+    ]
+  }
+}

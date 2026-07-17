@@ -1,0 +1,389 @@
+{
+  "full_arm": {
+    "metadata": {
+      "arm_id": "failed-run-1ea1b1b79126",
+      "title": null,
+      "authors": [],
+      "doi": null,
+      "pmid": null,
+      "year": null,
+      "publication_date": null,
+      "journal": null,
+      "article_type": null,
+      "license": null,
+      "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+      "ecs_related": false,
+      "ecs_keywords": [],
+      "processing_status": "failed"
+    },
+    "claims": [],
+    "evidence": [],
+    "protocol": [],
+    "runbook": [],
+    "eval_plan": [],
+    "provenance": {
+      "run_id": "run-1ea1b1b79126",
+      "blocked_reason": "validation_failed",
+      "model_infer_policy": "No scientific ARM was generated because validation failed."
+    },
+    "limitations": [
+      {
+        "limitation_id": "FAIL-L-001",
+        "text": "Input failed completeness/provenance checks; generating a scientific ARM would risk unsupported claims.",
+        "category": "input_quality",
+        "ecs_related": false,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      }
+    ],
+    "artifacts": [
+      {
+        "artifact_id": "FAIL-JSON",
+        "type": "failure_report_json",
+        "path": "outputs\\debug_pdf\\failed_run-1ea1b1b79126.json",
+        "description": "Blocked failure report with replay trace."
+      }
+    ],
+    "failure_report": {
+      "status": "blocked",
+      "reason": "validation_failed",
+      "missing_or_risky_items": [
+        {
+          "code": "insufficient_claims",
+          "message": "Fewer than 5 independently traceable candidate claims were found.",
+          "severity": "high",
+          "detail": {
+            "candidate_claim_count": 0
+          }
+        },
+        {
+          "code": "missing_methods",
+          "message": "Research article appears to lack a methods section.",
+          "severity": "high",
+          "detail": {
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf"
+          }
+        },
+        {
+          "code": "missing_results",
+          "message": "Research article appears to lack a results section.",
+          "severity": "high",
+          "detail": {
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf"
+          }
+        }
+      ],
+      "no_success_arm_generated": true
+    }
+  },
+  "trace_record": {
+    "run_id": "run-1ea1b1b79126",
+    "input": {
+      "paper_files": [
+        "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf"
+      ],
+      "max_batch_size": 5,
+      "allowed_tools": [
+        "literature_extract",
+        "reference_validator"
+      ],
+      "p0_plugin_tools": [
+        "figure_extract",
+        "conflict_detector",
+        "arm_validator",
+        "dry_run",
+        "evaluator"
+      ],
+      "api_provider": "deepseek_openai_compatible",
+      "rate_limit": {
+        "request_interval_seconds": 1.2,
+        "max_concurrency": 1,
+        "retry_attempts": 3,
+        "retry_backoff_seconds": 2.0,
+        "timeout_seconds": 60
+      }
+    },
+    "tool_calls": [
+      {
+        "sequence": 2,
+        "tool_name": "literature_extract",
+        "input": {
+          "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+          "max_claims": 12
+        },
+        "output": {
+          "metadata": {
+            "title": "RESEARCH ARTICLE www.advancedscience.com NanoscopicMappingoftheExtracellularSpaceinAmyloid Plaque-richCortex Juan Estaún-Panzano, Yulia Dembitskaya, Ivo Calaresu, Somen Nandi, Quentin Gresil, EvelyneDoudnikoff,ThierryLeste-Lasserre,ThierryAmédée,LaurentCognet,LaurentGroc, Urs Valentin Nägerl,* and Erwan Bezard* AhallmarkofAlzheimer’sdisease(AD)istheaccumulationofamyloid plaques,primarilycomposedofmisfoldedamyloid 𝜷 (A𝜷)peptides. Complementaryhigh-resolutionimagingtechniquesareemployedto investigatetheplaquepenetrabilityandtheextracellularspace(ECS)rheology",
+            "authors": [],
+            "doi": "10.1002/advs.202515674",
+            "year": 2026,
+            "article_type": "research",
+            "license": "Creative Commons License",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "ecs_related": true,
+            "ecs_keywords": [
+              "ecm",
+              "ecs",
+              "extracellular matrix",
+              "extracellular space",
+              "glymphatic",
+              "interstitial fluid",
+              "isf"
+            ]
+          },
+          "extractor_prompt": "Paper细粒度结论&证据抽取子Agent:\n只摘抄原文，禁止自主推导、扩写、脑补数据。每条claim必须包含\nclaim_id/raw_text/claim_category/source_location/support_evidence_snippet/\nconflict_evidence_snippet/source_attribution/ecs_related/evidence_incomplete。\nraw_text和support_evidence_snippet必须来自论文原文，不概括、不润色。\n无原文直接支撑的猜想、推论丢弃；单篇少于5条有效claim时交由trace标记缺口。",
+          "candidate_claim_count": 0,
+          "references_count": 3,
+          "figures_tables_count": 3,
+          "quality_flags": {
+            "has_methods": false,
+            "has_results": false,
+            "has_figures_or_tables": true,
+            "has_references": true,
+            "paragraph_count": 19,
+            "ecs_hit_count": 7
+          }
+        }
+      },
+      {
+        "sequence": 5,
+        "tool_name": "reference_validator",
+        "input": {
+          "references": [
+            {
+              "reference_text": "reproductioninanymedium,providedtheoriginalworkisproperlycited. DOI:10.1002/advs.202515674",
+              "doi": "10.1002/advs.202515674",
+              "pmid": null,
+              "title": null,
+              "locator": "char:2230"
+            },
+            {
+              "reference_text": "[Zenodo] at [https://doi.org/10.5281/zenodo.15056592], reference number [15056592]. The source data for all graphs and charts are available",
+              "doi": "10.5281/zenodo.15056592",
+              "pmid": null,
+              "title": "The source data for all graphs and charts are available",
+              "locator": "char:90359"
+            },
+            {
+              "reference_text": "athttps://doi.org/10.5281/zenodo.15056592(DOI).Customsscriptsand",
+              "doi": "10.5281/zenodo.15056592(DOI).Customsscriptsand",
+              "pmid": null,
+              "title": null,
+              "locator": "char:90488"
+            }
+          ]
+        },
+        "output": {
+          "validator_prompt": "参考文献合法性校验工具:\n输入论文内全部引用文本、DOI、PMID、文献标题。逐项校验标识符、信息完整性、\n领域匹配、重复/冲突。输出固定状态reference_valid或reference_invalid；\n所有记录写入trace，供答辩展示引用校验流程。",
+          "status": "reference_invalid",
+          "validated_references": [
+            {
+              "reference_text": "reproductioninanymedium,providedtheoriginalworkisproperlycited. DOI:10.1002/advs.202515674",
+              "doi": "10.1002/advs.202515674",
+              "pmid": null,
+              "title": null,
+              "locator": "char:2230",
+              "identifier_check": {
+                "valid_doi": true,
+                "valid_pmid": false,
+                "reference_requires_review": false
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "10.1002/advs.202515674",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "[Zenodo] at [https://doi.org/10.5281/zenodo.15056592], reference number [15056592]. The source data for all graphs and charts are available",
+              "doi": "10.5281/zenodo.15056592",
+              "pmid": null,
+              "title": "The source data for all graphs and charts are available",
+              "locator": "char:90359",
+              "identifier_check": {
+                "valid_doi": true,
+                "valid_pmid": false,
+                "reference_requires_review": false
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "10.5281/zenodo.15056592",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "athttps://doi.org/10.5281/zenodo.15056592(DOI).Customsscriptsand",
+              "doi": "10.5281/zenodo.15056592(DOI).Customsscriptsand",
+              "pmid": null,
+              "title": null,
+              "locator": "char:90488",
+              "identifier_check": {
+                "valid_doi": true,
+                "valid_pmid": false,
+                "reference_requires_review": false
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "10.5281/zenodo.15056592(doi).customsscriptsand",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            }
+          ],
+          "reference_valid_count": 0,
+          "reference_invalid_count": 3,
+          "invalid_count": 3,
+          "checked_count": 3,
+          "summary": {
+            "identifier_invalid": 0,
+            "information_incomplete": 3,
+            "domain_mismatch_or_unclear": 3,
+            "duplicate_or_conflict": 0
+          }
+        }
+      }
+    ],
+    "events": [
+      {
+        "sequence": 1,
+        "stage": "input_receive_and_clean",
+        "status": "started",
+        "detail": {
+          "file_count": 1
+        }
+      },
+      {
+        "sequence": 3,
+        "stage": "figure_extract",
+        "status": "completed",
+        "detail": {
+          "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+          "status": "figure_extract_success",
+          "figures": 3
+        }
+      },
+      {
+        "sequence": 4,
+        "stage": "document_parse",
+        "status": "completed",
+        "detail": {
+          "papers_parsed": 1
+        }
+      },
+      {
+        "sequence": 6,
+        "stage": "branch_decision",
+        "status": "blocked",
+        "detail": {
+          "reason": "validation_failed",
+          "risk_count": 3
+        }
+      },
+      {
+        "sequence": 7,
+        "stage": "failure_report_export",
+        "status": "completed",
+        "detail": {
+          "path": "outputs\\debug_pdf\\failed_run-1ea1b1b79126.json"
+        }
+      }
+    ],
+    "extraction_records": [
+      {
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "candidate_claim_count": 0,
+        "quality_flags": {
+          "has_methods": false,
+          "has_results": false,
+          "has_figures_or_tables": true,
+          "has_references": true,
+          "paragraph_count": 19,
+          "ecs_hit_count": 7
+        },
+        "ecs_related": true
+      }
+    ],
+    "validation_results": {
+      "multi_layer_compliance": {
+        "evidence_integrity": false,
+        "reference_status": "reference_invalid",
+        "reference_summary": {
+          "identifier_invalid": 0,
+          "information_incomplete": 3,
+          "domain_mismatch_or_unclear": 3,
+          "duplicate_or_conflict": 0
+        },
+        "hallucination_control": true,
+        "medical_boundary": true,
+        "input_completeness": false
+      }
+    },
+    "failure_risks": [
+      {
+        "code": "insufficient_claims",
+        "message": "Fewer than 5 independently traceable candidate claims were found.",
+        "severity": "high",
+        "detail": {
+          "candidate_claim_count": 0
+        }
+      },
+      {
+        "code": "missing_methods",
+        "message": "Research article appears to lack a methods section.",
+        "severity": "high",
+        "detail": {
+          "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf"
+        }
+      },
+      {
+        "code": "missing_results",
+        "message": "Research article appears to lack a results section.",
+        "severity": "high",
+        "detail": {
+          "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2773 @@
+
+
+[page 1]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 1
+REVIEW ARTICLE
+Brain Extracellular Space: From an  
+Overlooked Dimension to Catalyst  
+of a Novel Neuroscience Paradigm
+Hongbin  Han1,2,3*, Hui  Dai1,3, Leonor Serrano  Lopes4,5, Ruiqing  Ni4,6,7, 
+Benjamin F.  Combes7, Yangjing  Song1,3, Hanbo  Tan1,3, Meng  Xu1,3, 
+Hongfeng  Li1,3, Shuhong  Lv1,3, Zhaohe  Yang1,3, Tianzi  Gao1,3, Mengyu  Zhang8, 
+Yang  Shi1,3, Jingjing  Shao2,3, Yanni  Zhang2,3, and Wanyi  Fu1,3
+1Institute of Medical T echnology, Peking University Health Science Center, Beijing 100191, China. 2Department 
+of Radiology, Peking University Third Hospital, Beijing 100191, China. 3Beijing Key Laboratory of Intelligent 
+Neuromodulation and Brain Disorder T reatment, Beijing 100191, China. 4Department of Nuclear Medicine, 
+Inselspital, Bern University Hospital, University of Bern, Bern 3010, Switzerland. 5Graduate School for Cellular 
+and Biomedical Sciences, University of Bern, Bern 3012, Switzerland. 6Institute for Biomedical Engineering, 
+Department of Information T echnology and Electrical Engineering, ETH Zurich, Zurich 8093, Switzerland. 
+7Institute for Regenerative Medicine, University of Zurich, Zurich 8952, Switzerland. 8School of Pharmaceutical 
+Sciences, Cheeloo College of Medicine, Shandong University, Shandong 250012, China.
+*Address correspondence to: hanhongbin@bjmu.edu.cn
+Despite huge investment, therapies for brain disorders remain largely ineffective in clinical practice. 
+Accumulating evidence indicates that this low translational success is closely linked to the long-standing 
+overlook of the brain extracellular space (ECS) in preclinical research, clinical practice, and regulatory 
+frameworks. After over 4 decades of scientific exploration, particularly with recent breakthroughs in imaging 
+and quantitative measurement methods, it is timely to integrate the ECS into the current neuroscience 
+framework. This paper investigates underlying determinants of low translational success of central nervous 
+system drugs and therapeutic devices, reviews the historical and technical bottlenecks that lead to the 
+neglect of ECS research, and emphasizes its transformative potential in reshaping therapeutic strategies. 
+We propose incorporating the ECS into neuroscience research, clinical regulatory assessment, and medical 
+education, thereby establishing a comprehensive paradigm that omits no physical space for precision 
+therapeutics targeting brain disorders.
+Introduction
+   Over the past century, neuroscience research has centered on 
+neurons, glial cells, and vascular networks. These endeavors 
+have yielded milestone advances that have fundamentally rede-
+fined our understanding of brain function [  1 ,  2 ]. However, these 
+advances have translated into only limited clinical success (Fig. 
+ 1 A). Pharmaceutical and device companies have invested hun-
+dreds of billions of dollars in research against every major brain 
+disorder, but, unfortunately, few achievements have proven 
+definitely beneficial for patients suffering from the central ner-
+vous system (CNS) diseases. The mystery of human memory 
+and emotion is still an open question; meanwhile, Alzheimer’s 
+disease (AD) or cerebral stroke continues to cause disability and 
+crushes human dignity.        
+   In AD, for example, more than 400 phase III clinical trials have 
+been conducted, but only a handful of antiamyloid antibodies have 
+received conditional regulatory approval [  3 ,  4 ]. Even the high-profile 
+agent aducanumab demonstrated only modest efficacy: Its reduc-
+tion of amyloid burden did not translate into clear, durable clinical 
+benefit, leaving its therapeutic value a subject of scientific debate [ 3 ]. 
+A similar scenario applies to psychiatric medications and neuro-
+protective drugs targeting cerebral ischemic stroke (Fig.  1 B) [  5 –  7 ]. 
+Recent findings regarding the brain extracellular space (ECS) reveal 
+a theoretical structural flaw inherent in the existing research frame-
+work for neuroscience and the treatment of brain disorders: The 
+critical role of the brain ECS has long been overlooked.
+   The brain ECS constitutes the core anatomical structure of 
+the brain interstitial system (ISS) [  8 ]. It is defined as irregular 
+and tortuous microspaces constrained by the plasma membranes 
+of various cells in the brain parenchyma (Fig.  1 C). The ECS is 
+primarily composed of the extracellular matrix (ECM) and 
+interstitial fluid (ISF). Notably, the biochemical composition of 
+the brain ECM differs substantially from that of other organs. 
+It is rich in hyaluronic acid (HA) and proteoglycans yet lacks 
+fibrous components such as collagen and fibronectin. This unique 
+Citation: Han H, Dai H, Lopes LS, Ni R, 
+Combes BF, Song Y, T an H, Xu M, Li H, 
+Lv S, et al. Brain Extracellular Space: 
+From an Overlooked Dimension to 
+Catalyst of a Novel Neuroscience 
+Paradigm. Cyborg Bionic Syst. 
+2026;7:Article 0529. https://doi.
+org/10.34133/cbsystems.0529
+Submitted 1 December 2025  
+Revised 11 January 2026  
+Accepted 25 January 2026  
+Published 4 March 2026
+Copyright © 2026 Hongbin Han et al.  
+Exclusive licensee Beijing Institute of 
+T echnology Press. No claim to original 
+U.S. Government Works. Distributed 
+under a Creative Commons 
+Attribution License (CC BY 4.0).
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 2]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 2
+Fig. 1. Failure analysis of CNS disorder therapeutics and therapeutic device development (2005–2025). (A) Number of registered clinical trials for AD and PD therapeutics on 
+ClinicalT rials.gov from 2005 September 1 to 2025 September 1, with an overall average success rate of ~0 to 3% per 3-year interval. (B) Root causes of clinical trial failure for 
+diverse CNS disorder therapeutics and therapeutic devices. Flaws in preclinical and clinical trial design are intrinsically linked to the neglect of the ECS. MDD, major depressive 
+disorder; ALS, amyotrophic lateral sclerosis. (C) Volume fraction of distinct compartments in the normal brain. The ECS accounts for 6% to 25% of the total brain volume.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 3]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 3
+ECM scaffold is filled with ISF that exhibit heterogeneity across 
+different brain regions. Basic constituents include water, ions, 
+gaseous molecules, and organic molecules such as proteins, pep-
+tides, enzymes, neurotransmitters, and extracellular vesicles, 
+along with glycoprotein chains anchored to the ECM [  9 ,  10 ]. The 
+ECS serves not merely as a reservoir for substances; its contents 
+communicate and exchange with the cerebrospinal fluid (CSF) 
+in the subarachnoid space via multiple physical and physiologi-
+cal pathways, and, consequently, the ECS is regarded as a pri-
+mary pathway for metabolic waste clearance in the brain [ 8 ]. 
+The ECS also provides a pathway for the drugs to reach their 
+target and exert effects once crossing the blood–brain barrier 
+(BBB) [  11 ].
+   Increasing evidence indicates that the ECS is not only a 
+determinant of homeostatic regulation but also contributes to 
+the onset, progression, and outcome of brain diseases [  12 –  15 ]. 
+However, the ECS has remained largely absent from prevailing 
+frameworks for therapeutic design and efficacy evaluation. The 
+ECS occupies approximately 6% to 25% of the living brain vol-
+ume (Fig.  1 C) [  16 –  19 ]. However, a bibliometric analysis of the 
+Scopus database indicates that among more than 2 million 
+neuroscience publications, fewer than 9,000 explicitly focus on 
+the ECS, accounting for only ~0.45% of the literature. This mis-
+match has created a structural blind spot and knowledge gap, 
+which is insufficient to satisfy the stringent requirements of 
+global regulatory agencies for comprehensive characterization 
+of drug mechanisms of action and pharmacokinetic (PK) dis-
+tribution profiles.
+   Historically, the primary reason that neuroscientists have long 
+neglected or even overlooked the ECS lies in the limitations of low-
+spatial-resolution imaging techniques (Fig. 2). Similarly, the struc-
+tural characterization of the ECS demands rigorous, imaging-based 
+validation, much similar to how Santiago Ramón y Cajal provided 
+definitive evidence for the neuron doctrine through staining meth-
+ods and anatomical illustrations [  20 ]. Electron microscopy (EM) 
+stands as the gold standard for visualizing nanoscale subcellular 
+structures. However, early attempts to image the ECS by EM were 
+unsuccessful, largely attributable to preimaging sample preparation 
+protocols. Specifically, procedures such as chemical fixation, stain-
+ing, and dehydration not only distort the native ultrastructure of 
+brain tissue but also induce ECS collapse [  21 ]. Recent break-
+throughs in artificial intelligence (AI)-assisted cryo-EM and super-
+resolution optical imaging technologies now enable the visualization 
+of the ECS’s true structure, just as Cajal did over a century ago in 
+establishing the neuron doctrine [  17 ,  18 ].
+   The Food and Drug Administration (FDA) Modernization 
+Act 2.0 has authorized in vitro systems and AI-enabled compu-
+tational models as alternatives to replace animal testing [  22 ], 
+rendering the systematic integration of the ECS into CNS thera-
+peutic research both urgent and necessary. If the ECS remains 
+excluded, emerging “nonanimal” models is likely to reproduce 
+existing blind spots in brain spatial organization and physiology. 
+In the absence of ECS-informed fundamentals, AI simulations 
+and in vitro platforms will be structurally limited in faithfully 
+recapitulating and predicting drug distribution and action in the 
+living brain microenvironment [ 8 ,  23 ].
+   Integrating the ECS into the research and evaluation frame-
+works is not only a scientific necessity but also an increasingly 
+explicit regulatory demand. This review dissects the historical 
+and technical underpinnings behind the systematic overlook of 
+the ECS from CNS research and therapeutics, explains how this 
+neglect has contributed to the long-standing low translational 
+efficiency of CNS therapeutics, and highlights the value of incor-
+porating the ECS into future neuroscience and CNS therapeutic 
+frameworks. Finally, we propose a new “cell–ECS–vasculature” 
+integrated paradigm that explicitly embeds the ECS into trans-
+lational research, clinical trials, regulatory evaluation, and medi-
+cal education, thereby paving the way toward a structurally 
+complete and quantitatively measurable foundation for preci-
+sion treatment of CNS disorders, where no anatomical compart-
+ment is omitted.   
+Imaging and Measurement Technologies  
+of the Brain ECS
+   The measuring and imaging methods of the brain ECS can be clas-
+sified into 2 categories: tracer-based methods with probes and 
+label-free methods with endogenous contrast (Table  1  and Fig.  2 ). 
+Tracer-based methods introduce probes into the ECS to acquire 
+spatiotemporal changes in their signals (Fig.  3 ) [ 16 ,  24 –  26 ]. ECS 
+biophysical parameters are then estimated by solving inverse prob-
+lems derived from the diffusion models (see the “Measurement 
+methods based on solving the inverse problem of the diffusion 
+equation” and “Tracer-based optical imaging” sections and Fig.  4 ). 
+Label-free methods distinguish between cells and the ECS without 
+the need for any probes, for instance, by utilizing membrane stain-
+ing to enhance cell–ECS contrast and derive ECS structural char-
+acteristics (see the “Electron microscopy” section and Fig.  5 ) or by 
+leveraging differences in water molecule diffusion between cells 
+and the extracellular compartments (see the “Noninvasive imaging 
+and measuring methods of the human brain” section and Fig.  6 ),                                          
+Measurement methods based on solving the inverse 
+problem of the diffusion equation
+   ECS measurement methods based on solving the inverse prob-
+lem of the diffusion equation share a common technical feature 
+that they require introducing specifically distributed tracers 
+into the ECS and detecting their spatiotemporal concentration 
+distribution within this space [ 16 , 25 ]. Subsequently, the physi-
+cal parameters of the ECS (i.e., D, α, and λ) are calculated by 
+solving the inverse problem of the advection–diffusion equa-
+tion [ 23 , 25 ]. Substance transport within the porous medium 
+of the ECS can be described by the general advection–diffusion 
+equation [  27 ]:
+    
+where C denotes the tracer concentration at time t and position 
+(x, y, z), D represents the diffusion tensor that characterizes 
+anisotropic diffusion properties in the porous medium, v is the 
+velocity vector field with components in all spatial directions, k 
+is the clearance rate coefficient associated with the tracer’s in vivo 
+metabolism, Q is the source term introduced into the ECS, and 
+ α represents the volume fraction of the ECS. Tortuosity  /u1D706    is typi-
+cally introduced to characterize the hindrance posed by the 
+porous medium to diffusion. The relationship between the effec-
+tive diffusion coefficient  D∗    and the diffusion coefficient in a free 
+solution D is defined as  D∗ = D
+/u1D7062   . Constrained by limitations in 
+imaging dimensions and resolution, existing ECS measurement 
+and calculation techniques usually apply simplifications to the 
+physical models and boundary conditions to achieve practical 
+engineering solutions.  
+(1)/u1D715C
+/u1D715t =∇ ⋅ (D ∇C ) − v⋅ ∇C − kC + Q
+/u1D6FC
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 4]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 4
+Measurement of ECS diffusion with 1- or 2-dimensional 
+inverse problem solution to the diffusion equation
+Real-time iontophoresis–tetramethylammonium
+   Real-time iontophoresis–tetramethylammonium (RTI-TMA+) 
+is a classic approach, which utilizes a microelectrode to release 
+TMA+ as a point source into the tissue, subsequently recording 
+precise concentration changes at a preset distance [  28 ,  29 ]. 
+Mathematically, this method neglects the advection term and, 
+based on the assumption of medium isotropy, simplifies  Eq. (1)  
+from a Cartesian coordinate system to a spherically symmetric 
+radial diffusion equation for solving the inverse problem:
+    
+where  r    denotes the radial distance from the microelectrode 
+tip. Early methodologies often simplified transport dynamics 
+by neglecting  k    and calculating  /u1D6FC    directly from steady-state 
+concentration ratios between brain and agar [ 16 ]. Conversely, 
+subsequent methods commonly use multiparameter nonlinear 
+fitting to obtain more accurate values, yielding an  /u1D6FC    value of 
+approximately 0.2 for normal brain parenchyma [ 29 ]. In addi-
+tion, for oriented tissues such as white matter, anisotropic mod-
+els expand the effective diffusion coefficient into a tensor with 
+independent tortuosity components along principal axes [  30 ].   
+Integrative optical imaging
+   Integrative optical imaging (IOI) uses pressure pulses to intro-
+duce fluorescent tracer (e.g., dextrans), establishing an approxi-
+mate instantaneous point source [ 25 ,  31 ]. Leveraging the large 
+depth-of-field characteristics of epifluorescence microscopy, the 
+method performs an optical integration of the 3-dimensional 
+(3D) diffusion cloud along the optical axis. Mathematically, the 
+projection of the 3D probe distribution onto the 2D imaging 
+plane follows a Gaussian distribution. The fluorescence intensity 
+ I(r)    at radial distance  r    from the source is described as follows:
+    
+where I(r) represents the fluorescence intensity at a radial dis-
+tance r from the injection site;  E    denotes the amplitude coef-
+ficient, which integrates the out-of-focus point spread function, 
+the initial concentration of the probe, and the calibration factor 
+of the optical system; and  t0    is the time offset for the onset of 
+diffusion. By fitting the temporal evolution of  /u1D6FE    across multiple 
+image frames,  D∗    can be extracted, allowing for the subsequent 
+calculation of tortuosity. Combined with restricted diffusion 
+theory, this method estimates the effective width of the ECS in 
+normal brain tissue to be approximately 38 to 64 nm, thereby 
+overcoming the underestimation inherent in traditional EM 
+caused by tissue shrinkage. However, the tissue homogeneity 
+assumption fails at structural boundaries [ 30 ], and the rigid 
+sphere model may underestimate tortuosity in heterogeneous 
+tissue regions as revealed by nanoscale tracking studies [ 32 ], 
+limiting accuracy when applied to complex brain tissue such 
+as complex fiber architectures or perivascular spaces (PVSs).    
+Measurement of ECS diffusion using 3D inverse problem 
+solutions to the diffusion equation
+   To address the depth limits of optical imaging and resolve the 
+anisotropic characteristics of the ECS, Han et al. [ 26 ] developed 
+(2)/u1D715C
+/u1D715t = D ∗ 1
+r2
+/u1D715
+/u1D715r
+/parenleft.s2
+r2 /u1D715C
+/u1D715r
+/parenright.s2
++ Q
+/u1D6FC− kC
+(3)I(r) = E exp
+/bracketleft.s4
+−
+/parenleft.s3
+r
+/u1D6FE
+/parenright.s32 /bracketright.s4
+, /u1D6FE2 = 4D ∗/parenleft.s1t+ t0
+/parenright.s1
+Table 1. Brain ECS measurement methods
+Methodology T racer-based methods with probes EM/nanoscopy DWI
+Modality RTI-TMA+ [16] IOI [25] TB-MRI [26] FS-EM/HPF-EM [17] SUSHI [209] CNT s [32] DTI-ALPS [51] NODDI/VERDICT [47 ,49] MDI [50]
+ Experimental 
+setting
+ Ex vivo/ in vivo  Ex vivo/in vivo  In vivo  In vitro  Ex vivo  Ex vivo  In vivo  In vivo  In vivo
+ Probe/stain  TMA+  Dextran  Gd-DO3A-EA-
+FITC/Gd-DTPA
+ Osmium tetroxidee  Atto-514  SWCNTs  Endogenous 1H  Endogenous 1H  Endogenous 1H
+ Spatial scale  <200 μm  
+in depth
+ <400 μm  
+in depth
+ Whole brain  Whole brain  <200 μm  
+in depth
+ <200 μm  
+in depth
+ Whole brain  Whole brain  Whole brain
+ Dimension  1D  2D  3D  2D/3D  2D  2D  3D  3D  3D
+ Anisotropy/
+isotropy
+ Isotropic  Isotropic  Anisotropic  Anisotropic  Anisotropic  Anisotropic  Anisotropic  Anisotropic  Anisotropic
+ Parameters  D, α, λ  D, α, λ  D, α, λ, t 1/2  α  α  D, α  ALPS index  ICVF, FISO  D, α, FA
+Gd-DO3A-EA-FITC, gadolinium(III)[4,7-bis-carboxymethyl-10-(2-fluoresceinthioureaethyl)-1,4,7 ,10-tetraaza-cyclododec-1-yl]-acetic acid; Gd-DTPA, gadolinium(III) diethylenetriaminepentaacetate; D, diffusion co-
+efficient; α, volume fraction; λ, tortuosity; t1/2, half-life; ALPS index; ICVF, intraneurite volume fraction; FISO, fraction of isotropy.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 5]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 5
+the tracer-based magnetic resonance imaging (TB-MRI) (Fig.  3 ). 
+Paramagnetic or photomagnetic probes were introduced into 
+the brain ECS to trace and lighten the water molecules within 
+the space. The spin–lattice relaxation time of hydrogen nuclei 
+in water molecules was shortened, which presented as a high 
+signal on MRI. The average width between neural cells is 20 to 
+130 nm, and the effective distance for the probe to lighten the 
+hydrogen nuclei in water molecules ranges from 2.41 to 2.50 Å. 
+The enhancement on MRI decreased over time because of the 
+water diffusion and clearance process of the probes. This pro-
+cess was dynamically recorded on a series of magnetic reso-
+nance (MR) images [ 8 , 26 ]. In terms of mathematical modeling, 
+ECS diffusion measurement is realized by solving the inverse 
+problem of the following 3D anisotropic diffusion equation:
+     
+   This method enables voxel-level quantification of whole-brain 
+ECS parameters (D, α). On the basis of TB-MRI technology, the 
+research team revealed the partitioned drainage characteristics of 
+brain ISF for the first time, correcting the traditional view regard-
+ing the high connectivity of the ECS across the entire brain [  33 ].   
+Measurement of ECS diffusion using inverse problem 
+solutions to the advection–diffusion equation
+  Previous ECS quantification methods generally adopted a simpli-
+fied approach by omitting the advection term of the advection–
+diffusion equation, thereby yielding only diffusion-related 
+parameters. However, the presence of convective transport in the 
+ECS is a historically controversial topic [ 28 ,  34 ]. While Ray et al. 
+[ 34 ] utilized simulations to address combined diffusion and 
+flow, such methods are constrained by high computational costs, 
+and a lack of practical applicability [ 24 ] addresses the inherent 
+complexity of this inverse problem, Xie et al. [  35 ] sought to address 
+the inverse problem derived from the following advection–
+diffusion equation by utilizing a physics-informed neural network 
+(PINN) and the 3D whole-brain ECS data acquired with the 
+TB-MRI:
+     
+   This approach establishes a technical pathway that allows for 
+the simultaneous quantification of both diffusion and advection 
+parameters within the ECS (Fig.  4 ) [ 35 ]. To further enhance the 
+mathematical stability and uniqueness of the solution, topological 
+constraints from high-precision EM and diffusion priors from 
+multicompartment decoupling imaging (MDI) could be integrated 
+(4)/u1D715C
+/u1D715t = D x
+/u1D7152C
+/u1D715x2 + D y
+/u1D7152C
+/u1D715y2 + D z
+/u1D7152C
+/u1D715z2 − kC + Q
+/u1D6FC (5)/u1D715C
+/u1D715t =∇ ⋅ (D ∇C ) − v⋅ ∇C
+Fig. 2. Chronological schematic of 3 technical approaches for 2 categories of ECS measurement techniques. T racer-based methods are illustrated in (A), while the 2 technical 
+approaches of label-free measurement methods are depicted in (B) and (C). (A) Diffusion parameters of the cerebral ECS were derived by solving the inverse problem of 
+the advection–diffusion equation, encompassing primarily RTI-TMA+, IOI, SWCNT s, and TB-MRI. (B) Nanoscopy-based approaches, mainly including freeze substitution EM 
+(FS-EM), high-pressure freezing EM (HPF-EM), and super-resolution shadow imaging (SUSHI). (C) Label-free methods are also termed noninvasive measurement techniques 
+and primarily comprise NODDI, DTI-ALPS, and MDI.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 6]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 6
+to effectively constrain the solution space. This strategy offers a 
+promising pathway for resolving long-standing controversies 
+regarding ECS transport mechanisms.    
+EM and other nanoscopy methods
+Electron microscopy
+   In 2023, Huang et al. [ 17 ] established an in situ imaging system 
+that utilized focused ion beam scanning EM for high-resolution 
+3D EM. This approach achieved the first 3D visualization of the 
+natural ECS structure in wild-type rat hippocampal CA1 tissue. 
+The study quantified the ECS volume fraction to be approximately 
+6.21%, significantly lower than the results derived from mathe-
+matical modeling techniques [ 28 ]. Research in other brain regions 
+(e.g., thalamus [Tha]) has shown that the volume fraction can 
+reach up to 15% in certain areas. By incorporating contrastive 
+learning and shape-aware modules, Y ang et al. [ 18 ] proposed a 
+dedicated segmentation network, ECS-Net, which addressed the 
+challenges of interclass feature imbalance and fine structural rec-
+ognition, achieving high-precision automated segmentation and 
+reconstruction of the ECS (Fig.  5 ). With AI-aided high-precision 
+reconstruction of the ECS, cells, and vasculature, it is now possible 
+to construct cross-scale simulation models that connect micro-
+structural and macroscopic functions, allowing for quantitative 
+analysis of their interactions under various physiological and 
+pathological conditions [  36 –  38 ].   
+Tracer-based optical imaging
+   Tracer-based optical imaging methods investigate the diffusion 
+properties and microstructural characteristics of the brain ECS 
+using exogenous fluorescent probes. Most studies are performed 
+on brain slices, allowing visualization of probe dynamic distribu-
+tion within a depth range of 200 to 400 μm [  39 ]. Recent advances 
+have integrated nanoparticle-based probes and super-resolution 
+imaging strategies. Among these, single-walled carbon nano-
+tubes (SWCNTs), with low phototoxicity, high photostability, 
+and minimal immunoreactivity, are used for long-term single-
+particle tracking in brain tissue [  40 ]. Analyzing the anisotropic 
+Brownian trajectories of SWCNTs in the ECS has elucidated the 
+nanoscale heterogeneity of the ECS [ 32 ].
+B
+CD
+Imaging and data acquisition
+Probe introduction device
+Calculation and visualization
+A
+Prescanc alibration  system
+Fig. 3. Schematic diagram of tracer-based ECS measuring methods (illustrated with tracer-based MRI). (A) Probe preparation and calibration process to verify the specific 
+distribution of probes in the ECS and quantify the correlation between probe concentration and signal intensity. (B) Probe administration via ECS. (C) Signal acquisition of 
+dynamic probe distribution in the brain ECS. (D) Modeling, calculation, and result visualization.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 7]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 7
+   Stimulated emission depletion (STED) microscopy achieves 
+ultrahigh spatial resolution beyond the diffraction limit via phase 
+modulation to form a “donut”-shaped spot with zero central inten-
+sity, enhancing the visualization of subcellular nanostructures. It 
+reveals ECS changes during cerebral ischemia and neuroinflam-
+mation, as well as their impacts on drug delivery and metabolic 
+waste clearance [  41 ]. By injecting fluorescent dyes into the ECS 
+and combining with STED imaging, SUSHI uses negative contrast 
+labeling of the ECS to quantitatively measure local ECS width, 
+connectivity, and dynamic structural remodeling, while resolving 
+spatial proximity between the ECS and adjacent neuronal/vascular 
+structures within the same field of view [ 19 , 41 ,  42 ].
+   Tracer-based optical imaging methods offer distinct advan-
+tages in resolving local ECS architecture and nanoscale diffusion 
+behaviors, rendering them a valuable option for investigating 
+spatial heterogeneity at the micro- and subcellular levels. How-
+ever, these methods are hampered by several fundamental limita-
+tions: First, both the probes and excitation light must exhibit high 
+biocompatibility to avoid perturbing normal tissue physiology or 
+inducing phototoxicity. Second, most fluorescent probes are not 
+ECS-specific, and their nonspecific cellular uptake or retrograde 
+passage across the BBB can interfere with imaging results and 
+quantitative analysis. In addition, inherent physical limitations, 
+including limited imaging field of view, restricted tissue penetra-
+tion, and challenges in cross-scale synchronization. All these 
+require continuous technological advancements to overcome, 
+which further confines their utility primarily to brain slices or 
+localized tissue regions. As research focus shifts toward under-
+standing global ECS transport functions and system-level regula-
+tion in the intact living brain, there is an increasing demand for 
+techniques with whole-brain in vivo imaging capabilities. In this 
+context, noninvasive MRI has emerged as a key approach for 
+studying the human brain ECS.    
+Noninvasive imaging and measuring methods  
+of the human brain
+   Recent studies have demonstrated that modulating substance 
+transport within the ECS represents a viable therapeutic strat-
+egy for neurological disorders [  43 ,  44 ]. These findings have 
+further stimulated enthusiasm for imaging the human brain 
+ECS and quantitatively measuring substance transport within 
+it. Single-photon emission computed tomography has been 
+used to visualize amyloid-β  (Aβ) protein deposition within 
+the ECS [  45 ], enabling semiquantitative parameter calculation 
+via isotope labeling; however, its utility is constrained by lim-
+ited spatial resolution and specificity. In contrast, MRI exhib-
+its considerable advantages in ECS structural analysis owing 
+to its noninvasiveness, absence of ionizing radiation, and superior 
+resolution compared to nuclear imaging, establishing diffu-
+sion MRI as the preferred method for ECS quantification in 
+the human brain.
+   Diffusion-weighted imaging (DWI), which characterizes 
+MR signal attenuation induced by water molecule diffusion 
+within tissues based on the Stejskal–Tanner equation, serves 
+as the core technology for the noninvasive detection of diffu-
+sion properties. Currently, several advanced DWI-based ana-
+lytical models are utilized for assessing the ECS characteristics, 
+including diffusion tensor imaging analysis along the PVS 
+(DTI-ALPS) [  46 ], neurite orientation dispersion and density 
+imaging (NODDI) [ 47 ], vascular, extracellular, and restricted 
+diffusion for cytometry in tumors (VERDICT) [  48 , 49 ], and 
+MDI [ 35 , 50 ].
+…
+…
+MRIa cquired at different times
+MRIp reprocessedd ata
+Physics-informed neuraln etwork
+Fullyc onnectedn euraln etwork
+Diffusion rate-flowv elocity
+Calculate 
+Diffusion coefficient 
+andv elocity
+Fig. 4. Flowchart of ECS substance transport modeling based on PINN. Time-series images are acquired and preprocessed to extract tracer distribution. A PINN with parameters 𝜃 
+takes spatial coordinates (𝑥) and time (𝑡) as inputs and is optimized to inversely solve for the diffusion coefficient (𝐷), and molecular velocity (𝑣) to calculate the Péclet number.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 8]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 8
+   DTI-ALPS evaluates PVS function via direction-dependent 
+water diffusion near the lateral ventricles [ 46 ]. The ALPS index 
+is defined as follows:
+     
+   Here,  D proj
+x     and  D assoc
+x     denote the diffusivities along the left–
+right  x    axis in the projection and association fiber regions of interest 
+(ROIs), respectively;  D proj
+y     is the diffusivity along the anterior–
+posterior  y    axis in the projection fiber ROI; and  D assoc
+z     represents 
+the diffusivity along the superior–inferior  z    axis in the association 
+fiber ROI. Since the PVS runs along the  x    axis, a larger ALPS value 
+indicates relatively higher PVS diffusivity. This approach facilitates 
+monitoring diseases such as AD [ 51 ], although fiber microstruc-
+tural asymmetry may confound results [  52 ].
+   NODDI characterizes the microstructure complexity of 
+dendrites and axons by modeling the normalized diffusion MR 
+signal as a 3-compartment mixture:
+     
+   Here,  S/parenleft.s1b, g/parenright.s1    is the signal measured with diffusion weighting 
+ b    along gradient  g    relative to the baseline  S0   ; the estimated 
+parameters  fiso    and  fic    correspond to the volume fractions of 
+CSF and neurite density, respectively;  Eic     Eec   , and  Eiso    are the 
+modeled signal attenuations from the intracellular, extracel-
+lular, and isotropic compartments, respectively [ 47 ]. Recently, 
+VERDICT adapted this framework by replacing CSF with a 
+vascular compartment and assuming isotropic water diffusion 
+within the ECS [ 48 , 49 ].
+   Evaluating ECS-based neuromodulation requires noninva-
+sive and quantitative measurements of both cellular and ECS 
+diffusion dynamics. Li et al. [ 50 ] developed the MDI technique 
+[ 35 ]. MDI uses diffusion-weighted MRI sequences to acquire 
+image signals that encapsulate molecular diffusion information 
+across multiple compartments, performs multicompartment 
+modeling of diffusion signal attenuation [ Eq. (8) ], and applies 
+constrained nonlinear optimization to quantitatively calculate 
+and characterize the water diffusion properties of the cellular, 
+extracellular, and vascular compartments as
+     
+   Here,  S/parenleft.s1b, g/parenright.s1    and  S0    denote the diffusion-weighted and base-
+line signals;  /u1D6FCcell   ,  /u1D6FCecs   ,  /u1D6FCvas    and  Dcell   ,  Decs   ,  Decs    represent the 
+voxel-wise volume fractions and diffusion tensors for the cel-
+lular, ECS, and vascular compartments, respectively. The result-
+ing voxel-level parameters enable quantitative mapping of the 
+3 compartments across multiple spatial scales: nanometer-scale 
+ECS, micrometer-scale neurons/neural cells, and millimeter-
+to-micrometer-scale microvasculature (Fig.  6 ).
+(6)ALPS =
+Mean
+/parenleft.s2
+D proj
+x ,D assoc
+x
+/parenright.s2
+Mean
+/parenleft.s2
+D proj
+y ,D assoc
+z
+/parenright.s2
+(7)
+S/parenleft.s1b, g/parenright.s1
+S0
+= /parenleft.s11 − fiso
+/parenright.s1/bracketleft.s1ficE ic
+/parenleft.s1b, g/parenright.s1+ /parenleft.s11 − fic
+/parenright.s1E ec
+/parenleft.s1b, g/parenright.s1/bracketright.s1+ fisoE iso(b)
+(8)
+S/parenleft.s1b, g/parenright.s1= S0
+/bracketleft.s2
+/u1D6FCcelle−bgT D cellg + /u1D6FCecse−bgT D ecsg + /u1D6FCvas e−bgT D vas g
+/bracketright.s2
+s.t.,/u1D6FCcell+ /u1D6FCecs + /u1D6FCvas = 1
+X
+Contrastive learning module (CLM) Shape-aware function module (SFM)
+SUNet SUNetSampling
+σ(f )
+σ(f )
+Lseg
+Lseg
+i
+ECS-Net architecture
+EM data acquisition and preprocessing 
+Hippocampus
+Internal capsule
+A
+B
+Fig. 5. The EM-based ECS reconstruction procedure. (A) ECS EM data acquisition and preprocessing. (B) The ECS-Net architecture. The contrastive learning module maximizes 
+the distance between category representations, and the shape-aware module improves the structural constraints for complex shapes.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 9]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 9
+Fig. 6. Schematic illustration of MDI. (A) MRI sequence design of MDI. (B) Biophysical parameter mappings of neural cells, including volume fraction (left), diffusion rate 
+(middle), and fraction of anisotropy (right). (C) Mappings of ECS with the same parameters. (D) Mappings of microvasculature (vas) with the same parameters. (E) Whole-
+brain tractography of the 3 compartments.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 10]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 10
+   As a tool for simultaneous 3-compartment information 
+acquisition and quantification, MDI offers a novel pathway for 
+elucidating brain disease mechanisms and identifying potential 
+therapeutic targets. Recent advances in high-pressure freezing 
+EM enable direct visualization of native ECS structures, while 
+AI-assisted image processing techniques provide robust meth-
+odological support for the potential modification and valida-
+tion of MDI. Large-scale multicenter clinical trials using MDI 
+are essential to integrate the ECS concept into the current 
+framework of novel drug and medical device development [  53 ].
+   Table  1  summarizes the main characteristics of ECS imaging 
+and measurement methods, illustrating the evolution of this 
+field from tracer-based, ex vivo approaches toward label-free, 
+in vivo, and clinically applicable techniques. Key technological 
+milestones over the past decade, such as AI-assisted cryo-EM 
+reconstruction, super-resolution live imaging, and quantitative 
+clinical MRI, have progressively overcome the core technical 
+bottlenecks that previously hindered the integration of the ECS 
+into neuroscience research and therapeutic development. By 
+virtue of these tools, the ECS should no longer be regarded as 
+a passive space but must be systematically studied as a structur-
+ally and functionally critical domain. This series of technical 
+advances paves the way for integrating the ECS into central 
+CNS therapeutic paradigms.    
+Latest Discoveries of the Brain ECS Influencing 
+Brain Disease Treatment Strategies
+   With the advancements in ECS measurement and imaging tech-
+nologies, particularly breakthroughs in deep brain detection 
+capabilities, a series of compelling scientific discoveries have 
+emerged in the field of the brain ECS. Among these, 3 findings 
+hold profound implications for the innovation of therapeutic 
+strategies for brain disorders: the identification of the brain ECS 
+parcellation system, the visualization of the native architecture of 
+the ECS, and the active modulation of substance transport within 
+the brain ECS. This section first introduces the parcellation of the 
+brain ECS (see the “The discovery of the brain ECS parcella-
+tion” section), subsequently elaborates on the interactive cross-
+talk between the ECS and its adjacent structural compartments 
+(see the “Substance transportation in the brain ECS” section), 
+and finally discusses recently developed technical approaches 
+enabling the active modulation of substance transport in the 
+ECS (see the “Modulation of substance transport within the brain 
+ECS” section).  
+The discovery of the brain ECS parcellation
+   As the fundamental framework for deciphering the structure–
+function relationship in the brain, 2 classical parcellation sys-
+tems have dominated the field of neuroscience: the Brodmann 
+system and the vascular territory system. The Brodmann system 
+is delineated on the basis of the cytoarchitectural features of the 
+cerebral cortex, whereas the vascular territory system is defined 
+by patterns of arterial supply and venous drainage [  54 –  56 ]. 
+However, neither of these classical paradigms accounts for the 
+spatial transport pathways or diffusion profiles within the ECS. 
+Utilizing TB-MRI, Han et al. demonstrated that tracers injected 
+into the caudate nucleus (Cn) and Tha of adult rat brains were 
+strictly confined to their respective drainage territories, with no 
+cross-territory communication detected. Specifically, tracers 
+from the Cn drained primarily along myelinated fiber tracts 
+toward the ipsilateral cortex, with a small fraction entering the 
+fourth ventricle via the ependyma; in contrast, tracer diffusion 
+into the thalamic ECS was completely blocked by dense myelin-
+ated barriers. These findings were corroborated using optical 
+imaging (Fig.  7 ), indicating that the Tha, Cn, and internal cap-
+sule are not only structurally discrete but also exhibit distinct 
+ISF drainage properties [ 33 ,  57 ].        
+   On the basis of these observations, subsequent investiga-
+tions have confirmed that this ECS barrier is not innate but 
+rather develops postnatally, reaching maturity in rats at approx-
+imately postnatal day 40. Prior to the full maturation of this 
+ECS barrier, immature myelin results in the absence of barrier 
+function, permitting unimpeded cross-regional diffusion of 
+neurotransmitters (e.g., dopamine) from the Cn to the Tha 
+[  58 ,  59 ]. As brain structures undergo progressive maturation, 
+the densification of myelin lamellae (with thickness increasing 
+from 0.14 to 0.24 μm) establishes a functional barrier that fully 
+blocks this passive diffusion. This spatial segregation sustains 
+Fig. 7 . ECS parcellation and substance transport routes in the brain ECS. (A) Substances 
+within the ECS of the Cn are unable to translocate to the ECS of the Tha and vice 
+versa, despite the anatomical adjacency of these 2 brain regions. (B) The structural 
+barrier that restricts interregional translocation from the Cn to the Tha is identified as 
+mature myelinated fiber tracts in the adult rat brain. IC, internal capsule. (C) Schematic 
+illustration of ECS parcellation in the human basal ganglia. Arrows denote that substances 
+in distinct basal ganglia nuclei are impeded from traversing the compact internal 
+capsule, thereby sustaining the microenvironmental homeostasis essential for neuronal 
+activity within individual nuclei. Ln, lentiform nucleus.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 11]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 11
+distinct ionic and neurochemical homeostasis, thereby optimizing 
+the function of the cortex–striatum–Tha circuit and enhancing 
+cognitive performance (Fig.  7 ) [ 59 ].
+   In contrast, aging is characterized by myelin degeneration, 
+attenuated arterial pulsatility, and cerebrovascular dysregulation. 
+All the above factors compromise ECS barrier integrity, reduce 
+ISF drainage efficiency, and impair waste clearance capacity. 
+Studies have demonstrated that aged mice (18 to 20 months old) 
+exhibit significantly lower ISF clearance rates compared with 
+young controls (2 to 3 months old) (Table  2 ) [  60 ,  61 ]. Ultimately, 
+impaired waste clearance perturbs the neural microenvironment 
+and accelerates cognitive decline; notably, this mechanism may 
+underlie the heterogeneity of age-related cognitive impairment.   
+Substance transportation in the brain ECS
+   Building on the parcellation and barrier properties of the brain 
+ECS discussed above, substance transport within the brain ECS 
+is a complex process regulated by multiple factors (Table  3 ). 
+Diverse physiological alterations, including the functional 
+activities of adjacent neurons, glial cells, and vascular structures, 
+can modulate the spatial configuration of the ECS as well as 
+substance transport within it. Conversely, alterations in ECS 
+properties may reciprocally influence the states of surrounding 
+neurons and neural networks. 
+   Neuronal excitation induces alterations in diffusion within the 
+brain ECS, characterized by a prolonged tracer half-life [ 40 ,  62 ]. 
+In a rat model of electrical pain stimulation under combined 
+anesthesia, neuronal excitation was shown to induce a significant 
+reduction in diffusion rate and ISF drainage. Using mass spec-
+trometry imaging and gene knockout technology, the alterations 
+in brain ECS transportation were verified to be primarily attrib-
+utable to biochemical changes rather than morphological 
+modifications of the ECS [ 62 ].
+   Notably, inhalational and intravenous anesthetics with distinct 
+anesthetic mechanisms exert differential effects on ECS substance 
+transport. Compared with isoflurane, dexmedetomidine- and 
+sodium-pentobarbital-induced anesthesia results in a significant 
+reduction in ECS tracer half-life; this difference is associated with 
+cerebral neurotransmitter levels (e.g., norepinephrine) [ 63 ]. This 
+finding provides theoretical underpinnings for the application of 
+dexmedetomidine combined with low-dose isoflurane in balanced 
+anesthesia, thereby mitigating postoperative delirium. In addition, 
+Lilius et al. [ 64 ] demonstrated that dexmedetomidine enhances 
+slow-wave electroencephalogram activity and accelerates CSF–ISF 
+exchange in the superficial cerebral cortex.
+   Furthermore, neuronal excitation induces both increased 
+electrical discharge frequency and reduced ECS volume, which 
+collectively promote the extracellular accumulation of neuroac-
+tive substances. This, in turn, further amplifies neuronal excit-
+ability, thereby forming a positive feedback loop that exacerbates 
+perturbations in the local neural microenvironment [ 28 ,  65 ,  66 ]. 
+Subsequently, during the refractory period following neuronal 
+excitation, enhanced ion transport facilitates the reestablish-
+ment of ionic concentration gradient equilibrium across the cell 
+membrane [  67 ]; meanwhile, the reuptake or enzymatic degrada-
+tion of extracellular neurotransmitters promotes the resolution 
+of astrocytic edema and the restoration of ECS structural integ-
+rity [  68 ,  69 ]. This dynamic regulatory interplay has been further 
+validated via ECS–neuron interaction simulations [ 28 ].
+   Notably, studies focusing on the ECS during sleep further 
+validate that neuronal excitation suppresses molecular trans-
+port within the ECS. Reduced levels of neuronal excitability 
+shorten the tracer half-life and accelerate substance diffusion 
+in the ECS [ 63 , 70 ]. Mechanistic investigations reveal that dur-
+ing sleep, slow-wave oscillations elicited by synchronous neu-
+ronal action potentials generate rhythmic ionic waves in the 
+cerebral ISF , expediting CSF–ISF exchange and thereby enhanc-
+ing metabolic waste clearance [ 71 ]. Similarly, deep meditation 
+induces slow-wave cerebral electrical activity, reduces norepi-
+nephrine secretion, and recapitulates a sleep-like cerebral waste 
+clearance profile [  72 ].
+   As the major glial cell populations, both oligodendrocytes 
+and astrocytes are intimately involved in substance transport 
+within the ECS. Oligodendrocyte-derived myelin sheaths serve 
+as either ISF drainage conduits or barriers, whereas astrocyte-
+associated aquaporin-4 (AQP4) modulates ECS substance 
+transport. Specifically, ISF drainage of Cn in the deep brain regions 
+is significantly impaired in AQP4 knockout mice, suggesting that 
+AQP4 regulates the flow dynamics of ISF by modulating water 
+movement between the ECS and astrocytic endfeet [ 73 ].
+   Beyond glial cells and neuronal activity, vascular pulsation 
+represents a key determinant of CSF–ISF exchange. Studies have 
+Table 2. Alterations of the brain ECS across different age stages
+Region Method/probe Species Age α λ
+D* × 10−4/
+(mm2·s−1) Refs.
+ Cortex  RTI-TMA+/ 
+TMA+ 
+ Wistar rats  Juvenile  0.260 ± 0.020  1.610 ± 0.025   [  210 ]
+ Wistar rats  Adult  0.210 ± 0.010  1.650 ± 0.030   [  211 ]
+ Wistar rats  Aged  0.180 ± 0.010  1.590 ± 0.020   [  212 ]
+ Striatum  TB-MRI/
+Gd–DTPA
+ SD rats  Juvenile (P20)  0.180 ± 0.030  1.610 ± 0.050  3.90 ± 0.460  [ 59 ]
+ SD rats  Juvenile (P40)  0.174 ± 0.040  1.710 ± 0.060  3.62 ± 0.260  [  213 ]
+ SD rats  Adult  0.173 ± 0.001  1.760 ± 0.020  3.43 ± 0.950  [ 213 ]
+ Hippocampus  RTI-TMA+/TMA+  Wistar rats  Juvenile (P5)  0.410 ± 0.010  1.390 ± 0.010   [  214 ]
+ Wistar rats  Adult  0.214 ± 0.004  1.622 ± 0.006   [  215 ]
+ Wistar rats  Aged  0.186 ± 0.004  1.599 ± 0.010   [  216 ]
+SD, Sprague–Dawley.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 12]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 12
+demonstrated that unilateral internal carotid artery ligation, via 
+eliminating arterial pulsation, markedly reduces CSF–ISF 
+exchange efficiency, whereas adrenergic agonists enhance this 
+exchange efficiency by amplifying arterial pulsatility [ 74 ]. In spon-
+taneously hypertensive rats, accelerated fluorescent tracer diffu-
+sion in the hippocampal ECS may correlate with elevated pulse 
+pressure and altered pulsatility profiles [ 75 ] dynamics induced by 
+respiration also contribute to the regulation of CSF–ISF drainage 
+[ 76 ]. During inspiration, negative thoracic pressure propagates 
+intracranially via the jugular venous system, dilating the perive-
+nous space and reducing local pressure, thereby driving CSF–ISF 
+influx along the pressure gradient. Conversely, expiration gener-
+ates positive intrathoracic pressure, which elevates intracranial 
+venous pressure and compresses the perivenous space. This respi-
+ratory “squeezing effect” actively facilitates CSF–ISF reflux into 
+the venous system [ 77 ].
+   With respect to the clearance pathways of ECS mole-
+cules in the superficial cortex, these molecules traverse the 
+leptomeningeal–glial membrane into the subarachnoid space, 
+undergo thorough mixing with CSF , and subsequently enter 
+the peripheral circulation via venous and lymphatic routes 
+[ 78 ,  79 ]. CSF–ISF efflux occurs through 2 distinct pathways: 
+approximately 70% to 80% is cleared via arachnoid granula-
+tions into the dural sinuses and then into the internal jugular 
+vein; the remaining fraction drains through peribridging 
+venous arachnoid cuff exits into dural lymphatic vessels, ulti -
+mately reaching the deep cervical lymph nodes [ 80 ].   
+Modulation of substance transport within  
+the brain ECS
+   Substance transport within the ECS can be actively modulated 
+through physical or pharmacological interventions (Table  4 ). 
+Targeted and precise regulation of the ECS affords promising 
+novel therapeutic strategies for the treatment of brain disorders.
+    Photobiomodulation therapy (PBMT) uses nonthermal 
+red light (RL; 630 to 800 nm) or near-infrared (NIR; 780 to 
+1,100 nm) light to promote tissue repair and regeneration 
+[  81 ]. PBMT at different wavelengths exerts differential effects: 
+630-nm RL accelerates ISF-CSF circulation, restores ECS structural 
+integrity, reduces Aβ aggregation, and inhibits neuronal apop-
+tosis. Mechanistically, PBMT with 630-nm enhances nitric 
+Table 3. Factors influencing substance transport in the normal brain ECS
+Adjacent structure or 
+physiological factors Species Biological mechanism Effect on ECS transport Refs.
+ Neuron  Rat  The chemical changes 
+following neuronal 
+excitation, including 
+released neurotransmit-
+ter, ion exchange, etc.
+ Diffusion and ISF 
+drainage are down-
+regulated following 
+neuronal excitation 
+under anesthesia.
+ [ 40 , 60 ,  63 ,  64 ,  70 ,  71 ,  217 ]
+ Oligodendrocyte  Rat/mouse  Acts as ECS barrier and 
+transport conduit
+ Local or extensive 
+demyelination causes 
+disturbance of transpor-
+tation in the brain ECS
+ [ 58 , 59 ]
+ Astrocyte  Rat  Regulates the transport 
+in the ECS via AQP4
+ ISF drainage function is 
+impaired in AQP4 gene 
+knockout models
+ [  73 ]
+ Cerebrovascular vessel  Mouse/rat/ human  Mechanical force effect  Arterial pulsation 
+facilitates CSF inflow, 
+accelerating the rate of 
+CSF–ISF exchange and 
+substance transport  
+in the ECS
+ [ 43 ,  74 ,  75 ,  77  ,  95 ]
+ CSF  Mouse  Substances in the 
+superficial cortex ECS 
+exchanges with the CSF.
+ The subarachnoid space 
+serves as a relay station 
+for substance transport 
+within the ECS
+ [  78 –  80 ]
+ Lymphatic circulation  Dog/mouse/rat/ 
+rabbit/cat
+ Downstream of the ECS 
+transport to enter the 
+systemic circulation
+ Ligation of cervical 
+lymph nodes slows ISF 
+flow; dural lymphatic 
+epithelium is the 
+intermediate link
+ [  140 ,  141 ,  218 ]
+ Respiration  Human  Intrathoracic pressure 
+affects intracranial 
+venous pressure via  
+the jugular vein
+ Drive CSF into the PVS 
+and back to the  
+venous system
+ [  76 , 77 ]
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 13]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 13
+Table 4. Neuromodulation methods and their effects on the brain ECS
+T ypes of modulation
+Noninvasive/
+invasive
+Modulation technical  
+parameters
+Brain disease models 
+and species Therapeutic target Modulation effects Refs.
+ Light stimulation  Minimally invasive  1,050 nm  Intraventricular 
+hemorrhage mice
+ Increase the production  
+of NO
+ Facilitate ISF drainage [95]
+ 1,267 nm
+ 808 nm  AD mice  Enhance meningeal 
+lymphatic endothelial 
+cells (mLECs)’ mitochon-
+drial function
+ Facilitate ISF drainage  [  84 ]
+ 630 nm  AD mice/healthy mice  Promote Aβ disassembly  Facilitate ISF drainage, 
+increase local diffusion rate, 
+and decrease  
+ECS tortuosity
+[219, 220]
+ LED (40 Hz)  AD mice  Increase arterial pulsatility 
+and AQP4 polarization
+ Promote the influx  
+of CSF
+[221]
+ LED (60 Hz)  Healthy mice  Release of MMPs  Affecting the ECM 
+components
+ [  222 ]
+ Ultrasound stimulation  Noninvasive  MRI-guided FUS  Gliomas and melano-
+mas mice
+ Increase the permeability 
+of the BBB
+ Increase ISF flow velocity [89]
+ FUS combined with microbub-
+ables (MBs)
+ Healthy mice  Ca2+ influx induces c-Fos 
+up-regulation
+ Enhance ECS substance 
+transport
+[91]
+ Synchronous pulsation  Invasive  Unilateral ligation of the internal 
+carotid artery
+ C57BL/6 mice  Astroglial water transport 
+via the AQP4
+ Decrease CSF flow  
+ –  Spontaneously 
+hypertensive rats (SHR) 
+and normotensive 
+Wistar Kyoto (WKY) rats
+ Water content within ECS 
+and changes in  
+Na+/K+ ratios
+ Increase ISF flow [75]
+ EAI  Adult male SD rats  The arterial pulsation 
+accelerates the exchange 
+between CSF and ISF
+ Increased ISF drainage and 
+ECS volume fraction reduced 
+ECS tortuosity and increased 
+local diffusion rate
+[95,43]
+ Forced breathing  Healthy subjects  Inspiratory thoracic 
+pressure reduction
+ Enhanced brain  
+ISF drainage
+[223]
+ Cardiac, respiratory, and 
+very-low-frequency and 
+low-frequency waves
+ Healthy subjects  Cardiac pulsations propel 
+water through aquaporin 
+channels and support 
+solute transport
+ Facilitate CSF flow  [ 77 ]
+(Continued)
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 14]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 14
+oxide (NO) generation in meningeal lymphatic endothelial 
+cells, thereby modulating vascular dilation and accelerating 
+both brain ISF drainage and waste clearance. When com-
+bined with nanotherapeutics capable of penetrating ECS pores 
+(38 to 64 nm), such as 30-nm encapsulated coenzyme Q10, 
+630-nm irradiation synergistically reduces formaldehyde accu-
+mulation and A β deposition in amyloid precursor protein/
+presenilin 1 mice, ameliorating memory deficits; PBMT with 
+808-nm laser therapy restores mitochondrial metabolism in 
+meningeal lymphatic endothelial cells, modulates lymphatic 
+contractility, and enhances ISF clearance to mitigate AD-related 
+pathology; similarly, pulsed 1,070-nm NIR irradiation (10 Hz) 
+activates microglia to enhance Aβ  degradation, restores ISF 
+drainage, and mitigates cognitive impairment in AD models. 
+Cumulative evidence demonstrates that PBMT mitigates neuro-
+degeneration associated with conditions such as stroke, traumatic 
+brain injury, Parkinson’s disease (PD), and AD [  82 – 84 ].
+   In addition to PBMT, electrical and magnetic stimulations 
+are also effective strategies for modulating substance trans-
+port in the ECS. Deep brain stimulation (DBS) alleviates 
+PD-related pathology in preclinical models by reconfiguring 
+the local neurotransmitter microenvironment, accelerating 
+ECS molecular diffusion and drainage, and restoring neu-
+rotransmitter homeostasis. Transcranial direct current stim -
+ulation (tDCS) is a noninvasive technique delivering low-intensity 
+currents (<2 mA) to targeted brain regions, which can enhance 
+diffusion and BBB permeability, thereby regulating ECS func -
+tion [ 85 ]. Mechanistically, tDCS promotes ISF drainage via 
+astrocytic inositol 1,4,5-trisphosphate (IP3)/Ca2+ signaling and 
+modulates δ-wave activity associated with cerebral waste clearance 
+[ 85 , 86 ]. Similarly, electroacupuncture enhances perivascular 
+glymphatic influx, improves AQP4 polarization, and reduces 
+Aβ deposition in AD models [ 87 ]. Repetitive transcranial 
+magnetic stimulation (rTMS) also facilitates the clearance of 
+neuropathological proteins (e.g., Aβ) from the ECS by enhanc-
+ing AQP4 polarization [ 88 ].
+   Transcranial ultrasound stimulation (TUS) enables safe and 
+efficient targeting of specific brain regions via continuous or 
+pulsed acoustic energy. Focused ultrasound (FUS) accelerates 
+fluorescent tracer transport in arteriole-dominant PVS and 
+enhances tracer penetration into the ECS, thereby modulating 
+the BBB to improve the delivery, distribution, and uptake of 
+therapeutic agents in the brain. As a precise deep brain neuro-
+modulation strategy, FUS holds considerable promise for the 
+treatment of AD and glioblastoma [ 89 –  92 ]. Notably, MRI-guided 
+FUS achieves transient, localized BBB opening to accelerate 
+transportation in the ECS and perivascular influx, without 
+compromising long-term BBB integrity or inducing parenchymal 
+damage [  93 ,  94 ]. Collectively, the noninvasive and low-intensity 
+characteristics of TUS indicate its strong potential for rapid 
+clinical translation.
+   Surgical intervention is an alternative strategy for regulat-
+ing ECS substance transport. Han et al. developed an epi-
+dural artery implantation (EAI) technique that synchronizes 
+with cerebral pulsations, thereby enhancing substance trans -
+port in the downstream drainage regions of the deep brain 
+ECS. Even in the absence of pharmacological neuroprotec-
+tants, EAI accelerates ISF drainage in both the superficial 
+cortex and deep brain regions, promotes the clearance of 
+proinflammatory cytokines, alleviates inflammatory responses, 
+and exerts neuroprotective effects in the context of ischemic 
+stroke [ 43 , 95 ].    
+T ypes of modulation
+Noninvasive/
+invasive
+Modulation technical  
+parameters
+Brain disease models 
+and species Therapeutic target Modulation effects Refs.
+ Electrical stimulation  Invasive  tDCS  Healthy mice  Through astrocytic IP3/
+Ca2+ signaling, modify the 
+delta wave
+ Increased solute diffusion in 
+ECS
+ [  85 ,  86 ]
+ Electroacupuncture  AD mice  –  Increase ECS clearance  [  87 ]
+ DBS  PD rats  Improve AQP4 polarity  Increased ISF drainage and 
+ECS volume fraction, reduced 
+ECS tortuosity, and increased 
+local diffusion rate
+ [  164 ]
+ TMS  Noninvasive  Continuous theta burst 
+stimulation
+ C57BL/6J mice  Improve AQP4 polarity  Increase ECS substance 
+transport
+[88,224,225]
+ Other rTMS  C57BL/6J mice  Activate GABA  Improve ECS waste clearance [225]
+LED, light-emitting diode; GABA, γ-aminobutyric acid.
+     Table 4. (Continued)
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 15]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 15
+Therapeutic Strategies and Paradigm 
+Innovation with Brain ECS Knowledge
+   Traditional therapeutic strategies for brain diseases have histori-
+cally overlooked the brain ECS, which fails to fully elucidate the 
+pathogenesis of brain disorders and thereafter is hard to identify 
+the most optimal treatment protocols. A systematic paradigm 
+shift from the traditional “cell–vasculature” framework to a “cell–
+ECS–vasculature” framework will provide a structurally complete 
+mechanism for the onset, progression, and outcome of brain 
+diseases. Furthermore, this evolution will not only facilitate the 
+identification of precise therapeutic targets and optimize neu-
+romodulation techniques but also provide an efficient drug deliv-
+ery route distinct from that of the traditional vascular delivery 
+pathway [ 11 ]. The following sections illustrate the value of inte-
+grating the ECS into mechanistic research and evaluation, focus-
+ing on AD and ischemic stroke. Finally, the technical prerequisites 
+for regulatory paradigm innovation are discussed.  
+Incorporating pathological ECS changes into 
+research framework of brain diseases
+   AD is the leading cause of cognitive impairment worldwide. 
+The typical pathological changes of AD are senile plaques (SPs) 
+formed by Aβ protein deposits in the ECS and neurofibrillary 
+tangles (NFTs) formed by hyperphosphorylated tau protein within 
+the neuronal cytoplasm [  96 ]. For a long time, drug development 
+for brain diseases has primarily focused on molecular-level 
+intervention targets [  97 ], mainly targeting neurotransmitter 
+dysregulation in affected areas and Aβ deposition in the ECS 
+[  98 ]. However, the failure of such drug development has prompted 
+the industry to explore novel therapeutic strategies [  99 ,  100 ]. As 
+the microenvironment sustaining neuron survival and the new 
+potential pathway for drug or physical treatment [ 26 ], the ECS 
+provides a totally new perspective for overcoming the bottle-
+necks in AD treatment [  101 ].
+   Because of the deposition of Aβ in the brain ECS, the drainage 
+of ISF slows or ceases, impairing the diffusion and clearance of 
+substances within the ECS [ 82 ]. Concurrently, this pathological 
+alteration in ECS not only slows the clearance of neurotransmit-
+ters from the synaptic cleft, leading to the accumulation of neu-
+rotransmitters such as acetylcholine and dopamine, but also 
+exacerbates clearance impairments of toxic factors such as endog-
+enous fractional anisotropy (FA) [  102 ]. Endogenous FA is a key 
+factor inducing Aβ aggregation to form SP and the formation of 
+NFTs with tau protein [  103 ]. The aforementioned pathological 
+processes, including alterations in the brain ECS structure, neu-
+rotransmitter dysregulation, and accumulation of endogenous 
+toxins, lead to impaired local synaptic transmission and neuronal 
+cell death, ultimately causing cognitive and memory impairment 
+in patients with AD. Incorporating the ECS theoretical frame-
+work into AD research provides a compelling explanation for the 
+current therapeutic bottlenecks encountered in AD treatment. 
+In the early stages of AD, when the ECS has not yet been com-
+pletely blocked by Aβ, 5 clinical drugs for mild to moderate AD 
+may still partially exert therapeutic effects, including 4 acetylcho-
+linesterase inhibitors (donepezil, galantamine, rivastigmine, and 
+tacrine) and one N -methyl-d -aspartate receptor antagonist 
+[ 11 , 32 , 70 ,  104 ,  105 ]. However, in the late stages of AD, the block-
+age of the ECS by SP prevents these small-molecule polar che-
+motherapeutic agents from reaching the critical target areas of 
+neuronal damage, thereby failing to exert neuroprotective effects 
+or improve cognitive function. Therefore, for patients with AD 
+at different stages of dementia, clinical treatment must consider 
+the regional heterogeneity of ECS blockade/structural alterations 
+and the impact of impaired ISF drainage on drug delivery. This 
+represents a primary concern for novel drug development and 
+clinical drug utilization. Therefore, future development of novel 
+nanomedicines for AD should consider the entire process of drug 
+entry through the BBB into ECS and delivery to therapeutic target 
+sites, enabling targeted and specific drug design. For instance, 
+ultrasound technology can be used to open the BBB and enhance 
+drug penetration. Utilizing liposomal carriers to encapsulate and 
+improve the BBB permeability of polar small-molecule drugs 
+[  106 ], along with further optimizing carrier surface charge, poly-
+ethylene glycol coating, and particle size, will facilitate drug deliv-
+ery to the target site. In addition, as shown in Fig.  8  [ 12 ,  107 ], the 
+combined application of photobiomodulation and specific nano-
+phototherapy combined with nanomedicines effectively disrupts 
+Aβ plaques obstructing ECS, restores substance transport within 
+the ECS and ISF flow, reduces endogenous FA accumulation, and 
+restores cognitive function in AD rats. Of course, because of the 
+discovery of the new ECS parcellation system [ 33 , 57 ], drug design 
+strategies for AD and other common brain disorders must be 
+recalculated on the basis of the translocation kinetics of drug 
+molecules within the target ECS region to optimize the tradi-
+tional PK [ 12 ].           
+Incorporating substance transport and PKs of the 
+ECS into the research for brain disease therapy
+   On the basis of the guidelines issued by the National Medical 
+Products Administration and the International Council for 
+Harmonization of Technical Requirements for Pharmaceuticals 
+for Human Use, the administration frequency and dosage of 
+systemic medications are determined according to the monitor-
+ing results of plasma drug concentrations [  108 ,  109 ]. However, 
+this strategy cannot ensure that drugs reach the target neurons 
+to exert their therapeutic effects. A primary reason for this 
+historical theoretical gap is the lack of clinically applicable 
+imaging analysis technologies for the human brain ECS, cou-
+pled with insufficient fundamental knowledge regarding the 
+ECS. In the “The discovery of the brain ECS parcellation” sec-
+tion, we introduced the ECS parcellation system and clarified 
+that small-molecule, water-soluble polar drugs present distinct 
+PK profiles across different ECS compartments. Here, we fur-
+ther explore the importance and necessity of integrating ECS-
+related substance transport and PK into the research for brain 
+disease therapy and analyze the technical support required for 
+such systematic reform.
+   To illustrate this point, we take neuroprotective drugs for 
+ischemic stroke as an example. In 2011, according to the Stroke 
+Therapy Academic Industry Roundtable recommendations, a 
+systematic analysis was conducted on the clinical development 
+failures of neuroprotective drugs, identifying 7 critical design 
+flaws responsible for these failures. Among the agents under 
+clinical investigation at that time, citicoline was recognized as 
+one of the most promising drug candidates [  6 ]. Regrettably, 
+citicoline was officially declared clinically ineffective in its phase 
+III trial in 2012 [  110 ]. Notably, neither the global roundtable 
+summary nor subsequent analyses incorporated the critical role 
+of the ECS into their assessments. A modest advancement has 
+since been made: Prior to the clinical translation of brain-targeting 
+therapeutics, regulatory authorities now recommend that 
+researchers adopt drug concentrations in CSF , local ISF , or 
+whole-brain homogenates as surrogate indicators to reflect the 
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 16]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 16
+efficiency of brain drug delivery [  111 ]. In reality, drug distribu-
+tion within the brain ECS exhibits marked heterogeneity. On 
+the basis of the arterial territory of the middle cerebral artery, 
+infarct lesions in the middle cerebral artery occlusion (MCAO) 
+model are predominantly localized in the Cn and its adjacent 
+cortical regions. When citicoline is administered into the Tha 
+region adjacent to the Cn, the drug fails to cross the ECS barrier 
+to reach the ischemia-affected neurons and exert neuroprotective 
+effects, even when the dosage and administration frequency 
+are escalated to levels that induce neuroexcitotoxicity. In con-
+trast, targeted delivery of neuroprotective agents to the upstream 
+regions of ECS substance transport within ischemic areas, 
+combined with dosing regimen optimization based on PK 
+parameters (e.g., half-life and maximum distribution volume), 
+yields a highly potent neuroprotective effect (Fig.  7 ). Specifically, 
+in a rat model of prestroke, drug administration via ECS at a 
+CSF
+Blood
+BBB
+Neuron
+ISF
+ISF
+Drug
+Blood
+BBB
+Neuron
+ISF
+ISF
+Apoptosis
+Death
+Drug
+Death
+Apoptosis
+Living Living
+SP
+CSF
+FA
+SP
+ECS
+SP
+SP
+SP
+AB
+CD
+SP
+ECS diff. origin
+Thalamus
+Hippocampus
+Caudate nucleus
+CSF system
+Lateral ventricle
+Third ventricle
+Fourth ventricle
+ECS in 
+cortex
+Cortex Subarachnoid 
+space
+Plasma
+QISF–CSF QCSF–ISF
+Q
+BCSFB
+QCSF–CB
+ISF
+A hypothesis
+AchGlu hypothesis
+Ach hypothesis
+ROS hypothesis
+Tau hypothesis
+Ah ypothesis
+A
+O
+–ECS hypothesis
+FA
+FA
+Virus hypothesis
+Aβ/ADH5
+FA hypothesis
+CSF
+Blood
+ISF*
+Microglia
+Fig. 8. Aβ deposition and SP formation in patients with AD elicit ECS obstruction, compromise ISF clearance efficiency, and preclude targeted drug delivery to vulnerable neurons. 
+(A and B) Comparative schematic of drug transport dynamics within the healthy versus pathologically remodeled cerebral ECS microenvironment in AD. (C) Pathological 
+occlusion of the cerebral ECS culminates in the failure of therapeutic agents to reach their intended cellular targets. NMDA-R, N-methyl-d-aspartate receptor; Ach, acetylcholine; 
+ChAT , choline acetyltransferase; ADH5, alcohol dehydrogenase 5; ATP , adenosine triphosphate; ADP , adenosine diphosphate. (D) Schematic illustration of substance trafficking 
+routes from the cerebral ECS compartment to the systemic circulation.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 17]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 17
+selected upstream site of Cn along the middle cerebral artery 
+drainage territory achieved a 6-fold enhancement in neuropro-
+tective coverage, using only 1/800 of the dosage required for 
+intraperitoneal administration [ 11 ].
+   Technically, integrating the ECS into existing regulatory frame-
+works for evaluating the clinical efficacy of encephalopathy drugs 
+demands technologies that enable accurate quantification of intra-
+cerebral drug distribution and provide PK/pharmacodynamic 
+(PK/PD) data in target regions. Furthermore, imaging techniques 
+that allow synchronous acquisition of structural and functional 
+information on neurons, glial cells, microvessels, and the ECS in 
+both animal and human brains will become indispensable. 
+Currently, TB-MRI can provide PK parameters of small-molecule 
+polar drugs in distinct ECS compartments [ 26 ]. Combined with 
+AI technology, TB-MRI can also provide both the calculated results 
+of diffusion rate and bulk flow velocity [ 35 ]. Moreover, by integrat-
+ing the whole-body imaging capabilities of conventional MRI 
+and radionuclide imaging, TB-MRI is technically well suited 
+for conducting integrated PK/PD studies. Meanwhile, MDI offers 
+an approach for synchronous visualization of neuroprotective 
+drug effects on cells, blood vessels, and the ECS during clinical 
+evaluations [ 50 ]. This synchronous acquisition technology also 
+yields noninvasive biomarkers for assessing drug effects on 
+different compartmental structures and intercompartmental 
+interactions, serving as a practical tool for exploring disease 
+mechanisms and the pathways underlying drug action.   
+ECS-targeted therapeutic strategies  
+for brain diseases
+   On the basis of the aforementioned research findings, future drug 
+design and treatment strategies should consider brain ECS as a 
+critical factor in neurological diseases. We have summarized the 
+pathological changes related to ECS in various brain disorders. 
+A challenge in understanding ECS pathophysiology lies in dis-
+tinguishing whether changes in ECS structure and function are 
+primary drivers of brain disease. This distinction holds critical 
+guidance for formulating treatment strategies. Increasing evi-
+dence suggests a dynamic bidirectional regulatory relationship: 
+In the early stages of disease, mild ECS dysfunction may initiate 
+pathological cascades (for instance, impaired toxic metabolite 
+clearance precedes protein aggregation); whereas, in later stages, 
+disease-specific pathological mechanisms actively remodel ECS 
+structures, establishing self-perpetuating pathological cycles. This 
+conceptual framework provides essential theoretical background 
+for interpreting the specific ECS changes associated with different 
+diseases, as well as direction for developing stage-specific thera-
+peutic interventions. So far, no preclinical or clinical study has 
+systematically integrated the ECS into its research framework. 
+Given that the ECS undergoes pathological changes during dis-
+ease progression and serves as a core pathway for drug delivery 
+and neuromodulation, this research field is particularly demanded. 
+Various ECS-targeted intervention strategies have demonstrated 
+remarkable efficacy in preclinical models, offering broad prospects 
+for future treatments of CNS diseases.  
+Alzheimer’s disease
+   The typical pathological changes and neural damage mechanisms 
+of AD include protein homeostasis imbalance, dysregulated 
+immune responses, and abnormal neural circuitry, among which 
+the abnormal metabolism of Aβ represents a key initiating event. 
+Soluble Aβ oligomers within the ECS trigger early neurotoxicity 
+and cognitive deficits by disrupting the transport of synaptic 
+receptors ( N-methyl-d-aspartate and AMPA receptors) and 
+impairing long-term potentiation [  112 ,  113 ]. Dysregulation of the 
+biophysical microenvironment of the ECS constitutes a key 
+factor driving AD progression, characterized by alterations in ECS 
+spatial conformation and fluid dynamics related to ISF drainage, 
+as elaborated in the “Incorporating pathological ECS changes into 
+research framework of brain diseases” section [ 28 ,  114 ]. These 
+pathological changes compromise the substance transport function 
+of the ECS, reduce the brain’s network integration capacity, and 
+disrupt memory formation. Given the aforementioned ECS-related 
+pathological alterations, the research advances in ECS-targeted 
+therapeutic strategies for AD are elaborated in the subsequent 
+section.
+   PBMT uses visible/NIR nonionizing radiation to induce 
+photochemical reactions and physiological changes in target 
+tissues. RL (630, 632.8, and 635 nm) and NIR (808, 1,070 nm, 
+4 J/cm2, 10 Hz) reduce Aβ deposition [ 81 ,  115 ,  116 ], up-regulate 
+brain-derived neurotrophic factor (BDNF) [  117 ], and improve 
+cognitive function in dementia mice [ 81 , 115 ]. In vitro, 810 nm 
+NIR alters microtubulin secondary structure (decreased α helix 
+and increased β sheet) [  118 ]. Notably, 630-nm RL penetrates the 
+skull, activates formaldehyde-degrading enzymes to enhance FA 
+clearance, thereby reducing Aβ deposition, promoting ISF drain-
+age, remodeling ECS structure, and improving cognition in AD 
+models [ 116 ,  119 ].
+   FUS combined with microbubbles regulates ECS via sonopora-
+tion. At low sound pressure, microbubbles induce steady cavita-
+tion, reversibly opening the BBB through vascular wall shear 
+forces to facilitate antibody drug delivery [ 91 ,  120 ]. FUS increases 
+ECS volume fraction, reduces tortuosity, and decreases solute dif-
+fusion resistance [  121 ]. It also reduces amyloid positron emission 
+tomography signals, indicating Aβ clearance potential [  122 ].
+   TMS modulates neural networks via electromagnetic induc-
+tion. High-frequency stimulation (> 5 Hz) up-regulates the 
+BDNF–Tropomyosin-related kinase B (BDNF-TrkB) pathway 
+to promote synaptic regeneration [  123 ]. By regulating default 
+mode network functional connectivity, it reverses Aβ-induced 
+network collapse [  124 –  126 ]. In addition, 40-Hz gamma tran-
+scranial ac stimulation activates microglia, induces vasodilation 
+and slow-wave oscillations, and enhances Aβ clearance [  127 ].
+   Mesenchymal stem cells, neural stem cells, and induced plu-
+ripotent stem cells remodel the ECS microenvironment via para-
+crine effects and immune regulation. Transplanted stem cells 
+secrete anti-inflammatory factors (transforming growth factor-β 
+and interleukin-10 [IL-10]) and neurotrophic factors (BDNF and 
+vascular endothelial growth factor [VEGF]) to promote neuro-
+genesis and synaptic remodeling. Stem-cell-delivered microRNAs 
+(e.g., miR-146a) reduce Aβ production/aggregation by modulating 
+inflammation [  128 –  130 ]. Notably, dense ECM in the pathological 
+microenvironment increases ECS tortuosity, forming a physical 
+barrier that restricts transplanted cell migration, homing, distribu-
+tion, and survival [  131 ,  132 ].
+   Deep cervical lymphovenous anastomosis (LV A) intervenes 
+in the glymphatic system via microsurgical anastomosis of high-
+resistance deep cervical lymphatics to the low-pressure cervical 
+venous system. This enhances CSF–ISF exchange and drainage, 
+accelerating clearance of neurotoxic metabolites (Aβ and phos-
+phorylated tau) [  133 –  135 ]. Clinical studies confirm its safety 
+and feasibility, with short-term improvements in mini-mental 
+state examination scores and reduced CSF AD biomarkers; how-
+ever, its effect on complex cognition (e.g., Montreal cognitive 
+assessment scores) remains unclear [  136 ,  137 ]. High-quality 
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 18]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 18
+randomized controlled trial evidence supporting LV A for AD 
+is currently lacking [  138 ,  139 ]. Exogenous VEGF-C improves 
+meningeal lymphatic function, enhances Aβ  clearance, and 
+ameliorates cognition in AD models [ 140 , 141 ].
+   Collectively, physical, surgical, and cell-based strategies 
+targeting the ECS hold substantial potential for AD therapy 
+by improving substance transport and remodeling the brain 
+microenvironment.   
+Ischemic stroke
+   Neuronal damage following ischemic attack progresses cascad-
+ingly because of reduced or obstructed cerebral perfusion, 
+triggering energy failure, ionic imbalance in the ischemic core, 
+glutamate-mediated excitotoxicity in the penumbra, and reactive 
+oxygen species (ROS)-induced oxidative stress, inflammation, 
+and BBB disruption during reperfusion, ultimately leading to 
+neuronal apoptosis or pyroptosis [  142 ,  143 ]. Current therapies 
+(intravenous thrombolysis, endovascular thrombectomy, neu-
+roprotective agents, and stem cell therapy) primarily focus on 
+damaged neurons or neurovascular units but overlook ECS 
+pathology [  144 ,  145 ]. Consequently, traditional therapeutic 
+strategies not only need to overcome the challenge of drug entry 
+into the brain through the BBB via systemic administration but 
+also address the difficulty of drugs reaching damaged neurons 
+within the ECS after crossing the BBB. The ECS provides a 
+novel perspective and potential solutions to these challenges.
+   To enhance the drug delivery to the brain to treat ischemic 
+stroke, Bobo et al. [  146 ] proposed the convection-enhanced 
+delivery (CED) technique for direct intraparenchymal admin-
+istration in the 1990s. This technique assumes that the brain is 
+a solid tissue and drives substance transport in the brain paren-
+chyma through pressure, thereby bypassing the hindrance of 
+the BBB [ 146 ]. Pressure-induced backflow is the major techni-
+cal obstacle of CED [  147 ]. To address this, Han’s research team 
+applied machine-learning-aided TB-MRI and confirmed that 
+ECS drug molecule transport is primarily diffusion-dominated 
+[ 35 ]. They also proposed a concentration-driven drug delivery 
+method of simple-diffusion delivery (SDD), which bypasses 
+the BBB to achieve efficient, low-toxicity neuroprotection, pro-
+viding a novel therapeutic paradigm via ECS for ischemic stroke, 
+brain tumors, and other brain diseases [ 11 ].
+   Before the ECS was incorporated into the mechanistic research 
+of encephalopathy treatment, the therapeutic mechanism of 
+encephaloduroarteriosynangiosis (EDAS) for moyamoya ischemic 
+disease remained unclear, which seriously hindered the promotion 
+and application of this surgery in the treatment of ischemic stroke. 
+Previous mechanistic studies on EDAS have primarily focused on 
+blood vessels, failing to adequately explain the early clinical 
+improvement of stroke symptoms. Recently, Lian et al. [ 43 ] applied 
+a modified EAI (m-EAI) and confirmed in a rat MCAO reperfu-
+sion model that the mechanism of this surgical treatment for 
+cerebral ischemic injury lies in accelerating substance transport 
+within the brain tissue ECS. By promoting the clearance of 
+neurotoxic factors such as inflammatory factors in the penumbra, 
+favorable neuroprotective effects can be achieved: Arterial 
+pulsation synchronously enhances ECS transport and facilitates 
+clearance of toxic factors from the penumbra, significantly 
+reducing infarct volume (from 23.71% to 7.69%) and alleviating 
+cerebral edema (brain water content: 79.68% in the m-EAI group 
+versus 83.52% in the transient MCAO group) [ 43 ,  148 ].
+   Similarly, application of 755-nm NIR light to the MCAO 
+drainage region achieves a more pronounced acceleration of 
+ECS molecular diffusion and ISF drainage compared with 
+m-EAI. This intervention promotes the clearance of inflam-
+matory factors and pathological proteins, mitigates cerebral 
+ischemia–reperfusion injury, improves poststroke cognitive 
+impairment, and reduces infarct volume by 45.3% on day 28 
+posttreatment [ 44 ].   
+Parkinson’s disease
+   PD is characterized by progressive degeneration of dopaminergic 
+neurons in the nigrostriatal pathway, driven by mitochondrial 
+dysfunction, α-synuclein ( α-syn) aberrant aggregation, and 
+amplified oxidative stress [  149 ,  150 ]. These pathological changes 
+disrupt the distribution of dopamine, glutamate, and other neu-
+roactive substances in the striato–cortical–thalamic circuit, lead-
+ing to cardinal motor symptoms such as bradykinesia and tremor 
+[  151 ]. Current therapies include dopaminergic pharmacotherapy 
+[  152 ], neuroprotective agents [ 150 ], gene therapy [  153 ], cell 
+transplantation [  154 ], noninvasive neuromodulation [  155 ,  156 ], 
+and surgical interventions (lesioning and DBS) [  157 ] but with 
+obvious limitations: Dopaminergic medications lose efficacy and 
+induce motor complications; noninvasive approaches lack spatial 
+resolution and penetration depth; DBS has variable responses 
+with unclear mechanisms; crucially, existing treatments fail to 
+coordinate ECS homeostasis, neurochemical balance, and neu-
+ronal protection. Accumulating evidence identifies ECS dysfunc-
+tion as a critical contributor to PD pathogenesis: Structurally, PD 
+rat models show significant changes in ECS α  and λ , with 
+increased tortuosity following α-syn oligomer-induced neuro-
+degeneration [  158 ,  159 ]; functionally, ISF drainage is impaired 
+in PD rats (especially in the substantia nigra and Cn), which can 
+be partially reversed by levodopa treatment [  160 –  163 ].
+   ECS modulation has been validated as an effective therapeutic 
+strategy for PD. Mechanical vibration, photostimulation, and elec-
+tromagnetic approaches can alter ECS architecture and molecular 
+transport to improve brain function: Low-intensity FUS (LIFUS) 
+expands ECS and PVS to facilitate small-molecule diffusion [ 94 ], 
+and combining LIFUS with intravenous microbubbles enhances 
+deep brain molecular transport without damaging the BBB [ 91 ]. 
+Our previous work showed that high-frequency (130-Hz) subtha-
+lamic nucleus (STN)-DBS remotely modulates ECS structure and 
+ISF drainage in the substantia nigra of PD rats (reducing effective 
+diffusion coefficient D* by 11.2%, shortening half-life T 1/2 by 15.7%, 
+and increasing clearance coefficient k′ by 23.7%). Mechanistically, 
+STN-DBS up-regulates HA content and AQP4 expression, restores 
+excitatory amino acid transporter 2-mediated glutamate transport, 
+accelerates ISF drainage and α-syn clearance, ultimately protects 
+dopaminergic neurons [ 164 ]. These studies highlight the pivotal 
+role of ECS dysfunction in PD and validate a therapeutic 
+framework targeting ECS-mediated α -syn clearance, laying 
+theoretical and technical foundations for ECS as a novel PD treat-
+ment target.   
+Glioma
+   Gliomas are the most common primary malignant tumors of the 
+CNS [  165 ,  166 ]. Gliomas typically exhibit expanded ECS volume 
+and increased tortuosity, which are closely correlated with 
+pathological grades: Low-grade gliomas have an α value of 0.29, 
+whereas high-grade gliomas show an α value as high as 0.44 and 
+a λ value increased to 1.78 (compared with normal brain tissue) 
+[  167 ]. The overexpressed tenascin in the ECM, combined with 
+interstitial fibrosis and vascular dysfunction, severely restricts the 
+transportation of the neuroactive substances and therapeutic drug 
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 19]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 19
+agents [  168 ]. Current clinical treatments mainly include surgery, 
+radiotherapy, chemotherapy, and biotherapy. CED was approved 
+by FDA for malignant glioma treatment in 2009 [ 146 ,  169 ,  170 ]. 
+However, insufficient understanding of ECS substance transport 
+anisotropy and hydrodynamic laws in clinical practice leads to a 
+series of critical technical bottlenecks, including drug backflow, 
+uncontrollable distribution range, and inability to perform precise 
+quantitative therapy on tumor cells.
+   The application of TB-MRI enables real-time monitoring of 
+ECS substance transport, which is crucial for addressing techni-
+cal limitations of CED. Notably, tumor growth significantly alters 
+the pathways and velocities of ECS substance transport [ 168 ]. 
+More importantly, machine-learning-based analysis of TB-MRI 
+results has revealed that diffusion is the primary form of molecu-
+lar transport in deep brain regions. Therefore, the concentration-
+driven SDD method is expected to be more efficient than CED 
+for chemotherapeutic drug delivery via the ECS pathway, provid-
+ing a novel direction for precise glioma therapy.   
+Multiple sclerosis
+   Multiple sclerosis (MS) is a chronic immune-mediated CNS 
+demyelinating disorder characterized by multifocal demyelination, 
+axonal injury, neurodegeneration, and heterogeneous progressive 
+neurological deficits from autoreactive immune cell infiltration, 
+myelin destruction, and impaired signal transmission [  171 ]. 
+Recent studies confirm brain ECS functional abnormalities as key 
+neural injury mechanisms: Demyelination disrupts the ECS 
+parcellation barrier, triggering abnormal striatal ISF drainage into 
+lesioned regions (striatal ECS structure unchanged but drainage 
+half-life shortened by ~8%, reversible upon remyelination), and 
+causing aberrant neuroactive substance distribution (especially 
+in purine, arginine, and proline metabolism pathways), forming 
+a “demyelination–ECS dysregulation–pathological accumulation–
+neural injury” vicious cycle [ 33 , 58 ]. Current MS therapies (immu-
+nomodulatory and remyelination-promoting, neuroprotective, 
+and symptomatic care) have substantial limitations despite indi-
+rect ECS associations: lack of ECS as a core target (failing to block 
+the pathological cascade), confined indirect effects (direct roles 
+in ECS barrier repair/ISF drainage unclarified), imbalanced 
+synergistic regulation (no targeted intervention for ECS-induced 
+metabolic abnormalities), and absence of precise ECS function 
+assessment systems [ 58 ].
+   Han et al. first confirmed the efficacy of ECS pathway-based 
+treatment for MS, providing novel precise targeting strategies. 
+Using a unilateral demyelination rat model and TB-MRI, they veri-
+fied the critical pathological role of ECS parcellation barrier disrup-
+tion and abnormal ISF drainage and found that remyelination can 
+reverse ECS functional abnormalities [ 58 ]. Further research 
+revealed that metabolic pathway abnormalities induced by ECS 
+barrier impairment are directly correlated with inflammation and 
+neural injury, laying a theoretical foundation for targeted modula-
+tion of the ECS metabolic microenvironment to block pathological 
+progression. Future research should focus on strengthening the 
+exploration of ECS targeting mechanisms, developing ECS-
+targeted intervention approaches, and establishing multitarget 
+synergistic regimens combining ECS regulation with existing 
+immunomodulation and remyelination-promoting and neuro-
+protective therapies to improve the MS treatment system.   
+Schizophrenia
+   The pathophysiological mechanisms of schizophrenia (SCZ) 
+remain incompletely elucidated, with mainstream hypotheses 
+focusing on neural circuit dysfunction (dopaminergic hyper-
+activation and glutamatergic hypoactivity), synaptic dysfunc-
+tion, and chronic neuroinflammation [  172 –  176 ]. Recently, ECS 
+integrity has been recognized as a critical regulatory factor: 
+AQP4 gene polymorphisms linked to SCZ risk disrupt CSF–ISF 
+exchange and prolong inflammation [  177 ,  178 ]; enlarged cho-
+roid plexus in patients with somatic symptom disorder impairs 
+glymphatic clearance and exacerbates symptoms [  179 –  181 ]; 
+neuroimaging shows reduced perivascular ECS diffusion and 
+imbalanced vasculature–CSF coupling in patients with SCZ 
+[  182 –  186 ]. Current treatments (antipsychotics, electroconvul-
+sive therapy, and rTMS) target cellular/neural circuit levels, 
+with limitations including neglect of extracellular microenvi-
+ronment pathology and low drug delivery efficiency due to 
+BBB/ECS obstructions, leading to 30% treatment-resistant 
+cases with persistent cognitive impairments [  187 ].
+   ECS-based targeted interventions offer a promising direc-
+tion for SCZ therapy. ECS-mediated precise diffusion drug 
+delivery can bypass BBB constraints; under tracing technique 
+guidance, lower doses can achieve better drug enrichment in 
+target brain regions, potentially enhancing efficacy and reduc-
+ing adverse effects. AQP4 modulators and anti-inflammatory 
+drugs are expected to restore ECS fluid transport function and 
+alleviate inflammation-related obstructions, providing new ideas 
+for improving negative symptoms and cognitive dysfunction. 
+To advance relevant research systematically, the following opti-
+mizations are needed: (a) focus on core SCZ populations to 
+explore the potential applications and mechanisms of ECS 
+regulatory technologies; (b) investigate the combination of 
+ECS-targeted strategies with existing treatments; (c) strengthen 
+basic mechanistic research to clarify the interactions between 
+ECS pathological changes, neural circuits, and the BBB.   
+Epilepsy
+   Epilepsy is a chronic neurological disorder characterized by 
+abnormal synchronous neuronal discharges and recurrent 
+seizures, with a pathophysiological core of excitation–inhibi-
+tion imbalance that drives global network oscillations [  188 ,  189 ]. 
+Postepisode plasticity changes and ion homeostasis disruption 
+form a disease progression vicious cycle [  190 –  192 ]. Currently, 
+antiepileptic drugs are first-line therapy (controlling seizures 
+in ~70% patients), with surgical resection and neuromodula-
+tion (e.g., vagus nerve stimulation and DBS) as complements 
+for drug-resistant cases [  193 ]. However, therapeutic bottlenecks 
+are increasingly linked to the ECS “physical barrier” hypothesis 
+and diffusion parameter alterations [ 28 ]. Under chronic condi-
+tions (e.g., temporal lobe epilepsy and status epilepticus), reac-
+tive astrocyte proliferation and pathological ECM deposition 
+drastically reduce epileptogenic cortex volume fraction (~30% 
+reduction) with increased tortuosity and structural collapse 
+[  194 ]. These changes impede drug diffusion, delay excitatory 
+substance (glutamate and K+) clearance (local K+ >10 mM) to 
+intensify synchronous discharges via electrical field coupling, 
+reduce ECS efflux efficiency (e.g., abnormal AQP4) causing 
+neurotoxic metabolite accumulation, and interact with seizure-
+generated ROS/IL-1β to disrupt ECS integrity, forming a hyper-
+excitable microenvironment that sustains disease progression 
+[  195 –  199 ].
+   Novel ECS-targeted therapeutic strategies emphasize “envi-
+ronmental remodeling” , aiming to bypass synaptic drug resis-
+tance by restoring ECS volume and ion homeostasis to block 
+cascade reactions. Emerging technologies offer new approaches 
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 20]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 20
+to overcoming ECS physical barriers: (a) Pulsed ultrasound 
+modulates neural excitability and temporarily mechanically 
+dilates ECS and PVS to enhance drug penetration and metabo-
+lite clearance [  200 ]; (b) CED uses pressure gradients to deliver 
+drugs directly into interstitial space, bypassing BBB and convo-
+luted ECS [  201 ]; and (c) nanocarriers traverse convoluted ECS 
+to precisely deliver drugs to epileptogenic zones while evading 
+efflux transporters [  202 ]. In addition, Na–K–2Cl cotransporter 
+isoform 1/K–Cl cotransporter isoform 2-targeted interventions 
+(e.g., furosemide and bumetanide) suppress glial swelling and 
+reverse ECS contraction, blocking induced discharges in animal 
+models and suppressing interictal spikes clinically with reported 
+50% seizure frequency reduction [  203 ,  204 ]; bumetanide phase 
+II studies showed 70% seizure reduction, with ongoing BBB 
+penetration optimization [  205 ]. Restoring ECS volume via high-
+molecular-weight HA supplementation or osmotic adjustment 
+(e.g., mannitol) is recommended as intraoperative/emergency 
+strategy in international guidelines, with observational inhibi-
+tion rate up to 80%.     
+Conclusion and Future Directions
+   With advances in imaging detection technologies, the integra-
+tion of ECS into the formal brain science framework has pro-
+gressively matured. However, the incorporation of ECS into the 
+research system of neuroscience and brain disease treatment 
+requires efforts across multiple dimensions. Precise and effective 
+treatment of brain diseases necessitates comprehensive elucidation 
+of their pathogenic and progressive processes and mechanisms, 
+which, in turn, requires the enhancement and development of 
+cross-scale structural information processing and analytical 
+capabilities. As a key component of the brain ISS, the processes 
+of substance transport within the ECS and its drainage back 
+to the systemic circulation are intricate, requiring multimodal 
+imaging technologies to cover all drainage pathways and their 
+regulatory mechanisms.
+   To establish a research system compatible with nanoscale 
+ECS and microscale microvessels and neural cells, it is essential 
+to develop synchronous information acquisition technologies 
+and explore the application of simulation modeling to clarify 
+the complex interactions among neurons, glial cells, ECS, and 
+blood vessels. Advancement of cross-scale, multimodal brain 
+detection technologies is imperative to fully reveal the mecha-
+nisms of brain diseases and more rationally facilitate the pre-
+clinical research and development design of novel drugs and 
+medical devices.
+   A pivotal step in translating ECS research into clinical practice 
+is establishing human brain imaging and measurement systems 
+for precise ECS quantification [ 8 , 16 , 18 , 23 , 50 ]. Both mechanistic 
+studies of brain disorders and therapeutic efficacy assessments 
+require technologies that can simultaneously measure cellular, 
+extracellular, and vascular compartments. Adopting a “cell–
+ECS–vasculature” framework holds promise for comprehen-
+sively understanding the onset, progression, and outcome of 
+neurological diseases [ 8 , 11 , 101 ,  206 –  208 ]. In multicenter clinical 
+trials, relying on multicompartment imaging technology for 
+human brain and embedding ECS parameters into regulatory 
+assessments will enable the optimization of drug design and 
+delivery strategies and establish a new framework for early-stage 
+screening of compounds with superior spatial efficacy and safety.
+   The historical neglect of the brain ECS stems fundamentally 
+from limitations in early scientific understanding and investigative 
+methodologies, which precluded the full recognition of its struc-
+tural independence and functional significance. Consequently, the 
+ECS was excluded from formal medical education curricula, with 
+conventional courses in neuroanatomy, neurophysiology, neuro-
+pathology, and neuropharmacology rarely acknowledging it as a 
+distinct structural entity. Now that modern research has firmly 
+established the ECS as a critical component of brain architecture 
+with essential physiological roles, integrating ECS-related knowl-
+edge into existing textbooks and embedding the “cell–ECS–
+vasculature” model into both research paradigms and instructional 
+frameworks will fundamentally reshape our understanding of the 
+brain and neurological disorders [ 16 – 18 , 35 , 50 ]. Furthermore, the 
+advancement of cross-scale, multimodal brain imaging and 
+measurement technologies is indispensable for fully elucidating 
+the complex interactive dynamics among neurons, glial cells, the 
+ECS, and blood vessels. Against this backdrop, the establishment 
+of a structurally complete, ECS-integrated neuroscience paradigm 
+has become a highly anticipated goal for the entire field.   
+Acknowledgments
+   Funding: This work was supported in part by the Major 
+Program of the National Natural Science Foundation of China 
+(nos. 62394314, 62394311,62394312,62394313, 62394310, and 
+T2442017). We thank M. Jiang, Y . Fu, Z. Tong, Y . Hou, C. Li, 
+J. Zhang, C. Wang, H. Liu, Y . Gao, Z. Xie, X. Liu, and B. Xiong 
+for invaluable contributions.
+   Author contributions: H.H.: Conceptualization, formal 
+analysis, methodology, investigation, resources, visualization, 
+writing—original draft, writing—review and editing, supervision, 
+project administration, and funding acquisition. H.D.: Data 
+curation, methodology, investigation, writing—original draft, 
+and writing—review and editing. L.S.L.: Writing—review and 
+editing. R.N.: Writing—review and editing. B.F .C.: Writing—
+review and editing. Y . Song: Data curation and writing—review 
+and editing. H.T.: Data curation, methodology, investigation, 
+and writing—original draft. M.X.: Investigation and visualiza-
+tion. H.L.: Data curation, formal analysis, methodology, inves-
+tigation, and visualization. S.L.: Data curation and visualization. 
+Z.Y .: Writing—review and editing. T.G.: Methodology, visual-
+ization, and writing—original draft. M.Z.: Data curation, 
+methodology, and writing—original draft. Y . Shi: Investigation. 
+J.S.: Investigation. Y .Z.: Investigation. W .F .: Formal analysis, 
+methodology, investigation, visualization, writing—original 
+draft, and writing—review and editing.
+   Competing interests:  The authors declare that they have no 
+competing interests.   
+Data Availability
+   The data supporting the findings of this review are available 
+from public domains and clinical trial databases. Specifically, 
+the clinical trial data for AD and PD presented in Fig.  1  were 
+retrieved from ClinicalTrials.gov ( https://clinicaltrials.gov/ ). 
+The bibliometric analysis data presented in Fig. S1 were derived 
+from the Elsevier Scopus database.  
+References
+ 1. Pang JC, Aquino KM, Oldehinkel M, Robinson PA, Fulcher BD, 
+Breakspear M, Fornito A. Geometric constraints on human 
+brain function. Nature. 2023;618(7965):566–574.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 21]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 21
+ 2. Girardeau G, Lopes-Dos-Santos V . Brain neural patterns and 
+the memory function of sleep. Science. 2021;374(6567):560–564.
+ 3. Moutinho S. The long road to a cure for Alzheimer’s disease is 
+paved with failures. Nat Med. 2022;28(11):2228–2231.
+ 4. Cummings JL, Zhou Y , Lee G, Zhong K, Fonseca J,  
+Leisgang-Osse AM, Cheng F . Alzheimer’s disease 
+drug development pipeline: 2025. Alzheimers Dement. 
+2025;11(2):e70098.
+ 5. Nutt DJ. Drug development in psychiatry: 50 years of failure 
+and how to resuscitate it. Lancet Psychiatry. 2025;12(3): 
+228–238.
+ 6. Fisher M. New approaches to neuroprotective drug 
+development. Stroke. 2011;42(1 Suppl):S24–S27.
+ 7. Brannigan JFM, Fry A, Opie NL, Campbell BCV ,  
+Mitchell PJ, Oxley TJ. Endovascular brain-computer 
+interfaces in poststroke paralysis. Stroke. 2024;55(2):474–483.
+ 8. Lei YM, Han H, Yuan F , Javeed A, Zhao Y . The brain 
+interstitial system: Anatomy, modeling, in vivo measurement, 
+and applications. Prog Neurobiol. 2017;157:230–246.
+ 9. Deitmer JW , Rose CR. pH regulation and proton signalling by 
+glial cells. Prog Neurobiol. 1996;48(2):73–103.
+ 10. Fuxe K, Dahlström AB, Jonsson G, Marcellino D,  
+Guescini M, Dam M, Manger P , Agnati L. The discovery of 
+central monoamine neurons gave volume transmission to the 
+wired brain. Prog Neurobiol. 2010;90(2):82–100.
+ 11. Han H, Xia Z, Chen H, Hou C, Li W . Simple diffusion 
+delivery via brain interstitial route for the treatment of 
+cerebral ischemia. Sci China Life Sci. 2011;54(3):235–239.
+ 12. Zhao D, Wang J, Zhu Y , Zhang H, Ni C, Zhao Z, Dai J, He R,  
+Liu G, Gan C, et al. Targeting the glymphatic system: Aβ 
+accumulation and phototherapy strategies across different 
+stages of Alzheimer’s disease. Transl Neurodegener. 
+2025;14(1):49.
+ 13. Liu E, Peng X, Ma H, Zhang Y , Y ang X, Zhang Y , Sun L,  
+Y an J. The involvement of aquaporin-4 in the interstitial fluid 
+drainage impairment following subarachnoid hemorrhage. 
+Front Aging Neurosci. 2020;12:Article 611494.
+ 14. Nicholson C, Kamali-Zare P , Tao L. Brain extracellular space 
+as a diffusion barrier. Comput Vis Sci. 2011;14(7):309–325.
+ 15. Milhorat T. The third circulation revisited. J Neurosurg. 
+1975;42(6):628–645.
+ 16. Nicholson C, Phillips JM. Ion diffusion modified by tortuosity 
+and volume fraction in the extracellular microenvironment of 
+the rat cerebellum. J Physiol. 1981;321:225–257.
+ 17. Huang XR, Li K, Liu Y , Y ang C, Han H. Quantitative 
+measurement of brain extracellular space with three-
+dimensional electron microscopy imaging. Sens Imaging. 
+2023;24(1):2.
+ 18. Y ang CQ, Xie J, Huang X, Tan H, Li Q, Tang Z, Ma X, Lu J, 
+He Q, Fu W , et al. ECS-Net: Extracellular space segmentation 
+with contrastive and shape-aware loss by using cryo-electron 
+microscopy imaging. Expert Syst Appl. 2025;270:126370.
+ 19. Arizono M, Inavalli VVGK, Bancelin S, Fernández-
+Monreal M, Nägerl UV . Super-resolution shadow imaging 
+reveals local remodeling of astrocytic microstructures and 
+brain extracellular space after osmotic challenge. Glia. 
+2021;69(6):1605–1613.
+ 20. Lopez-Munoz F , Boya J, Alamo C. Neuron theory, the 
+cornerstone of neuroscience, on the centenary of the Nobel 
+Prize award to Santiago Ramon y Cajal. Brain Res Bull. 
+2006;70(4–6):391–405.
+ 21. Vanharreveld A, Crowell J, Malhotra SK. A study of 
+extracellular space in central nervous tissue by freeze-
+substitution. J Cell Biol. 1965;25(1):117–137.
+ 22. Mullard A. Is the FDA ’s plan to phase out animal toxicity 
+testing realistic? Nat Rev Drug Discov. 2025;24(6):413–414.
+ 23. Nicholson C, Hrabetova S. Brain extracellular space: The final 
+frontier of neuroscience. Biophys J. 2017;113(10):2133–2142.
+ 24. Vinje V , Zapf B, Ringstad G, Eide PK, Rognes ME,  
+Mardal KA. Human brain solute transport quantified by 
+glymphatic MRI-informed biophysics during sleep and sleep 
+deprivation. Fluids Barriers CNS. 2023;20(1):62.
+ 25. Nicholson C, Tao L. Hindered diffusion of high molecular 
+weight compounds in brain extracellular microenvironment 
+measured with integrative optical imaging. Biophys J. 
+1993;65(6):2277–2290.
+ 26. Han H, Shi C, Fu Y , Zuo L, Lee K, He Q, Han H. A novel 
+MRI tracer-based method for measuring water diffusion in 
+the extracellular space of the rat brain. IEEE J Biomed Health 
+Inform. 2014;18(3):978–983.
+ 27. Bear J. Dynamics of fluids in porous media. New Y ork: Dover 
+Publications; 1972. p. 112–115. 
+ 28. Sykova E, Nicholson C. Diffusion in brain extracellular space. 
+Physiol Rev. 2008;88(4):1277–1340.
+ 29. Nicholson C, Sykova E. Extracellular space structure revealed 
+by diffusion analysis. Trends Neurosci. 1998;21(5):207–215.
+ 30. Rice ME, Okada YC, Nicholson C. Anisotropic and 
+heterogeneous diffusion in the turtle cerebellum: Implications 
+for volume transmission. J Neurophysiol. 1993;70(5):2035–2044.
+ 31. Thorne RG, Nicholson C. In vivo diffusion analysis 
+with quantum dots and dextrans predicts the width 
+of brain extracellular space. Proc Natl Acad Sci USA. 
+2006;103(14):5567–5572.
+ 32. Godin AG, Varela JA, Gao Z, Danné N, Dupuis JP ,  
+Lounis B, Groc L, Cognet L. Single-nanotube tracking reveals 
+the nanoscale organization of the extracellular space in the 
+live brain. Nat Nanotechnol. 2017;12(3):238–243.
+ 33. Wang A, Wang R, Cui D, Huang X, Yuan L, Liu H, Fu Y ,  
+Lang L, Wang W , He Q, et al. The drainage of interstitial fluid 
+in the deep brain is controlled by the integrity of myelination. 
+Aging Dis. 2019;10(5):937–948.
+ 34. Ray L, Iliff JJ, Heys JJ. Analysis of convective and diffusive 
+transport in the brain interstitium. Fluids Barriers CNS. 
+2019;16(1):6.
+ 35. Xie JY , Li H, Su S, Cheng J, Cai Q, Tan H, Zu L, Qu X, 
+Han H. Quantitative analysis of molecular transport in the 
+extracellular space using physics-informed neural network. 
+Comput Biol Med. 2024;171:Article 108133.
+ 36. Helmstaedter M, Briggman KL, Turaga SC, Jain V , Seung HS, 
+Denk W . Connectomic reconstruction of the inner plexiform 
+layer in the mouse retina. Nature. 2013;500(7461):168–174.
+ 37. Shapson-Coe A, Januszewski M, Berger DR, Pope A, Wu Y , 
+Blakely T, Schalek RL, Li RH, Wang S, Maitin-Shepard J, et al. 
+A petavoxel fragment of human cerebral cortex reconstructed 
+at nanoscale resolution. Science. 2024;384(6696):eadk4858.
+ 38. Motta A, Berning M, Boergens KM, Staffler B, Beining M, 
+Loomba S, Hennig P , Wissler H, Helmstaedter M. Dense 
+connectomic reconstruction in layer 4 of the somatosensory 
+cortex. Science. 2019;366(6469):eaay3134.
+ 39. Hrabe J, Hrabetova S. Time-resolved integrative optical 
+imaging of diffusion during spreading depression. Biophys J. 
+2019;117(10):1783–1794.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 22]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 22
+ 40. Paviolo C, Ferreira JS, Lee A, Hunter D, Calaresu I, Nandi S, 
+Groc L, Cognet L. Near-infrared carbon nanotube tracking 
+reveals the nanoscale extracellular space around synapses. 
+Nano Lett. 2022;22(17):6849–6856.
+ 41. Calovi S, Soria FN, Tonnesen J. Super-resolution 
+STED microscopy in live brain tissue. Neurobiol Dis. 
+2021;156:Article 105420.
+ 42. Schnell C. Illuminating the brain’s dark matter. Nat Methods. 
+2018;15(4):241–241.
+ 43. Lian JG, Y ang L, Tan H, Su S, Serrano Lopes L, Cheng F ,  
+Y an J, Fu Y , Fu W , Xie Z, et al. A novel neuroprotective 
+method against ischemic stroke by accelerating the drainage 
+of brain interstitial fluid. Sci China Life Sci. 2024;67(10): 
+2213–2223.
+ 44. Y ang L, Gao Y , Lopes LS, Lian J, Fu W , Tan H, Y ang S, Xie Z, 
+Huang Y , Zhang J, et al. Accelerated molecular transportation 
+in the brain extracellular space with 755-nm light attenuates 
+post-stroke cognitive impairment in rats. Cyborg Bionic Syst. 
+2025;6:0262.
+ 45. Kung MP , Hou C, Zhuang Z-P , Cross AJ, Maier DL, Kung HF . 
+Characterization of IMPY as a potential imaging agent for 
+beta-amyloid plaques in double transgenic PSAPP mice. Eur J 
+Nucl Med Mol Imaging. 2004;31(8):1136–1145.
+ 46. Taoka T, Ito R, Nakamichi R, Nakane T, Kawai H,  
+Naganawa S. Diffusion tensor image analysis along the 
+perivascular space (DTI-ALPS): Revisiting the meaning 
+and significance of the method. Magn Reson Med Sci. 
+2024;23(3):268–290.
+ 47. Zhang H, Schneider T, Wheeler-Kingshott CA,  
+Alexander DC. NODDI: Practical in vivo neurite orientation 
+dispersion and density imaging of the human brain. 
+NeuroImage. 2012;61(4):1000–1016.
+ 48. Figini M, Castellano A, Bailo M, Callea M, Cadioli M, 
+Bouyagoub S, Palombo M, Pieri V , Mortini P , Falini A, et al.  
+Comprehensive brain tumour characterisation with 
+VERDICT-MRI: Evaluation of cellular and vascular measures 
+validated by histology. Cancers. 2023;15(9):2490.
+ 49. Panagiotaki E, Walker-Samuel S, Siow B, Johnson SP , 
+Rajkumar V , Pedley RB, Lythgoe MF , Alexander DC. 
+Noninvasive quantification of solid tumor microstructure 
+using VERDICT MRI. Cancer Res. 2014;74(7):1902–1912.
+ 50. Li C, Shi Y , He M, Niu SY , He Q, Liu J, Fu W , Long Y , Han H. 
+Tractography of brain extracellular space and nerve fibers via 
+multicompartment decoupling imaging (MDI). Sens Imaging. 
+2025;26(1):151.
+ 51. Taoka T, Masutani Y , Kawai H, Nakane T, Matsuoka K,  
+Y asuno F , Kishimoto T, Naganawa S. Evaluation of glymphatic 
+system activity with the diffusion MR technique: Diffusion 
+tensor image analysis along the perivascular space (DTI-ALPS) 
+in Alzheimer’s disease cases. Jpn J Radiol. 2017;35(4):172–178.
+ 52. Li S, Chen R, Cao Z, Zhu Q, Ma Y , Zhu K, Lin Z, Wu D, 
+Alzheimer’s Disease Neuroimaging Initiative. Microstructural 
+bias in the assessment of periventricular flow as revealed in 
+postmortem brains. Radiology. 2025;316(3):Article e250753.
+ 53. Hongbin H. Imaging and measuring cellular, vascular, and 
+extracellular compartments in the human brain using MDI: 
+Technical breakthrough and prospects. Sci China Life Sci. 
+2025. https://doi.org/10.1007/s11427-025-3174-0
+ 54. Arraez-Aybar LA, Fuentes-Redondo T, Millan JM. Persistent 
+trigeminal artery: A cross-sectional study based on over  
+3 years conventional angiography, CT angiography and MR 
+angiography images. Surg Radiol Anat. 2016;38(4):445–453.
+ 55. Nieuwenhuys R, Broere CAJ. A detailed comparison of the 
+cytoarchitectonic and myeloarchitectonic maps of the human 
+neocortex produced by the Vogt-Vogt school. Brain Struct 
+Funct. 2020;225(9):2717–2733.
+ 56. Tatu L, Moulin T, Bogousslavsky J, Duvernoy H. Arterial 
+territories of human brain: Brainstem and cerebellum. 
+Neurology. 1996;47(5):1125–1135.
+ 57. Han H, Li K, Y an JH, Zhu K, Fu Y . An in vivo study with 
+an MRI tracer method reveals the biophysical properties 
+of interstitial fluid in the rat brain. Sci China Life Sci. 
+2012;55(9):782–787.
+ 58. Cheng Y , Liu J, Tian F , Tan H, Wang T, Lu J, Tang Z,  
+Ma X, Lian J, Su S, et al. New insight into the mechanism of 
+neurochemical imbalance in multiple sclerosis: Abnormal 
+transportation of brain extracellular space. Aging Dis. 2025; 
+10.14336/AD.2024.1.
+ 59. Wang R, Han H, Shi K, Alberts IL, Rominger A, Y ang C,  
+Y an J, Cui D, Peng Y , He Q, et al. The alteration of brain 
+interstitial fluid drainage with myelination development. 
+Aging Dis. 2021;12(7):1729–1740.
+ 60. Kress BT, Iliff JJ, Xia M, Wang M, Wei HS, Zeppenfeld D,  
+Xie L, Kang H, Xu Q, Liew JA, et al. Impairment of 
+paravascular clearance pathways in the aging brain. Ann 
+Neurol. 2014;76(6):845–861.
+ 61. Zhou Y , Cai J, Zhang W , Gong X, Y an S, Zhang K, Luo Z,  
+Sun J, Jiang Q, Lou M. Impairment of the glymphatic pathway 
+and putative meningeal lymphatic vessels in the aging human. 
+Ann Neurol. 2020;87(3):357–369.
+ 62. Li Y , Han H, Shi K, Cui D, Y ang J, Alberts IL, Yuan L,  
+Zhao G, Wang R, Cai X, et al. The mechanism of 
+downregulated interstitial fluid drainage following neuronal 
+excitation. Aging Dis. 2020;11(6):1407–1422.
+ 63. Zhao G, Han H, Y ang J, Sun M, Cui D, Li Y , Gao Y , Zou J.  
+Brain interstitial fluid drainage and extracellular space 
+affected by inhalational isoflurane: In comparison with 
+intravenous sedative dexmedetomidine and pentobarbital 
+sodium. Sci China Life Sci. 2020;63(9):1363–1379.
+ 64. Lilius TO, Blomqvist K, Hauglund NL, Liu G, Stæger FF , 
+Bærentzen S, Du T, Ahlstrom F , Backman JT, Kalso EA,  
+et al. Dexmedetomidine enhances glymphatic brain delivery 
+of intrathecally administered drugs. J Control Release. 
+2019;304:29–38.
+ 65. Afridi R, Rahman MH, Suk K. Implications of glial metabolic 
+dysregulation in the pathophysiology of neurodegenerative 
+diseases. Neurobiol Dis. 2022;174:Article 105874.
+ 66. Walch E, Bilas A, Bebawy V , Lam A, Murphy TR, Sriram S, 
+Fiacco TA. Contributions of astrocyte and neuronal volume 
+to CA1 neuron excitability changes in elevated extracellular 
+potassium. Front Cell Neurosci. 2022;16:Article 930384.
+ 67. Masquelier T, Deco G. Network bursting dynamics 
+in excitatory cortical neuron cultures results from the 
+combination of different adaptive mechanisms. PLOS ONE. 
+2013;8(10):Article e75824.
+ 68. Focke PJ, Wang X, Larsson HP . Neurotransmitter transporters: 
+Structure meets function. Structure. 2013;21(5):694–705.
+ 69. Lovinger DM. Communication networks in the brain: 
+Neurons, receptors, neurotransmitters, and alcohol. Alcohol 
+Res Health. 2008;31(3):196–214.
+ 70. Xie L, Kang H, Xu Q, Chen MJ, Liao Y , Thiyagarajan M, 
+O’Donnell J, Christensen DJ, Nicholson C, Iliff JJ, et al. Sleep 
+drives metabolite clearance from the adult brain. Science. 
+2013;342(6156):373–377.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 23]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 23
+ 71. Jiang-Xie LF , Drieu A, Bhasiin K, Quintero D, Smirnov I,  
+Kinis J. Neuronal dynamics direct cerebrospinal fluid perfusion 
+and brain clearance. Nature. 2024;627(8002):157–164.
+ 72. Wostyn P , Goddaer P . Can meditation-based approaches 
+improve the cleansing power of the glymphatic system? 
+Explor Neuroprotective Ther. 2022;2(3):110–117.
+ 73. Teng Z, Wang A, Wang P , Wang R, Wang W , Han H. The 
+effect of aquaporin-4 knockout on interstitial fluid flow and 
+the structure of the extracellular space in the deep brain. 
+Aging Dis. 2018;9(5):808–816.
+ 74. Iliff JJ, Wang M, Zeppenfeld DM, Venkataraman A, Plog BA, 
+Liao Y , Deane R, Nedergaard M. Cerebral arterial pulsation 
+drives paravascular CSF-interstitial fluid exchange in the 
+murine brain. J Neurosci. 2013;33(46):18190–18199.
+ 75. Bedussi B, Naessens DMP , de Vos J, Olde Engberink R, 
+Wilhelmus MMM, Richard E, Ten Hove M, vanBavel E, 
+Bakker ENTP . Enhanced interstitial fluid drainage in the 
+hippocampus of spontaneously hypertensive rats. Sci Rep. 
+2017;7(1):744.
+ 76. Kandimalla M, Lim S, Thakkar J, Dewan S, Kang D, In MH, 
+Jo HJ, Jang DP , Nedelska Z, Lapid MI, et al. Cardiorespiratory 
+dynamics in the brain: Review on the significance of 
+cardiovascular and respiratory correlates in functional MRI 
+signal. NeuroImage. 2025;306:Article 121000.
+ 77. Kiviniemi V , Wang X, Korhonen V , Keinänen T, Tuovinen T, 
+Autio J, LeVan P , Keilholz S, Zang YF , Hennig J, et al. Ultra-
+fast magnetic resonance encephalography of physiological 
+brain activity - Glymphatic pulsation mechanisms? J Cereb 
+Blood Flow Metab. 2016;36(6):1033–1045.
+ 78. Rasmussen MK, Mestre H, Nedergaard M. Fluid transport in 
+the brain. Physiol Rev. 2022;102(2):1025–1151.
+ 79. Kim K, Abramishvili D, du S, Papadopoulos Z, Cao J,  
+Herz J, Smirnov I, Thomas JL, Colonna M, Kipnis J. 
+Meningeal lymphatics-microglia axis regulates synaptic 
+physiology. Cell. 2025;188(10):2705–2719.e23.
+ 80. Smyth LCD, Xu D, Okar S, Dykstra T, Rustenhoven J, 
+Papadopoulos Z, Bhasiin K, Kim MW , Drieu A,  
+Mamuladze T. Identification of direct connections between 
+the dura and the brain. Nature. 2024;627(8002):165–173.
+ 81. Stepanov YV , Golovynska I, Zhang R, Golovynskyi S, 
+Stepanova LI, Gorbach O, Dovbynchuk T, Garmanchuk LV ,  
+Ohulchanskyy TY , Qu J. Near-infrared light reduces 
+β-amyloid-stimulated microglial toxicity and enhances 
+survival of neurons: Mechanisms of light therapy for 
+Alzheimer’s disease. Alzheimer’s Res Ther. 2022;14(1):84.
+ 82. Yue X, Mei Y , Zhang Y , Tong Z, Cui D, Y ang J, Wang A,  
+Wang R, Fei X, Ai L, et al. New insight into Alzheimer’s 
+disease: Light reverses Aβ-obstructed interstitial fluid 
+flow and ameliorates memory decline in APP/PS1 mice. 
+Alzheimers Dement. 2019;5:671–684.
+ 83. Hamblin MR. Photobiomodulation for traumatic brain injury 
+and stroke. J Neurosci Res. 2018;96(4):731–743.
+ 84. Wang M, Y an C, Li X, Y ang T, Wu S, Liu Q, Luo Q, Zhou F. Non-
+invasive modulation of meningeal lymphatics ameliorates 
+ageing and Alzheimer’s disease-associated pathology and 
+cognition in mice. Nat Commun. 2024;15(1):1453.
+ 85. Xia Y , Khalid W , Yin Z, Huang G, Bikson M, Fu BM. Modulation of 
+solute diffusivity in brain tissue as a novel mechanism of transcranial 
+direct current stimulation (tDCS). Sci Rep. 2020;10(1):18488.
+ 86. Wang Y , Monai H. Transcranial direct current stimulation 
+alters cerebrospinal fluid-interstitial fluid exchange in mouse 
+brain. Brain Stimul. 2024;17(3):620–632.
+ 87. Liang PZ, Li L, Zhang YN, Shen Y , Zhang LL, Zhou J, Wang ZJ, 
+Wang S, Y ang S. Electroacupuncture improves clearance of 
+amyloid-β through the glymphatic system in the SAMP8 mouse 
+model of Alzheimer’s disease. Neural Plast. 2021;2021:9960304.
+ 88. Liu DX, He X, Wu D, Zhang Q, Y ang C, Liang F-Y , He X-F , Dai G-Y ,  
+Pei Z, Lan Y , et al. Continuous theta burst stimulation facilitates 
+the clearance efficiency of the glymphatic pathway in a mouse 
+model of sleep deprivation. Neurosci Lett. 2017;653:189–194.
+ 89. Curley CT, Mead BP , Negron K, Kim N, Garrison WJ,  
+Miller GW , Kingsmore KM, Thim EA, Song J, Munson JM,  
+et al. Augmentation of brain tumor interstitial flow via 
+focused ultrasound promotes brain-penetrating nanoparticle 
+dispersion and transfection. Sci Adv. 2020;6(18):eaay1344.
+ 90. Choi S, Kum J, Hyun SY , Park TY , Kim H, Kim SK, Kim J.  
+Transcranial focused ultrasound stimulation enhances 
+cerebrospinal fluid movement: Real-time in vivo two-photon and 
+widefield imaging evidence. Brain Stimul. 2024;17(5):1119–1130.
+ 91. Y e D, Chen S, Liu Y , Weixel C, Hu Z, Yuan J, Chen H. 
+Mechanically manipulating glymphatic transport by 
+ultrasound combined with microbubbles. Proc Natl Acad Sci 
+USA. 2023;120(21):Article e2212933120.
+ 92. Hou X, Jing J, Jiang Y , Huang X, Xian Q, Lei T, Zhu J,  
+Wong KF , Zhao X, Su M, et al. Nanobubble-actuated 
+ultrasound neuromodulation for selectively shaping behavior 
+in mice. Nat Commun. 2024;15(1):2253.
+ 93. Rezai AR, D’Haese P-F , Finomore V , Carpenter J, Ranjan M, 
+Wilhelmsen K, Mehta RI, Wang P , Najib U, Teixeira CVL,  
+et al. Ultrasound blood-brain barrier opening and aducanumab 
+in Alzheimer’s disease. N Engl J Med. 2024;390(1):55–62.
+ 94. Hersh AM, Bhimreddy M, Weber-Levine C, Jiang K,  
+Alomari S, Theodore N, Manbachi A, Tyler BM. Applications 
+of focused ultrasound for the treatment of glioblastoma: A 
+new frontier. Cancers. 2022;14(19):4920.
+ 95. Cai X, He Q, Wang W , Li C, Wang H, Yin F , Li T, Kong D,  
+Jia Y , Li H, et al. Epidural pulsation accelerates the drainage of 
+brain interstitial fluid. Aging Dis. 2023;14(1):219–228.
+ 96. John A, Reddy PH. Synaptic basis of Alzheimer’s disease: 
+Focus on synaptic amyloid beta, P-tau and mitochondria. 
+Ageing Res Rev. 2021;65:Article 101208.
+ 97. Xu J, He Z, Pan Y , Cao B, Chen G. Nanotherapeutic 
+potential of Baicalein-encapsulated hUC-MSC exosomes 
+in Alzheimer’s disease: Modulating oxidative stress and 
+neuroinflammation. Biomater Adv. 2026;181:Article 214619.
+ 98. Shi Y , Zhang H, Cong S, Zhu X, Liu Y , Li J, Tang K, Xue R,  
+Liu X, Tan Z, et al. Benzylpiperidine-pyridazin-3(2H)-
+one derivatives as potential multifunctional agents against 
+Alzheimer’s disease. Eur J Med Chem. 2026;303:Article 118437.
+ 99. Makhaeva GF , Grishchenko MV , Rudakova EV , Kovaleva NV , 
+Boltneva NP , Skornyakova TS, Khudina OG, Shchegolkov EV ,  
+Zhilina EF , Astakhova TY , et al. Synthesis, biological 
+evaluation, and in silico studies of pyridoxal-amiridine 
+hybrids as multitargeting anti-Alzheimer’s disease agents. Eur 
+J Med Chem. 2026;303:Article 118397.
+ 100. Zhang Y , Li Z, Guan H, Qiu Z, Zou C. Engineering exosomes 
+for Alzheimer’s disease: Multi-target therapeutic strategies 
+from pathogenesis to clinical translation. Clin Transl Med. 
+2025;15(12):Article e70548.
+ 101. Gu Z, Chen H, Zhao H, Y ang W , Song Y , Li X, Wang Y , 
+du D, Liao H, Pan W , et al. New insight into brain disease 
+therapy: Nanomedicines-crossing blood-brain barrier and 
+extracellular space for drug delivery. Expert Opin Drug Deliv. 
+2022;19(12):1618–1635.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 24]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 24
+ 102. Kou Y , Zhao H, Cui D, Han H, Tong Z. Formaldehyde 
+toxicity in age-related neurological dementia. Ageing Res Rev. 
+2022;73:Article 101512.
+ 103. Zhao D, Wang J, Zhang F , Wang Q, Zang M, Niu H,  
+Tong Z. Cerebral glymphatic system: Structure, regulation, 
+ageing, and mechanisms of encephalopathy. Ageing Res Rev. 
+2025;114:Article 102986.
+ 104. Fenstermacher J, Kaye T. Drug “diffusion” within the brain. 
+Ann N Y Acad Sci. 1988;531:29–39.
+ 105. Mangialasche F , Solomon A, Winblad B, Mecocci P ,  
+Kivipelto M. Alzheimer’s disease: Clinical trials and drug 
+development. Lancet Neurol. 2010;9(7):702–716.
+ 106. Hou X, Qiu Z, Xian Q, Kala S, Jing J, Wong KF , Zhu J, Guo J, 
+Zhu T, Y ang M, et al. Precise ultrasound neuromodulation in 
+a deep brain region using nano gas vesicles as actuators. Adv 
+Sci. 2021;8(21):Article e2101934.
+ 107. Luo Q, Y e X, Xu J, Sun Z, Wang P , Chen H, Gao T, Deng Q, 
+Wang Z, Wang Q, et al. Low-intensity pulsed ultrasound 
+enhances delivery of 30 nm Q10 for improving mental and 
+memory disorder in APP/PS1 mice. Drug Deliv Transl Res. 
+2025;15(10):3497–3516.
+ 108. National Medical Products Administration. Announcement on 
+technical guidelines for clinical trials of drugs for acute ischemic 
+atroke (no. 28 of 2018). 9 February 2018. Accessed 1 December 
+2025. https://www.nmpa.gov.cn/directory/web/nmpa/xxgk/
+ggtg/ypggtg/ypqtggtg/20180209175801578.html (in Chinese).
+ 109. International Council for Harmonisation. ICH E4 Dose 
+response information to support drug registration - Scientific 
+guideline. 1 November 1994. Accessed 1 December 2025. 
+https://www.ema.europa.eu/en/ich-e4-dose-response-
+information-support-drug-registration-scientific-guideline
+ 110. Clark WM, Clark TD. Stroke: Treatment for acute stroke—The 
+end of the citicoline saga. Nat Rev Neurol. 2012;8(9):484–485.
+ 111. Banks W A. From blood-brain barrier to blood-brain 
+interface: New opportunities for CNS drug delivery. Nat Rev 
+Drug Discov. 2016;15(4):275–292.
+ 112. Shankar GM, Li S, Mehta TH, Garcia-Munoz A,  
+Shepardson NE, Smith I, Brett FM, Farrell MA, Rowan MJ, 
+Lemere CA, et al. Amyloid-β protein dimers isolated directly 
+from Alzheimer’s brains impair synaptic plasticity and 
+memory. Nat Med. 2008;14(8):837–842.
+ 113. Gibbons GS, Lee VMY , Trojanowski JQ. Mechanisms of 
+cell-to-cell transmission of pathological tau: A review. JAMA 
+Neurol. 2019;76(1):101–108.
+ 114. Chen Y , Ding L, Gu Z, Tian Z, Gao T, Zhou F , Zhang S,  
+Tong Z. Aβ deposition in extracellular space disrupts glial-
+neuron communication and triggers Alzheimer’s disease. 
+Aging Dis. 2025; 10.14336/AD.2025.0873.
+ 115. Y ang L, Wu C, Parker E, Li Y , Dong Y , Tucker L, Brann DW ,  
+Lin HW , Zhang Q. Non-invasive photobiomodulation 
+treatment in an Alzheimer disease-like transgenic rat model. 
+Theranostics. 2022;12(5):2205–2231.
+ 116. Zhang J, Yue X, Luo H, Jiang W , Mei Y , Ai L, Gao G, Wu Y ,  
+Y ang H, An J, et al. Illumination with 630 nm red light 
+reduces oxidative stress and restores memory by photo-
+activating catalase and formaldehyde dehydrogenase in 
+SAMP8 mice. Antioxid Redox Signal. 2019;30(11): 
+1432–1449.
+ 117. Meng C, He Z, Xing D. Low-level laser therapy rescues 
+dendrite atrophy via upregulating BDNF expression: 
+Implications for Alzheimer’s disease. J Neurosci. 
+2013;33(33):13505–13517.
+ 118. Gregorio ED, Staelens M, Hosseinkhah N, Karimpoor M,  
+Liburd J, Lim L, Shankar K, Tuszyński JA. Raman 
+spectroscopy reveals photobiomodulation-induced α-helix 
+to β-sheet transition in tubulins: Potential implications 
+for Alzheimer’s and other neurodegenerative diseases. 
+Nanomaterials. 2024;14(13):1093.
+ 119. Mitolo M, Tonon C, Morgia CL, Testa C, Carelli V , Lodi R. 
+Effects of light treatment on sleep, cognition, mood, and 
+behavior in Alzheimer’s disease: A systematic review. Dement 
+Geriatr Cogn Disord. 2018;46(5–6):371–384.
+ 120. De Maio A, Lin F-H, Stefanovic B, O’Reilly AM. Tissue-type 
+differences in focused ultrasound and microbubble-mediated 
+drug delivery to the brain exist at vessel level. Theranostics. 
+2026;16(4):1975–1996.
+ 121. Yuan B. Interstitial fluid streaming in deep tissue induced by 
+ultrasound momentum transfer for accelerating nanoagent 
+transport and controlling its distribution. Phys Med Biol. 
+2022;67(17):10.
+ 122. Lee S, Kum J, Kim K, Park TY , Ko H, Na DL, Kang SY ,  
+Kim H, Kim Y , Kim J. Clearance of amyloid plaque via 
+focused ultrasonication in a mouse model of Alzheimer’s 
+disease. Theranostics. 2026;16(5):2310–2323.
+ 123. Chen X, Dong GY , Wang LX. High-frequency transcranial 
+magnetic stimulation protects APP/PS1 mice against 
+Alzheimer’s disease progress by reducing APOE and enhancing 
+autophagy. Brain Behav. 2020;10(8):Article e01740.
+ 124. Fassbender RV , Kehm C, Otta AL, Fink GR, Onur OA. 
+Repetitive transcranial magnetic stimulation enhances alpha 
+power in Alzheimer’s disease patients. J Alzheimer’s Dis. 
+2025;109(3):13872877251406972.
+ 125. Antonioni A, Martorana A, Santarnecchi E, Hampel H,  
+Koch G. The neurobiological foundation of effective repetitive 
+transcranial magnetic brain stimulation in Alzheimer’s 
+disease. Alzheimers Dement. 2025;21(6):Article e70337.
+ 126. Liang X, Xue C, Zheng D, Yuan Q, Qi W , Ruan Y , Chen S, 
+Song Y , Wu H, Lu X, et al. Repetitive transcranial magnetic 
+stimulation regulates effective connectivity patterns of brain 
+networks in the spectrum of preclinical Alzheimer’s disease. 
+Front Aging Neurosci. 2024;16:1343926.
+ 127. Bok J, Ha J, Ahn BJ, Jang Y . Disease-modifying effects of non-
+invasive electroceuticals on β-amyloid plaques and tau tangles 
+for Alzheimer’s disease. Int J Mol Sci. 2022;24(1):679.
+ 128. Belousova E, Salikhova D, Maksimov Y , Nebogatikov V ,  
+Sudina A, Goldshtein D, Ustyugov A. Proposed mechanisms 
+of cell therapy for Alzheimer’s disease. Int J Mol Sci. 
+2024;25(22):12378.
+ 129. Krattli RP Jr, Markarian M, Madan S, Swami D, Quade AM, 
+Baulch JE, Blurton-Jones M, Acharya MM. Comparing 
+functional consequences of human iPSC-microglia and 
+neural stem cell-derived extracellular vesicles in mitigating 
+cognitive decline in Alzheimer’s disease. Aging Cell. 
+2026;25(1):Article e70341.
+ 130. Garcia-Contreras M, Thakor AS. Extracellular vesicles 
+in Alzheimer’s disease: From pathology to therapeutic 
+approaches. Neural Regen Res. 2023;18(1):18–22.
+ 131. Syková E, Voříšek I, Starčuk Z, Kratochvíla J, Pavlova I, 
+Ichikawa Y , Kwok JCF , Kmoníčková E, Myronchenko S, 
+Hromádka T, et al. Disruption of extracellular matrix and 
+Perineuronal nets modulates extracellular space volume and 
+geometry. J Neurosci. 2025;45(8):Article e0517242024.
+ 132. Damle EB, Morrison VE, Cioma J, Volic M, Bix GJ. Co-
+administration of extracellular matrix-based biomaterials 
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 25]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 25
+with neural stem cell transplantation for treatment of central 
+nervous system injury. Front Neurosci. 2023;17:1177040.
+ 133. Wang H, Levey A, Wang G. Lymphatic-venous 
+anastomosis surgery for Alzheimer’s disease. Gen Psychiatr. 
+2025;38(3):Article e102062.
+ 134. Ding J, Zhao C, Hao X, Jiao H. Glymphatic and meningeal 
+lymphatic dysfunction in Alzheimer’s disease: Mechanisms 
+and therapeutic perspectives. Alzheimers Dement. 
+2025;21(10):Article e70709.
+ 135. Wen YR, Y ang JH, Wang X, Y ao ZB. Induced dural 
+lymphangiogenesis facilities soluble amyloid-beta clearance 
+from brain in a transgenic mouse model of Alzheimer’s 
+disease. Neural Regen Res. 2018;13(4):709–716.
+ 136. Chen J-Y , Zhao D-W , Yin Y , Gui L, Chen X, Wang X-M, 
+Wang P-B, Zuo C-H, Lai Z-P , Li C, et al. Deep cervical 
+lymphovenous anastomosis (LV A) for Alzheimer’s disease: 
+Microsurgical procedure in a prospective cohort study. Int J 
+Surg. 2025;111(7):4211–4221.
+ 137. Chen Q, Wen Q, Zhong T, Liu J, Gao H. Deep cervical 
+lymphaticovenous anastomosis for Alzheimer’s disease: A 
+narrative review. Alzheimers Dement. 2025;21(12):Article e71038.
+ 138. Li X, Zhang C, Fang Y , Xin M, Shi J, Zhang Z, Wang Z,  
+Ren Z. Promising outcomes 5 weeks after a surgical cervical 
+shunting procedure to unclog cerebral lymphatic systems 
+in a patient with Alzheimer’s disease. Gen Psychiatr. 
+2024;37(3):Article e101641.
+ 139. Zhang R, Liu YY , Xia X, Li X. Unvalidated efficacy and 
+significant risks hinder clinical use of deep cervical 
+lymphatic-venous anastomosis for Alzheimer’s disease. Front 
+Aging Neurosci. 2025;17:1671741.
+ 140. Da Mesquita S, Papadopoulos Z, Dykstra T, Brase L,  
+Farias FG, Wall M, Jiang H, Kodira CD, de Lima KA,  
+Herz J, et al. Meningeal lymphatics affect microglia responses 
+and anti-aβ immunotherapy. Nature. 2021;593(7858):255–260.
+ 141. Da Mesquita S, Louveau A, Vaccari A, Smirnov I,  
+Cornelison RC, Kingsmore KM, Contarino C,  
+Onengut-Gumuscu S, Farber E, Raper D, et al. Functional 
+aspects of meningeal lymphatics in ageing and Alzheimer’s 
+disease. Nature. 2018;560(7717):185–191.
+ 142. Lin W , Zhao XY , Cheng JW , Li LT, Jiang Q, Zhang YX,  
+Han F . Signaling pathways in brain ischemia: Mechanisms and 
+therapeutic implications. Pharmacol Ther. 2023;251: 
+Article 108541.
+ 143. Majumder D. Ischemic stroke: Pathophysiology and 
+evolving treatment approaches. Neurosci Insights. 
+2024;19:26331055241292600.
+ 144. Kim JH, Kim SY , Kim B, Lee SR, Cha SH, Lee DS, Lee HJ. 
+Prospects of therapeutic target and directions for ischemic 
+stroke. Pharmaceuticals. 2021;14(4):321.
+ 145. Paul S, Candelario-Jalil E. Emerging neuroprotective strategies 
+for the treatment of ischemic stroke: An overview of clinical and 
+preclinical studies. Exp Neurol. 2021;335:Article 113518.
+ 146. Bobo RH, Laske DW , Akbasak A, Morrison PF , Dedrick RL,  
+Oldfield EH. Convection-enhanced delivery of macromolecules 
+in the brain. Proc Natl Acad Sci USA. 1994;91(6):2076–2080.
+ 147. Mehta AM, Sonabend AM, Bruce JN. Convection-enhanced 
+delivery. Neurotherapeutics. 2017;14(2):358–371.
+ 148. Karasin B, Boyce M, Kleban M, Hancock J, Rizzo G,  
+Hardinge T, Eskuchen L, Watkinson J, Gold E. 
+Encephaloduroarteriosynangiosis procedure: A treatment 
+option for patients with Moyamoya disease. AORN J. 
+2024;119(3):198–209.
+ 149. Liu S, Huang Z, Yin Z, Chen L, Y e L, Zhang D, Bai X. Drp1 
+in Parkinson’s disease: Mechanisms of disease pathology 
+and the promise of targeted therapeutic strategies. Life Sci. 
+2026;384:Article 124086.
+ 150. Zhou M, Zheng M, Liang S, Li M, Ma J, Zhang S, Song X, 
+Hu Y , Lyu Y , Ou X, et al. Inherent potential of mitochondria-
+targeted interventions for chronic neurodegenerative 
+diseases. Neural Regen Res. 2026;21(4):1409–1427.
+ 151. Macedo VFB, Macedo VKB, de Miranda Coelho JAP ,  
+de Melo Barboza AM. Parkinson’s disease physiopathology-
+beyond the alpha-synuclein aggregation: A narrative review. 
+Front Aging Neurosci. 2025;17:1664269.
+ 152. Duvey BK, Sumbel RS, Abhishek DS, Bhargava A, Mittal V , 
+Sharma A. Dual approaches for Parkinson’s disease: Role of 
+the dopaminergic and non-dopaminergic therapies. Curr 
+Aging Sci. 2025; 10.2174/0118746098382353251012173313.
+ 153. Jarraya B, Boulet S, Scott Ralph G, Jan C, Bonvento G, Azzouz M, 
+Miskin JE, Shin M, Delzescaux T, Drouot X, et al. Dopamine 
+gene therapy for Parkinson’s disease in a nonhuman primate 
+without associated dyskinesia. Sci Transl Med. 2009;1(2):2ra4.
+ 154. Liu Z, Cheung HH. Stem cell-based therapies for Parkinson 
+disease. Int J Mol Sci. 2020;21(21):8060.
+ 155. Martinez-Fernandez R, Rodríguez-Rojas R, Álamo MD, 
+Hernández-Fernández F , Pineda-Pardo JA, Dileone M, 
+Alonso-Frech F , Foffani G, Obeso I, Gasca-Salas C, et al. 
+Focused ultrasound subthalamotomy in patients with 
+asymmetric Parkinson’s disease: A pilot study. Lancet Neurol. 
+2018;17(1):54–63.
+ 156. del Olmo MF , Bello O, Cudeiro J. Transcranial magnetic 
+stimulation over dorsolateral prefrontal cortex in Parkinson’s 
+disease. Clin Neurophysiol. 2007;118(1):131–139.
+ 157. Limousin P , Foltynie T. Long-term outcomes of deep 
+brain stimulation in Parkinson disease. Nat Rev Neurol. 
+2019;15(4):234–242.
+ 158. Reum T, Olshausen F , Mazel T, Vorísek I, Morgenstern R,  
+Syková E. Diffusion parameters in the striatum of rats 
+with 6-hydroxydopamine-induced lesions and with fetal 
+mesencephalic grafts. J Neurosci Res. 2002;70(5):680–693.
+ 159. Soria FN, Paviolo C, Doudnikoff E, Arotcarena ML, Lee A,  
+Danné N, Mandal AK, Gosset P , Dehay B, Groc L, et al. 
+Synucleinopathy alters nanoscale organization and diffusion 
+in the brain extracellular space through hyaluronan 
+remodeling. Nat Commun. 2020;11(1):3440.
+ 160. Zou W , Pu T, Feng W , Lu M, Zheng Y , du R, Xiao M,  
+Hu G. Blocking meningeal lymphatic drainage aggravates 
+Parkinson’s disease-like pathology in mice overexpressing 
+mutated α-synuclein. Transl Neurodegener. 2019;8:7.
+ 161. Ren R, Shi C, Cao J, Sun Y , Zhao X, Guo Y , Wang C, 
+Lei H, Jiang H, Ablat N, et al. Neuroprotective effects 
+of a standardized flavonoid extract of safflower against 
+neurotoxin-induced cellular and animal models of 
+Parkinson’s disease. Sci Rep. 2016;6:22135.
+ 162. Fang Y , Dong Y , Zheng T, du D, Wen J, Gao D, Liu L. Altered 
+tracer distribution and clearance in the extracellular space of 
+the substantia nigra in a rodent model of Parkinson’s disease. 
+Front Neurosci. 2017;11:409.
+ 163. Lv D, Li J, Li H, Fu Y , Wang W . Imaging and quantitative 
+analysis of the interstitial space in the caudate nucleus in 
+a rotenone-induced rat model of Parkinson’s disease using 
+tracer-based MRI. Aging Dis. 2017;8(1):1–6.
+ 164. Du D, Fu W , Su S, Mao X, Y ang L, Xu M, Yuan Y , Gao Y ,  
+Geng Z, Chen Y , et al. Remote regulation of molecular 
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 26]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 26
+diffusion in extracellular space of Parkinson’s disease rat 
+model by subthalamic nucleus deep brain stimulation. Cyborg 
+Bionic Syst. 2025;6:0218.
+ 165. Ostrom QT, Patil N, Cioffi G, Waite K, Kruchko C,  
+Barnholtz-Sloan JS. CBTRUS statistical report: Primary brain 
+and other central nervous system tumors diagnosed in the 
+United States in 2013-2017. Neuro-Oncology. 2020;22(12 
+Suppl 2):iv1–iv96.
+ 166. Louis DN, Perry A, Reifenberger G, von Deimling A, 
+Figarella-Branger D, Cavenee WK, Ohgaki H, Wiestler OD, 
+Kleihues P , Ellison DW . The 2016 World Health Organization 
+classification of tumors of the central nervous system: A 
+summary. Acta Neuropathol. 2016;131(6):803–820.
+ 167. Vargová L, Homola A, Zámecník J, Tichý M, Benes V ,  
+Syková E. Diffusion parameters of the extracellular space in 
+human gliomas. Glia. 2003;42(1):77–88.
+ 168. Zámecník J, Vargová L, Homola A, Kodet R, Syková E. 
+Extracellular matrix glycoproteins and diffusion barriers 
+in human astrocytic tumours. Neuropathol Appl Neurobiol. 
+2004;30(4):338–350.
+ 169. Zhou Z, Singh R, Souweidane MM. Convection-enhanced 
+delivery for diffuse intrinsic pontine glioma treatment. Curr 
+Neuropharmacol. 2017;15(1):116–128.
+ 170. Lonser RR, Walbridge S, Garmestani K, Butman JA,  
+Walters HA, Vortmeyer AO, Morrison PF , Brechbiel MW ,  
+Oldfield EH. Successful and safe perfusion of the primate 
+brainstem: In vivo magnetic resonance imaging of 
+macromolecular distribution during infusion. J Neurosurg. 
+2002;97(4):905–913.
+ 171. Thompson AJ, Baranzini SE, Geurts J, Hemmer B, Ciccarelli O. 
+Multiple sclerosis. Lancet. 2018;391(10130):1622–1636.
+ 172. Marder SR, Cannon TD. Schizophrenia. N Engl J Med. 
+2019;381(18):1753–1761.
+ 173. McCutcheon RA, Krystal JH, Howes OD. Dopamine 
+and glutamate in schizophrenia: Biology, symptoms and 
+treatment. World Psychiatry. 2020;19(1):15–33.
+ 174. Howes OD, Shatalina E. Integrating the neurodevelopmental 
+and dopamine hypotheses of schizophrenia and the role 
+of cortical excitation-inhibition balance. Biol Psychiatry. 
+2022;92(6):501–513.
+ 175. Howes OD, Onwordi EC. The synaptic hypothesis of 
+schizophrenia version III: A master mechanism. Mol 
+Psychiatry. 2023;28(5):1843–1856.
+ 176. Muller N. Inflammation in schizophrenia: Pathogenetic 
+aspects and therapeutic considerations. Schizophr Bull. 
+2018;44(5):973–982.
+ 177. Wu YF , Sytwu HK, Lung FW . Polymorphisms in the human 
+aquaporin 4 gene are associated with schizophrenia in the 
+Southern Chinese Han population: A case-control study. 
+Front Psych. 2020;11:596.
+ 178. Li Z, Li X, Jin M, Liu Y , He Y , Jia N, Cui X, Liu Y , Hu G, 
+Yu Q. Identification of potential biomarkers and their 
+correlation with immune infiltration cells in schizophrenia 
+using combinative bioinformatics strategy. Psychiatry Res. 
+2022;314:Article 114658.
+ 179. Brunner G, Gajwani R, Gross J, Gumley A, Timmerman RH,  
+Taylor R, Krishnadas R, Lawrie SM, Schwannauer M, 
+Schultze-Lutter F , et al. Choroid plexus morphology in 
+schizophrenia and early-stage psychosis: A cross-sectional 
+study. Schizophr Res. 2025;275:107–114.
+ 180. Zhou YF , Huang JC, Zhang P , Fan FM, Chen S, Fan HZ, 
+Cui YM, Luo XG, Tan SP , Wang ZR, et al. Choroid plexus 
+enlargement and allostatic load in schizophrenia. Schizophr 
+Bull. 2020;46(3):722–731.
+ 181. Y akimov V , Moussiopoulou J, Roell L, Kallweit MS, 
+Boudriot E, Mortazavi M, Papiol S, Krčmář L, Campana M, 
+Schulte EC, et al. Investigation of choroid plexus variability 
+in schizophrenia-spectrum disorders-insights from a 
+multimodal study. Schizophrenia. 2024;10(1):121.
+ 182. Tu Y , Fang Y , Li G, Xiong F , Gao F . Glymphatic system 
+dysfunction underlying schizophrenia is associated with 
+cognitive impairment. Schizophr Bull. 2024;50(5):1223–1231.
+ 183. Abdolizadeh A, Torres-Carmona E, Kambari Y , Amaev A,  
+Song J, Ueno F , Koizumi T, Nakajima S, Agarwal SM,  
+de Luca V , et al. Evaluation of the glymphatic system in 
+schizophrenia spectrum disorder using proton magnetic 
+resonance spectroscopy measurement of brain macromolecule 
+and diffusion tensor image analysis along the perivascular space 
+index. Schizophr Bull. 2024;50(6):1396–1410.
+ 184. Barlattani T, de Luca D, Giambartolomei S, Bologna A, 
+Innocenzi A, Bruno F , Socci V , Malavolta M, Rossi A, 
+de Berardis D, et al. Glymphatic system dysfunction in 
+young adults hospitalized for an acute psychotic episode: 
+A preliminary report from a pilot study. Front Psych. 
+2025;16:1653144.
+ 185. Korann V , Panganiban KJ, Stogios N, Remington G, 
+Graff-Guerrero A, Chintoh A, Hahn MK, Agarwal SM. 
+The dysregulation of the glymphatic system in patients 
+with psychosis spectrum disorders minimally exposed to 
+antipsychotics: La deregulation du systeme glymphatique en 
+presence de troubles psychotiques chez des patients peu exposes 
+a des antipsychotiques. Can J Psychiatr. 2025;70(3):260–270.
+ 186. Hua L, Zeng X, Zhang K, Zhao Z, Yuan Z. Reduced 
+glymphatic clearance in early psychosis. Mol Psychiatry. 
+2025;30(10):4665–4676.
+ 187. Diniz E, Fonseca L, Rocha D, Trevizol A, Cerqueira R,  
+Ortiz B, Brunoni AR, Bressan R, Correll CU, Gadelha A. 
+Treatment resistance in schizophrenia: A meta-analysis of 
+prevalence and correlates. Braz J Psychiatry. 2023;45(5): 
+448–458.
+ 188. Li JW , Gy F , Lv JJ, Chen RJ, Wang LJ, Zeng XX, Yuan J, Hu XL, 
+Zhao HM, Lu X. A rhythmic encoding approach based on 
+EEG time-frequency image for epileptic seizure detection. 
+Biomed Signal Process Contr. 2025;99:Article 106824.
+ 189. Vera-González A. Pathophysiological mechanisms underlying 
+the etiologies of seizures and epilepsy. In: Czuczwar SJ, editor. 
+Epilepsy. Brisbane (Australia): Exon Publications; 2022. p. 1–13. 
+ 190. Cavarsan CF , Malheiros J, Hamani C, Najm I, Covolan L. 
+Is mossy fiber sprouting a potential therapeutic target for 
+epilepsy? Front Neurol. 2018;9:1023.
+ 191. Burns SP , Santaniello S, Y affe RB, Jouny CC, Crone NE, 
+Bergey GK, Anderson WS, Sarma SV . Network dynamics of 
+the brain and influence of the epileptic seizure onset zone. 
+Proc Natl Acad Sci USA. 2014;111(49):E5321–E5330.
+ 192. Fröhlich F , Bazhenov M, Iragui-Madoz V , Sejnowski TJ. 
+Potassium dynamics in the epileptic cortex: New insights on 
+an old topic. Neuroscientist. 2008;14(5):422–433.
+ 193. Scheffer IE, Berkovic S, Capovilla G, Connolly MB,  
+French J, Guilhoto L, Hirsch E, Jain S, Mathern GW ,  
+Moshé SL, et al. ILAE classification of the epilepsies: Position 
+paper of the ILAE Commission for Classification and 
+Terminology. Epilepsia. 2017;58(4):512–521.
+ 194. Slais K, Vorisek I, Zoremba N, Homola A, Dmytrenko L, 
+Sykova E. Brain metabolism and diffusion in the rat cerebral 
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 27]
+Han et al. 2026 | https://doi.org/10.34133/cbsystems.0529 27
+cortex during pilocarpine-induced status epilepticus. Exp 
+Neurol. 2008;209(1):145–154.
+ 195. Hrabetova S, Nicholson C. Contribution of dead-space 
+microdomains to tortuosity of brain extracellular space. 
+Neurochem Int. 2004;45(4):467–477.
+ 196. Binder DK, Nagelhus EA, Ottersen OP . Aquaporin-4 and 
+epilepsy. Glia. 2012;60(8):1203–1214.
+ 197. Parsons ALM, Bucknor EMV , Castroflorio E, Soares TR,  
+Oliver PL, Rial D. The interconnected mechanisms of 
+oxidative stress and neuroinflammation in epilepsy. 
+Antioxidants. 2022;11(1):157.
+ 198. Vezzani A, Friedman A, Dingledine RJ. The role of inflammation 
+in epileptogenesis. Neuropharmacology. 2013;69:16–24.
+ 199. González OC, Timofeev I, Bazhenov M. Role of ion 
+concentration dynamics in epileptic seizures. In: Noebels JL,  
+Avoli M, Rogawski MA, Vezzani A, Delgado-Escueta AV , 
+editors. Jasper’s basic mechanisms of the epilepsies. New Y ork: 
+Oxford University Press; 2024. p. 351–364. 
+ 200. Hersh DS, Nguyen BA, Dancy JG, Adapa AR, Winkles JA,  
+Woodworth GF , Kim AJ, Frenkel V . Pulsed ultrasound 
+expands the extracellular and perivascular spaces of the brain. 
+Brain Res. 2016;1646:543–550.
+ 201. Rogawski MA. Convection-enhanced delivery in the 
+treatment of epilepsy. Neurotherapeutics. 2009;6(2):344–351.
+ 202. Loscher W , Potschka H. Drug resistance in brain diseases 
+and the role of drug efflux transporters. Nat Rev Neurosci. 
+2005;6(8):591–602.
+ 203. Haglund MM, Hochman DW . Furosemide and mannitol 
+suppression of epileptic activity in the human brain. J 
+Neurophysiol. 2005;94(2):907–918.
+ 204. Ahmad S, Clarke L, Hewett AJ, Richens A. Controlled trial of 
+frusemide as an antiepileptic drug in focal epilepsy. Br J Clin 
+Pharmacol. 1976;3(4):621–625.
+ 205. Gharaylou Z, Tafakhori A, Agah E, Aghamollaii V ,  
+Kebriaeezadeh A, Hadjighassem M. A preliminary study 
+evaluating the safety and efficacy of bumetanide, an NKCC1 
+inhibitor, patients with drug-resistant epilepsy. CNS Drugs. 
+2019;33(3):283–291.
+ 206. Wang HE, Triebkorn P , Breyton M, Dollomaja B,  
+Lemarechal JD, Petkoski S, Sorrentino P , Depannemaecker D,  
+Hashemi M, Jirsa VK. Virtual brain twins: From basic 
+neuroscience to clinical use. Natl Sci Rev. 2024;11(5):nwae079.
+ 207. Markram H, Muller E, Ramaswamy S, Reimann MW , 
+Abdellah M, Sanchez CA, Ailamaki A, Alonso-Nanclares L, 
+Antille N, Arsever S, et al. Reconstruction and simulation of 
+neocortical microcircuitry. Cell. 2015;163(2):456–492.
+ 208. MICrONS Consortium. Functional connectomics 
+spanning multiple areas of mouse visual cortex. Nature. 
+2025;640(8058):435–447.
+ 209. Tønnesen J, Inavalli V , Nägerl UV . Super-resolution imaging 
+of the extracellular space in living brain tissue. Cell. 
+2018;172(5):1108–1121.e15.
+ 210. Lehmenkuhler A, Sykova E, Svoboda J, Zilles K,  
+Nicholson C. Extracellular-space parameters in the rat 
+neocortex and subcortical white-matter during postnatal-
+development determined by diffusion analysis. Neuroscience. 
+1993;55(2):339–351.
+ 211. Mazel T, Richter F , Vargová L, Syková E. Changes in 
+extracellular space volume and geometry induced by cortical 
+spreading depression in immature and adult rats. Physiol Res. 
+2002;51:S85–S93.
+ 212. Syková E, Mazel T, Simonová Z. Diffusion constraints 
+and neuron-glia interaction during aging. Exp Gerontol. 
+1998;33(7–8):837–851.
+ 213. Y ang SF , Wang Y , Li K, Tang X, Zhang K, Shi C, Han H,  
+Peng Y . Extracellular space diffusion analysis in the infant 
+and adult rat striatum using magnetic resonance imaging. Int 
+J Dev Neurosci. 2016;53:1–7.
+ 214. Kilb W , Dierkes PW , Sykova E, Vargova L, Luhmann HJ. 
+Hypoosmolar conditions reduce extracellular volume fraction 
+and enhance epileptiform activity in the CA3 region of the 
+immature rat hippocampus. J Neurosci Res. 2006;84(1):119–129.
+ 215. Jansson A, Mazel T, Andbjer B, Rosen L, Guidolin D, Zoli M, 
+Sykova E, Agnati LF , Fuxe K. Effects of nitric oxide inhibition 
+on the spread of biotinylated dextran and on extracellular 
+space parameters in the neostriatum of the male rat. 
+Neuroscience. 1999;91(1):69–80.
+ 216. Syková E, Mazel T, Hasenohrl RU, Harvey AR, Simonova Z, 
+Mulders WH, Huston JP . Learning deficits in aged rats related to 
+decrease in extracellular volume and loss of diffusion anisotropy 
+in hippocampus. Hippocampus. 2002;12(2):269–279.
+ 217. Benveniste H, Lee H, Ding F , Sun Q, Al-Bizri E, Makaryus R,  
+Probst S, Nedergaard M, Stein EA, Lu H. Anesthesia with 
+dexmedetomidine and low-dose isoflurane increases solute 
+transport via the glymphatic pathway in rat brain when compared 
+with high-dose isoflurane. Anesthesiology. 2017;127(6):976–988.
+ 218. Casley-Smith JR, Földi-Börsök E, Földi M. The prelymphatic 
+pathways of the brain as revealed by cervical lymphatic 
+obstruction and the passage of particles. Br J Exp Pathol. 
+1976;57(2):179–188.
+ 219. Oxana S-G, Alexander S, Inna B, Ivan F , Andrey T,  
+Alexander D, Maria T, Daria E, Viktoria A, Arina E, et al. 
+Mechanisms of phototherapy of Alzheimer’s disease during 
+sleep and wakefulness: The role of the meningeal lymphatics. 
+Front Optoelectron. 2023;16(1):22.
+ 220. Cai Y , Wan QQ, Cai XJ, Gao YJ, Han HB. Epidural 
+photobiomodulation accelerates the drainage of brain 
+interstitial fluid and its mechanism. Beijing Da Xue Xue Bao. 
+2022;54(5):1000–1005.
+ 221. Murdock MH, Y ang C-Y , Sun N, Pao P-C, Blanco-Duque C,  
+Kahn MC, Kim TH, Lavoie NS, Victor MB, Islam MR, et al.  
+Multisensory gamma stimulation promotes glymphatic 
+clearance of amyloid. Nature. 2024;627(8002):149–156.
+ 222. Venturino A, Schulz R, De Jesús-Cortés H, Maes ME,  
+Nagy B, Reilly-Andújar F , Colombo G, Cubero RJA, 
+Uiterkamp FES, Bear MF , et al. Microglia enable mature 
+perineuronal nets disassembly upon anesthetic ketamine 
+exposure or 60-Hz light entrainment in the healthy brain. Cell 
+Rep. 2021;36(1):Article 109313.
+ 223. Dreha-Kulaczewski S, Joseph AA, Merboldt KD,  
+Ludwig HC, Gärtner J, Frahm J. Inspiration is the major 
+regulator of human CSF flow. J Neurosci. 2015;35(6):2485–2491.
+ 224. Wu C, Lin T, Ding Q, Zhang N, Ou ZT, Cai GY ,  
+Chen HY , Xu JY , Li G, Pei Z, et al. Continuous theta-burst 
+stimulation promotes paravascular CSF-interstitial  
+fluid exchange through regulation of aquaporin-4 
+polarization in APP/PS1 mice. Mediat Inflamm. 
+2022;2022:2140524.
+ 225. Wu C, Zhang Q, Feng YW , Zhang N, Liu Q, Ou ZT, Lin T, 
+Ding Q, Li G, Pei Z, et al. GABA promotes interstitial fluid 
+clearance in an AQP4-dependent manner by activating the 
+GABAA R. J Neurochem. 2023;166(3):560–571.
+Downloaded from https://spj.science.org at Peking University on March 04, 2026
+
+
+
+[page 28]
+Brain Extracellular Space: From an Overlooked Dimension to Catalyst of a Novel
+Neuroscience Paradigm
+Hongbin Han, Hui Dai, Leonor Serrano Lopes, Ruiqing Ni, Benjamin F. Combes, Yangjing Song, Hanbo Tan, Meng Xu, Hongfeng Li,
+Shuhong Lv, Zhaohe Yang, Tianzi Gao, Mengyu Zhang, Yang Shi, Jingjing Shao, Yanni Zhang, and Wanyi Fu
+Citation: Han H, Dai H, Lopes L, Ni R, Combes B, Song Y, Tan H, Xu M, Li H, Lv S, et al. Brain Extracellular Space: From
+an Overlooked Dimension to Catalyst of a Novel Neuroscience Paradigm. Cyborg Bionic Syst. 2026;7:0529.  DOI: 10.34133/
+cbsystems.0529
+Despite huge investment, therapies for brain disorders remain largely ineffective in clinical practice. Accumulating
+evidence indicates that this low translational success is closely linked to the long-standing overlook of the brain
+extracellular space (ECS) in preclinical research, clinical practice, and regulatory frameworks. After over 4 decades of
+scientific exploration, particularly with recent breakthroughs in imaging and quantitative measurement methods, it is
+timely to integrate the ECS into the current neuroscience framework. This paper investigates underlying determinants
+of low translational success of central nervous system drugs and therapeutic devices, reviews the historical and
+technical bottlenecks that lead to the neglect of ECS research, and emphasizes its transformative potential in reshaping
+therapeutic strategies. We propose incorporating the ECS into neuroscience research, clinical regulatory assessment,
+and medical education, thereby establishing a comprehensive paradigm that omits no physical space for precision
+therapeutics targeting brain disorders.
+Image
+View the article online
+https://spj.science.org/doi/10.34133/cbsystems.0529
+Use of this article is subject to the Terms of service
+Cyborg and Bionic Systems (ISSN 2692-7632) is published by the American Association for the Advancement of Science. 1200 New York
+Avenue NW, Washington, DC 20005. 
+Copyright © 2026 Hongbin Han et al.
+Exclusive licensee Beijing Institute of Technology Press. No claim to original U.S. Government Works. Distributed under a Creative
+Commons Attribution License (CC BY 4.0).
+Downloaded from https://spj.science.org at Peking University on March 04, 2026

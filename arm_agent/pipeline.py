@@ -200,11 +200,11 @@ class PaperToARMOrchestrator:
             source = item["metadata"]["source_file"]
             batch_has_figures = any(other["quality_flags"]["has_figures_or_tables"] for other in extracted)
             batch_has_references = bool(ref_result["checked_count"]) or any(other["quality_flags"]["has_references"] for other in extracted)
-            if not flags["has_figures_or_tables"] and not batch_has_figures:
+            if not flags["has_figures_or_tables"] and not batch_has_figures and item["metadata"]["article_type"] != "review":
                 risks.append({"code": "missing_figures_tables", "message": "No figure or table captions were detected.", "severity": "high", "detail": {"source_file": source}})
             if not flags["has_references"] and not batch_has_references:
                 risks.append({"code": "missing_references", "message": "No references or DOI/PMID identifiers were detected.", "severity": "medium", "detail": {"source_file": source}})
-            if flags["paragraph_count"] < 8:
+            if flags["paragraph_count"] < 8 and item["metadata"]["article_type"] != "review":
                 severity = "medium" if len(extracted) > 1 and total_claims >= 5 else "high"
                 if severity == "high":
                     risks.append({"code": "paper_text_too_short", "message": "Input text is too short for reliable ARM generation.", "severity": severity, "detail": {"source_file": source, "paragraph_count": flags["paragraph_count"]}})

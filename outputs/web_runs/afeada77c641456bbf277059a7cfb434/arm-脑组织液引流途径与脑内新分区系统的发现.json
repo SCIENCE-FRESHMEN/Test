@@ -1,0 +1,1578 @@
+{
+  "full_arm": {
+    "metadata": {
+      "arm_id": "arm-脑组织液引流途径与脑内新分区系统的发现",
+      "title": "!工作综述! 韩鸿宾教授团队提出并建立&脑细胞外间隙探测技术'!在国际上首次实现了对脑深部细胞外间隙纳米尺度超微结构空间的探测和定量分析\" 应用独创的新方法%新设备解决了困扰业界的脑内类淋巴引流途径之谜!发现并证实了脑内新分区结构系统!提出脑分区稳态理论\" 进一步建立了经脑细胞外间隙途径给药治疗脑病的新方法%新理论!研发的新型脑病药物精准递送系统较现有国际专利技术更为高效%安全%低毒!解决了血脑屏障阻碍药物入脑的国际性难题\" 新方法获批国内%国际发明专利!研究成果以封面故事发表于神经生物学顶级期刊!研究成果获得华夏医学科技奖一等奖!入选首都科技领军人才工程! 并获得中国青年科技奖\" 研究成果入选北京市科学中心 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \" 脑组织液引流途径与脑内新分区系统的发现韩鸿宾\" !关键词\" 脑细胞外间隙$磁示踪法$脑组织液$脑分区稳态",
+      "authors": [],
+      "doi": null,
+      "pmid": null,
+      "year": null,
+      "publication_date": null,
+      "journal": null,
+      "article_type": "review",
+      "license": null,
+      "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+      "ecs_related": true,
+      "ecs_keywords": [
+        "引流途径",
+        "磁示踪",
+        "类淋巴",
+        "组织液",
+        "细胞外间隙",
+        "脑内新分区",
+        "脑组织液",
+        "脑细胞外间隙",
+        "脑间质"
+      ],
+      "processing_status": "success"
+    },
+    "claims": [
+      {
+        "claim_id": "C-001",
+        "text": "在国内外核心期刊发表学术论文与专论899 余篇\" 韩鸿宾教授团队提出并建立&脑细胞外间隙探测技术'!",
+        "raw_text": "在国内外核心期刊发表学术论文与专论899 余篇\" 韩鸿宾教授团队提出并建立&脑细胞外间隙探测技术'!",
+        "claim_category": "research_hypothesis",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 1",
+        "source_location": "front_matter paragraph 1",
+        "evidence_ids": [
+          "E-001"
+        ],
+        "support_evidence_snippet": [
+          "在国内外核心期刊发表学术论文与专论899 余篇\" 韩鸿宾教授团队提出并建立&脑细胞外间隙探测技术'!"
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-002",
+        "text": "在国际上首次实现了对脑深部细胞外间隙纳米尺度超微结构空间的探测和定量分析\" 应用独创的新方法%新设备解决了困扰业界的脑内类淋巴引流途径之谜!",
+        "raw_text": "在国际上首次实现了对脑深部细胞外间隙纳米尺度超微结构空间的探测和定量分析\" 应用独创的新方法%新设备解决了困扰业界的脑内类淋巴引流途径之谜!",
+        "claim_category": "review_summary",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 1",
+        "source_location": "front_matter paragraph 1",
+        "evidence_ids": [
+          "E-002"
+        ],
+        "support_evidence_snippet": [
+          "在国际上首次实现了对脑深部细胞外间隙纳米尺度超微结构空间的探测和定量分析\" 应用独创的新方法%新设备解决了困扰业界的脑内类淋巴引流途径之谜!"
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-003",
+        "text": "提出脑分区稳态理论\" 进一步建立了经脑细胞外间隙途径给药治疗脑病的新方法%新理论!",
+        "raw_text": "提出脑分区稳态理论\" 进一步建立了经脑细胞外间隙途径给药治疗脑病的新方法%新理论!",
+        "claim_category": "research_hypothesis",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 1",
+        "source_location": "front_matter paragraph 1",
+        "evidence_ids": [
+          "E-003"
+        ],
+        "support_evidence_snippet": [
+          "提出脑分区稳态理论\" 进一步建立了经脑细胞外间隙途径给药治疗脑病的新方法%新理论!"
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-004",
+        "text": "本文对课题组在脑细胞外间隙领域探索的历史/技术方法的建立以及新技术/新发现在脑结构认识/脑病诊治/新药研发等前沿科学领域的应用进行系统性回顾\"对所建立新方法的原理和技术进行介绍\"重点综述应用新技术在脑结构和脑组织液引流途径等方面的科学发现.",
+        "raw_text": "本文对课题组在脑细胞外间隙领域探索的历史/技术方法的建立以及新技术/新发现在脑结构认识/脑病诊治/新药研发等前沿科学领域的应用进行系统性回顾\"对所建立新方法的原理和技术进行介绍\"重点综述应用新技术在脑结构和脑组织液引流途径等方面的科学发现.",
+        "claim_category": "review_summary",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 5",
+        "source_location": "front_matter paragraph 5",
+        "evidence_ids": [
+          "E-004"
+        ],
+        "support_evidence_snippet": [
+          "本文对课题组在脑细胞外间隙领域探索的历史/技术方法的建立以及新技术/新发现在脑结构认识/脑病诊治/新药研发等前沿科学领域的应用进行系统性回顾\"对所建立新方法的原理和技术进行介绍\"重点综述应用新技术在脑结构和脑组织液引流途径等方面的科学发现."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-005",
+        "text": "在阐述根据新发现提出的理论假说的同时\"讨论细胞外间隙在脑科学/药学/ 航天领域/人工智能/肿瘤治疗等前沿领域的应用和未来发展前景.",
+        "raw_text": "在阐述根据新发现提出的理论假说的同时\"讨论细胞外间隙在脑科学/药学/ 航天领域/人工智能/肿瘤治疗等前沿领域的应用和未来发展前景.",
+        "claim_category": "research_hypothesis",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 5",
+        "source_location": "front_matter paragraph 5",
+        "evidence_ids": [
+          "E-005"
+        ],
+        "support_evidence_snippet": [
+          "在阐述根据新发现提出的理论假说的同时\"讨论细胞外间隙在脑科学/药学/ 航天领域/人工智能/肿瘤治疗等前沿领域的应用和未来发展前景."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-006",
+        "text": "(%发明新型探测方法'揭示脑G/B结构特征'发现脑内新分区系统 <<由于脑内缺乏内源性特异性分布于;76 的可被探测的分子结构\"所以对;76 的探测需导入外源性分子探针\"以此来获取来自;76 的信号.",
+        "raw_text": "(%发明新型探测方法'揭示脑G/B结构特征'发现脑内新分区系统 <<由于脑内缺乏内源性特异性分布于;76 的可被探测的分子结构\"所以对;76 的探测需导入外源性分子探针\"以此来获取来自;76 的信号.",
+        "claim_category": "review_summary",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 7",
+        "source_location": "front_matter paragraph 7",
+        "evidence_ids": [
+          "E-006"
+        ],
+        "support_evidence_snippet": [
+          "(%发明新型探测方法'揭示脑G/B结构特征'发现脑内新分区系统 <<由于脑内缺乏内源性特异性分布于;76 的可被探测的分子结构\"所以对;76 的探测需导入外源性分子探针\"以此来获取来自;76 的信号."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-007",
+        "text": "我们发现脑内存在新的分区系统\"即脑;76 内组织液的引流被局限在不同的分区\"不同分区内;76 结构特征不同\"分区内组织液的引流途径也各不相同\" 这一发现纠正了脑;76 是高度通连系统的错误认识 (8>).",
+        "raw_text": "我们发现脑内存在新的分区系统\"即脑;76 内组织液的引流被局限在不同的分区\"不同分区内;76 结构特征不同\"分区内组织液的引流途径也各不相同\" 这一发现纠正了脑;76 是高度通连系统的错误认识 (8>).",
+        "claim_category": "review_summary",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 10",
+        "source_location": "front_matter paragraph 10",
+        "evidence_ids": [
+          "E-007"
+        ],
+        "support_evidence_snippet": [
+          "我们发现脑内存在新的分区系统\"即脑;76 内组织液的引流被局限在不同的分区\"不同分区内;76 结构特征不同\"分区内组织液的引流途径也各不相同\" 这一发现纠正了脑;76 是高度通连系统的错误认识 (8>)."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-008",
+        "text": "随着磁示踪法的应用\"不同脑区;76 内36T的引流途径被逐个揭示 (8!",
+        "raw_text": "随着磁示踪法的应用\"不同脑区;76 内36T的引流途径被逐个揭示 (8!",
+        "claim_category": "review_summary",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 11",
+        "source_location": "front_matter paragraph 11",
+        "evidence_ids": [
+          "E-008"
+        ],
+        "support_evidence_snippet": [
+          "随着磁示踪法的应用\"不同脑区;76 内36T的引流途径被逐个揭示 (8!"
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-009",
+        "text": "脑内新分区系统的发现将对脑基础研究/药学/神经外科/神经内科/儿科/ 老年病科/精神科\"甚至航空航天等特种医学产生重大而深远的影响\"其中最令我们感兴趣的是新发现的脑分区引流系统是否可以用来作为新的给药途径2 以往失败的脑缺血神经保护药物是否可以通过这个给药途径得以,复活-\"如何绕过血脑屏障的阻碍更高效地发挥神经保护作用2 *%脑G/B新发现与新理论在医学前沿领域的应用为证实;76 是否可以用来作为给药途径\"课题组采用大鼠大脑中动脉闭塞模型!",
+        "raw_text": "脑内新分区系统的发现将对脑基础研究/药学/神经外科/神经内科/儿科/ 老年病科/精神科\"甚至航空航天等特种医学产生重大而深远的影响\"其中最令我们感兴趣的是新发现的脑分区引流系统是否可以用来作为新的给药途径2 以往失败的脑缺血神经保护药物是否可以通过这个给药途径得以,复活-\"如何绕过血脑屏障的阻碍更高效地发挥神经保护作用2 *%脑G/B新发现与新理论在医学前沿领域的应用为证实;76 是否可以用来作为给药途径\"课题组采用大鼠大脑中动脉闭塞模型!",
+        "claim_category": "review_summary",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 11",
+        "source_location": "front_matter paragraph 11",
+        "evidence_ids": [
+          "E-009"
+        ],
+        "support_evidence_snippet": [
+          "脑内新分区系统的发现将对脑基础研究/药学/神经外科/神经内科/儿科/ 老年病科/精神科\"甚至航空航天等特种医学产生重大而深远的影响\"其中最令我们感兴趣的是新发现的脑分区引流系统是否可以用来作为新的给药途径2 以往失败的脑缺血神经保护药物是否可以通过这个给药途径得以,复活-\"如何绕过血脑屏障的阻碍更高效地发挥神经保护作用2 *%脑G/B新发现与新理论在医学前沿领域的应用为证实;76 是否可以用来作为给药途径\"课题组采用大鼠大脑中动脉闭塞模型!"
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-010",
+        "text": "课题组在近> 年设计并逐步开展了将脑细胞外间隙的新发现和新理论推向临床应用的前期准备工作\"包括% !",
+        "raw_text": "课题组在近> 年设计并逐步开展了将脑细胞外间隙的新发现和新理论推向临床应用的前期准备工作\"包括% !",
+        "claim_category": "review_summary",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 12",
+        "source_location": "front_matter paragraph 12",
+        "evidence_ids": [
+          "E-010"
+        ],
+        "support_evidence_snippet": [
+          "课题组在近> 年设计并逐步开展了将脑细胞外间隙的新发现和新理论推向临床应用的前期准备工作\"包括% !"
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-011",
+        "text": "' : 9 K ' 韩鸿宾<脑组织液引流途径与脑内新分区系统的发现",
+        "raw_text": "' : 9 K ' 韩鸿宾<脑组织液引流途径与脑内新分区系统的发现",
+        "claim_category": "review_summary",
+        "section": "references",
+        "locator": "references paragraph 15",
+        "source_location": "references paragraph 15",
+        "evidence_ids": [
+          "E-011"
+        ],
+        "support_evidence_snippet": [
+          "' : 9 K ' 韩鸿宾<脑组织液引流途径与脑内新分区系统的发现"
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-012",
+        "text": "解决了血脑屏障阻碍药物入脑的国际性难题\" 新方法获批国内%国际发明专利!",
+        "raw_text": "解决了血脑屏障阻碍药物入脑的国际性难题\" 新方法获批国内%国际发明专利!",
+        "claim_category": "review_summary",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 1",
+        "source_location": "front_matter paragraph 1",
+        "evidence_ids": [
+          "E-012"
+        ],
+        "support_evidence_snippet": [
+          "解决了血脑屏障阻碍药物入脑的国际性难题\" 新方法获批国内%国际发明专利!"
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": false,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E-001",
+        "claim_id": "C-001",
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+        "locator": "front_matter paragraph 1",
+        "section": "front_matter",
+        "paragraph_index": 1,
+        "figure_or_table": null,
+        "quote": "在国内外核心期刊发表学术论文与专论899 余篇\" 韩鸿宾教授团队提出并建立&脑细胞外间隙探测技术'!",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-002",
+        "claim_id": "C-002",
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+        "locator": "front_matter paragraph 1",
+        "section": "front_matter",
+        "paragraph_index": 1,
+        "figure_or_table": null,
+        "quote": "在国际上首次实现了对脑深部细胞外间隙纳米尺度超微结构空间的探测和定量分析\" 应用独创的新方法%新设备解决了困扰业界的脑内类淋巴引流途径之谜!",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-003",
+        "claim_id": "C-003",
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+        "locator": "front_matter paragraph 1",
+        "section": "front_matter",
+        "paragraph_index": 1,
+        "figure_or_table": null,
+        "quote": "提出脑分区稳态理论\" 进一步建立了经脑细胞外间隙途径给药治疗脑病的新方法%新理论!",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-004",
+        "claim_id": "C-004",
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+        "locator": "front_matter paragraph 5",
+        "section": "front_matter",
+        "paragraph_index": 5,
+        "figure_or_table": null,
+        "quote": "本文对课题组在脑细胞外间隙领域探索的历史/技术方法的建立以及新技术/新发现在脑结构认识/脑病诊治/新药研发等前沿科学领域的应用进行系统性回顾\"对所建立新方法的原理和技术进行介绍\"重点综述应用新技术在脑结构和脑组织液引流途径等方面的科学发现.",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-005",
+        "claim_id": "C-005",
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+        "locator": "front_matter paragraph 5",
+        "section": "front_matter",
+        "paragraph_index": 5,
+        "figure_or_table": null,
+        "quote": "在阐述根据新发现提出的理论假说的同时\"讨论细胞外间隙在脑科学/药学/ 航天领域/人工智能/肿瘤治疗等前沿领域的应用和未来发展前景.",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-006",
+        "claim_id": "C-006",
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+        "locator": "front_matter paragraph 7",
+        "section": "front_matter",
+        "paragraph_index": 7,
+        "figure_or_table": null,
+        "quote": "(%发明新型探测方法'揭示脑G/B结构特征'发现脑内新分区系统 <<由于脑内缺乏内源性特异性分布于;76 的可被探测的分子结构\"所以对;76 的探测需导入外源性分子探针\"以此来获取来自;76 的信号.",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-007",
+        "claim_id": "C-007",
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+        "locator": "front_matter paragraph 10",
+        "section": "front_matter",
+        "paragraph_index": 10,
+        "figure_or_table": null,
+        "quote": "我们发现脑内存在新的分区系统\"即脑;76 内组织液的引流被局限在不同的分区\"不同分区内;76 结构特征不同\"分区内组织液的引流途径也各不相同\" 这一发现纠正了脑;76 是高度通连系统的错误认识 (8>).",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-008",
+        "claim_id": "C-008",
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+        "locator": "front_matter paragraph 11",
+        "section": "front_matter",
+        "paragraph_index": 11,
+        "figure_or_table": null,
+        "quote": "随着磁示踪法的应用\"不同脑区;76 内36T的引流途径被逐个揭示 (8!",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-009",
+        "claim_id": "C-009",
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+        "locator": "front_matter paragraph 11",
+        "section": "front_matter",
+        "paragraph_index": 11,
+        "figure_or_table": null,
+        "quote": "脑内新分区系统的发现将对脑基础研究/药学/神经外科/神经内科/儿科/ 老年病科/精神科\"甚至航空航天等特种医学产生重大而深远的影响\"其中最令我们感兴趣的是新发现的脑分区引流系统是否可以用来作为新的给药途径2 以往失败的脑缺血神经保护药物是否可以通过这个给药途径得以,复活-\"如何绕过血脑屏障的阻碍更高效地发挥神经保护作用2 *%脑G/B新发现与新理论在医学前沿领域的应用为证实;76 是否可以用来作为给药途径\"课题组采用大鼠大脑中动脉闭塞模型!",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-010",
+        "claim_id": "C-010",
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+        "locator": "front_matter paragraph 12",
+        "section": "front_matter",
+        "paragraph_index": 12,
+        "figure_or_table": null,
+        "quote": "课题组在近> 年设计并逐步开展了将脑细胞外间隙的新发现和新理论推向临床应用的前期准备工作\"包括% !",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-011",
+        "claim_id": "C-011",
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+        "locator": "references paragraph 15",
+        "section": "references",
+        "paragraph_index": 15,
+        "figure_or_table": null,
+        "quote": "' : 9 K ' 韩鸿宾<脑组织液引流途径与脑内新分区系统的发现",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-012",
+        "claim_id": "C-012",
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+        "locator": "front_matter paragraph 1",
+        "section": "front_matter",
+        "paragraph_index": 1,
+        "figure_or_table": null,
+        "quote": "解决了血脑屏障阻碍药物入脑的国际性难题\" 新方法获批国内%国际发明专利!",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      }
+    ],
+    "protocol": [
+      {
+        "step_id": "P-001",
+        "name": "Parse paper into source-located sections",
+        "description": "Segment abstract, methods/results/discussion where present, figure/table captions, references, and ECS keyword hits.",
+        "input_materials": [
+          "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf"
+        ],
+        "method_source_locator": "system_pipeline:literature_extract",
+        "expected_output": "Section map with paragraph indices and source quotes.",
+        "automation_level": "auto",
+        "provenance": "model_infer"
+      },
+      {
+        "step_id": "P-002",
+        "name": "Align claims to evidence",
+        "description": "Keep only claims backed by exact source-text quotes and locators.",
+        "input_materials": [
+          "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf"
+        ],
+        "method_source_locator": "system_pipeline:claim_evidence_alignment",
+        "expected_output": "Claim list with evidence_ids and locators.",
+        "automation_level": "manual_review",
+        "provenance": "model_infer"
+      }
+    ],
+    "runbook": [
+      {
+        "step_id": "R-001",
+        "action": "Dry-run the Paper-to-ARM pipeline on the same input and validate ARM modules.",
+        "input_files": [
+          "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf"
+        ],
+        "dependent_tools": [
+          "literature_extract",
+          "reference_validator"
+        ],
+        "expected_output": "JSON export containing full_arm and trace_record; all nine ARM modules present.",
+        "manual_review_required": false,
+        "can_dry_run": true,
+        "dry_run_command": "python main.py run --input \"C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf\" --output-dir outputs --format json",
+        "failure_conditions": [
+          "Missing source file",
+          "Fewer than 5 traceable claims",
+          "No ECS content detected"
+        ]
+      },
+      {
+        "step_id": "R-002",
+        "action": "Manually review quote-to-claim alignment and medical-boundary warnings.",
+        "input_files": [
+          "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf"
+        ],
+        "dependent_tools": [],
+        "expected_output": "Human approval or correction list for claim/evidence pairs.",
+        "manual_review_required": true,
+        "can_dry_run": false,
+        "dry_run_command": null,
+        "failure_conditions": [
+          "Claim text overstates source quote",
+          "Clinical advice detected"
+        ]
+      }
+    ],
+    "eval_plan": [
+      {
+        "metric_id": "M-001",
+        "name": "ARM module completeness",
+        "pass_condition": "metadata/claims/evidence/protocol/runbook/eval_plan/provenance/limitations/artifacts all exist",
+        "evaluation_method": "Schema validation with pydantic."
+      },
+      {
+        "metric_id": "M-002",
+        "name": "Traceable claims",
+        "pass_condition": "At least 5 claims have non-empty evidence_ids and exact quotes.",
+        "evaluation_method": "Automated count plus manual spot-check."
+      },
+      {
+        "metric_id": "M-003",
+        "name": "Failure branch blocking",
+        "pass_condition": "Incomplete input returns failure report and does not create success ARM.",
+        "evaluation_method": "Run tests/test_pipeline.py and inspect trace_record.failure_risks."
+      },
+      {
+        "metric_id": "M-004",
+        "name": "ECS tagging",
+        "pass_condition": "metadata.ecs_related is true for ECS papers and ECS-related claims are tagged.",
+        "evaluation_method": "Keyword detection plus manual review."
+      }
+    ],
+    "provenance": {
+      "run_id": "run-0ae46d5d2ae6",
+      "allowed_tools": [
+        "literature_extract",
+        "reference_validator"
+      ],
+      "model": {
+        "provider": "DeepSeek",
+        "model_name": "deepseek-v4-pro",
+        "usage": "optional; deterministic local extractors are used for this reproducible demo"
+      },
+      "source_files": [
+        "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf"
+      ],
+      "reference_validation": {
+        "validator_prompt": "参考文献合法性校验工具:\n输入论文内全部引用文本、DOI、PMID、文献标题。逐项校验标识符、信息完整性、\n领域匹配、重复/冲突。输出固定状态reference_valid或reference_invalid；\n所有记录写入trace，供答辩展示引用校验流程。",
+        "status": "reference_invalid",
+        "validated_references": [
+          {
+            "reference_text": "( : ) \\1&0*( NS\" S')G/H*( NaBaG_(1/)1((-)/1H').2 ( N)BR*/ \\- .\" 89:#\" :9!@#% K!K [>99B ( 8 ) X1%L'(.?\\\" 4-6'H1(-;\" 7Gc*+-L O\" -/*+B#4#% J#./0H1E-$ +'(01^/G-)-(/&*+(-&,1F.._./-H(N)B2&10R-F&1J'1+\" 89:>\" :8% : [8>B ( # ) 李维\" 韩鸿宾B脑细胞微环境研究的情报学分析(N)B中华医学科研管理杂志\" 89:K\" 8\"!8#% 88# [8#8 ( K ) S-'W\" X*( X\" WF*( T\" -/*+BVG-J&*'( '(/-&./'/'*+._./-H% ?(*$ /1H_\" H1E-+'(0\" #% J#J0H-*.F&-H-(/\" *(E *%%+')*/'1(.(N)B2&10 R-F&1J'1+\" 89:\"\" :>\"% 8#9 [8K@B ( > ) A'-S\" O*(0X\" AF g\" -/*+B6+--% E&',-.H-/*J1+'/-)+-*&*()- ^&1H/G-*EF+/J&*'( ( N)B6)'-()-\" 89:#\" #K8 !@:>@#% #\"# [ #\"\"B ( @ ) \\)0'&/\\N\" ]&-H XB7*&HF./'(-c*^-&.! 5+'*E-+# %+F.)1()1H'$ /*(//-H1`1+1H'E-/G-&*%_*^/-&&-.-)/'1( 1^H*+'0(*(/*./&1)_/1H*% 0&1c'(0-,'E-()-^1&.*^-/_*(E -^^')*)_( N)B?(( 6F&0P()1+\" 89:9\" :\"!\"#% :\"8! [:\"#:B ( \" ) 2&')-7\" fG1F A\" S'a\" -/*+B=-*+$/'H-H-*.F&-H-(/1^.1+F/- /&*(.%1&/c'/G'( /G-+*)F(*&$)*(*+')F+*&._./-H 1^H-)G*(')*++_ +1*E-E J1(-% E'&-)/-,'E-()-^1&+1*E$'(EF)-E ^+F'E ^+1c( N)BN ]1(-\\'(-&=-.\" 89::\" 8@!8#% 8\"\" [8M>B ( M ) P..c*+E \\\" NF(0;\" 6*GHT\" -/*+B]&*'( /FH1F&)-++.'(/-&)1($ (-)//1*^F()/'1(*+*(E &-.'./*(/(-/c1&L(N)BR*/F&-\" 89:>\" >8M !\">M9#% !# [!MB ( ! ) S1F,-*F ?\" 6H'&(1,3\" O-_-.VN\" -/*+B6/&F)/F&*+*(E ^F()/'1(*+ ^-*/F&-.1^)-(/&*+(-&,1F.._./-H+_H%G*/'),-..-+.(N)BR*/F&-\" 89:>\" >8#!\">@9#% ##\" [#K:B (:9) S*F Sa\" 7F*=\" O-1F0G \\]\" -/*+B2*/G1%G_.'1+10_1^/G-J&*'( -b/&*)-++F+*&H*/&'b% *(-c/*&0-/^1&&-H_-+'(*/'1(( N)BR*/=-, R-F&1.)'\" 89:#\" :K!:9#% \"88 [\"8!B (::) 韩鸿宾\" 谢敬霞B\\=扩散与灌注成像在脑缺血诊断中的应用 (N)B中华放射学杂志\" :!!M\" #8!@#% #@K [#@!B (:8) 韩鸿宾\" 谢敬霞B\\=扩散成像在脑梗死早期诊断中的应用 (N)B中华放射学杂志\" :!!M\" #8!@#% #MK [#M@B (:#) 韩鸿宾\"郎宁\"裴新龙B应用磁共振扰相梯度双回波鉴别急性脑实质出血和钙化的定量研究( N)B中国医学影像技术\" 899K\" 89!\"#% !M: [!MKB (:K) 韩鸿宾\" 李选\" 曲雯\" 等B放射科应急隔离信息管理系统等隔离措施的应用与医务人员6?=6 感染率的相关分析(N)B北京大学学报!医学版#\" 899#\" #>!.:#% M! [!:B (:>) 陈蕾\"韩鸿宾\"张海龙\" 等B动态磁敏感对比\\=3血脑屏障通透性定量分析技术及其在胶质瘤诊断中的初步应用(N)B中国医学装备杂志\" 89:#\" :9!@#% ! [:#B (:@) T'.G-&\\\" T-F-&./-'( 5\" X1c-++.4a\" -/*+BQ%E*/-1^/G-./&1L- /G-&*%_*)*E-H')'(EF./&_&1F(E/*J+-%&-)+'(')*+&-)1HH-(E*/'1(. (N)B6/&1L-\" 899!\" K9!@#% 88KK [88>9B (:\") 6GF 7W\" 5*( SX\" a*(07=\" -/*+B6_(/G-.'.*(E )G*&*)/-&'`*/'1( 1^*(-cc*/-&$.1+FJ+--(E1G-E&*+H-/*++1^F++-&-(-^1&\\=3)1($ /&*./*0-(/.(N)B7*&J1(\" 899@\" KK!##% K!@ [>99B (:M) 6GF 7W\" fG*(0;W\" A'*(0NT\" -/*+B?00&-0*/'1( ./FE'-.1^/Gc*/-&$.1+FJ+-0*E1^F++-&-(-H*0(-/')&-.1(*()-'H*0'(0)1(/&*./ *0-(/% (5EI7M8P@ ! PX#:@! RX7X87X87PPX#M) b( N)BN 2G_.7G-H]\" 899@\" ::9!#:#% :>>!\" [:>@9:B (:!) fG*(0W\" f1F V\" 5F*( \\\" -/*+B6_(-&0'./')-^^-)/1^GFH*( .-&FH *+JFH'( *(E ^F++-&-(-1( 5E$4P#? ^1&/FH1&$/*&0-/'(0'H*0'(0 ( N)B?76 ?%%+\\*/-&3(/-&^*)-.\" 89:@\" M!:M#% ::8K@ [::8>KB (89) 李昀倩\" 盛荟\" 梁磊\" 等B光磁双模态分子探针5E$4P#?$;?$ T3V7在脑组织间隙成像分析中的应用(N)B北京大学学报!医学版#\" 89:M\" >9!8#% 88: [88>B (8:) a*(0?]\" a*(0=\" 7F'4X\" -/*+BVG-E&*'(*0-1^'(/-&./'/'*+ ^+F'E '( /G-E--% J&*'( '.)1(/&1++-E J_/G-'(/-0&'/_1^H_-+'(*/'1( (N)B?0'(04'.\" 89:M\" :9!K#% : [:9B (88) X1F N\" a*(0a\" gF*( A\" -/*+BgF*(/'/*/',-,'.F*+'`*/'1( 1^E_$ (*H')/&*)-&/&*(.%1&/*/'1( '( /G--b/&*)-++F+*&.%*)-1^E--% J&*'( &-0'1(.F.'(0/&*)-&$J*.-E H*0(-/')&-.1(*()-'H*0'(0( N)B\\-E 6)'\\1('/\" 89:\"\" 8#% K8@9 [K8@MB (8#) S'F X\" a*(06\" X*( X\" -/*+B;&&1&*(*+_.'.1^E'.)1(/'(F1F. 5*+-&L'( H- .^1&1%/'H*+)1(/&1+%&1J+-H 01,-&(-E J_/G- /&*(.%1&/-eF*/'1(( N)BRFH-&\\-/G 2*&/4;\" 89:\"\" ## !>#% :K!# [:>:8B (8K) 韩鸿宾\"李凯\"朱凯\"等B5E$4V2?经脑间质途径给药后代谢清除的机制研究( 7CPS)B! 89:#$9K$9\" # ( 89:!$98$89 )B G//%%CCcccB%*%-&B-EFB)( C&-+-*.-%*%-&C)1(/-(/C89:#9K$:@9B (8>) 6_L1,*;\" R')G1+.1( 7B4'^^F.'1( '( J&*'( -b/&*)-++F+*&.%*)-(N)B ' 9 9 K ' 北京大学学报 ! 医学版 # NPQ=R?SPT2;O3R5QR3U;=63VW!X;?SVX673;R7;6#<U1+B>:<R1B#<NF(B89:! [page 5] 2G_.'1+=-,\" 899M\" MM!K#% :8\"\" [:#K9B (8@) X*( X]\" S'O\" W*( NX\" -/*+B?( #% J#J0./FE_c'/G *( \\=3/&*$ )-&H- &-,-*+./G-J'1%G_.')*+%&1%-&/'-.1^'(/-&./'/'*+^+F'E '( /G-&*/J&*'((N)B6)'7G'(*S'^-6)'\" 89:8\" >>!!#% \"M8 [\"M\"B (8\") fF1S\" S'O\" X*( X]B71H%*&*/',-*(*+_.'.J_H*0(-/')&-.1$ (*()-'H*0'(01^-b/&*)-++F+*&.%*)-E'^^F.'1( *(E '(/-&./'/'*+^+F'E ^+1c'( /G-&*/./&'*/FH *(E/G*+*HF.( N)B?%%+\\*0( =-.1(\" 89:>\" K@!@#% @8# [@#8B (8M) 5F*( A2\" a-'a\" a*(0?]\" -/*+B]&*'( '(/-&./'/'*+^+F'E E&*'($ *0-*+/-&*/'1(.'( 0+'1H*$J-*&'(0&*/.( N)B?0'(04'.\" 89:M\"! !8#% 88M [8#KB (8!) T*(0W\" 41(0W7\" fG-(0V\" -/*+B?+/-&-E /&*)-&E'./&'JF/'1( *(E )+-*&*()-'( /G--b/&*)-++F+*&.%*)-1^/G-.FJ./*(/'*('0&*'( *&1$ E-(/H1E-+1^2*&L'(.1(&.E'.-*.-( N)BT&1(/R-F&1.)'\" 89:\"\" ::% K9!B (#9) AF T\" X*( X]\" W*( NX\" -/*+B5&-*/+_'H%&1,-E (-F&1%&1/-)/',- -^^')'-()_1^)'/')1+'(-J_./-&-1/*)/')E-+',-&_'( /&-*/H-(/1^ '.)G-H')'(DF&_(N)B4&F04-+',\" 89::\" :M!\"#% K@: [K@\"B (#:) X*( X1(0J'(B\\- ^1&*EH'('./&*/'1( 1^)'/')1+'(-'( ./&1L- /&-*/H-(/% Q6!:!8@:!]8 (2)B89:#$:9$#:B (#8) 6G'7W\" S-'W\\\" X*( X]\" -/*+BV&*(.%1&/*/'1( '( /G-'(/-&./'/'*+ .%*)-1^/G-J&*'( )*( J-&-0F+*/-E J_(-F&1(*+-b)'/*/'1((N)B6)' =-%\" 89:>\" >% :\"@\"#B (##) V-(0f\" a*(0?]\" a*(02\" -/*+BVG--^^-)/1^*eF*%1&'($K L(1)L1F/1( '(/-&./'/'*+^+F'E ^+1c*(E /G-./&F)/F&-1^/G--b/&*)-+$ +F+*&.%*)-'( /G-E--% J&*'( ( N)B?0'(04'.\" 89:M\" ! !> #% M9M [M:@B (#K) W*(06\" a*(0W\" S'O\" -/*+B;b/&*)-++F+*&.%*)-E'^^F.'1( *(*+_$ .'.'( /G-'(^*(/*(E *EF+/&*/./&'*/FH F.'(0H*0(-/')&-.1(*()- 'H*0'(0(N)B3(/N4-,R-F&1.)'\" 89:@\" >#% : [\"B (#>) S,4W\" S'N]\"S'XT\" -/*+B3H*0'(0*(E eF*(/'/*/',-*(*+_.'.1^ /G-'(/-&./'/'*+.%*)-'( /G-)*FE*/-(F)+-F.'( *&1/-(1(-$'(EF)-E &*/H1E-+1^2*&L'(.1(&.E'.-*.-F.'(0/&*)-&$J*.-E \\=3( N)B ?0'(04'.\" 89:\"\" M!:#% : [@B (#@) =-( =\" 6G'7\" 7*1N\" -/*+BR-F&1%&1/-)/',--^^-)/.1^*./*(E*&$ E'`-E ^+*,1(1'E -b/&*)/1^.*^^+1c-&*0*'(./(-F&1/1b'($'(EF)-E )-+$ +F+*&*(E *('H*+H1E-+.1^2*&L'(.1(&.E'.-*.-( N)B6)'=-%\" 89:@\" @% 88:#>B (#\") 韩鸿宾B生物组织微观结构的无创测量方法% 89:>:99M8#!@B # (2)B89:>$::$8>B (#M) a*(0AXB?(-c(-F&*+(-/c1&L H1E-+J*.-E 1( /G-&-)-(/E'.$ )1,-&_1^J&*'( H')&1-(,'&1(H-(/B89:M 3;;;'(/-&(*/'1(*+)1($ ^-&-()-1( H-)G*/&1(').*(E *F/1H*/'1( !37\\?89:M# (7CPS)B !89:M$9M$9M#(89:!$98$89)BG//%.%CC'---b%+1&-B'---B1&0CE1)F$ H-(/CMKMKK>KB !89:!$9K$9# 收稿# !本文编辑%刘淑萍# J#;:\"K65> \"<8 96L!#K#;#\"9;>;=6- #9@58#989!=06563#\"987#M6!!58#98365\"4=6\"< @58#9#9=65;=#=#87<74#! X?RX1(0$J'(\" !4-%*&/H-(/1^=*E'1+10_\" 2-L'(0Q(',-&.'/_VG'&E X1.%'/*+$ ]-'D'(0O-_S*J1&*/1&_1^\\*0(-/')=-.1(*()-3H*0'(0 ;eF'%H-(/*(E V-)G('eF-\" ]-'D'(0:99:!:\" 7G'(*# BCDD.1E<]&*'( -b/&*)-++F+*&.%*)-!;76# '.*(*&&1c\" '&&-0F+*&.%*)-\" cG')G %&1,'E-.'HH-E'*/- +','(0-(,'&1(H-(/^1&(-F&*+)-++.*(E *))1F(/.^1&*%%&1b'H*/-+_:>Z [89Z 1^/G-/1/*+,1+FH-1^ +','(0J&*'(BVc-(/_$^',-_-*&.*01\" *.*( '(/-&,-(/'1(*+&*E'1+10'./\" /G-*F/G1&c*.-(0*0-E '( '(,-./'0*$ /'(0-*&+_E'*0(1.'.*(E /&-*/H-(/1^)-&-J&*+'.)G-H')./&1L-\" *(E /G-%*&*H-/-&.1^J&*'( ;76 c*.^'&./+_ E-&',-E *(E E-H1(./&*/-E EF&'(0/G-./FE_1^/G-%-&H-*J'+'/_1^J+11E$J&*'( J*&&'-&!]]]# *(E '/.E'^^F$ .'1( )G*(0-.'( /G-)-&-J&*+'.)G-H')/'..F-B6'()-/G-(\" /G-*F/G1&*(E G'./-*HG*E J--( c1&L'(01( E-,-+1%'(0*(1,-+H-*.F&'(0H- 1^;76% /&*)-&$J*.-E H*0(-/')&-.1(*()-'H*0'(0!\\=3#\" cG')G )1F+E H-*.F&-J&*'( ;76 %*&*H-/-&.'( /G-cG1+-J&*'( .)*+-*(E H*L-/G-E_(*H')E&*'(*0-%&1)-..1^ /G-+*J-++-E J&*'( '(/-&./'/'*+^+F'E !36T# ,'.F*+'`-EB]_F.'(0/G-(-cH- \" /G-/-*HH*E-*.-&'-.1^ (-c^'(E'(0.*J1F//G-J&*'( ;76 *(E 36T\" '()+FE'(0/G-E'.)1,-&_1^*(-cE','.'1( ._./-H'( /G-J&*'(\" (*H-E &-0'1(*+'`-E 36TE&*'(*0-._./-HBa-^1F(E /G*//G-36TE&*'(*0-'( /G-E--% J&*'( c*.&-0'1(*$ +'`-E *(E /G-./&F)/F&*+*(E ^F()/'1(*+%*&*H-/-&.'( E'^^-&-(/'(/-&./'/'*+._./-H!366# E','.'1(.c-&-E'.$ %*&*/-BVG-36T'( /G-)*FE*/-(F)+-F.)1F+E J-E&*'(-E /1'%.'+*/-&*+)1&/-b*(E ^'(*++_'(/1/G- .FJ*&*)G(1'E .%*)-\" cG')G H*'(/*'(-E /G-%*/Gc*_1^36T$)-&-J&1.%'(*+^+F'E !76T# -b)G*(0-BX1c-,-&\" /G-36T'( /G-/G*+*HF.c*.-+'H'(*/-E +1)*++_'( '/.*(*/1H')*+E','.'1(B?^/-&,-&'^_'(0/G-(*/F&-1^/G- J*&&'-&./&F)/F&-J-/c--( E'^^-&-(/E&*'(*0-E','.'1(.\" /G-*F/G1&%&1%1.-E /G-G_%1/G-.'.1^,&-0'1(*+'`-E J&*'( G1H-1./*.'.-BVGF.\" c-E-H1(./&*/-E /G*//G-J&*'( c*.%&1/-)/-E (1/1(+_J_/G-]]]\" cG')G *,1'E-E %1/-(/'*+-b10-(1F.E*H*0-/G&1F0G /G-,*.)F+*&._./-H\" JF/c*.*+.1%&1/-)/-E J_*( '(/-&(*+ 36TE&*'(*0-J*&&'-&/1*,1'E %1/-(/'*++_G*&H^F+'(/-&^-&-()-^&1H1/G-&;76 E','.'1(.'( /G-E--% J&*'(B a'/G /G-(-c^'(E'(0.*(E /G-%&1%1.-E G_%1/G-.'.\" *( '((1,*/',-/G-&*%-F/')H- ^1&/G-/&-*/H-(/1^ -()-%G*+1%*/G_c'/G +1)*+E&F0E-+',-&_J#- /G-J&*'( ;76 %*/Gc*_c*.-./*$J+'.G-EB]_F.'(0/G'.(-c *EH'('./&*/'1( H- \" /G-E&F0c*.*)G'-,-E E'&-)/+_/1/G-.%*)-*&1F(E (-F&1(.1&/*&0-/&-0'1(.\" 1,-&cG-+H'(0/G-'H%-(E-()-^&1H/G-J+11E$J&*'( J*&&'-&\" /GF..1+,-E /G-1J./*)+-.1^+1c-^^')'-()_'( /&*E'/'1(*+E&F0'(,-./'0*/'1(B?/%&-.-(/\" (-cH- .*(E E'.)1,-&'-.E-,-+1%-E J_/G-*F/G1&*(E G'. /-*HG*,-J--( c'E-+_*%%+'-E '( .-,-&*+^&1(/'-&^'-+E.'()+FE'(0(-F&1.)'-()-\" (-cE&F0&-.-*&)G *(E E-,-+1%H-(/\" (-F&1E-,-+1%H-(/*-&1.%*)-H-E')'(-\" )+'(')*+-()-%G*+1%*/G_/&-*/H-(/\"(-c(-F&*+(-/$ c1&L H1E-+'(0*(E .11(B FGEHI1JB<;b/&*)-++F+*&.%*)-$ V&*)-&$J*.-E H*0(-/')&-.1(*()-'H*0'(0H- $ ]&*'( '(/-&./'/'*+ ^+F'E$ =-0'1(*+'`-E J&*'( G1H-1./*.'. ' : 9 K ' 韩鸿宾<脑组织液引流途径与脑内新分区系统的发现",
+            "doi": null,
+            "pmid": null,
+            "title": null,
+            "locator": "references entry 1",
+            "identifier_check": {
+              "valid_doi": false,
+              "valid_pmid": false,
+              "reference_requires_review": true
+            },
+            "completeness_check": {
+              "has_year": false,
+              "has_journal": false,
+              "has_author": true
+            },
+            "domain_match_check": {
+              "is_neuroscience_or_ecs_related": true
+            },
+            "duplicate_conflict_check": {
+              "duplicate_key": "( : ) \\1&0*( ns\" s')g/h*( nabag_(1/)1((-)/1h').2 ( n)br*/ \\- .\" 89:#\" :9!@#% k!k",
+              "duplicate_count": 1,
+              "conflict_risk": false
+            },
+            "reference_valid": false,
+            "reference_invalid": [
+              "reference_requires_review:no_valid_doi_or_pmid",
+              "missing_year",
+              "missing_journal"
+            ]
+          }
+        ],
+        "reference_valid_count": 0,
+        "reference_invalid_count": 1,
+        "invalid_count": 1,
+        "checked_count": 1,
+        "summary": {
+          "identifier_invalid": 1,
+          "information_incomplete": 1,
+          "domain_mismatch_or_unclear": 0,
+          "duplicate_or_conflict": 0
+        }
+      },
+      "figure_extraction": [
+        {
+          "status": "figure_extract_review_required",
+          "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+          "figures": [],
+          "risks": [
+            {
+              "code": "figure_caption_missing",
+              "message": "No Figure/Table/Supplementary captions were extracted from source text.",
+              "severity": "medium",
+              "review_required": true
+            }
+          ],
+          "trace": [
+            {
+              "stage": "figure_extract_start",
+              "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf"
+            },
+            {
+              "stage": "pdf_caption_block_fallback",
+              "reason": "no_page_blocks_matched"
+            },
+            {
+              "stage": "figure_extract_completed",
+              "status": "figure_extract_review_required",
+              "caption_count": 0
+            }
+          ]
+        }
+      ],
+      "conflict_detection": {
+        "status": "no_conflict_detected",
+        "conflict_pairs": [],
+        "trace": [
+          {
+            "stage": "conflict_detection_start",
+            "claim_count": 12
+          },
+          {
+            "stage": "conflict_detection_completed",
+            "conflict_count": 0
+          }
+        ]
+      },
+      "model_infer_policy": "Any pipeline-generated protocol, runbook, eval, and limitation text is marked model_infer and is not treated as source evidence.",
+      "claim_extractor_policy": "Claims are raw paper excerpts only. raw_text and support_evidence_snippet are not paraphrased.",
+      "fine_trace": {
+        "run_id": "run-0ae46d5d2ae6",
+        "steps": [
+          {
+            "step_id": "T-0001",
+            "stage": "fine_trace_start",
+            "status": "started",
+            "timestamp_utc": "2026-07-17T06:17:20.494373+00:00",
+            "input_ref": {
+              "arm_id": "arm-脑组织液引流途径与脑内新分区系统的发现"
+            },
+            "output_ref": {},
+            "risks": []
+          },
+          {
+            "step_id": "T-0002",
+            "stage": "fine_trace_completed",
+            "status": "completed",
+            "timestamp_utc": "2026-07-17T06:17:20.494549+00:00",
+            "input_ref": {},
+            "output_ref": {
+              "claims": 12,
+              "evidence": 12
+            },
+            "risks": []
+          }
+        ],
+        "claims": [
+          {
+            "claim_id": "C-001",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "source_location": "front_matter paragraph 1",
+            "raw_text": "在国内外核心期刊发表学术论文与专论899 余篇\" 韩鸿宾教授团队提出并建立&脑细胞外间隙探测技术'!",
+            "evidence_ids": [
+              "E-001"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-002",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "source_location": "front_matter paragraph 1",
+            "raw_text": "在国际上首次实现了对脑深部细胞外间隙纳米尺度超微结构空间的探测和定量分析\" 应用独创的新方法%新设备解决了困扰业界的脑内类淋巴引流途径之谜!",
+            "evidence_ids": [
+              "E-002"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-003",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "source_location": "front_matter paragraph 1",
+            "raw_text": "提出脑分区稳态理论\" 进一步建立了经脑细胞外间隙途径给药治疗脑病的新方法%新理论!",
+            "evidence_ids": [
+              "E-003"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-004",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "source_location": "front_matter paragraph 5",
+            "raw_text": "本文对课题组在脑细胞外间隙领域探索的历史/技术方法的建立以及新技术/新发现在脑结构认识/脑病诊治/新药研发等前沿科学领域的应用进行系统性回顾\"对所建立新方法的原理和技术进行介绍\"重点综述应用新技术在脑结构和脑组织液引流途径等方面的科学发现.",
+            "evidence_ids": [
+              "E-004"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-005",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "source_location": "front_matter paragraph 5",
+            "raw_text": "在阐述根据新发现提出的理论假说的同时\"讨论细胞外间隙在脑科学/药学/ 航天领域/人工智能/肿瘤治疗等前沿领域的应用和未来发展前景.",
+            "evidence_ids": [
+              "E-005"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-006",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "source_location": "front_matter paragraph 7",
+            "raw_text": "(%发明新型探测方法'揭示脑G/B结构特征'发现脑内新分区系统 <<由于脑内缺乏内源性特异性分布于;76 的可被探测的分子结构\"所以对;76 的探测需导入外源性分子探针\"以此来获取来自;76 的信号.",
+            "evidence_ids": [
+              "E-006"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-007",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "source_location": "front_matter paragraph 10",
+            "raw_text": "我们发现脑内存在新的分区系统\"即脑;76 内组织液的引流被局限在不同的分区\"不同分区内;76 结构特征不同\"分区内组织液的引流途径也各不相同\" 这一发现纠正了脑;76 是高度通连系统的错误认识 (8>).",
+            "evidence_ids": [
+              "E-007"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-008",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "source_location": "front_matter paragraph 11",
+            "raw_text": "随着磁示踪法的应用\"不同脑区;76 内36T的引流途径被逐个揭示 (8!",
+            "evidence_ids": [
+              "E-008"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-009",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "source_location": "front_matter paragraph 11",
+            "raw_text": "脑内新分区系统的发现将对脑基础研究/药学/神经外科/神经内科/儿科/ 老年病科/精神科\"甚至航空航天等特种医学产生重大而深远的影响\"其中最令我们感兴趣的是新发现的脑分区引流系统是否可以用来作为新的给药途径2 以往失败的脑缺血神经保护药物是否可以通过这个给药途径得以,复活-\"如何绕过血脑屏障的阻碍更高效地发挥神经保护作用2 *%脑G/B新发现与新理论在医学前沿领域的应用为证实;76 是否可以用来作为给药途径\"课题组采用大鼠大脑中动脉闭塞模型!",
+            "evidence_ids": [
+              "E-009"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-010",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "source_location": "front_matter paragraph 12",
+            "raw_text": "课题组在近> 年设计并逐步开展了将脑细胞外间隙的新发现和新理论推向临床应用的前期准备工作\"包括% !",
+            "evidence_ids": [
+              "E-010"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-011",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "source_location": "references paragraph 15",
+            "raw_text": "' : 9 K ' 韩鸿宾<脑组织液引流途径与脑内新分区系统的发现",
+            "evidence_ids": [
+              "E-011"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-012",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "source_location": "front_matter paragraph 1",
+            "raw_text": "解决了血脑屏障阻碍药物入脑的国际性难题\" 新方法获批国内%国际发明专利!",
+            "evidence_ids": [
+              "E-012"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          }
+        ],
+        "evidence": [
+          {
+            "evidence_id": "E-001",
+            "evidence_type": "text",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "locator": "front_matter paragraph 1",
+            "quote": "在国内外核心期刊发表学术论文与专论899 余篇\" 韩鸿宾教授团队提出并建立&脑细胞外间隙探测技术'!",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-002",
+            "evidence_type": "text",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "locator": "front_matter paragraph 1",
+            "quote": "在国际上首次实现了对脑深部细胞外间隙纳米尺度超微结构空间的探测和定量分析\" 应用独创的新方法%新设备解决了困扰业界的脑内类淋巴引流途径之谜!",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-003",
+            "evidence_type": "text",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "locator": "front_matter paragraph 1",
+            "quote": "提出脑分区稳态理论\" 进一步建立了经脑细胞外间隙途径给药治疗脑病的新方法%新理论!",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-004",
+            "evidence_type": "text",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "locator": "front_matter paragraph 5",
+            "quote": "本文对课题组在脑细胞外间隙领域探索的历史/技术方法的建立以及新技术/新发现在脑结构认识/脑病诊治/新药研发等前沿科学领域的应用进行系统性回顾\"对所建立新方法的原理和技术进行介绍\"重点综述应用新技术在脑结构和脑组织液引流途径等方面的科学发现.",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-005",
+            "evidence_type": "text",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "locator": "front_matter paragraph 5",
+            "quote": "在阐述根据新发现提出的理论假说的同时\"讨论细胞外间隙在脑科学/药学/ 航天领域/人工智能/肿瘤治疗等前沿领域的应用和未来发展前景.",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-006",
+            "evidence_type": "text",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "locator": "front_matter paragraph 7",
+            "quote": "(%发明新型探测方法'揭示脑G/B结构特征'发现脑内新分区系统 <<由于脑内缺乏内源性特异性分布于;76 的可被探测的分子结构\"所以对;76 的探测需导入外源性分子探针\"以此来获取来自;76 的信号.",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-007",
+            "evidence_type": "text",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "locator": "front_matter paragraph 10",
+            "quote": "我们发现脑内存在新的分区系统\"即脑;76 内组织液的引流被局限在不同的分区\"不同分区内;76 结构特征不同\"分区内组织液的引流途径也各不相同\" 这一发现纠正了脑;76 是高度通连系统的错误认识 (8>).",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-008",
+            "evidence_type": "text",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "locator": "front_matter paragraph 11",
+            "quote": "随着磁示踪法的应用\"不同脑区;76 内36T的引流途径被逐个揭示 (8!",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-009",
+            "evidence_type": "text",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "locator": "front_matter paragraph 11",
+            "quote": "脑内新分区系统的发现将对脑基础研究/药学/神经外科/神经内科/儿科/ 老年病科/精神科\"甚至航空航天等特种医学产生重大而深远的影响\"其中最令我们感兴趣的是新发现的脑分区引流系统是否可以用来作为新的给药途径2 以往失败的脑缺血神经保护药物是否可以通过这个给药途径得以,复活-\"如何绕过血脑屏障的阻碍更高效地发挥神经保护作用2 *%脑G/B新发现与新理论在医学前沿领域的应用为证实;76 是否可以用来作为给药途径\"课题组采用大鼠大脑中动脉闭塞模型!",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-010",
+            "evidence_type": "text",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "locator": "front_matter paragraph 12",
+            "quote": "课题组在近> 年设计并逐步开展了将脑细胞外间隙的新发现和新理论推向临床应用的前期准备工作\"包括% !",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-011",
+            "evidence_type": "text",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "locator": "references paragraph 15",
+            "quote": "' : 9 K ' 韩鸿宾<脑组织液引流途径与脑内新分区系统的发现",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-012",
+            "evidence_type": "text",
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "locator": "front_matter paragraph 1",
+            "quote": "解决了血脑屏障阻碍药物入脑的国际性难题\" 新方法获批国内%国际发明专利!",
+            "evidence_incomplete": false
+          }
+        ]
+      },
+      "arm_validation": {
+        "validation_passed": true,
+        "review_required": false,
+        "checks": [
+          {
+            "check_id": "ARM-001",
+            "name": "ARM nine modules present",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "modules": {
+                "metadata": true,
+                "claims": true,
+                "evidence": true,
+                "protocol": true,
+                "runbook": true,
+                "eval_plan": true,
+                "provenance": true,
+                "limitations": true,
+                "artifacts": true
+              }
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-002",
+            "name": "Claims have linked evidence",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "claim_count": 12,
+              "evidence_count": 12
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-003",
+            "name": "Quote-only claims",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "claim_count": 12
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-004",
+            "name": "Model inference is not mixed into paper claims",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "policy": "paper claims must remain paper_original; generated workflow text is model_infer"
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-005",
+            "name": "Dry-run capable runbook step",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "runbook_steps": 2
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-006",
+            "name": "Medical boundary limitation exists",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "limitations": 4
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-007",
+            "name": "Figure/table caption evidence deduplicated",
+            "passed": true,
+            "severity": "medium",
+            "detail": {
+              "figure_caption_evidence": 0,
+              "unique_caption_evidence": 0
+            },
+            "review_required": false
+          }
+        ],
+        "failed_checks": [],
+        "trace": [
+          {
+            "stage": "arm_validation_start"
+          },
+          {
+            "stage": "arm_validation_completed",
+            "failed_count": 0
+          }
+        ]
+      },
+      "dry_run_result": {
+        "status": "dry_run_passed",
+        "started_at_utc": "2026-07-17T06:17:20.494882+00:00",
+        "completed_at_utc": "2026-07-17T06:17:20.495082+00:00",
+        "steps": [
+          {
+            "step_id": "R-001",
+            "action": "Dry-run the Paper-to-ARM pipeline on the same input and validate ARM modules.",
+            "status": "passed",
+            "expected_output": "JSON export containing full_arm and trace_record; all nine ARM modules present.",
+            "observed_output": "ARM modules, source files, claims, evidence and trace prerequisites checked.",
+            "errors": [],
+            "review_required": false
+          }
+        ],
+        "summary": {
+          "total_steps": 1,
+          "failed_steps": 0,
+          "review_required": false,
+          "pre_export_artifacts_allowed": true
+        },
+        "trace": [
+          {
+            "stage": "dry_run_start"
+          },
+          {
+            "stage": "dry_run_step",
+            "step_id": "R-001",
+            "status": "passed",
+            "errors": []
+          },
+          {
+            "stage": "dry_run_completed",
+            "failed_steps": 0
+          }
+        ]
+      },
+      "evaluation_result": {
+        "status": "eval_passed",
+        "metrics": [
+          {
+            "metric_id": "EV-001",
+            "name": "Dry-run status",
+            "passed": true,
+            "expected": "dry_run_passed",
+            "observed": "dry_run_passed",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-002",
+            "name": "At least five traceable claims",
+            "passed": true,
+            "expected": ">=5 claims with evidence_ids",
+            "observed": "12 claims",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-003",
+            "name": "Evidence IDs resolve",
+            "passed": true,
+            "expected": "all claim.evidence_ids exist in evidence",
+            "observed": "12 evidence ids",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-004",
+            "name": "Quote-only evidence policy",
+            "passed": true,
+            "expected": "raw_text equals first support_evidence_snippet",
+            "observed": "checked raw_text/support_evidence_snippet pairs",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-005",
+            "name": "Pre-export artifact handling",
+            "passed": true,
+            "expected": "artifacts module exists; empty list is allowed before export persistence",
+            "observed": "artifacts_count=0",
+            "review_required": false
+          }
+        ],
+        "summary": {
+          "total_metrics": 5,
+          "failed_metrics": 0,
+          "review_required": false,
+          "score": 100.0
+        },
+        "trace": [
+          {
+            "stage": "eval_start"
+          },
+          {
+            "stage": "eval_completed",
+            "failed_metrics": 0
+          }
+        ]
+      },
+      "p0_trace_summary": {
+        "figure_caption_sources": 0,
+        "conflict_pairs": 0,
+        "dry_run_score": 100.0,
+        "dry_run_status": "dry_run_passed",
+        "evaluation_status": "eval_passed"
+      }
+    },
+    "limitations": [
+      {
+        "limitation_id": "L-001",
+        "text": "This ARM is for research literature structuring only and must not be used for clinical diagnosis, prognosis, prescription, or treatment decisions.",
+        "category": "medical_boundary",
+        "ecs_related": false,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      },
+      {
+        "limitation_id": "L-002",
+        "text": "Animal or preclinical findings in source papers cannot be directly transferred to humans without clinical validation.",
+        "category": "animal_to_human",
+        "ecs_related": false,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      },
+      {
+        "limitation_id": "L-003",
+        "text": "ECS-related conclusions require manual review because ECS structure, measurement modality, and disease context vary across studies.",
+        "category": "ecs_gap",
+        "ecs_related": true,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      },
+      {
+        "limitation_id": "L-004",
+        "text": "Data and code availability are not assumed unless explicitly detected in the source text.",
+        "category": "data_availability",
+        "ecs_related": false,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      }
+    ],
+    "artifacts": [
+      {
+        "artifact_id": "A-JSON",
+        "type": "json_export",
+        "path": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\web_runs\\afeada77c641456bbf277059a7cfb434\\arm-脑组织液引流途径与脑内新分区系统的发现.json",
+        "description": "Complete ARM package and replay trace in JSON."
+      }
+    ]
+  },
+  "trace_record": {
+    "run_id": "run-0ae46d5d2ae6",
+    "input": {
+      "paper_files": [
+        "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf"
+      ],
+      "max_batch_size": 5,
+      "allowed_tools": [
+        "literature_extract",
+        "reference_validator"
+      ],
+      "p0_plugin_tools": [
+        "figure_extract",
+        "conflict_detector",
+        "arm_validator",
+        "dry_run",
+        "evaluator"
+      ],
+      "api_provider": "deepseek_openai_compatible",
+      "rate_limit": {
+        "request_interval_seconds": 1.2,
+        "max_concurrency": 1,
+        "retry_attempts": 3,
+        "retry_backoff_seconds": 2.0,
+        "timeout_seconds": 60
+      }
+    },
+    "tool_calls": [
+      {
+        "sequence": 2,
+        "tool_name": "literature_extract",
+        "input": {
+          "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+          "max_claims": 12
+        },
+        "output": {
+          "metadata": {
+            "title": "!工作综述! 韩鸿宾教授团队提出并建立&脑细胞外间隙探测技术'!在国际上首次实现了对脑深部细胞外间隙纳米尺度超微结构空间的探测和定量分析\" 应用独创的新方法%新设备解决了困扰业界的脑内类淋巴引流途径之谜!发现并证实了脑内新分区结构系统!提出脑分区稳态理论\" 进一步建立了经脑细胞外间隙途径给药治疗脑病的新方法%新理论!研发的新型脑病药物精准递送系统较现有国际专利技术更为高效%安全%低毒!解决了血脑屏障阻碍药物入脑的国际性难题\" 新方法获批国内%国际发明专利!研究成果以封面故事发表于神经生物学顶级期刊!研究成果获得华夏医学科技奖一等奖!入选首都科技领军人才工程! 并获得中国青年科技奖\" 研究成果入选北京市科学中心 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \" 脑组织液引流途径与脑内新分区系统的发现韩鸿宾\" !关键词\" 脑细胞外间隙$磁示踪法$脑组织液$脑分区稳态",
+            "authors": [],
+            "doi": null,
+            "year": null,
+            "article_type": "review",
+            "license": null,
+            "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+            "ecs_related": true,
+            "ecs_keywords": [
+              "引流途径",
+              "磁示踪",
+              "类淋巴",
+              "组织液",
+              "细胞外间隙",
+              "脑内新分区",
+              "脑组织液",
+              "脑细胞外间隙",
+              "脑间质"
+            ]
+          },
+          "extractor_prompt": "Paper细粒度结论&证据抽取子Agent:\n只摘抄原文，禁止自主推导、扩写、脑补数据。每条claim必须包含\nclaim_id/raw_text/claim_category/source_location/support_evidence_snippet/\nconflict_evidence_snippet/source_attribution/ecs_related/evidence_incomplete。\nraw_text和support_evidence_snippet必须来自论文原文，不概括、不润色。\n无原文直接支撑的猜想、推论丢弃；单篇少于5条有效claim时交由trace标记缺口。",
+          "candidate_claim_count": 12,
+          "references_count": 1,
+          "figures_tables_count": 0,
+          "quality_flags": {
+            "has_methods": false,
+            "has_results": false,
+            "has_figures_or_tables": false,
+            "has_references": true,
+            "paragraph_count": 31,
+            "ecs_hit_count": 9
+          }
+        }
+      },
+      {
+        "sequence": 5,
+        "tool_name": "reference_validator",
+        "input": {
+          "references": [
+            {
+              "reference_text": "( : ) \\1&0*( NS\" S')G/H*( NaBaG_(1/)1((-)/1H').2 ( N)BR*/ \\- .\" 89:#\" :9!@#% K!K [>99B ( 8 ) X1%L'(.?\\\" 4-6'H1(-;\" 7Gc*+-L O\" -/*+B#4#% J#./0H1E-$ +'(01^/G-)-(/&*+(-&,1F.._./-H(N)B2&10R-F&1J'1+\" 89:>\" :8% : [8>B ( # ) 李维\" 韩鸿宾B脑细胞微环境研究的情报学分析(N)B中华医学科研管理杂志\" 89:K\" 8\"!8#% 88# [8#8 ( K ) S-'W\" X*( X\" WF*( T\" -/*+BVG-J&*'( '(/-&./'/'*+._./-H% ?(*$ /1H_\" H1E-+'(0\" #% J#J0H-*.F&-H-(/\" *(E *%%+')*/'1(.(N)B2&10 R-F&1J'1+\" 89:\"\" :>\"% 8#9 [8K@B ( > ) A'-S\" O*(0X\" AF g\" -/*+B6+--% E&',-.H-/*J1+'/-)+-*&*()- ^&1H/G-*EF+/J&*'( ( N)B6)'-()-\" 89:#\" #K8 !@:>@#% #\"# [ #\"\"B ( @ ) \\)0'&/\\N\" ]&-H XB7*&HF./'(-c*^-&.! 5+'*E-+# %+F.)1()1H'$ /*(//-H1`1+1H'E-/G-&*%_*^/-&&-.-)/'1( 1^H*+'0(*(/*./&1)_/1H*% 0&1c'(0-,'E-()-^1&.*^-/_*(E -^^')*)_( N)B?(( 6F&0P()1+\" 89:9\" :\"!\"#% :\"8! [:\"#:B ( \" ) 2&')-7\" fG1F A\" S'a\" -/*+B=-*+$/'H-H-*.F&-H-(/1^.1+F/- /&*(.%1&/c'/G'( /G-+*)F(*&$)*(*+')F+*&._./-H 1^H-)G*(')*++_ +1*E-E J1(-% E'&-)/-,'E-()-^1&+1*E$'(EF)-E ^+F'E ^+1c( N)BN ]1(-\\'(-&=-.\" 89::\" 8@!8#% 8\"\" [8M>B ( M ) P..c*+E \\\" NF(0;\" 6*GHT\" -/*+B]&*'( /FH1F&)-++.'(/-&)1($ (-)//1*^F()/'1(*+*(E &-.'./*(/(-/c1&L(N)BR*/F&-\" 89:>\" >8M !\">M9#% !# [!MB ( ! ) S1F,-*F ?\" 6H'&(1,3\" O-_-.VN\" -/*+B6/&F)/F&*+*(E ^F()/'1(*+ ^-*/F&-.1^)-(/&*+(-&,1F.._./-H+_H%G*/'),-..-+.(N)BR*/F&-\" 89:>\" >8#!\">@9#% ##\" [#K:B (:9) S*F Sa\" 7F*=\" O-1F0G \\]\" -/*+B2*/G1%G_.'1+10_1^/G-J&*'( -b/&*)-++F+*&H*/&'b% *(-c/*&0-/^1&&-H_-+'(*/'1(( N)BR*/=-, R-F&1.)'\" 89:#\" :K!:9#% \"88 [\"8!B (::) 韩鸿宾\" 谢敬霞B\\=扩散与灌注成像在脑缺血诊断中的应用 (N)B中华放射学杂志\" :!!M\" #8!@#% #@K [#@!B (:8) 韩鸿宾\" 谢敬霞B\\=扩散成像在脑梗死早期诊断中的应用 (N)B中华放射学杂志\" :!!M\" #8!@#% #MK [#M@B (:#) 韩鸿宾\"郎宁\"裴新龙B应用磁共振扰相梯度双回波鉴别急性脑实质出血和钙化的定量研究( N)B中国医学影像技术\" 899K\" 89!\"#% !M: [!MKB (:K) 韩鸿宾\" 李选\" 曲雯\" 等B放射科应急隔离信息管理系统等隔离措施的应用与医务人员6?=6 感染率的相关分析(N)B北京大学学报!医学版#\" 899#\" #>!.:#% M! [!:B (:>) 陈蕾\"韩鸿宾\"张海龙\" 等B动态磁敏感对比\\=3血脑屏障通透性定量分析技术及其在胶质瘤诊断中的初步应用(N)B中国医学装备杂志\" 89:#\" :9!@#% ! [:#B (:@) T'.G-&\\\" T-F-&./-'( 5\" X1c-++.4a\" -/*+BQ%E*/-1^/G-./&1L- /G-&*%_*)*E-H')'(EF./&_&1F(E/*J+-%&-)+'(')*+&-)1HH-(E*/'1(. (N)B6/&1L-\" 899!\" K9!@#% 88KK [88>9B (:\") 6GF 7W\" 5*( SX\" a*(07=\" -/*+B6_(/G-.'.*(E )G*&*)/-&'`*/'1( 1^*(-cc*/-&$.1+FJ+--(E1G-E&*+H-/*++1^F++-&-(-^1&\\=3)1($ /&*./*0-(/.(N)B7*&J1(\" 899@\" KK!##% K!@ [>99B (:M) 6GF 7W\" fG*(0;W\" A'*(0NT\" -/*+B?00&-0*/'1( ./FE'-.1^/Gc*/-&$.1+FJ+-0*E1^F++-&-(-H*0(-/')&-.1(*()-'H*0'(0)1(/&*./ *0-(/% (5EI7M8P@ ! PX#:@! RX7X87X87PPX#M) b( N)BN 2G_.7G-H]\" 899@\" ::9!#:#% :>>!\" [:>@9:B (:!) fG*(0W\" f1F V\" 5F*( \\\" -/*+B6_(-&0'./')-^^-)/1^GFH*( .-&FH *+JFH'( *(E ^F++-&-(-1( 5E$4P#? ^1&/FH1&$/*&0-/'(0'H*0'(0 ( N)B?76 ?%%+\\*/-&3(/-&^*)-.\" 89:@\" M!:M#% ::8K@ [::8>KB (89) 李昀倩\" 盛荟\" 梁磊\" 等B光磁双模态分子探针5E$4P#?$;?$ T3V7在脑组织间隙成像分析中的应用(N)B北京大学学报!医学版#\" 89:M\" >9!8#% 88: [88>B (8:) a*(0?]\" a*(0=\" 7F'4X\" -/*+BVG-E&*'(*0-1^'(/-&./'/'*+ ^+F'E '( /G-E--% J&*'( '.)1(/&1++-E J_/G-'(/-0&'/_1^H_-+'(*/'1( (N)B?0'(04'.\" 89:M\" :9!K#% : [:9B (88) X1F N\" a*(0a\" gF*( A\" -/*+BgF*(/'/*/',-,'.F*+'`*/'1( 1^E_$ (*H')/&*)-&/&*(.%1&/*/'1( '( /G--b/&*)-++F+*&.%*)-1^E--% J&*'( &-0'1(.F.'(0/&*)-&$J*.-E H*0(-/')&-.1(*()-'H*0'(0( N)B\\-E 6)'\\1('/\" 89:\"\" 8#% K8@9 [K8@MB (8#) S'F X\" a*(06\" X*( X\" -/*+B;&&1&*(*+_.'.1^E'.)1(/'(F1F. 5*+-&L'( H- .^1&1%/'H*+)1(/&1+%&1J+-H 01,-&(-E J_/G- /&*(.%1&/-eF*/'1(( N)BRFH-&\\-/G 2*&/4;\" 89:\"\" ## !>#% :K!# [:>:8B (8K) 韩鸿宾\"李凯\"朱凯\"等B5E$4V2?经脑间质途径给药后代谢清除的机制研究( 7CPS)B! 89:#$9K$9\" # ( 89:!$98$89 )B G//%%CCcccB%*%-&B-EFB)( C&-+-*.-%*%-&C)1(/-(/C89:#9K$:@9B (8>) 6_L1,*;\" R')G1+.1( 7B4'^^F.'1( '( J&*'( -b/&*)-++F+*&.%*)-(N)B ' 9 9 K ' 北京大学学报 ! 医学版 # NPQ=R?SPT2;O3R5QR3U;=63VW!X;?SVX673;R7;6#<U1+B>:<R1B#<NF(B89:! [page 5] 2G_.'1+=-,\" 899M\" MM!K#% :8\"\" [:#K9B (8@) X*( X]\" S'O\" W*( NX\" -/*+B?( #% J#J0./FE_c'/G *( \\=3/&*$ )-&H- &-,-*+./G-J'1%G_.')*+%&1%-&/'-.1^'(/-&./'/'*+^+F'E '( /G-&*/J&*'((N)B6)'7G'(*S'^-6)'\" 89:8\" >>!!#% \"M8 [\"M\"B (8\") fF1S\" S'O\" X*( X]B71H%*&*/',-*(*+_.'.J_H*0(-/')&-.1$ (*()-'H*0'(01^-b/&*)-++F+*&.%*)-E'^^F.'1( *(E '(/-&./'/'*+^+F'E ^+1c'( /G-&*/./&'*/FH *(E/G*+*HF.( N)B?%%+\\*0( =-.1(\" 89:>\" K@!@#% @8# [@#8B (8M) 5F*( A2\" a-'a\" a*(0?]\" -/*+B]&*'( '(/-&./'/'*+^+F'E E&*'($ *0-*+/-&*/'1(.'( 0+'1H*$J-*&'(0&*/.( N)B?0'(04'.\" 89:M\"! !8#% 88M [8#KB (8!) T*(0W\" 41(0W7\" fG-(0V\" -/*+B?+/-&-E /&*)-&E'./&'JF/'1( *(E )+-*&*()-'( /G--b/&*)-++F+*&.%*)-1^/G-.FJ./*(/'*('0&*'( *&1$ E-(/H1E-+1^2*&L'(.1(&.E'.-*.-( N)BT&1(/R-F&1.)'\" 89:\"\" ::% K9!B (#9) AF T\" X*( X]\" W*( NX\" -/*+B5&-*/+_'H%&1,-E (-F&1%&1/-)/',- -^^')'-()_1^)'/')1+'(-J_./-&-1/*)/')E-+',-&_'( /&-*/H-(/1^ '.)G-H')'(DF&_(N)B4&F04-+',\" 89::\" :M!\"#% K@: [K@\"B (#:) X*( X1(0J'(B\\- ^1&*EH'('./&*/'1( 1^)'/')1+'(-'( ./&1L- /&-*/H-(/% Q6!:!8@:!]8 (2)B89:#$:9$#:B (#8) 6G'7W\" S-'W\\\" X*( X]\" -/*+BV&*(.%1&/*/'1( '( /G-'(/-&./'/'*+ .%*)-1^/G-J&*'( )*( J-&-0F+*/-E J_(-F&1(*+-b)'/*/'1((N)B6)' =-%\" 89:>\" >% :\"@\"#B (##) V-(0f\" a*(0?]\" a*(02\" -/*+BVG--^^-)/1^*eF*%1&'($K L(1)L1F/1( '(/-&./'/'*+^+F'E ^+1c*(E /G-./&F)/F&-1^/G--b/&*)-+$ +F+*&.%*)-'( /G-E--% J&*'( ( N)B?0'(04'.\" 89:M\" ! !> #% M9M [M:@B (#K) W*(06\" a*(0W\" S'O\" -/*+B;b/&*)-++F+*&.%*)-E'^^F.'1( *(*+_$ .'.'( /G-'(^*(/*(E *EF+/&*/./&'*/FH F.'(0H*0(-/')&-.1(*()- 'H*0'(0(N)B3(/N4-,R-F&1.)'\" 89:@\" >#% : [\"B (#>) S,4W\" S'N]\"S'XT\" -/*+B3H*0'(0*(E eF*(/'/*/',-*(*+_.'.1^ /G-'(/-&./'/'*+.%*)-'( /G-)*FE*/-(F)+-F.'( *&1/-(1(-$'(EF)-E &*/H1E-+1^2*&L'(.1(&.E'.-*.-F.'(0/&*)-&$J*.-E \\=3( N)B ?0'(04'.\" 89:\"\" M!:#% : [@B (#@) =-( =\" 6G'7\" 7*1N\" -/*+BR-F&1%&1/-)/',--^^-)/.1^*./*(E*&$ E'`-E ^+*,1(1'E -b/&*)/1^.*^^+1c-&*0*'(./(-F&1/1b'($'(EF)-E )-+$ +F+*&*(E *('H*+H1E-+.1^2*&L'(.1(&.E'.-*.-( N)B6)'=-%\" 89:@\" @% 88:#>B (#\") 韩鸿宾B生物组织微观结构的无创测量方法% 89:>:99M8#!@B # (2)B89:>$::$8>B (#M) a*(0AXB?(-c(-F&*+(-/c1&L H1E-+J*.-E 1( /G-&-)-(/E'.$ )1,-&_1^J&*'( H')&1-(,'&1(H-(/B89:M 3;;;'(/-&(*/'1(*+)1($ ^-&-()-1( H-)G*/&1(').*(E *F/1H*/'1( !37\\?89:M# (7CPS)B !89:M$9M$9M#(89:!$98$89)BG//%.%CC'---b%+1&-B'---B1&0CE1)F$ H-(/CMKMKK>KB !89:!$9K$9# 收稿# !本文编辑%刘淑萍# J#;:\"K65> \"<8 96L!#K#;#\"9;>;=6- #9@58#989!=06563#\"987#M6!!58#98365\"4=6\"< @58#9#9=65;=#=#87<74#! X?RX1(0$J'(\" !4-%*&/H-(/1^=*E'1+10_\" 2-L'(0Q(',-&.'/_VG'&E X1.%'/*+$ ]-'D'(0O-_S*J1&*/1&_1^\\*0(-/')=-.1(*()-3H*0'(0 ;eF'%H-(/*(E V-)G('eF-\" ]-'D'(0:99:!:\" 7G'(*# BCDD.1E<]&*'( -b/&*)-++F+*&.%*)-!;76# '.*(*&&1c\" '&&-0F+*&.%*)-\" cG')G %&1,'E-.'HH-E'*/- +','(0-(,'&1(H-(/^1&(-F&*+)-++.*(E *))1F(/.^1&*%%&1b'H*/-+_:>Z [89Z 1^/G-/1/*+,1+FH-1^ +','(0J&*'(BVc-(/_$^',-_-*&.*01\" *.*( '(/-&,-(/'1(*+&*E'1+10'./\" /G-*F/G1&c*.-(0*0-E '( '(,-./'0*$ /'(0-*&+_E'*0(1.'.*(E /&-*/H-(/1^)-&-J&*+'.)G-H')./&1L-\" *(E /G-%*&*H-/-&.1^J&*'( ;76 c*.^'&./+_ E-&',-E *(E E-H1(./&*/-E EF&'(0/G-./FE_1^/G-%-&H-*J'+'/_1^J+11E$J&*'( J*&&'-&!]]]# *(E '/.E'^^F$ .'1( )G*(0-.'( /G-)-&-J&*+'.)G-H')/'..F-B6'()-/G-(\" /G-*F/G1&*(E G'./-*HG*E J--( c1&L'(01( E-,-+1%'(0*(1,-+H-*.F&'(0H- 1^;76% /&*)-&$J*.-E H*0(-/')&-.1(*()-'H*0'(0!\\=3#\" cG')G )1F+E H-*.F&-J&*'( ;76 %*&*H-/-&.'( /G-cG1+-J&*'( .)*+-*(E H*L-/G-E_(*H')E&*'(*0-%&1)-..1^ /G-+*J-++-E J&*'( '(/-&./'/'*+^+F'E !36T# ,'.F*+'`-EB]_F.'(0/G-(-cH- \" /G-/-*HH*E-*.-&'-.1^ (-c^'(E'(0.*J1F//G-J&*'( ;76 *(E 36T\" '()+FE'(0/G-E'.)1,-&_1^*(-cE','.'1( ._./-H'( /G-J&*'(\" (*H-E &-0'1(*+'`-E 36TE&*'(*0-._./-HBa-^1F(E /G*//G-36TE&*'(*0-'( /G-E--% J&*'( c*.&-0'1(*$ +'`-E *(E /G-./&F)/F&*+*(E ^F()/'1(*+%*&*H-/-&.'( E'^^-&-(/'(/-&./'/'*+._./-H!366# E','.'1(.c-&-E'.$ %*&*/-BVG-36T'( /G-)*FE*/-(F)+-F.)1F+E J-E&*'(-E /1'%.'+*/-&*+)1&/-b*(E ^'(*++_'(/1/G- .FJ*&*)G(1'E .%*)-\" cG')G H*'(/*'(-E /G-%*/Gc*_1^36T$)-&-J&1.%'(*+^+F'E !76T# -b)G*(0-BX1c-,-&\" /G-36T'( /G-/G*+*HF.c*.-+'H'(*/-E +1)*++_'( '/.*(*/1H')*+E','.'1(B?^/-&,-&'^_'(0/G-(*/F&-1^/G- J*&&'-&./&F)/F&-J-/c--( E'^^-&-(/E&*'(*0-E','.'1(.\" /G-*F/G1&%&1%1.-E /G-G_%1/G-.'.1^,&-0'1(*+'`-E J&*'( G1H-1./*.'.-BVGF.\" c-E-H1(./&*/-E /G*//G-J&*'( c*.%&1/-)/-E (1/1(+_J_/G-]]]\" cG')G *,1'E-E %1/-(/'*+-b10-(1F.E*H*0-/G&1F0G /G-,*.)F+*&._./-H\" JF/c*.*+.1%&1/-)/-E J_*( '(/-&(*+ 36TE&*'(*0-J*&&'-&/1*,1'E %1/-(/'*++_G*&H^F+'(/-&^-&-()-^&1H1/G-&;76 E','.'1(.'( /G-E--% J&*'(B a'/G /G-(-c^'(E'(0.*(E /G-%&1%1.-E G_%1/G-.'.\" *( '((1,*/',-/G-&*%-F/')H- ^1&/G-/&-*/H-(/1^ -()-%G*+1%*/G_c'/G +1)*+E&F0E-+',-&_J#- /G-J&*'( ;76 %*/Gc*_c*.-./*$J+'.G-EB]_F.'(0/G'.(-c *EH'('./&*/'1( H- \" /G-E&F0c*.*)G'-,-E E'&-)/+_/1/G-.%*)-*&1F(E (-F&1(.1&/*&0-/&-0'1(.\" 1,-&cG-+H'(0/G-'H%-(E-()-^&1H/G-J+11E$J&*'( J*&&'-&\" /GF..1+,-E /G-1J./*)+-.1^+1c-^^')'-()_'( /&*E'/'1(*+E&F0'(,-./'0*/'1(B?/%&-.-(/\" (-cH- .*(E E'.)1,-&'-.E-,-+1%-E J_/G-*F/G1&*(E G'. /-*HG*,-J--( c'E-+_*%%+'-E '( .-,-&*+^&1(/'-&^'-+E.'()+FE'(0(-F&1.)'-()-\" (-cE&F0&-.-*&)G *(E E-,-+1%H-(/\" (-F&1E-,-+1%H-(/*-&1.%*)-H-E')'(-\" )+'(')*+-()-%G*+1%*/G_/&-*/H-(/\"(-c(-F&*+(-/$ c1&L H1E-+'(0*(E .11(B FGEHI1JB<;b/&*)-++F+*&.%*)-$ V&*)-&$J*.-E H*0(-/')&-.1(*()-'H*0'(0H- $ ]&*'( '(/-&./'/'*+ ^+F'E$ =-0'1(*+'`-E J&*'( G1H-1./*.'. ' : 9 K ' 韩鸿宾<脑组织液引流途径与脑内新分区系统的发现",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 1"
+            }
+          ]
+        },
+        "output": {
+          "validator_prompt": "参考文献合法性校验工具:\n输入论文内全部引用文本、DOI、PMID、文献标题。逐项校验标识符、信息完整性、\n领域匹配、重复/冲突。输出固定状态reference_valid或reference_invalid；\n所有记录写入trace，供答辩展示引用校验流程。",
+          "status": "reference_invalid",
+          "validated_references": [
+            {
+              "reference_text": "( : ) \\1&0*( NS\" S')G/H*( NaBaG_(1/)1((-)/1H').2 ( N)BR*/ \\- .\" 89:#\" :9!@#% K!K [>99B ( 8 ) X1%L'(.?\\\" 4-6'H1(-;\" 7Gc*+-L O\" -/*+B#4#% J#./0H1E-$ +'(01^/G-)-(/&*+(-&,1F.._./-H(N)B2&10R-F&1J'1+\" 89:>\" :8% : [8>B ( # ) 李维\" 韩鸿宾B脑细胞微环境研究的情报学分析(N)B中华医学科研管理杂志\" 89:K\" 8\"!8#% 88# [8#8 ( K ) S-'W\" X*( X\" WF*( T\" -/*+BVG-J&*'( '(/-&./'/'*+._./-H% ?(*$ /1H_\" H1E-+'(0\" #% J#J0H-*.F&-H-(/\" *(E *%%+')*/'1(.(N)B2&10 R-F&1J'1+\" 89:\"\" :>\"% 8#9 [8K@B ( > ) A'-S\" O*(0X\" AF g\" -/*+B6+--% E&',-.H-/*J1+'/-)+-*&*()- ^&1H/G-*EF+/J&*'( ( N)B6)'-()-\" 89:#\" #K8 !@:>@#% #\"# [ #\"\"B ( @ ) \\)0'&/\\N\" ]&-H XB7*&HF./'(-c*^-&.! 5+'*E-+# %+F.)1()1H'$ /*(//-H1`1+1H'E-/G-&*%_*^/-&&-.-)/'1( 1^H*+'0(*(/*./&1)_/1H*% 0&1c'(0-,'E-()-^1&.*^-/_*(E -^^')*)_( N)B?(( 6F&0P()1+\" 89:9\" :\"!\"#% :\"8! [:\"#:B ( \" ) 2&')-7\" fG1F A\" S'a\" -/*+B=-*+$/'H-H-*.F&-H-(/1^.1+F/- /&*(.%1&/c'/G'( /G-+*)F(*&$)*(*+')F+*&._./-H 1^H-)G*(')*++_ +1*E-E J1(-% E'&-)/-,'E-()-^1&+1*E$'(EF)-E ^+F'E ^+1c( N)BN ]1(-\\'(-&=-.\" 89::\" 8@!8#% 8\"\" [8M>B ( M ) P..c*+E \\\" NF(0;\" 6*GHT\" -/*+B]&*'( /FH1F&)-++.'(/-&)1($ (-)//1*^F()/'1(*+*(E &-.'./*(/(-/c1&L(N)BR*/F&-\" 89:>\" >8M !\">M9#% !# [!MB ( ! ) S1F,-*F ?\" 6H'&(1,3\" O-_-.VN\" -/*+B6/&F)/F&*+*(E ^F()/'1(*+ ^-*/F&-.1^)-(/&*+(-&,1F.._./-H+_H%G*/'),-..-+.(N)BR*/F&-\" 89:>\" >8#!\">@9#% ##\" [#K:B (:9) S*F Sa\" 7F*=\" O-1F0G \\]\" -/*+B2*/G1%G_.'1+10_1^/G-J&*'( -b/&*)-++F+*&H*/&'b% *(-c/*&0-/^1&&-H_-+'(*/'1(( N)BR*/=-, R-F&1.)'\" 89:#\" :K!:9#% \"88 [\"8!B (::) 韩鸿宾\" 谢敬霞B\\=扩散与灌注成像在脑缺血诊断中的应用 (N)B中华放射学杂志\" :!!M\" #8!@#% #@K [#@!B (:8) 韩鸿宾\" 谢敬霞B\\=扩散成像在脑梗死早期诊断中的应用 (N)B中华放射学杂志\" :!!M\" #8!@#% #MK [#M@B (:#) 韩鸿宾\"郎宁\"裴新龙B应用磁共振扰相梯度双回波鉴别急性脑实质出血和钙化的定量研究( N)B中国医学影像技术\" 899K\" 89!\"#% !M: [!MKB (:K) 韩鸿宾\" 李选\" 曲雯\" 等B放射科应急隔离信息管理系统等隔离措施的应用与医务人员6?=6 感染率的相关分析(N)B北京大学学报!医学版#\" 899#\" #>!.:#% M! [!:B (:>) 陈蕾\"韩鸿宾\"张海龙\" 等B动态磁敏感对比\\=3血脑屏障通透性定量分析技术及其在胶质瘤诊断中的初步应用(N)B中国医学装备杂志\" 89:#\" :9!@#% ! [:#B (:@) T'.G-&\\\" T-F-&./-'( 5\" X1c-++.4a\" -/*+BQ%E*/-1^/G-./&1L- /G-&*%_*)*E-H')'(EF./&_&1F(E/*J+-%&-)+'(')*+&-)1HH-(E*/'1(. (N)B6/&1L-\" 899!\" K9!@#% 88KK [88>9B (:\") 6GF 7W\" 5*( SX\" a*(07=\" -/*+B6_(/G-.'.*(E )G*&*)/-&'`*/'1( 1^*(-cc*/-&$.1+FJ+--(E1G-E&*+H-/*++1^F++-&-(-^1&\\=3)1($ /&*./*0-(/.(N)B7*&J1(\" 899@\" KK!##% K!@ [>99B (:M) 6GF 7W\" fG*(0;W\" A'*(0NT\" -/*+B?00&-0*/'1( ./FE'-.1^/Gc*/-&$.1+FJ+-0*E1^F++-&-(-H*0(-/')&-.1(*()-'H*0'(0)1(/&*./ *0-(/% (5EI7M8P@ ! PX#:@! RX7X87X87PPX#M) b( N)BN 2G_.7G-H]\" 899@\" ::9!#:#% :>>!\" [:>@9:B (:!) fG*(0W\" f1F V\" 5F*( \\\" -/*+B6_(-&0'./')-^^-)/1^GFH*( .-&FH *+JFH'( *(E ^F++-&-(-1( 5E$4P#? ^1&/FH1&$/*&0-/'(0'H*0'(0 ( N)B?76 ?%%+\\*/-&3(/-&^*)-.\" 89:@\" M!:M#% ::8K@ [::8>KB (89) 李昀倩\" 盛荟\" 梁磊\" 等B光磁双模态分子探针5E$4P#?$;?$ T3V7在脑组织间隙成像分析中的应用(N)B北京大学学报!医学版#\" 89:M\" >9!8#% 88: [88>B (8:) a*(0?]\" a*(0=\" 7F'4X\" -/*+BVG-E&*'(*0-1^'(/-&./'/'*+ ^+F'E '( /G-E--% J&*'( '.)1(/&1++-E J_/G-'(/-0&'/_1^H_-+'(*/'1( (N)B?0'(04'.\" 89:M\" :9!K#% : [:9B (88) X1F N\" a*(0a\" gF*( A\" -/*+BgF*(/'/*/',-,'.F*+'`*/'1( 1^E_$ (*H')/&*)-&/&*(.%1&/*/'1( '( /G--b/&*)-++F+*&.%*)-1^E--% J&*'( &-0'1(.F.'(0/&*)-&$J*.-E H*0(-/')&-.1(*()-'H*0'(0( N)B\\-E 6)'\\1('/\" 89:\"\" 8#% K8@9 [K8@MB (8#) S'F X\" a*(06\" X*( X\" -/*+B;&&1&*(*+_.'.1^E'.)1(/'(F1F. 5*+-&L'( H- .^1&1%/'H*+)1(/&1+%&1J+-H 01,-&(-E J_/G- /&*(.%1&/-eF*/'1(( N)BRFH-&\\-/G 2*&/4;\" 89:\"\" ## !>#% :K!# [:>:8B (8K) 韩鸿宾\"李凯\"朱凯\"等B5E$4V2?经脑间质途径给药后代谢清除的机制研究( 7CPS)B! 89:#$9K$9\" # ( 89:!$98$89 )B G//%%CCcccB%*%-&B-EFB)( C&-+-*.-%*%-&C)1(/-(/C89:#9K$:@9B (8>) 6_L1,*;\" R')G1+.1( 7B4'^^F.'1( '( J&*'( -b/&*)-++F+*&.%*)-(N)B ' 9 9 K ' 北京大学学报 ! 医学版 # NPQ=R?SPT2;O3R5QR3U;=63VW!X;?SVX673;R7;6#<U1+B>:<R1B#<NF(B89:! [page 5] 2G_.'1+=-,\" 899M\" MM!K#% :8\"\" [:#K9B (8@) X*( X]\" S'O\" W*( NX\" -/*+B?( #% J#J0./FE_c'/G *( \\=3/&*$ )-&H- &-,-*+./G-J'1%G_.')*+%&1%-&/'-.1^'(/-&./'/'*+^+F'E '( /G-&*/J&*'((N)B6)'7G'(*S'^-6)'\" 89:8\" >>!!#% \"M8 [\"M\"B (8\") fF1S\" S'O\" X*( X]B71H%*&*/',-*(*+_.'.J_H*0(-/')&-.1$ (*()-'H*0'(01^-b/&*)-++F+*&.%*)-E'^^F.'1( *(E '(/-&./'/'*+^+F'E ^+1c'( /G-&*/./&'*/FH *(E/G*+*HF.( N)B?%%+\\*0( =-.1(\" 89:>\" K@!@#% @8# [@#8B (8M) 5F*( A2\" a-'a\" a*(0?]\" -/*+B]&*'( '(/-&./'/'*+^+F'E E&*'($ *0-*+/-&*/'1(.'( 0+'1H*$J-*&'(0&*/.( N)B?0'(04'.\" 89:M\"! !8#% 88M [8#KB (8!) T*(0W\" 41(0W7\" fG-(0V\" -/*+B?+/-&-E /&*)-&E'./&'JF/'1( *(E )+-*&*()-'( /G--b/&*)-++F+*&.%*)-1^/G-.FJ./*(/'*('0&*'( *&1$ E-(/H1E-+1^2*&L'(.1(&.E'.-*.-( N)BT&1(/R-F&1.)'\" 89:\"\" ::% K9!B (#9) AF T\" X*( X]\" W*( NX\" -/*+B5&-*/+_'H%&1,-E (-F&1%&1/-)/',- -^^')'-()_1^)'/')1+'(-J_./-&-1/*)/')E-+',-&_'( /&-*/H-(/1^ '.)G-H')'(DF&_(N)B4&F04-+',\" 89::\" :M!\"#% K@: [K@\"B (#:) X*( X1(0J'(B\\- ^1&*EH'('./&*/'1( 1^)'/')1+'(-'( ./&1L- /&-*/H-(/% Q6!:!8@:!]8 (2)B89:#$:9$#:B (#8) 6G'7W\" S-'W\\\" X*( X]\" -/*+BV&*(.%1&/*/'1( '( /G-'(/-&./'/'*+ .%*)-1^/G-J&*'( )*( J-&-0F+*/-E J_(-F&1(*+-b)'/*/'1((N)B6)' =-%\" 89:>\" >% :\"@\"#B (##) V-(0f\" a*(0?]\" a*(02\" -/*+BVG--^^-)/1^*eF*%1&'($K L(1)L1F/1( '(/-&./'/'*+^+F'E ^+1c*(E /G-./&F)/F&-1^/G--b/&*)-+$ +F+*&.%*)-'( /G-E--% J&*'( ( N)B?0'(04'.\" 89:M\" ! !> #% M9M [M:@B (#K) W*(06\" a*(0W\" S'O\" -/*+B;b/&*)-++F+*&.%*)-E'^^F.'1( *(*+_$ .'.'( /G-'(^*(/*(E *EF+/&*/./&'*/FH F.'(0H*0(-/')&-.1(*()- 'H*0'(0(N)B3(/N4-,R-F&1.)'\" 89:@\" >#% : [\"B (#>) S,4W\" S'N]\"S'XT\" -/*+B3H*0'(0*(E eF*(/'/*/',-*(*+_.'.1^ /G-'(/-&./'/'*+.%*)-'( /G-)*FE*/-(F)+-F.'( *&1/-(1(-$'(EF)-E &*/H1E-+1^2*&L'(.1(&.E'.-*.-F.'(0/&*)-&$J*.-E \\=3( N)B ?0'(04'.\" 89:\"\" M!:#% : [@B (#@) =-( =\" 6G'7\" 7*1N\" -/*+BR-F&1%&1/-)/',--^^-)/.1^*./*(E*&$ E'`-E ^+*,1(1'E -b/&*)/1^.*^^+1c-&*0*'(./(-F&1/1b'($'(EF)-E )-+$ +F+*&*(E *('H*+H1E-+.1^2*&L'(.1(&.E'.-*.-( N)B6)'=-%\" 89:@\" @% 88:#>B (#\") 韩鸿宾B生物组织微观结构的无创测量方法% 89:>:99M8#!@B # (2)B89:>$::$8>B (#M) a*(0AXB?(-c(-F&*+(-/c1&L H1E-+J*.-E 1( /G-&-)-(/E'.$ )1,-&_1^J&*'( H')&1-(,'&1(H-(/B89:M 3;;;'(/-&(*/'1(*+)1($ ^-&-()-1( H-)G*/&1(').*(E *F/1H*/'1( !37\\?89:M# (7CPS)B !89:M$9M$9M#(89:!$98$89)BG//%.%CC'---b%+1&-B'---B1&0CE1)F$ H-(/CMKMKK>KB !89:!$9K$9# 收稿# !本文编辑%刘淑萍# J#;:\"K65> \"<8 96L!#K#;#\"9;>;=6- #9@58#989!=06563#\"987#M6!!58#98365\"4=6\"< @58#9#9=65;=#=#87<74#! X?RX1(0$J'(\" !4-%*&/H-(/1^=*E'1+10_\" 2-L'(0Q(',-&.'/_VG'&E X1.%'/*+$ ]-'D'(0O-_S*J1&*/1&_1^\\*0(-/')=-.1(*()-3H*0'(0 ;eF'%H-(/*(E V-)G('eF-\" ]-'D'(0:99:!:\" 7G'(*# BCDD.1E<]&*'( -b/&*)-++F+*&.%*)-!;76# '.*(*&&1c\" '&&-0F+*&.%*)-\" cG')G %&1,'E-.'HH-E'*/- +','(0-(,'&1(H-(/^1&(-F&*+)-++.*(E *))1F(/.^1&*%%&1b'H*/-+_:>Z [89Z 1^/G-/1/*+,1+FH-1^ +','(0J&*'(BVc-(/_$^',-_-*&.*01\" *.*( '(/-&,-(/'1(*+&*E'1+10'./\" /G-*F/G1&c*.-(0*0-E '( '(,-./'0*$ /'(0-*&+_E'*0(1.'.*(E /&-*/H-(/1^)-&-J&*+'.)G-H')./&1L-\" *(E /G-%*&*H-/-&.1^J&*'( ;76 c*.^'&./+_ E-&',-E *(E E-H1(./&*/-E EF&'(0/G-./FE_1^/G-%-&H-*J'+'/_1^J+11E$J&*'( J*&&'-&!]]]# *(E '/.E'^^F$ .'1( )G*(0-.'( /G-)-&-J&*+'.)G-H')/'..F-B6'()-/G-(\" /G-*F/G1&*(E G'./-*HG*E J--( c1&L'(01( E-,-+1%'(0*(1,-+H-*.F&'(0H- 1^;76% /&*)-&$J*.-E H*0(-/')&-.1(*()-'H*0'(0!\\=3#\" cG')G )1F+E H-*.F&-J&*'( ;76 %*&*H-/-&.'( /G-cG1+-J&*'( .)*+-*(E H*L-/G-E_(*H')E&*'(*0-%&1)-..1^ /G-+*J-++-E J&*'( '(/-&./'/'*+^+F'E !36T# ,'.F*+'`-EB]_F.'(0/G-(-cH- \" /G-/-*HH*E-*.-&'-.1^ (-c^'(E'(0.*J1F//G-J&*'( ;76 *(E 36T\" '()+FE'(0/G-E'.)1,-&_1^*(-cE','.'1( ._./-H'( /G-J&*'(\" (*H-E &-0'1(*+'`-E 36TE&*'(*0-._./-HBa-^1F(E /G*//G-36TE&*'(*0-'( /G-E--% J&*'( c*.&-0'1(*$ +'`-E *(E /G-./&F)/F&*+*(E ^F()/'1(*+%*&*H-/-&.'( E'^^-&-(/'(/-&./'/'*+._./-H!366# E','.'1(.c-&-E'.$ %*&*/-BVG-36T'( /G-)*FE*/-(F)+-F.)1F+E J-E&*'(-E /1'%.'+*/-&*+)1&/-b*(E ^'(*++_'(/1/G- .FJ*&*)G(1'E .%*)-\" cG')G H*'(/*'(-E /G-%*/Gc*_1^36T$)-&-J&1.%'(*+^+F'E !76T# -b)G*(0-BX1c-,-&\" /G-36T'( /G-/G*+*HF.c*.-+'H'(*/-E +1)*++_'( '/.*(*/1H')*+E','.'1(B?^/-&,-&'^_'(0/G-(*/F&-1^/G- J*&&'-&./&F)/F&-J-/c--( E'^^-&-(/E&*'(*0-E','.'1(.\" /G-*F/G1&%&1%1.-E /G-G_%1/G-.'.1^,&-0'1(*+'`-E J&*'( G1H-1./*.'.-BVGF.\" c-E-H1(./&*/-E /G*//G-J&*'( c*.%&1/-)/-E (1/1(+_J_/G-]]]\" cG')G *,1'E-E %1/-(/'*+-b10-(1F.E*H*0-/G&1F0G /G-,*.)F+*&._./-H\" JF/c*.*+.1%&1/-)/-E J_*( '(/-&(*+ 36TE&*'(*0-J*&&'-&/1*,1'E %1/-(/'*++_G*&H^F+'(/-&^-&-()-^&1H1/G-&;76 E','.'1(.'( /G-E--% J&*'(B a'/G /G-(-c^'(E'(0.*(E /G-%&1%1.-E G_%1/G-.'.\" *( '((1,*/',-/G-&*%-F/')H- ^1&/G-/&-*/H-(/1^ -()-%G*+1%*/G_c'/G +1)*+E&F0E-+',-&_J#- /G-J&*'( ;76 %*/Gc*_c*.-./*$J+'.G-EB]_F.'(0/G'.(-c *EH'('./&*/'1( H- \" /G-E&F0c*.*)G'-,-E E'&-)/+_/1/G-.%*)-*&1F(E (-F&1(.1&/*&0-/&-0'1(.\" 1,-&cG-+H'(0/G-'H%-(E-()-^&1H/G-J+11E$J&*'( J*&&'-&\" /GF..1+,-E /G-1J./*)+-.1^+1c-^^')'-()_'( /&*E'/'1(*+E&F0'(,-./'0*/'1(B?/%&-.-(/\" (-cH- .*(E E'.)1,-&'-.E-,-+1%-E J_/G-*F/G1&*(E G'. /-*HG*,-J--( c'E-+_*%%+'-E '( .-,-&*+^&1(/'-&^'-+E.'()+FE'(0(-F&1.)'-()-\" (-cE&F0&-.-*&)G *(E E-,-+1%H-(/\" (-F&1E-,-+1%H-(/*-&1.%*)-H-E')'(-\" )+'(')*+-()-%G*+1%*/G_/&-*/H-(/\"(-c(-F&*+(-/$ c1&L H1E-+'(0*(E .11(B FGEHI1JB<;b/&*)-++F+*&.%*)-$ V&*)-&$J*.-E H*0(-/')&-.1(*()-'H*0'(0H- $ ]&*'( '(/-&./'/'*+ ^+F'E$ =-0'1(*+'`-E J&*'( G1H-1./*.'. ' : 9 K ' 韩鸿宾<脑组织液引流途径与脑内新分区系统的发现",
+              "doi": null,
+              "pmid": null,
+              "title": null,
+              "locator": "references entry 1",
+              "identifier_check": {
+                "valid_doi": false,
+                "valid_pmid": false,
+                "reference_requires_review": true
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": true
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "( : ) \\1&0*( ns\" s')g/h*( nabag_(1/)1((-)/1h').2 ( n)br*/ \\- .\" 89:#\" :9!@#% k!k",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "reference_requires_review:no_valid_doi_or_pmid",
+                "missing_year",
+                "missing_journal"
+              ]
+            }
+          ],
+          "reference_valid_count": 0,
+          "reference_invalid_count": 1,
+          "invalid_count": 1,
+          "checked_count": 1,
+          "summary": {
+            "identifier_invalid": 1,
+            "information_incomplete": 1,
+            "domain_mismatch_or_unclear": 0,
+            "duplicate_or_conflict": 0
+          }
+        }
+      }
+    ],
+    "events": [
+      {
+        "sequence": 1,
+        "stage": "input_receive_and_clean",
+        "status": "started",
+        "detail": {
+          "file_count": 1
+        }
+      },
+      {
+        "sequence": 3,
+        "stage": "figure_extract",
+        "status": "completed",
+        "detail": {
+          "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+          "status": "figure_extract_review_required",
+          "figures": 0
+        }
+      },
+      {
+        "sequence": 4,
+        "stage": "document_parse",
+        "status": "completed",
+        "detail": {
+          "papers_parsed": 1
+        }
+      },
+      {
+        "sequence": 6,
+        "stage": "arm_packaging",
+        "status": "completed",
+        "detail": {
+          "modules": [
+            "metadata",
+            "claims",
+            "evidence",
+            "protocol",
+            "runbook",
+            "eval_plan",
+            "provenance",
+            "limitations",
+            "artifacts"
+          ]
+        }
+      }
+    ],
+    "extraction_records": [
+      {
+        "source_file": "C:\\Users\\25416\\Desktop\\PKU\\outputs\\uploads\\afeada77c641456bbf277059a7cfb434\\脑组织液引流途径与脑内新分区系统的发现.pdf",
+        "candidate_claim_count": 12,
+        "quality_flags": {
+          "has_methods": false,
+          "has_results": false,
+          "has_figures_or_tables": false,
+          "has_references": true,
+          "paragraph_count": 31,
+          "ecs_hit_count": 9
+        },
+        "ecs_related": true
+      }
+    ],
+    "validation_results": {
+      "multi_layer_compliance": {
+        "evidence_integrity": true,
+        "reference_status": "reference_invalid",
+        "reference_summary": {
+          "identifier_invalid": 1,
+          "information_incomplete": 1,
+          "domain_mismatch_or_unclear": 0,
+          "duplicate_or_conflict": 0
+        },
+        "hallucination_control": true,
+        "medical_boundary": true,
+        "input_completeness": true
+      },
+      "conflict_detection": {
+        "status": "no_conflict_detected",
+        "conflict_count": 0
+      },
+      "arm_asset_validation": {
+        "validation_passed": true,
+        "review_required": false,
+        "checks": [
+          {
+            "check_id": "ARM-001",
+            "name": "ARM nine modules present",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "modules": {
+                "metadata": true,
+                "claims": true,
+                "evidence": true,
+                "protocol": true,
+                "runbook": true,
+                "eval_plan": true,
+                "provenance": true,
+                "limitations": true,
+                "artifacts": true
+              }
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-002",
+            "name": "Claims have linked evidence",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "claim_count": 12,
+              "evidence_count": 12
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-003",
+            "name": "Quote-only claims",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "claim_count": 12
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-004",
+            "name": "Model inference is not mixed into paper claims",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "policy": "paper claims must remain paper_original; generated workflow text is model_infer"
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-005",
+            "name": "Dry-run capable runbook step",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "runbook_steps": 2
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-006",
+            "name": "Medical boundary limitation exists",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "limitations": 4
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-007",
+            "name": "Figure/table caption evidence deduplicated",
+            "passed": true,
+            "severity": "medium",
+            "detail": {
+              "figure_caption_evidence": 0,
+              "unique_caption_evidence": 0
+            },
+            "review_required": false
+          }
+        ],
+        "failed_checks": [],
+        "trace": [
+          {
+            "stage": "arm_validation_start"
+          },
+          {
+            "stage": "arm_validation_completed",
+            "failed_count": 0
+          }
+        ]
+      },
+      "dry_run": {
+        "status": "dry_run_passed",
+        "started_at_utc": "2026-07-17T06:17:20.494882+00:00",
+        "completed_at_utc": "2026-07-17T06:17:20.495082+00:00",
+        "steps": [
+          {
+            "step_id": "R-001",
+            "action": "Dry-run the Paper-to-ARM pipeline on the same input and validate ARM modules.",
+            "status": "passed",
+            "expected_output": "JSON export containing full_arm and trace_record; all nine ARM modules present.",
+            "observed_output": "ARM modules, source files, claims, evidence and trace prerequisites checked.",
+            "errors": [],
+            "review_required": false
+          }
+        ],
+        "summary": {
+          "total_steps": 1,
+          "failed_steps": 0,
+          "review_required": false,
+          "pre_export_artifacts_allowed": true
+        },
+        "trace": [
+          {
+            "stage": "dry_run_start"
+          },
+          {
+            "stage": "dry_run_step",
+            "step_id": "R-001",
+            "status": "passed",
+            "errors": []
+          },
+          {
+            "stage": "dry_run_completed",
+            "failed_steps": 0
+          }
+        ]
+      },
+      "evaluation_result": {
+        "status": "eval_passed",
+        "metrics": [
+          {
+            "metric_id": "EV-001",
+            "name": "Dry-run status",
+            "passed": true,
+            "expected": "dry_run_passed",
+            "observed": "dry_run_passed",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-002",
+            "name": "At least five traceable claims",
+            "passed": true,
+            "expected": ">=5 claims with evidence_ids",
+            "observed": "12 claims",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-003",
+            "name": "Evidence IDs resolve",
+            "passed": true,
+            "expected": "all claim.evidence_ids exist in evidence",
+            "observed": "12 evidence ids",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-004",
+            "name": "Quote-only evidence policy",
+            "passed": true,
+            "expected": "raw_text equals first support_evidence_snippet",
+            "observed": "checked raw_text/support_evidence_snippet pairs",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-005",
+            "name": "Pre-export artifact handling",
+            "passed": true,
+            "expected": "artifacts module exists; empty list is allowed before export persistence",
+            "observed": "artifacts_count=0",
+            "review_required": false
+          }
+        ],
+        "summary": {
+          "total_metrics": 5,
+          "failed_metrics": 0,
+          "review_required": false,
+          "score": 100.0
+        },
+        "trace": [
+          {
+            "stage": "eval_start"
+          },
+          {
+            "stage": "eval_completed",
+            "failed_metrics": 0
+          }
+        ]
+      },
+      "arm_modules_present": {
+        "metadata": true,
+        "claims": true,
+        "evidence": true,
+        "protocol": true,
+        "runbook": true,
+        "eval_plan": true,
+        "provenance": true,
+        "limitations": true,
+        "artifacts": true
+      }
+    },
+    "failure_risks": []
+  }
+}

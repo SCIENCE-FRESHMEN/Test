@@ -1,0 +1,1765 @@
+{
+  "full_arm": {
+    "metadata": {
+      "arm_id": "arm-nanoscopic-mapping-of-the-extracellular-space-in",
+      "title": "RESEARCH ARTICLE www.advancedscience.com Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex Juan Estaún-Panzano, Yulia Dembitskaya, Ivo Calaresu, Somen Nandi, Quentin Gresil, Evelyne Doudnikoff, Thierry Leste-Lasserre, Thierry Amédée, Laurent Cognet, Laurent Groc, Urs Valentin Nägerl,* and Erwan Bezard* A hallmark of Alzheimer’s disease (AD) is the accumulation of amyloid plaques, primarily composed of misfolded amyloid 𝜷(A𝜷) peptides. Complementary high-resolution imaging techniques are employed to investigate the plaque penetrability and the extracellular space (ECS) rheology",
+      "authors": [],
+      "doi": "10.1002/advs.202515674",
+      "pmid": null,
+      "year": 2025,
+      "publication_date": null,
+      "journal": null,
+      "article_type": "research",
+      "license": "Creative Commons License",
+      "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+      "ecs_related": true,
+      "ecs_keywords": [
+        "brain ecs",
+        "ecm",
+        "ecs",
+        "extracellular matrix",
+        "extracellular space",
+        "glymphatic",
+        "interstitial fluid",
+        "isf"
+      ],
+      "processing_status": "success"
+    },
+    "claims": [
+      {
+        "claim_id": "C-001",
+        "text": "Complementary high-resolution imaging techniques are employed to investigate the plaque penetrability and the extracellular space (ECS) rheology in a mouse model of AD.",
+        "raw_text": "Complementary high-resolution imaging techniques are employed to investigate the plaque penetrability and the extracellular space (ECS) rheology in a mouse model of AD.",
+        "claim_category": "review_summary",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 1",
+        "source_location": "front_matter paragraph 1",
+        "evidence_ids": [
+          "E-001"
+        ],
+        "support_evidence_snippet": [
+          "Complementary high-resolution imaging techniques are employed to investigate the plaque penetrability and the extracellular space (ECS) rheology in a mouse model of AD."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-002",
+        "text": "Quantum dot tracking unveils that ECS diffusional parameters are heterogeneous in and around plaques, with an elevated diffusivity within and around plaques compared to wild-type-tissue.",
+        "raw_text": "Quantum dot tracking unveils that ECS diffusional parameters are heterogeneous in and around plaques, with an elevated diffusivity within and around plaques compared to wild-type-tissue.",
+        "claim_category": "review_summary",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 1",
+        "source_location": "front_matter paragraph 1",
+        "evidence_ids": [
+          "E-002"
+        ],
+        "support_evidence_snippet": [
+          "Quantum dot tracking unveils that ECS diffusional parameters are heterogeneous in and around plaques, with an elevated diffusivity within and around plaques compared to wild-type-tissue."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-003",
+        "text": "Finally, the extracellular matrix is found to be dysregulated within the amyloid plaque, which may account for the observed alterations in diffusivity.",
+        "raw_text": "Finally, the extracellular matrix is found to be dysregulated within the amyloid plaque, which may account for the observed alterations in diffusivity.",
+        "claim_category": "experimental_result",
+        "section": "front_matter",
+        "locator": "front_matter paragraph 1",
+        "source_location": "front_matter paragraph 1",
+        "evidence_ids": [
+          "E-003"
+        ],
+        "support_evidence_snippet": [
+          "Finally, the extracellular matrix is found to be dysregulated within the amyloid plaque, which may account for the observed alterations in diffusivity."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-004",
+        "text": "Deeper insights into the properties of the ECS are crucial, as it plays a key role in normal brain function[6] and disease progression.[7–9] This study presents an innovative experimental and analytical framework for dissecting the influence of the ECS rheology, i.",
+        "raw_text": "Deeper insights into the properties of the ECS are crucial, as it plays a key role in normal brain function[6] and disease progression.[7–9] This study presents an innovative experimental and analytical framework for dissecting the influence of the ECS rheology, i.",
+        "claim_category": "review_summary",
+        "section": "introduction",
+        "locator": "introduction paragraph 1",
+        "source_location": "introduction paragraph 1",
+        "evidence_ids": [
+          "E-004"
+        ],
+        "support_evidence_snippet": [
+          "Deeper insights into the properties of the ECS are crucial, as it plays a key role in normal brain function[6] and disease progression.[7–9] This study presents an innovative experimental and analytical framework for dissecting the influence of the ECS rheology, i."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-005",
+        "text": "com imaging and nanoscopic single-particle tracking (SPT) imaging to investigate the morphology and diffusional properties of the ECS, i.",
+        "raw_text": "com imaging and nanoscopic single-particle tracking (SPT) imaging to investigate the morphology and diffusional properties of the ECS, i.",
+        "claim_category": "review_summary",
+        "section": "introduction",
+        "locator": "introduction paragraph 2",
+        "source_location": "introduction paragraph 2",
+        "evidence_ids": [
+          "E-005"
+        ],
+        "support_evidence_snippet": [
+          "com imaging and nanoscopic single-particle tracking (SPT) imaging to investigate the morphology and diffusional properties of the ECS, i."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-006",
+        "text": "Shadow Imaging Reveals Amyloid Plaque Organization and Surrounding ECS Structure We focused our study on the sensory and motor cortices.",
+        "raw_text": "Shadow Imaging Reveals Amyloid Plaque Organization and Surrounding ECS Structure We focused our study on the sensory and motor cortices.",
+        "claim_category": "experimental_result",
+        "section": "results",
+        "locator": "results paragraph 1",
+        "source_location": "results paragraph 1",
+        "evidence_ids": [
+          "E-006"
+        ],
+        "support_evidence_snippet": [
+          "Shadow Imaging Reveals Amyloid Plaque Organization and Surrounding ECS Structure We focused our study on the sensory and motor cortices."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-007",
+        "text": "TUSHI ex vivo: acute brain slices (350 μm thick) were placed into a microscope chamber after incubation and 200 μm of Calcein was bath applied to label the extracellular space.",
+        "raw_text": "TUSHI ex vivo: acute brain slices (350 μm thick) were placed into a microscope chamber after incubation and 200 μm of Calcein was bath applied to label the extracellular space.",
+        "claim_category": "experimental_result",
+        "section": "results",
+        "locator": "results paragraph 2",
+        "source_location": "results paragraph 2",
+        "evidence_ids": [
+          "E-007"
+        ],
+        "support_evidence_snippet": [
+          "TUSHI ex vivo: acute brain slices (350 μm thick) were placed into a microscope chamber after incubation and 200 μm of Calcein was bath applied to label the extracellular space."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-008",
+        "text": "All collected images are presented in an inverted LUT where extracellular space appears black and brain structures–white.",
+        "raw_text": "All collected images are presented in an inverted LUT where extracellular space appears black and brain structures–white.",
+        "claim_category": "experimental_result",
+        "section": "results",
+        "locator": "results paragraph 2",
+        "source_location": "results paragraph 2",
+        "evidence_ids": [
+          "E-008"
+        ],
+        "support_evidence_snippet": [
+          "All collected images are presented in an inverted LUT where extracellular space appears black and brain structures–white."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-009",
+        "text": "Rheological ECS Properties within and around Amyloid Plaques Beyond penetrability, extracellular rheological parameters are of great relevance when studying the ECS.",
+        "raw_text": "Rheological ECS Properties within and around Amyloid Plaques Beyond penetrability, extracellular rheological parameters are of great relevance when studying the ECS.",
+        "claim_category": "experimental_result",
+        "section": "results",
+        "locator": "results paragraph 4",
+        "source_location": "results paragraph 4",
+        "evidence_ids": [
+          "E-009"
+        ],
+        "support_evidence_snippet": [
+          "Rheological ECS Properties within and around Amyloid Plaques Beyond penetrability, extracellular rheological parameters are of great relevance when studying the ECS."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-010",
+        "text": "e., diffusionality and dimensions, and ECS nanoscale properties from SPT experiments in biological media.[25] We plotted MSD curves and diffusion coefficient distributions of super-resolved QD trajectories within and around amyloid plaques over time.",
+        "raw_text": "e., diffusionality and dimensions, and ECS nanoscale properties from SPT experiments in biological media.[25] We plotted MSD curves and diffusion coefficient distributions of super-resolved QD trajectories within and around amyloid plaques over time.",
+        "claim_category": "experimental_result",
+        "section": "results",
+        "locator": "results paragraph 4",
+        "source_location": "results paragraph 4",
+        "evidence_ids": [
+          "E-010"
+        ],
+        "support_evidence_snippet": [
+          "e., diffusionality and dimensions, and ECS nanoscale properties from SPT experiments in biological media.[25] We plotted MSD curves and diffusion coefficient distributions of super-resolved QD trajectories within and around amyloid plaques over time."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-011",
+        "text": "On the other hand, the distribution of diffusion coefficients in the ECS exhibited marked differences between experimental conditions (Figure 5b).",
+        "raw_text": "On the other hand, the distribution of diffusion coefficients in the ECS exhibited marked differences between experimental conditions (Figure 5b).",
+        "claim_category": "experimental_result",
+        "section": "results",
+        "locator": "results paragraph 4",
+        "source_location": "results paragraph 4 Figure 5b",
+        "evidence_ids": [
+          "E-011"
+        ],
+        "support_evidence_snippet": [
+          "On the other hand, the distribution of diffusion coefficients in the ECS exhibited marked differences between experimental conditions (Figure 5b)."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      },
+      {
+        "claim_id": "C-012",
+        "text": "We set a threshold value (0.005 μm2 s−1) to study separately the mobile and immobile fractions of particles within the ECS at each level.[26] The median diffusion coefficient of the mobile fraction was higher outside the amyloid plaque and in the cell ring in the AD model than in age-matched WT cortical tissue (Figure 5d).",
+        "raw_text": "We set a threshold value (0.005 μm2 s−1) to study separately the mobile and immobile fractions of particles within the ECS at each level.[26] The median diffusion coefficient of the mobile fraction was higher outside the amyloid plaque and in the cell ring in the AD model than in age-matched WT cortical tissue (Figure 5d).",
+        "claim_category": "experimental_result",
+        "section": "results",
+        "locator": "results paragraph 5",
+        "source_location": "results paragraph 5 Figure 5d",
+        "evidence_ids": [
+          "E-012"
+        ],
+        "support_evidence_snippet": [
+          "We set a threshold value (0.005 μm2 s−1) to study separately the mobile and immobile fractions of particles within the ECS at each level.[26] The median diffusion coefficient of the mobile fraction was higher outside the amyloid plaque and in the cell ring in the AD model than in age-matched WT cortical tissue (Figure 5d)."
+        ],
+        "conflict_evidence_snippet": [],
+        "source_attribution": "paper_original",
+        "evidence_incomplete": false,
+        "ecs_related": true,
+        "claim_type": "finding",
+        "provenance": "source_text",
+        "requires_human_review": false
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E-001",
+        "claim_id": "C-001",
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "front_matter paragraph 1",
+        "section": "front_matter",
+        "paragraph_index": 1,
+        "figure_or_table": null,
+        "quote": "Complementary high-resolution imaging techniques are employed to investigate the plaque penetrability and the extracellular space (ECS) rheology in a mouse model of AD.",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-002",
+        "claim_id": "C-002",
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "front_matter paragraph 1",
+        "section": "front_matter",
+        "paragraph_index": 1,
+        "figure_or_table": null,
+        "quote": "Quantum dot tracking unveils that ECS diffusional parameters are heterogeneous in and around plaques, with an elevated diffusivity within and around plaques compared to wild-type-tissue.",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-003",
+        "claim_id": "C-003",
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "front_matter paragraph 1",
+        "section": "front_matter",
+        "paragraph_index": 1,
+        "figure_or_table": null,
+        "quote": "Finally, the extracellular matrix is found to be dysregulated within the amyloid plaque, which may account for the observed alterations in diffusivity.",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-004",
+        "claim_id": "C-004",
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "introduction paragraph 1",
+        "section": "introduction",
+        "paragraph_index": 1,
+        "figure_or_table": null,
+        "quote": "Deeper insights into the properties of the ECS are crucial, as it plays a key role in normal brain function[6] and disease progression.[7–9] This study presents an innovative experimental and analytical framework for dissecting the influence of the ECS rheology, i.",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-005",
+        "claim_id": "C-005",
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "introduction paragraph 2",
+        "section": "introduction",
+        "paragraph_index": 2,
+        "figure_or_table": null,
+        "quote": "com imaging and nanoscopic single-particle tracking (SPT) imaging to investigate the morphology and diffusional properties of the ECS, i.",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-006",
+        "claim_id": "C-006",
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "results paragraph 1",
+        "section": "results",
+        "paragraph_index": 1,
+        "figure_or_table": null,
+        "quote": "Shadow Imaging Reveals Amyloid Plaque Organization and Surrounding ECS Structure We focused our study on the sensory and motor cortices.",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-007",
+        "claim_id": "C-007",
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "results paragraph 2",
+        "section": "results",
+        "paragraph_index": 2,
+        "figure_or_table": null,
+        "quote": "TUSHI ex vivo: acute brain slices (350 μm thick) were placed into a microscope chamber after incubation and 200 μm of Calcein was bath applied to label the extracellular space.",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-008",
+        "claim_id": "C-008",
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "results paragraph 2",
+        "section": "results",
+        "paragraph_index": 2,
+        "figure_or_table": null,
+        "quote": "All collected images are presented in an inverted LUT where extracellular space appears black and brain structures–white.",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-009",
+        "claim_id": "C-009",
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "results paragraph 4",
+        "section": "results",
+        "paragraph_index": 4,
+        "figure_or_table": null,
+        "quote": "Rheological ECS Properties within and around Amyloid Plaques Beyond penetrability, extracellular rheological parameters are of great relevance when studying the ECS.",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-010",
+        "claim_id": "C-010",
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "results paragraph 4",
+        "section": "results",
+        "paragraph_index": 4,
+        "figure_or_table": null,
+        "quote": "e., diffusionality and dimensions, and ECS nanoscale properties from SPT experiments in biological media.[25] We plotted MSD curves and diffusion coefficient distributions of super-resolved QD trajectories within and around amyloid plaques over time.",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-011",
+        "claim_id": "C-011",
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "results paragraph 4",
+        "section": "results",
+        "paragraph_index": 4,
+        "figure_or_table": null,
+        "quote": "On the other hand, the distribution of diffusion coefficients in the ECS exhibited marked differences between experimental conditions (Figure 5b).",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-012",
+        "claim_id": "C-012",
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "results paragraph 5",
+        "section": "results",
+        "paragraph_index": 5,
+        "figure_or_table": null,
+        "quote": "We set a threshold value (0.005 μm2 s−1) to study separately the mobile and immobile fractions of particles within the ECS at each level.[26] The median diffusion coefficient of the mobile fraction was higher outside the amyloid plaque and in the cell ring in the AD model than in age-matched WT cortical tissue (Figure 5d).",
+        "evidence_type": "text",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-FIG-001",
+        "claim_id": null,
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "Figure 3a caption",
+        "section": "figure_caption",
+        "paragraph_index": null,
+        "figure_or_table": "Fig. 3a",
+        "quote": ", we exploited the characteristic autofluorescence of plaque cores under Adv. Sci. 2026, 13, e15674 e15674 (2 of 19) © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH 21983844, 2026, 1, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515674 by Shanghai University Of Finance, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License [page 3] www.advancedsciencenews.com www.advancedscience.com",
+        "evidence_type": "figure_caption",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-FIG-014",
+        "claim_id": null,
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "Figure 3a caption",
+        "section": "figure_caption",
+        "paragraph_index": null,
+        "figure_or_table": "Figure 3a",
+        "quote": ", we exploited the characteristic autofluorescence of plaque cores under Adv. Sci. 2026, 13, e15674 e15674 (2 of 19) © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH 21983844, 2026, 1, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515674 by Shanghai University Of Finance, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License [page 3] www.advancedsciencenews.com www.advancedscience.com",
+        "evidence_type": "figure_caption",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-FIG-015",
+        "claim_id": null,
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "Figure 3c caption",
+        "section": "figure_caption",
+        "paragraph_index": null,
+        "figure_or_table": "Figure 3c",
+        "quote": "The density of QDs was the highest in the surrounding tissue, intermediate in the cell ring, and the lowest inside the amyloid core (Figure 3c). To assess potential changes in particle behavior between the different compartments, i.e., to define whether a specific interface is preventing penetration, we defined two interfaces (Out–Ring and Ring– Amyloid) between pairs of adjacent ROIs. We calculated the QD density ratio for these pairs. Localization density ratios between the surrounding cortical tissue and the cell-rich ring distributed around 1 with low variability (Figure 3d), indicating that the inter- Adv. Sci. 2026, 13, e15674 e15674 (3 of 19) © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH 21983844, 2026, 1, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515674 by Shanghai University Of Finance, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License [page 4] www.advancedsciencenews.com www.advancedscience.com",
+        "evidence_type": "figure_caption",
+        "provenance": "source_text"
+      },
+      {
+        "evidence_id": "E-FIG-016",
+        "claim_id": null,
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "locator": "Figure 5d caption",
+        "section": "figure_caption",
+        "paragraph_index": null,
+        "figure_or_table": "Figure 5d",
+        "quote": "Although not statistically significant, the distribution of the diffusion coefficient was wider for the amyloid region, suggesting alterations in the ECS. Interestingly, both the cortical neuropil (Out) and cell ring (Ring) of APP/PS1 mice exhibited a significantly smaller fraction of immobile particles compared to WT tissue (Figure 5e). Among the few particles that had penetrated the amyloid core, a sizable percentage was immobile, more so than in the surrounding ring (Figure 5e). We deepened our confinement analysis by pairing values for the three regions (Out, Ring, and Amyloid) obtained from the Adv. Sci. 2026, 13, e15674 e15674 (6 of 19) © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH 21983844, 2026, 1, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515674 by Shanghai University Of Finance, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License [page 7] www.advancedsciencenews.com www.advancedscience.com",
+        "evidence_type": "figure_caption",
+        "provenance": "source_text"
+      }
+    ],
+    "protocol": [
+      {
+        "step_id": "P-001",
+        "name": "Parse paper into source-located sections",
+        "description": "Segment abstract, methods/results/discussion where present, figure/table captions, references, and ECS keyword hits.",
+        "input_materials": [
+          "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf"
+        ],
+        "method_source_locator": "system_pipeline:literature_extract",
+        "expected_output": "Section map with paragraph indices and source quotes.",
+        "automation_level": "auto",
+        "provenance": "model_infer"
+      },
+      {
+        "step_id": "P-002",
+        "name": "Align claims to evidence",
+        "description": "Keep only claims backed by exact source-text quotes and locators.",
+        "input_materials": [
+          "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf"
+        ],
+        "method_source_locator": "system_pipeline:claim_evidence_alignment",
+        "expected_output": "Claim list with evidence_ids and locators.",
+        "automation_level": "manual_review",
+        "provenance": "model_infer"
+      }
+    ],
+    "runbook": [
+      {
+        "step_id": "R-001",
+        "action": "Dry-run the Paper-to-ARM pipeline on the same input and validate ARM modules.",
+        "input_files": [
+          "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf"
+        ],
+        "dependent_tools": [
+          "literature_extract",
+          "reference_validator"
+        ],
+        "expected_output": "JSON export containing full_arm and trace_record; all nine ARM modules present.",
+        "manual_review_required": false,
+        "can_dry_run": true,
+        "dry_run_command": "python main.py run --input \"fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf\" --output-dir outputs --format json",
+        "failure_conditions": [
+          "Missing source file",
+          "Fewer than 5 traceable claims",
+          "No ECS content detected"
+        ]
+      },
+      {
+        "step_id": "R-002",
+        "action": "Manually review quote-to-claim alignment and medical-boundary warnings.",
+        "input_files": [
+          "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf"
+        ],
+        "dependent_tools": [],
+        "expected_output": "Human approval or correction list for claim/evidence pairs.",
+        "manual_review_required": true,
+        "can_dry_run": false,
+        "dry_run_command": null,
+        "failure_conditions": [
+          "Claim text overstates source quote",
+          "Clinical advice detected"
+        ]
+      }
+    ],
+    "eval_plan": [
+      {
+        "metric_id": "M-001",
+        "name": "ARM module completeness",
+        "pass_condition": "metadata/claims/evidence/protocol/runbook/eval_plan/provenance/limitations/artifacts all exist",
+        "evaluation_method": "Schema validation with pydantic."
+      },
+      {
+        "metric_id": "M-002",
+        "name": "Traceable claims",
+        "pass_condition": "At least 5 claims have non-empty evidence_ids and exact quotes.",
+        "evaluation_method": "Automated count plus manual spot-check."
+      },
+      {
+        "metric_id": "M-003",
+        "name": "Failure branch blocking",
+        "pass_condition": "Incomplete input returns failure report and does not create success ARM.",
+        "evaluation_method": "Run tests/test_pipeline.py and inspect trace_record.failure_risks."
+      },
+      {
+        "metric_id": "M-004",
+        "name": "ECS tagging",
+        "pass_condition": "metadata.ecs_related is true for ECS papers and ECS-related claims are tagged.",
+        "evaluation_method": "Keyword detection plus manual review."
+      }
+    ],
+    "provenance": {
+      "run_id": "run-52e24250f749",
+      "allowed_tools": [
+        "literature_extract",
+        "reference_validator"
+      ],
+      "model": {
+        "provider": "DeepSeek",
+        "model_name": "deepseek-v4-pro",
+        "usage": "optional; deterministic local extractors are used for this reproducible demo"
+      },
+      "source_files": [
+        "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf"
+      ],
+      "reference_validation": {
+        "validator_prompt": "参考文献合法性校验工具:\n输入论文内全部引用文本、DOI、PMID、文献标题。逐项校验标识符、信息完整性、\n领域匹配、重复/冲突。输出固定状态reference_valid或reference_invalid；\n所有记录写入trace，供答辩展示引用校验流程。",
+        "status": "reference_invalid",
+        "validated_references": [
+          {
+            "reference_text": "can be found under https://doi.org/10.1002/advs.202515674",
+            "doi": "10.1002/advs.202515674",
+            "pmid": null,
+            "title": null,
+            "locator": "char:2142",
+            "identifier_check": {
+              "valid_doi": true,
+              "valid_pmid": false,
+              "reference_requires_review": false
+            },
+            "completeness_check": {
+              "has_year": false,
+              "has_journal": false,
+              "has_author": false
+            },
+            "domain_match_check": {
+              "is_neuroscience_or_ecs_related": false
+            },
+            "duplicate_conflict_check": {
+              "duplicate_key": "10.1002/advs.202515674",
+              "duplicate_count": 1,
+              "conflict_risk": false
+            },
+            "reference_valid": false,
+            "reference_invalid": [
+              "missing_year",
+              "missing_author",
+              "missing_journal",
+              "domain_mismatch_or_unclear"
+            ]
+          },
+          {
+            "reference_text": "at https://doi.org/10.5281/zenodo.15056592 (DOI). Customs scripts and",
+            "doi": "10.5281/zenodo.15056592",
+            "pmid": null,
+            "title": "Customs scripts and",
+            "locator": "char:96055",
+            "identifier_check": {
+              "valid_doi": true,
+              "valid_pmid": false,
+              "reference_requires_review": false
+            },
+            "completeness_check": {
+              "has_year": false,
+              "has_journal": false,
+              "has_author": true
+            },
+            "domain_match_check": {
+              "is_neuroscience_or_ecs_related": false
+            },
+            "duplicate_conflict_check": {
+              "duplicate_key": "10.5281/zenodo.15056592",
+              "duplicate_count": 1,
+              "conflict_risk": false
+            },
+            "reference_valid": false,
+            "reference_invalid": [
+              "missing_year",
+              "missing_journal",
+              "domain_mismatch_or_unclear"
+            ]
+          }
+        ],
+        "reference_valid_count": 0,
+        "reference_invalid_count": 2,
+        "invalid_count": 2,
+        "checked_count": 2,
+        "summary": {
+          "identifier_invalid": 0,
+          "information_incomplete": 2,
+          "domain_mismatch_or_unclear": 2,
+          "duplicate_or_conflict": 0
+        }
+      },
+      "figure_extraction": [
+        {
+          "status": "figure_extract_success",
+          "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+          "figures": [
+            {
+              "figure_id": "Figure 3a",
+              "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+              "page": null,
+              "locator": "Figure 3a caption",
+              "caption": ", we exploited the characteristic autofluorescence of plaque cores under Adv. Sci. 2026, 13, e15674 e15674 (2 of 19) © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH 21983844, 2026, 1, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515674 by Shanghai University Of Finance, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License [page 3] www.advancedsciencenews.com www.advancedscience.com",
+              "evidence_type": "figure_caption",
+              "evidence_incomplete": false,
+              "review_required": false,
+              "source_attribution": "paper_original"
+            },
+            {
+              "figure_id": "Figure 3c",
+              "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+              "page": null,
+              "locator": "Figure 3c caption",
+              "caption": "The density of QDs was the highest in the surrounding tissue, intermediate in the cell ring, and the lowest inside the amyloid core (Figure 3c). To assess potential changes in particle behavior between the different compartments, i.e., to define whether a specific interface is preventing penetration, we defined two interfaces (Out–Ring and Ring– Amyloid) between pairs of adjacent ROIs. We calculated the QD density ratio for these pairs. Localization density ratios between the surrounding cortical tissue and the cell-rich ring distributed around 1 with low variability (Figure 3d), indicating that the inter- Adv. Sci. 2026, 13, e15674 e15674 (3 of 19) © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH 21983844, 2026, 1, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515674 by Shanghai University Of Finance, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License [page 4] www.advancedsciencenews.com www.advancedscience.com",
+              "evidence_type": "figure_caption",
+              "evidence_incomplete": false,
+              "review_required": false,
+              "source_attribution": "paper_original"
+            },
+            {
+              "figure_id": "Figure 5d",
+              "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+              "page": null,
+              "locator": "Figure 5d caption",
+              "caption": "Although not statistically significant, the distribution of the diffusion coefficient was wider for the amyloid region, suggesting alterations in the ECS. Interestingly, both the cortical neuropil (Out) and cell ring (Ring) of APP/PS1 mice exhibited a significantly smaller fraction of immobile particles compared to WT tissue (Figure 5e). Among the few particles that had penetrated the amyloid core, a sizable percentage was immobile, more so than in the surrounding ring (Figure 5e). We deepened our confinement analysis by pairing values for the three regions (Out, Ring, and Amyloid) obtained from the Adv. Sci. 2026, 13, e15674 e15674 (6 of 19) © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH 21983844, 2026, 1, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515674 by Shanghai University Of Finance, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License [page 7] www.advancedsciencenews.com www.advancedscience.com",
+              "evidence_type": "figure_caption",
+              "evidence_incomplete": false,
+              "review_required": false,
+              "source_attribution": "paper_original"
+            }
+          ],
+          "risks": [],
+          "trace": [
+            {
+              "stage": "figure_extract_start",
+              "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf"
+            },
+            {
+              "stage": "caption_detected",
+              "figure_id": "Figure 3a",
+              "index": 1
+            },
+            {
+              "stage": "caption_detected",
+              "figure_id": "Figure 3c",
+              "index": 2
+            },
+            {
+              "stage": "caption_detected",
+              "figure_id": "Figure 5d",
+              "index": 3
+            },
+            {
+              "stage": "figure_extract_completed",
+              "status": "figure_extract_success",
+              "caption_count": 3
+            }
+          ]
+        }
+      ],
+      "conflict_detection": {
+        "status": "no_conflict_detected",
+        "conflict_pairs": [],
+        "trace": [
+          {
+            "stage": "conflict_detection_start",
+            "claim_count": 12
+          },
+          {
+            "stage": "conflict_detection_completed",
+            "conflict_count": 0
+          }
+        ]
+      },
+      "model_infer_policy": "Any pipeline-generated protocol, runbook, eval, and limitation text is marked model_infer and is not treated as source evidence.",
+      "claim_extractor_policy": "Claims are raw paper excerpts only. raw_text and support_evidence_snippet are not paraphrased.",
+      "fine_trace": {
+        "run_id": "run-52e24250f749",
+        "steps": [
+          {
+            "step_id": "T-0001",
+            "stage": "fine_trace_start",
+            "status": "started",
+            "timestamp_utc": "2026-07-17T06:00:43.426655+00:00",
+            "input_ref": {
+              "arm_id": "arm-nanoscopic-mapping-of-the-extracellular-space-in"
+            },
+            "output_ref": {},
+            "risks": []
+          },
+          {
+            "step_id": "T-0002",
+            "stage": "fine_trace_completed",
+            "status": "completed",
+            "timestamp_utc": "2026-07-17T06:00:43.426884+00:00",
+            "input_ref": {},
+            "output_ref": {
+              "claims": 12,
+              "evidence": 16
+            },
+            "risks": []
+          }
+        ],
+        "claims": [
+          {
+            "claim_id": "C-001",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "source_location": "front_matter paragraph 1",
+            "raw_text": "Complementary high-resolution imaging techniques are employed to investigate the plaque penetrability and the extracellular space (ECS) rheology in a mouse model of AD.",
+            "evidence_ids": [
+              "E-001"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-002",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "source_location": "front_matter paragraph 1",
+            "raw_text": "Quantum dot tracking unveils that ECS diffusional parameters are heterogeneous in and around plaques, with an elevated diffusivity within and around plaques compared to wild-type-tissue.",
+            "evidence_ids": [
+              "E-002"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-003",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "source_location": "front_matter paragraph 1",
+            "raw_text": "Finally, the extracellular matrix is found to be dysregulated within the amyloid plaque, which may account for the observed alterations in diffusivity.",
+            "evidence_ids": [
+              "E-003"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-004",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "source_location": "introduction paragraph 1",
+            "raw_text": "Deeper insights into the properties of the ECS are crucial, as it plays a key role in normal brain function[6] and disease progression.[7–9] This study presents an innovative experimental and analytical framework for dissecting the influence of the ECS rheology, i.",
+            "evidence_ids": [
+              "E-004"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-005",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "source_location": "introduction paragraph 2",
+            "raw_text": "com imaging and nanoscopic single-particle tracking (SPT) imaging to investigate the morphology and diffusional properties of the ECS, i.",
+            "evidence_ids": [
+              "E-005"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-006",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "source_location": "results paragraph 1",
+            "raw_text": "Shadow Imaging Reveals Amyloid Plaque Organization and Surrounding ECS Structure We focused our study on the sensory and motor cortices.",
+            "evidence_ids": [
+              "E-006"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-007",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "source_location": "results paragraph 2",
+            "raw_text": "TUSHI ex vivo: acute brain slices (350 μm thick) were placed into a microscope chamber after incubation and 200 μm of Calcein was bath applied to label the extracellular space.",
+            "evidence_ids": [
+              "E-007"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-008",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "source_location": "results paragraph 2",
+            "raw_text": "All collected images are presented in an inverted LUT where extracellular space appears black and brain structures–white.",
+            "evidence_ids": [
+              "E-008"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-009",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "source_location": "results paragraph 4",
+            "raw_text": "Rheological ECS Properties within and around Amyloid Plaques Beyond penetrability, extracellular rheological parameters are of great relevance when studying the ECS.",
+            "evidence_ids": [
+              "E-009"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-010",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "source_location": "results paragraph 4",
+            "raw_text": "e., diffusionality and dimensions, and ECS nanoscale properties from SPT experiments in biological media.[25] We plotted MSD curves and diffusion coefficient distributions of super-resolved QD trajectories within and around amyloid plaques over time.",
+            "evidence_ids": [
+              "E-010"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-011",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "source_location": "results paragraph 4 Figure 5b",
+            "raw_text": "On the other hand, the distribution of diffusion coefficients in the ECS exhibited marked differences between experimental conditions (Figure 5b).",
+            "evidence_ids": [
+              "E-011"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          },
+          {
+            "claim_id": "C-012",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "source_location": "results paragraph 5 Figure 5d",
+            "raw_text": "We set a threshold value (0.005 μm2 s−1) to study separately the mobile and immobile fractions of particles within the ECS at each level.[26] The median diffusion coefficient of the mobile fraction was higher outside the amyloid plaque and in the cell ring in the AD model than in age-matched WT cortical tissue (Figure 5d).",
+            "evidence_ids": [
+              "E-012"
+            ],
+            "source_attribution": "paper_original",
+            "review_required": false,
+            "risk_notes": []
+          }
+        ],
+        "evidence": [
+          {
+            "evidence_id": "E-001",
+            "evidence_type": "text",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "front_matter paragraph 1",
+            "quote": "Complementary high-resolution imaging techniques are employed to investigate the plaque penetrability and the extracellular space (ECS) rheology in a mouse model of AD.",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-002",
+            "evidence_type": "text",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "front_matter paragraph 1",
+            "quote": "Quantum dot tracking unveils that ECS diffusional parameters are heterogeneous in and around plaques, with an elevated diffusivity within and around plaques compared to wild-type-tissue.",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-003",
+            "evidence_type": "text",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "front_matter paragraph 1",
+            "quote": "Finally, the extracellular matrix is found to be dysregulated within the amyloid plaque, which may account for the observed alterations in diffusivity.",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-004",
+            "evidence_type": "text",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "introduction paragraph 1",
+            "quote": "Deeper insights into the properties of the ECS are crucial, as it plays a key role in normal brain function[6] and disease progression.[7–9] This study presents an innovative experimental and analytical framework for dissecting the influence of the ECS rheology, i.",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-005",
+            "evidence_type": "text",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "introduction paragraph 2",
+            "quote": "com imaging and nanoscopic single-particle tracking (SPT) imaging to investigate the morphology and diffusional properties of the ECS, i.",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-006",
+            "evidence_type": "text",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "results paragraph 1",
+            "quote": "Shadow Imaging Reveals Amyloid Plaque Organization and Surrounding ECS Structure We focused our study on the sensory and motor cortices.",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-007",
+            "evidence_type": "text",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "results paragraph 2",
+            "quote": "TUSHI ex vivo: acute brain slices (350 μm thick) were placed into a microscope chamber after incubation and 200 μm of Calcein was bath applied to label the extracellular space.",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-008",
+            "evidence_type": "text",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "results paragraph 2",
+            "quote": "All collected images are presented in an inverted LUT where extracellular space appears black and brain structures–white.",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-009",
+            "evidence_type": "text",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "results paragraph 4",
+            "quote": "Rheological ECS Properties within and around Amyloid Plaques Beyond penetrability, extracellular rheological parameters are of great relevance when studying the ECS.",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-010",
+            "evidence_type": "text",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "results paragraph 4",
+            "quote": "e., diffusionality and dimensions, and ECS nanoscale properties from SPT experiments in biological media.[25] We plotted MSD curves and diffusion coefficient distributions of super-resolved QD trajectories within and around amyloid plaques over time.",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-011",
+            "evidence_type": "text",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "results paragraph 4",
+            "quote": "On the other hand, the distribution of diffusion coefficients in the ECS exhibited marked differences between experimental conditions (Figure 5b).",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-012",
+            "evidence_type": "text",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "results paragraph 5",
+            "quote": "We set a threshold value (0.005 μm2 s−1) to study separately the mobile and immobile fractions of particles within the ECS at each level.[26] The median diffusion coefficient of the mobile fraction was higher outside the amyloid plaque and in the cell ring in the AD model than in age-matched WT cortical tissue (Figure 5d).",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-FIG-001",
+            "evidence_type": "figure_caption",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "Figure 3a caption",
+            "quote": ", we exploited the characteristic autofluorescence of plaque cores under Adv. Sci. 2026, 13, e15674 e15674 (2 of 19) © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH 21983844, 2026, 1, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515674 by Shanghai University Of Finance, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License [page 3] www.advancedsciencenews.com www.advancedscience.com",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-FIG-014",
+            "evidence_type": "figure_caption",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "Figure 3a caption",
+            "quote": ", we exploited the characteristic autofluorescence of plaque cores under Adv. Sci. 2026, 13, e15674 e15674 (2 of 19) © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH 21983844, 2026, 1, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515674 by Shanghai University Of Finance, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License [page 3] www.advancedsciencenews.com www.advancedscience.com",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-FIG-015",
+            "evidence_type": "figure_caption",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "Figure 3c caption",
+            "quote": "The density of QDs was the highest in the surrounding tissue, intermediate in the cell ring, and the lowest inside the amyloid core (Figure 3c). To assess potential changes in particle behavior between the different compartments, i.e., to define whether a specific interface is preventing penetration, we defined two interfaces (Out–Ring and Ring– Amyloid) between pairs of adjacent ROIs. We calculated the QD density ratio for these pairs. Localization density ratios between the surrounding cortical tissue and the cell-rich ring distributed around 1 with low variability (Figure 3d), indicating that the inter- Adv. Sci. 2026, 13, e15674 e15674 (3 of 19) © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH 21983844, 2026, 1, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515674 by Shanghai University Of Finance, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License [page 4] www.advancedsciencenews.com www.advancedscience.com",
+            "evidence_incomplete": false
+          },
+          {
+            "evidence_id": "E-FIG-016",
+            "evidence_type": "figure_caption",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "locator": "Figure 5d caption",
+            "quote": "Although not statistically significant, the distribution of the diffusion coefficient was wider for the amyloid region, suggesting alterations in the ECS. Interestingly, both the cortical neuropil (Out) and cell ring (Ring) of APP/PS1 mice exhibited a significantly smaller fraction of immobile particles compared to WT tissue (Figure 5e). Among the few particles that had penetrated the amyloid core, a sizable percentage was immobile, more so than in the surrounding ring (Figure 5e). We deepened our confinement analysis by pairing values for the three regions (Out, Ring, and Amyloid) obtained from the Adv. Sci. 2026, 13, e15674 e15674 (6 of 19) © 2025 The Author(s). Advanced Science published by Wiley-VCH GmbH 21983844, 2026, 1, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515674 by Shanghai University Of Finance, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License [page 7] www.advancedsciencenews.com www.advancedscience.com",
+            "evidence_incomplete": false
+          }
+        ]
+      },
+      "arm_validation": {
+        "validation_passed": true,
+        "review_required": false,
+        "checks": [
+          {
+            "check_id": "ARM-001",
+            "name": "ARM nine modules present",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "modules": {
+                "metadata": true,
+                "claims": true,
+                "evidence": true,
+                "protocol": true,
+                "runbook": true,
+                "eval_plan": true,
+                "provenance": true,
+                "limitations": true,
+                "artifacts": true
+              }
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-002",
+            "name": "Claims have linked evidence",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "claim_count": 12,
+              "evidence_count": 16
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-003",
+            "name": "Quote-only claims",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "claim_count": 12
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-004",
+            "name": "Model inference is not mixed into paper claims",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "policy": "paper claims must remain paper_original; generated workflow text is model_infer"
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-005",
+            "name": "Dry-run capable runbook step",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "runbook_steps": 2
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-006",
+            "name": "Medical boundary limitation exists",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "limitations": 4
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-007",
+            "name": "Figure/table caption evidence deduplicated",
+            "passed": true,
+            "severity": "medium",
+            "detail": {
+              "figure_caption_evidence": 4,
+              "unique_caption_evidence": 4
+            },
+            "review_required": false
+          }
+        ],
+        "failed_checks": [],
+        "trace": [
+          {
+            "stage": "arm_validation_start"
+          },
+          {
+            "stage": "arm_validation_completed",
+            "failed_count": 0
+          }
+        ]
+      },
+      "dry_run_result": {
+        "status": "dry_run_passed",
+        "started_at_utc": "2026-07-17T06:00:43.427297+00:00",
+        "completed_at_utc": "2026-07-17T06:00:43.427394+00:00",
+        "steps": [
+          {
+            "step_id": "R-001",
+            "action": "Dry-run the Paper-to-ARM pipeline on the same input and validate ARM modules.",
+            "status": "passed",
+            "expected_output": "JSON export containing full_arm and trace_record; all nine ARM modules present.",
+            "observed_output": "ARM modules, source files, claims, evidence and trace prerequisites checked.",
+            "errors": [],
+            "review_required": false
+          }
+        ],
+        "summary": {
+          "total_steps": 1,
+          "failed_steps": 0,
+          "review_required": false,
+          "pre_export_artifacts_allowed": true
+        },
+        "trace": [
+          {
+            "stage": "dry_run_start"
+          },
+          {
+            "stage": "dry_run_step",
+            "step_id": "R-001",
+            "status": "passed",
+            "errors": []
+          },
+          {
+            "stage": "dry_run_completed",
+            "failed_steps": 0
+          }
+        ]
+      },
+      "evaluation_result": {
+        "status": "eval_passed",
+        "metrics": [
+          {
+            "metric_id": "EV-001",
+            "name": "Dry-run status",
+            "passed": true,
+            "expected": "dry_run_passed",
+            "observed": "dry_run_passed",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-002",
+            "name": "At least five traceable claims",
+            "passed": true,
+            "expected": ">=5 claims with evidence_ids",
+            "observed": "12 claims",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-003",
+            "name": "Evidence IDs resolve",
+            "passed": true,
+            "expected": "all claim.evidence_ids exist in evidence",
+            "observed": "16 evidence ids",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-004",
+            "name": "Quote-only evidence policy",
+            "passed": true,
+            "expected": "raw_text equals first support_evidence_snippet",
+            "observed": "checked raw_text/support_evidence_snippet pairs",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-005",
+            "name": "Pre-export artifact handling",
+            "passed": true,
+            "expected": "artifacts module exists; empty list is allowed before export persistence",
+            "observed": "artifacts_count=0",
+            "review_required": false
+          }
+        ],
+        "summary": {
+          "total_metrics": 5,
+          "failed_metrics": 0,
+          "review_required": false,
+          "score": 100.0
+        },
+        "trace": [
+          {
+            "stage": "eval_start"
+          },
+          {
+            "stage": "eval_completed",
+            "failed_metrics": 0
+          }
+        ]
+      },
+      "p0_trace_summary": {
+        "figure_caption_sources": 3,
+        "conflict_pairs": 0,
+        "dry_run_score": 100.0,
+        "dry_run_status": "dry_run_passed",
+        "evaluation_status": "eval_passed"
+      }
+    },
+    "limitations": [
+      {
+        "limitation_id": "L-001",
+        "text": "This ARM is for research literature structuring only and must not be used for clinical diagnosis, prognosis, prescription, or treatment decisions.",
+        "category": "medical_boundary",
+        "ecs_related": false,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      },
+      {
+        "limitation_id": "L-002",
+        "text": "Animal or preclinical findings in source papers cannot be directly transferred to humans without clinical validation.",
+        "category": "animal_to_human",
+        "ecs_related": false,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      },
+      {
+        "limitation_id": "L-003",
+        "text": "ECS-related conclusions require manual review because ECS structure, measurement modality, and disease context vary across studies.",
+        "category": "ecs_gap",
+        "ecs_related": true,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      },
+      {
+        "limitation_id": "L-004",
+        "text": "Data and code availability are not assumed unless explicitly detected in the source text.",
+        "category": "data_availability",
+        "ecs_related": false,
+        "provenance": "model_infer",
+        "evidence_ids": []
+      }
+    ],
+    "artifacts": [
+      {
+        "artifact_id": "A-JSON",
+        "type": "json_export",
+        "path": "outputs\\fix_verify\\arm-nanoscopic-mapping-of-the-extracellular-space-in.json",
+        "description": "Complete ARM package and replay trace in JSON."
+      }
+    ]
+  },
+  "trace_record": {
+    "run_id": "run-52e24250f749",
+    "input": {
+      "paper_files": [
+        "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf"
+      ],
+      "max_batch_size": 5,
+      "allowed_tools": [
+        "literature_extract",
+        "reference_validator"
+      ],
+      "p0_plugin_tools": [
+        "figure_extract",
+        "conflict_detector",
+        "arm_validator",
+        "dry_run",
+        "evaluator"
+      ],
+      "api_provider": "deepseek_openai_compatible",
+      "rate_limit": {
+        "request_interval_seconds": 1.2,
+        "max_concurrency": 1,
+        "retry_attempts": 3,
+        "retry_backoff_seconds": 2.0,
+        "timeout_seconds": 60
+      }
+    },
+    "tool_calls": [
+      {
+        "sequence": 2,
+        "tool_name": "literature_extract",
+        "input": {
+          "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+          "max_claims": 12
+        },
+        "output": {
+          "metadata": {
+            "title": "RESEARCH ARTICLE www.advancedscience.com Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex Juan Estaún-Panzano, Yulia Dembitskaya, Ivo Calaresu, Somen Nandi, Quentin Gresil, Evelyne Doudnikoff, Thierry Leste-Lasserre, Thierry Amédée, Laurent Cognet, Laurent Groc, Urs Valentin Nägerl,* and Erwan Bezard* A hallmark of Alzheimer’s disease (AD) is the accumulation of amyloid plaques, primarily composed of misfolded amyloid 𝜷(A𝜷) peptides. Complementary high-resolution imaging techniques are employed to investigate the plaque penetrability and the extracellular space (ECS) rheology",
+            "authors": [],
+            "doi": "10.1002/advs.202515674",
+            "year": 2025,
+            "article_type": "research",
+            "license": "Creative Commons License",
+            "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+            "ecs_related": true,
+            "ecs_keywords": [
+              "brain ecs",
+              "ecm",
+              "ecs",
+              "extracellular matrix",
+              "extracellular space",
+              "glymphatic",
+              "interstitial fluid",
+              "isf"
+            ]
+          },
+          "extractor_prompt": "Paper细粒度结论&证据抽取子Agent:\n只摘抄原文，禁止自主推导、扩写、脑补数据。每条claim必须包含\nclaim_id/raw_text/claim_category/source_location/support_evidence_snippet/\nconflict_evidence_snippet/source_attribution/ecs_related/evidence_incomplete。\nraw_text和support_evidence_snippet必须来自论文原文，不概括、不润色。\n无原文直接支撑的猜想、推论丢弃；单篇少于5条有效claim时交由trace标记缺口。",
+          "candidate_claim_count": 12,
+          "references_count": 2,
+          "figures_tables_count": 3,
+          "quality_flags": {
+            "has_methods": true,
+            "has_results": true,
+            "has_figures_or_tables": true,
+            "has_references": true,
+            "paragraph_count": 24,
+            "ecs_hit_count": 8
+          }
+        }
+      },
+      {
+        "sequence": 5,
+        "tool_name": "reference_validator",
+        "input": {
+          "references": [
+            {
+              "reference_text": "can be found under https://doi.org/10.1002/advs.202515674",
+              "doi": "10.1002/advs.202515674",
+              "pmid": null,
+              "title": null,
+              "locator": "char:2142"
+            },
+            {
+              "reference_text": "at https://doi.org/10.5281/zenodo.15056592 (DOI). Customs scripts and",
+              "doi": "10.5281/zenodo.15056592",
+              "pmid": null,
+              "title": "Customs scripts and",
+              "locator": "char:96055"
+            }
+          ]
+        },
+        "output": {
+          "validator_prompt": "参考文献合法性校验工具:\n输入论文内全部引用文本、DOI、PMID、文献标题。逐项校验标识符、信息完整性、\n领域匹配、重复/冲突。输出固定状态reference_valid或reference_invalid；\n所有记录写入trace，供答辩展示引用校验流程。",
+          "status": "reference_invalid",
+          "validated_references": [
+            {
+              "reference_text": "can be found under https://doi.org/10.1002/advs.202515674",
+              "doi": "10.1002/advs.202515674",
+              "pmid": null,
+              "title": null,
+              "locator": "char:2142",
+              "identifier_check": {
+                "valid_doi": true,
+                "valid_pmid": false,
+                "reference_requires_review": false
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": false
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "10.1002/advs.202515674",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "missing_year",
+                "missing_author",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            },
+            {
+              "reference_text": "at https://doi.org/10.5281/zenodo.15056592 (DOI). Customs scripts and",
+              "doi": "10.5281/zenodo.15056592",
+              "pmid": null,
+              "title": "Customs scripts and",
+              "locator": "char:96055",
+              "identifier_check": {
+                "valid_doi": true,
+                "valid_pmid": false,
+                "reference_requires_review": false
+              },
+              "completeness_check": {
+                "has_year": false,
+                "has_journal": false,
+                "has_author": true
+              },
+              "domain_match_check": {
+                "is_neuroscience_or_ecs_related": false
+              },
+              "duplicate_conflict_check": {
+                "duplicate_key": "10.5281/zenodo.15056592",
+                "duplicate_count": 1,
+                "conflict_risk": false
+              },
+              "reference_valid": false,
+              "reference_invalid": [
+                "missing_year",
+                "missing_journal",
+                "domain_mismatch_or_unclear"
+              ]
+            }
+          ],
+          "reference_valid_count": 0,
+          "reference_invalid_count": 2,
+          "invalid_count": 2,
+          "checked_count": 2,
+          "summary": {
+            "identifier_invalid": 0,
+            "information_incomplete": 2,
+            "domain_mismatch_or_unclear": 2,
+            "duplicate_or_conflict": 0
+          }
+        }
+      }
+    ],
+    "events": [
+      {
+        "sequence": 1,
+        "stage": "input_receive_and_clean",
+        "status": "started",
+        "detail": {
+          "file_count": 1
+        }
+      },
+      {
+        "sequence": 3,
+        "stage": "figure_extract",
+        "status": "completed",
+        "detail": {
+          "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+          "status": "figure_extract_success",
+          "figures": 3
+        }
+      },
+      {
+        "sequence": 4,
+        "stage": "document_parse",
+        "status": "completed",
+        "detail": {
+          "papers_parsed": 1
+        }
+      },
+      {
+        "sequence": 6,
+        "stage": "arm_packaging",
+        "status": "completed",
+        "detail": {
+          "modules": [
+            "metadata",
+            "claims",
+            "evidence",
+            "protocol",
+            "runbook",
+            "eval_plan",
+            "provenance",
+            "limitations",
+            "artifacts"
+          ]
+        }
+      }
+    ],
+    "extraction_records": [
+      {
+        "source_file": "fixtures\\full_papers\\Nanoscopic Mapping of the Extracellular Space in Amyloid Plaque-rich Cortex.pdf",
+        "candidate_claim_count": 12,
+        "quality_flags": {
+          "has_methods": true,
+          "has_results": true,
+          "has_figures_or_tables": true,
+          "has_references": true,
+          "paragraph_count": 24,
+          "ecs_hit_count": 8
+        },
+        "ecs_related": true
+      }
+    ],
+    "validation_results": {
+      "multi_layer_compliance": {
+        "evidence_integrity": true,
+        "reference_status": "reference_invalid",
+        "reference_summary": {
+          "identifier_invalid": 0,
+          "information_incomplete": 2,
+          "domain_mismatch_or_unclear": 2,
+          "duplicate_or_conflict": 0
+        },
+        "hallucination_control": true,
+        "medical_boundary": true,
+        "input_completeness": true
+      },
+      "conflict_detection": {
+        "status": "no_conflict_detected",
+        "conflict_count": 0
+      },
+      "arm_asset_validation": {
+        "validation_passed": true,
+        "review_required": false,
+        "checks": [
+          {
+            "check_id": "ARM-001",
+            "name": "ARM nine modules present",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "modules": {
+                "metadata": true,
+                "claims": true,
+                "evidence": true,
+                "protocol": true,
+                "runbook": true,
+                "eval_plan": true,
+                "provenance": true,
+                "limitations": true,
+                "artifacts": true
+              }
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-002",
+            "name": "Claims have linked evidence",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "claim_count": 12,
+              "evidence_count": 16
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-003",
+            "name": "Quote-only claims",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "claim_count": 12
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-004",
+            "name": "Model inference is not mixed into paper claims",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "policy": "paper claims must remain paper_original; generated workflow text is model_infer"
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-005",
+            "name": "Dry-run capable runbook step",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "runbook_steps": 2
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-006",
+            "name": "Medical boundary limitation exists",
+            "passed": true,
+            "severity": "high",
+            "detail": {
+              "limitations": 4
+            },
+            "review_required": false
+          },
+          {
+            "check_id": "ARM-007",
+            "name": "Figure/table caption evidence deduplicated",
+            "passed": true,
+            "severity": "medium",
+            "detail": {
+              "figure_caption_evidence": 4,
+              "unique_caption_evidence": 4
+            },
+            "review_required": false
+          }
+        ],
+        "failed_checks": [],
+        "trace": [
+          {
+            "stage": "arm_validation_start"
+          },
+          {
+            "stage": "arm_validation_completed",
+            "failed_count": 0
+          }
+        ]
+      },
+      "dry_run": {
+        "status": "dry_run_passed",
+        "started_at_utc": "2026-07-17T06:00:43.427297+00:00",
+        "completed_at_utc": "2026-07-17T06:00:43.427394+00:00",
+        "steps": [
+          {
+            "step_id": "R-001",
+            "action": "Dry-run the Paper-to-ARM pipeline on the same input and validate ARM modules.",
+            "status": "passed",
+            "expected_output": "JSON export containing full_arm and trace_record; all nine ARM modules present.",
+            "observed_output": "ARM modules, source files, claims, evidence and trace prerequisites checked.",
+            "errors": [],
+            "review_required": false
+          }
+        ],
+        "summary": {
+          "total_steps": 1,
+          "failed_steps": 0,
+          "review_required": false,
+          "pre_export_artifacts_allowed": true
+        },
+        "trace": [
+          {
+            "stage": "dry_run_start"
+          },
+          {
+            "stage": "dry_run_step",
+            "step_id": "R-001",
+            "status": "passed",
+            "errors": []
+          },
+          {
+            "stage": "dry_run_completed",
+            "failed_steps": 0
+          }
+        ]
+      },
+      "evaluation_result": {
+        "status": "eval_passed",
+        "metrics": [
+          {
+            "metric_id": "EV-001",
+            "name": "Dry-run status",
+            "passed": true,
+            "expected": "dry_run_passed",
+            "observed": "dry_run_passed",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-002",
+            "name": "At least five traceable claims",
+            "passed": true,
+            "expected": ">=5 claims with evidence_ids",
+            "observed": "12 claims",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-003",
+            "name": "Evidence IDs resolve",
+            "passed": true,
+            "expected": "all claim.evidence_ids exist in evidence",
+            "observed": "16 evidence ids",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-004",
+            "name": "Quote-only evidence policy",
+            "passed": true,
+            "expected": "raw_text equals first support_evidence_snippet",
+            "observed": "checked raw_text/support_evidence_snippet pairs",
+            "review_required": false
+          },
+          {
+            "metric_id": "EV-005",
+            "name": "Pre-export artifact handling",
+            "passed": true,
+            "expected": "artifacts module exists; empty list is allowed before export persistence",
+            "observed": "artifacts_count=0",
+            "review_required": false
+          }
+        ],
+        "summary": {
+          "total_metrics": 5,
+          "failed_metrics": 0,
+          "review_required": false,
+          "score": 100.0
+        },
+        "trace": [
+          {
+            "stage": "eval_start"
+          },
+          {
+            "stage": "eval_completed",
+            "failed_metrics": 0
+          }
+        ]
+      },
+      "arm_modules_present": {
+        "metadata": true,
+        "claims": true,
+        "evidence": true,
+        "protocol": true,
+        "runbook": true,
+        "eval_plan": true,
+        "provenance": true,
+        "limitations": true,
+        "artifacts": true
+      }
+    },
+    "failure_risks": []
+  }
+}

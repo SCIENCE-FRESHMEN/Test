@@ -193,3 +193,23 @@ ARM 结构化资产相较传统 PDF 具有三类复用价值：
 [11] Han H, et al. Brain extracellular space and brain interstitial system review sample used in this project. Cell & Bioscience Systems. 2026. DOI: 10.34133/cbsystems.0529.
 
 [12] Iliff JJ, Wang M, Liao Y, et al. A paravascular pathway facilitates CSF flow through the brain parenchyma and the clearance of interstitial solutes. Science Translational Medicine. 2012. DOI: 10.1126/scitranslmed.3003748.
+
+## 增量优化补充：RAG、知识图谱与本地兜底
+
+本次新增能力遵循“扬长避短”原则：原有 ARM 九模块、quote-only claim、reference_validator、Web 工作台和失败阻断链路全部保留，新能力以插件方式加载。
+
+### 本地脑科学 RAG
+
+新增 `arm_agent/rag/local_vector_store.py`，使用轻量 TF 向量相似度构建本地脑科学文献检索索引。该模块不替代原 claim 抽取器，只用于在人工复核或增强抽取时提供候选上下文，降低纯生成式抽取造成的幻觉风险。
+
+### 本地轻量 LLM 兜底
+
+新增 `arm_agent/local_llm/fallback.py`，当未配置 DeepSeek API 或现场网络不可用时，提供规则式摘要输出，并强制 `model_infer=true`。该模块不产生 paper_original claim，不冒充原文证据。
+
+### C 赛道知识图谱导出
+
+新增 `arm_agent/kg_export/c_track_export.py`，将 ARM 的 claims、evidence、limitations 映射为节点和边，输出 `C-track-compatible-v0` 简易图谱结构。该导出用于跨赛道联动展示，不改变 ARM 原始资产。
+
+### Web 增强
+
+新增静态页面 `web/audit_panel.html` 与 `web/demo_mode.html`，用于答辩快捷展示冲突证据、幻觉标记、安全审计和演示流程，不替换原有上传工作台。
