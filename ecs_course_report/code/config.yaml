@@ -1,0 +1,20 @@
+seed: 20260718
+output_dir: results
+simulation:
+  nx: 80
+  nt: 24
+  noise_std: 0.015
+  alpha: 0.20
+  diffusion: 0.018
+  velocity: 0.12
+  clearance: 0.02
+  regions: [caudate, thalamus]
+pinn:
+  epochs: 1200
+  learning_rate: 0.002
+  collocation_points: 600
+segmentation:
+  image_size: 64
+  train_samples: 96
+  epochs: 10
+  learning_rate: 0.001
