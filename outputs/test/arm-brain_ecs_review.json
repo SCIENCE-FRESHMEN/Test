@@ -618,7 +618,7 @@
       }
     ],
     "provenance": {
-      "run_id": "run-0a887266c22c",
+      "run_id": "run-5cb580cadaf6",
       "allowed_tools": [
         "literature_extract",
         "reference_validator"
@@ -7687,13 +7687,13 @@
       "model_infer_policy": "Any pipeline-generated protocol, runbook, eval, and limitation text is marked model_infer and is not treated as source evidence.",
       "claim_extractor_policy": "Claims are raw paper excerpts only. raw_text and support_evidence_snippet are not paraphrased.",
       "fine_trace": {
-        "run_id": "run-0a887266c22c",
+        "run_id": "run-5cb580cadaf6",
         "steps": [
           {
             "step_id": "T-0001",
             "stage": "fine_trace_start",
             "status": "started",
-            "timestamp_utc": "2026-07-17T02:56:44.837773+00:00",
+            "timestamp_utc": "2026-07-17T04:46:22.034561+00:00",
             "input_ref": {
               "arm_id": "arm-brain_ecs_review"
             },
@@ -7704,7 +7704,7 @@
             "step_id": "T-0002",
             "stage": "fine_trace_completed",
             "status": "completed",
-            "timestamp_utc": "2026-07-17T02:56:44.838098+00:00",
+            "timestamp_utc": "2026-07-17T04:46:22.034745+00:00",
             "input_ref": {},
             "output_ref": {
               "claims": 12,
@@ -8118,8 +8118,8 @@
       },
       "dry_run_result": {
         "status": "dry_run_passed",
-        "started_at_utc": "2026-07-17T02:56:44.840126+00:00",
-        "completed_at_utc": "2026-07-17T02:56:44.840325+00:00",
+        "started_at_utc": "2026-07-17T04:46:22.035912+00:00",
+        "completed_at_utc": "2026-07-17T04:46:22.035999+00:00",
         "steps": [
           {
             "step_id": "R-001",
@@ -8265,7 +8265,7 @@
     ]
   },
   "trace_record": {
-    "run_id": "run-0a887266c22c",
+    "run_id": "run-5cb580cadaf6",
     "input": {
       "paper_files": [
         "brain_ECS_review.txt"
@@ -17069,8 +17069,8 @@
       },
       "dry_run": {
         "status": "dry_run_passed",
-        "started_at_utc": "2026-07-17T02:56:44.840126+00:00",
-        "completed_at_utc": "2026-07-17T02:56:44.840325+00:00",
+        "started_at_utc": "2026-07-17T04:46:22.035912+00:00",
+        "completed_at_utc": "2026-07-17T04:46:22.035999+00:00",
         "steps": [
           {
             "step_id": "R-001",

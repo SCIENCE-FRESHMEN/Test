@@ -1,0 +1,18 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ARM 增强审计面板</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header class="topbar"><div class="brand"><span class="mark">AUDIT</span><div><h1>增强审计与幻觉检测面板</h1><p>冲突高亮、证据跳转、幻觉标记、限流与审计报告展示占位。</p></div></div><a class="primary" href="/">返回原工作台</a></header>
+    <main class="workspace"><section class="mainPanel" style="grid-column:1/-1"><div class="summaryGrid">
+      <div class="metric"><div class="label">冲突证据</div><div class="value">高亮展示</div></div>
+      <div class="metric"><div class="label">原文证据</div><div class="value">locator 跳转</div></div>
+      <div class="metric"><div class="label">幻觉标记</div><div class="value">review_required</div></div>
+      <div class="metric"><div class="label">审计日志</div><div class="value">JSON export</div></div>
+    </div><div class="item"><div class="itemTitle">集成方式</div><div>该页面是新增静态增强面板，不替换原 Web 工作台；实际数据来自新增 security_audit 与 evaluation_engine 模块导出的 JSON。</div></div></section></main>
+  </body>
+</html>

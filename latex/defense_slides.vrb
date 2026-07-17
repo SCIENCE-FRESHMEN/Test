@@ -1,0 +1,16 @@
+\frametitle{核心优化模块分点演示（六大能力全方位领先基础Demo，贴合调研落地转化要求）}
+\begin{lstlisting}[language=Python]
+from arm_agent.langgraph_orchestrator import LangGraphEnhancedOrchestrator
+from tools.pdf_parser_tools import parse_pdf_document
+from arm_agent.evaluation_engine import compute_claim_metrics
+from arm_agent.security_audit import SecurityAuditLogger
+from tools.multi_literature_fusion import fuse_arm_assets
+\end{lstlisting}
+  \begin{itemize}
+    \item \textbf{LangGraph断点续跑编排：}标准化JSON checkpoint持久化会话，批量论文中断无需从头执行，落地手册推荐长流程Agent状态持久化方案，支持人工审批暂停节点。
+    \item \textbf{全格式PDF解析：}pdfplumber主解析+PyPDF2兼容兜底，自动提取图表、表格图注并绑定原文evidence，解决绝大多数参赛作品仅支持TXT的硬伤，适配真实科研论文场景。
+    \item \textbf{专业量化评测引擎：}自动计算精确率/召回率/F1指标，逐句比对原文生成幻觉统计报表，将文献调研中“避免模型编造内容”的结论完整落地为自动化校验代码。
+    \item \textbf{完整安全审计体系：}前置输入防护网关、全链路结论溯源链、API耗时与Token消耗完整记录，落地手册输入/工具/输出三层安全约束规则。
+    \item \textbf{多源文献融合引擎：}自动术语对齐、冲突结论标记、可信度加权，对接PubMed真实检索接口，实现论文外部佐证自动补充，支撑多源证据交叉验证。
+  \end{itemize}
+  \note{完整展示「调研发现→设计决定→代码实现」三层链路，直接匹配15分文献调研与设计转化评分要求，全部功能配套自动化测试兜底。}
