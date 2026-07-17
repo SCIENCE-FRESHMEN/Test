@@ -1,0 +1,5 @@
+﻿Results
+Figure 1. (A) Extracellular tracer spread increased in mouse cortex. (B) Glymphatic clearance differed across sleep states.
+Table 1. group | control | value | 1.0 | group | ECS expanded | value | 1.4
+References
+Doe J. Multi figure brain paper. Brain Reports. 2023. doi:10.1000/example.fig

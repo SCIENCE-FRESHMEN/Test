@@ -1,0 +1,3 @@
+﻿Abstract
+Extracellular space is discussed without a reference section.
+Figure 1. ECS schematic caption is present but references are absent.

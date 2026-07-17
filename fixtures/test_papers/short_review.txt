@@ -1,0 +1,4 @@
+﻿Abstract
+This short review states that extracellular space is relevant to brain interstitial transport.
+References
+Smith J. Brain ECS review. Journal of Neuroscience. 2024. doi:10.1000/example.ecs

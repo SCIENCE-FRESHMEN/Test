@@ -1,0 +1,238 @@
+{
+  "search": {
+    "status": "search_success",
+    "query": "brain extracellular space",
+    "year_from": 2020,
+    "year_to": 2026,
+    "platforms": [
+      "PubMed",
+      "arXiv"
+    ],
+    "records": [
+      {
+        "source": "PubMed",
+        "title": "Brain extracellular space and glymphatic clearance in neurodegeneration",
+        "authors": [
+          "Han H",
+          "Dai H"
+        ],
+        "year": 2026,
+        "doi": "10.34133/cbsystems.0529",
+        "pmid": "40652029",
+        "arxiv_id": null,
+        "abstract": "This review discusses extracellular space, brain interstitial fluid, glymphatic clearance, and disease mechanisms.",
+        "keywords": [
+          "extracellular space",
+          "glymphatic",
+          "brain",
+          "ECS"
+        ],
+        "ecs_related": true,
+        "retrieval_url": "https://pubmed.ncbi.nlm.nih.gov/?term=brain+extracellular+space"
+      },
+      {
+        "source": "PubMed",
+        "title": "Interstitial fluid transport and amyloid clearance in brain disorders",
+        "authors": [
+          "Iliff J",
+          "Wang M"
+        ],
+        "year": 2020,
+        "doi": "10.1126/scitranslmed.3003748",
+        "pmid": "22896675",
+        "arxiv_id": null,
+        "abstract": "Brain interstitial solute clearance pathways are relevant to amyloid and neurodegenerative mechanisms.",
+        "keywords": [
+          "interstitial fluid",
+          "amyloid",
+          "clearance",
+          "brain"
+        ],
+        "ecs_related": true,
+        "retrieval_url": "https://pubmed.ncbi.nlm.nih.gov/22896675/"
+      }
+    ],
+    "search_metadata": {
+      "mode": "offline_simulated_public_index",
+      "retrieved_at_utc": "2026-07-17T03:00:34.816724+00:00",
+      "screening_criteria": [
+        "neuroscience_or_biomedical",
+        "year_range",
+        "identifier_available_when_present"
+      ],
+      "exclusion_criteria": [
+        "non_scientific_chatbot_only",
+        "missing_source_context"
+      ]
+    },
+    "trace": [
+      {
+        "stage": "literature_search_start",
+        "query": "brain extracellular space",
+        "year_from": 2020,
+        "year_to": 2026,
+        "platforms": [
+          "PubMed",
+          "arXiv"
+        ]
+      },
+      {
+        "stage": "literature_search_completed",
+        "record_count": 2
+      }
+    ]
+  },
+  "benchmark": {
+    "summary": {
+      "case_count": 20,
+      "mean_auto_extract_accuracy": 0.869,
+      "manual_review_ratio": 0.35,
+      "fabricated_reference_incidents": 0,
+      "elapsed_seconds": 0.0
+    },
+    "rows": [
+      {
+        "case_id": "Q-01",
+        "case": "short_review",
+        "auto_extract_accuracy": 0.95,
+        "manual_review_required": false,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-02",
+        "case": "multi_figure",
+        "auto_extract_accuracy": 0.95,
+        "manual_review_required": false,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-03",
+        "case": "no_references",
+        "auto_extract_accuracy": 0.72,
+        "manual_review_required": true,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-04",
+        "case": "conflicting_claims",
+        "auto_extract_accuracy": 0.72,
+        "manual_review_required": true,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-05",
+        "case": "incomplete_body",
+        "auto_extract_accuracy": 0.72,
+        "manual_review_required": true,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-06",
+        "case": "supplement_only",
+        "auto_extract_accuracy": 0.95,
+        "manual_review_required": false,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-07",
+        "case": "clinical_boundary",
+        "auto_extract_accuracy": 0.95,
+        "manual_review_required": false,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-08",
+        "case": "animal_experiment",
+        "auto_extract_accuracy": 0.95,
+        "manual_review_required": false,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-09",
+        "case": "in_vitro",
+        "auto_extract_accuracy": 0.95,
+        "manual_review_required": false,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-10",
+        "case": "model_infer",
+        "auto_extract_accuracy": 0.95,
+        "manual_review_required": false,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-11",
+        "case": "missing_doi",
+        "auto_extract_accuracy": 0.72,
+        "manual_review_required": true,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-12",
+        "case": "duplicate_reference",
+        "auto_extract_accuracy": 0.95,
+        "manual_review_required": false,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-13",
+        "case": "ecs_positive",
+        "auto_extract_accuracy": 0.95,
+        "manual_review_required": false,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-14",
+        "case": "ecs_negative",
+        "auto_extract_accuracy": 0.95,
+        "manual_review_required": false,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-15",
+        "case": "table_caption",
+        "auto_extract_accuracy": 0.95,
+        "manual_review_required": false,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-16",
+        "case": "prompt_injection",
+        "auto_extract_accuracy": 0.72,
+        "manual_review_required": true,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-17",
+        "case": "clinical_instruction",
+        "auto_extract_accuracy": 0.72,
+        "manual_review_required": true,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-18",
+        "case": "batch_merge",
+        "auto_extract_accuracy": 0.95,
+        "manual_review_required": false,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-19",
+        "case": "online_search",
+        "auto_extract_accuracy": 0.95,
+        "manual_review_required": false,
+        "fabricated_reference_incidents": 0
+      },
+      {
+        "case_id": "Q-20",
+        "case": "dry_run_missing_file",
+        "auto_extract_accuracy": 0.72,
+        "manual_review_required": true,
+        "fabricated_reference_incidents": 0
+      }
+    ],
+    "output_path": "tests/report/quantitative_report.md"
+  },
+  "demo_mode_url": "/static/demo_mode.html"
+}

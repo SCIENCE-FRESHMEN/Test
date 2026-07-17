@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>答辩演示快捷模式</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><span class="mark">DEMO</span><div><h1>答辩演示快捷模式</h1><p>成功流程、失败阻断、冲突证据、在线检索四类演示提示。</p></div></div>
+      <a class="primary" href="/">返回工作台</a>
+    </header>
+    <main class="workspace">
+      <section class="mainPanel" style="grid-column: 1 / -1;">
+        <div class="summaryGrid">
+          <button class="primary" onclick="showMode('success')">成功流程</button>
+          <button class="primary" onclick="showMode('failure')">失败流程</button>
+          <button class="primary" onclick="showMode('conflict')">冲突证据</button>
+          <button class="primary" onclick="showMode('search')">在线检索</button>
+        </div>
+        <div id="demoBox" class="list"></div>
+      </section>
+    </main>
+    <script>
+      const modes = {
+        success: ['上传 brain_ECS_review.txt', '查看 ARM 九模块', '展示 Claims & Evidence、图表证据、Dry-run、Trace'],
+        failure: ['上传 fixtures/incomplete_paper.txt', '确认 processing_status=failed', '展示 blocked failure_report 和 no_success_arm_generated=true'],
+        conflict: ['使用冲突测试样例或批量论文', '展示 conflict_review_required', '说明系统只输出候选，不做科学裁决'],
+        search: ['运行 tools.literature_search_online 模拟 PubMed/arXiv 检索', '展示检索平台、关键词、年份、DOI/PMID', '说明离线可复现模拟接口']
+      };
+      function showMode(name) {
+        const box = document.getElementById('demoBox');
+        box.innerHTML = '';
+        modes[name].forEach((line, index) => {
+          const div = document.createElement('div');
+          div.className = 'item';
+          div.innerHTML = `<div class="itemTitle">Step ${index + 1}</div><div>${line}</div>`;
+          box.appendChild(div);
+        });
+      }
+      showMode('success');
+    </script>
+  </body>
+</html>
