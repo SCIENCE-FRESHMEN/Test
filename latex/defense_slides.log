@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.5)  17 JUL 2026 14:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.5)  17 JUL 2026 15:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1097,51 +1097,56 @@ Overfull \vbox (44.32962pt too high) detected at line 107
 <C:/Users/25416/Desktop/PKU/latex/fig1_dryrun.png, id=359, 1150.2975pt x 551.05875pt>
 File: C:/Users/25416/Desktop/PKU/latex/fig1_dryrun.png Graphic file (type png)
 <use C:/Users/25416/Desktop/PKU/latex/fig1_dryrun.png>
-Package pdftex.def Info: C:/Users/25416/Desktop/PKU/latex/fig1_dryrun.png  used on input line 131.
-(pdftex.def)             Requested size: 138.67325pt x 66.4269pt.
+Package pdftex.def Info: C:/Users/25416/Desktop/PKU/latex/fig1_dryrun.png  used on input line 138.
+(pdftex.def)             Requested size: 138.66162pt x 66.4269pt.
 <C:/Users/25416/Desktop/PKU/latex/fig2_claims.png, id=361, 1150.2975pt x 551.05875pt>
 File: C:/Users/25416/Desktop/PKU/latex/fig2_claims.png Graphic file (type png)
 <use C:/Users/25416/Desktop/PKU/latex/fig2_claims.png>
-Package pdftex.def Info: C:/Users/25416/Desktop/PKU/latex/fig2_claims.png  used on input line 131.
-(pdftex.def)             Requested size: 138.67325pt x 66.4269pt.
+Package pdftex.def Info: C:/Users/25416/Desktop/PKU/latex/fig2_claims.png  used on input line 138.
+(pdftex.def)             Requested size: 138.66162pt x 66.4269pt.
 <C:/Users/25416/Desktop/PKU/latex/fig3_json.png, id=362, 1150.2975pt x 551.05875pt>
 File: C:/Users/25416/Desktop/PKU/latex/fig3_json.png Graphic file (type png)
 <use C:/Users/25416/Desktop/PKU/latex/fig3_json.png>
-Package pdftex.def Info: C:/Users/25416/Desktop/PKU/latex/fig3_json.png  used on input line 131.
-(pdftex.def)             Requested size: 138.67325pt x 66.4269pt.
+Package pdftex.def Info: C:/Users/25416/Desktop/PKU/latex/fig3_json.png  used on input line 138.
+(pdftex.def)             Requested size: 138.66162pt x 66.4269pt.
 <C:/Users/25416/Desktop/PKU/latex/fig4_figure_evidence.png, id=363, 1150.2975pt x 551.05875pt>
 File: C:/Users/25416/Desktop/PKU/latex/fig4_figure_evidence.png Graphic file (type png)
 <use C:/Users/25416/Desktop/PKU/latex/fig4_figure_evidence.png>
-Package pdftex.def Info: C:/Users/25416/Desktop/PKU/latex/fig4_figure_evidence.png  used on input line 131.
-(pdftex.def)             Requested size: 208.00327pt x 99.64035pt.
+Package pdftex.def Info: C:/Users/25416/Desktop/PKU/latex/fig4_figure_evidence.png  used on input line 138.
+(pdftex.def)             Requested size: 138.66162pt x 66.4269pt.
 <C:/Users/25416/Desktop/PKU/latex/fig5_reference_check.png, id=364, 1150.2975pt x 551.05875pt>
 File: C:/Users/25416/Desktop/PKU/latex/fig5_reference_check.png Graphic file (type png)
 <use C:/Users/25416/Desktop/PKU/latex/fig5_reference_check.png>
-Package pdftex.def Info: C:/Users/25416/Desktop/PKU/latex/fig5_reference_check.png  used on input line 131.
-(pdftex.def)             Requested size: 208.00327pt x 99.64035pt.
+Package pdftex.def Info: C:/Users/25416/Desktop/PKU/latex/fig5_reference_check.png  used on input line 138.
+(pdftex.def)             Requested size: 138.66162pt x 66.4269pt.
+<C:/Users/25416/Desktop/PKU/latex/fig6_trace.png, id=365, 1150.2975pt x 551.05875pt>
+File: C:/Users/25416/Desktop/PKU/latex/fig6_trace.png Graphic file (type png)
+<use C:/Users/25416/Desktop/PKU/latex/fig6_trace.png>
+Package pdftex.def Info: C:/Users/25416/Desktop/PKU/latex/fig6_trace.png  used on input line 138.
+(pdftex.def)             Requested size: 138.66162pt x 66.4269pt.
 
 
 [7
 
- <c:/Users/25416/Desktop/PKU/latex/fig1_dryrun.png> <c:/Users/25416/Desktop/PKU/latex/fig2_claims.png> <c:/Users/25416/Desktop/PKU/latex/fig3_json.png> <c:/Users/25416/Desktop/PKU/latex/fig4_figure_evidence.png> <c:/Users/25416/Desktop/PKU/latex/fig5_reference_check.png>]
+ <c:/Users/25416/Desktop/PKU/latex/fig1_dryrun.png> <c:/Users/25416/Desktop/PKU/latex/fig2_claims.png> <c:/Users/25416/Desktop/PKU/latex/fig3_json.png> <c:/Users/25416/Desktop/PKU/latex/fig4_figure_evidence.png> <c:/Users/25416/Desktop/PKU/latex/fig5_reference_check.png> <c:/Users/25416/Desktop/PKU/latex/fig6_trace.png>]
 
 [8
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 174.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 174.
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 180.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 180.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 174.
+(Font)              for symbol `textbackslash' on input line 180.
 
 
 
 [9
 
 ]
-Overfull \vbox (0.21468pt too high) detected at line 186
+Overfull \vbox (0.21468pt too high) detected at line 192
  []
 
 
@@ -1171,18 +1176,18 @@ Package rerunfilecheck Info: File `defense_slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32800 strings out of 475118
- 641590 string characters out of 5765021
+ 32798 strings out of 475118
+ 641831 string characters out of 5765021
  1177202 words of memory out of 5000000
- 54798 multiletter control sequences out of 15000+600000
- 630075 words of font info for 296 fonts, out of 8000000 for 9000
+ 54800 multiletter control sequences out of 15000+600000
+ 628959 words of font info for 292 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  142i,14n,137p,749b,1325s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on defense_slides.pdf (10 pages, 1480083 bytes).
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><d:/Texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on defense_slides.pdf (10 pages, 1686572 bytes).
 PDF statistics:
- 795 PDF objects out of 1000 (max. 8388607)
- 550 compressed objects within 6 object streams
+ 792 PDF objects out of 1000 (max. 8388607)
+ 547 compressed objects within 6 object streams
  21 named destinations out of 1000 (max. 500000)
- 638 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 643 words of extra memory for PDF output out of 10000 (max. 10000000)
 

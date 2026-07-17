@@ -108,28 +108,34 @@ from tools.multi_literature_fusion import fuse_arm_assets
 
 \begin{frame}{NEURONCLAW Paper-to-ARM 工作台落地界面实拍}
 \centering
-\begin{columns}
+% 统一设置列宽、顶部对齐、紧凑间距
+\begin{columns}[T,onlytextwidth]
+% 第一行3张
 \column{0.32\textwidth}
-\includegraphics[width=\linewidth]{C:/Users/25416/Desktop/PKU/latex/fig1_dryrun.png}\\
-\footnotesize{Dry-run全项校验，无失败步骤}
+\includegraphics[width=\linewidth,keepaspectratio,height=0.28\textheight]{C:/Users/25416/Desktop/PKU/latex/fig1_dryrun.png}\\
+\scriptsize Dry-run全项校验，无失败步骤
 \column{0.32\textwidth}
-\includegraphics[width=\linewidth]{C:/Users/25416/Desktop/PKU/latex/fig2_claims.png}\\
-\footnotesize{5篇论文批量结论自动提取}
+\includegraphics[width=\linewidth,keepaspectratio,height=0.28\textheight]{C:/Users/25416/Desktop/PKU/latex/fig2_claims.png}\\
+\scriptsize 5篇论文批量结论自动提取
 \column{0.32\textwidth}
-\includegraphics[width=\linewidth]{C:/Users/25416/Desktop/PKU/latex/fig3_json.png}\\
-\footnotesize{标准化ARM结构化JSON一键导出}
+\includegraphics[width=\linewidth,keepaspectratio,height=0.28\textheight]{C:/Users/25416/Desktop/PKU/latex/fig3_json.png}\\
+\scriptsize 标准化ARM结构化JSON一键导出
 \end{columns}
-\vspace{0.5em}
-\begin{columns}
-\column{0.48\textwidth}
-\includegraphics[width=\linewidth]{C:/Users/25416/Desktop/PKU/latex/fig4_figure_evidence.png}\\
-\footnotesize{论文图表证据自动绑定溯源链路}
-\column{0.48\textwidth}
-\includegraphics[width=\linewidth]{C:/Users/25416/Desktop/PKU/latex/fig5_reference_check.png}\\
-\footnotesize{批量引用有效性自动校验与标记}
+
+\vspace{0.2em} % 仅少量行间距，避免分散
+\begin{columns}[T,onlytextwidth]
+% 第二行3张（把Trace图放到第二行最右侧，实现严格2行×3列对齐）
+\column{0.32\textwidth}
+\includegraphics[width=\linewidth,keepaspectratio,height=0.28\textheight]{C:/Users/25416/Desktop/PKU/latex/fig4_figure_evidence.png}\\
+\scriptsize 论文图表证据自动绑定溯源链路
+\column{0.32\textwidth}
+\includegraphics[width=\linewidth,keepaspectratio,height=0.28\textheight]{C:/Users/25416/Desktop/PKU/latex/fig5_reference_check.png}\\
+\scriptsize 批量引用有效性自动校验与标记
+\column{0.32\textwidth}
+\includegraphics[width=\linewidth,keepaspectratio,height=0.28\textheight]{C:/Users/25416/Desktop/PKU/latex/fig6_trace.png}\\
+\scriptsize Trace回放全链路运行日志可视化界面
 \end{columns}
 \end{frame}
-
 \begin{frame}{优化后成功案例与增强失败案例}
   \begin{columns}
     \column{0.48\linewidth}
